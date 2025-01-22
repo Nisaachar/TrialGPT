@@ -1,0 +1,146 @@
+{
+    "NCT02359643": {
+        "relevance_explanation": "The patient is a 2-year-old boy diagnosed with Kawasaki Disease, which is the target condition of the clinical trial. The patient's symptoms, such as high fever, conjunctivitis, strawberry tongue, inflammation of the hands and feet, and cervical lymphadenopathy, align with the inclusion criteria of the trial. Therefore, the patient is highly relevant to the clinical trial.",
+        "relevance_score_R": 95.0,
+        "eligibility_explanation": "The patient meets most of the inclusion criteria for the trial, such as being diagnosed with Kawasaki Disease, having a fever for more than 5 days, and exhibiting 4 of the 5 listed symptoms. The patient is not excluded by any of the exclusion criteria, as there is no mention of the patient having a disease that mimics Kawasaki disease, receiving corticosteroid treatment in the past 2 weeks, or having a previous diagnosis of Kawasaki disease. However, there is not enough information to confirm whether the patient meets inclusion criterion 4 (dysmorphous skin rashes) and whether the patient is excluded by exclusion criterion 2 (incomplete collection of each followed-up data).",
+        "eligibility_score_E": 85.0
+    },
+    "NCT02114099": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms of Kawasaki Disease and a possible coronary artery aneurysm, which aligns with the target conditions of the clinical trial. However, the patient does not meet the age requirement of being older than 10 years old. The patient note also mentions an enlarged liver and elevated alanine aminotransferase, which could indicate abnormal liver function, a condition mentioned in the exclusion criteria. However, there is no direct evidence of active hepatitis. The patient note does not mention any history of coronary artery bypass graft (CABG) surgery or rhabdomyolysis, which are part of the exclusion criteria.",
+        "relevance_score_R": 70.0,
+        "eligibility_explanation": "The patient meets the first inclusion criterion of having a clinical diagnosis of Kawasaki Disease with a giant aneurysm. However, the patient does not meet the second inclusion criterion of being older than 10 years old. The patient is not excluded by any of the exclusion criteria, as there is no evidence of the patient having undergone coronary artery bypass graft (CABG) surgery, having active hepatitis or persistent abnormal liver function, having a past history of rhabdomyolysis, or being a female subject who is pregnant or planning for child-bearing during the study periods.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT02390596": {
+        "relevance_explanation": "The patient is a 2-year-old boy diagnosed with Kawasaki Disease, which is the target condition of the clinical trial. The patient's symptoms and laboratory results align with the clinical signs and supportive criteria for Kawasaki Disease as described in the trial's inclusion criteria. However, there is insufficient information about the patient's response to standard therapy, weight, and health insurance status, which are also part of the inclusion criteria. The patient is not excluded by any of the exclusion criteria.",
+        "relevance_score_R": 80.0,
+        "eligibility_explanation": "The patient meets some of the inclusion criteria, such as the diagnosis of Kawasaki Disease and the ability to provide informed consent. However, the patient does not meet the age criterion and there is insufficient information to determine if the patient meets the criteria related to response to standard therapy, weight, and health insurance. The patient is not excluded by any of the exclusion criteria.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT01689350": {
+        "relevance_explanation": "The patient's condition does not align with the target condition of the clinical trial, which is Systemic Lupus Erythematosus (SLE). The patient's symptoms are more consistent with a different condition. Furthermore, the patient does not meet any of the inclusion criteria specific to SLE, and is excluded by one of the exclusion criteria due to abnormal liver function.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient is not eligible for the clinical trial. Although the patient is not excluded by most of the exclusion criteria, the patient does not meet any of the inclusion criteria for SLE. Furthermore, the patient is excluded by one of the exclusion criteria due to abnormal liver function.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT02317913": {
+        "relevance_explanation": "The patient's symptoms and condition align closely with the target condition of the clinical trial, which is Kawasaki Disease. The patient exhibits many of the symptoms listed in the inclusion criteria, such as fever for 5 days, conjunctivitis, strawberry tongue, inflammation of hands and feet, desquamation of skin of fingers and toes, and cervical lymphadenopathy. Additionally, the patient has coronary abnormalities as shown by the echocardiogram, which is a key focus of the clinical trial.",
+        "relevance_score_R": 90.0,
+        "eligibility_explanation": "The patient meets most of the inclusion criteria for the clinical trial. The patient fulfills the criteria for fever persisting 5 days or longer, bilateral conjunctival congestion, changes of lips and oral cavity, changes of peripheral extremities, and acute nonpurulent cervical lymphadenopathy. The patient does not meet the criterion for polymorphous exanthema. The exclusion criterion is not applicable as it is not specific and does not provide any concrete criteria to compare with the patient's condition.",
+        "eligibility_score_E": 75.0
+    },
+    "NCT00362869": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms of high fever, irritability, and various other physical symptoms. The clinical trial is focused on Escherichia Coli Infections in healthy adults aged 18-40. The patient's age and health status do not match the target demographic of the trial, and the patient's condition does not align with the target condition of the trial. Therefore, the relevance is low.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient is ineligible for the trial due to age and health status. The patient does not meet several inclusion criteria, including age, health status, and laboratory results. The patient is also excluded by several exclusion criteria, including having acute or chronic medical illness and abnormal lab results. Therefore, the patient is ineligible for the trial.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT00100126": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms of high fever, irritability, conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy. He also has an elevated white blood cell count. The clinical trial is for pediatric patients with strep throat, and the patient's age and some of his symptoms (fever, irritability, elevated white blood cell count) are relevant to the trial. However, the patient's primary symptoms do not align with the target condition of the trial (pharyngitis), reducing the overall relevance.",
+        "relevance_score_R": 60.0,
+        "eligibility_explanation": "The patient meets some of the inclusion criteria, such as age, fever, elevated white blood cell count, and strawberry tongue. However, he does not meet several key criteria related to the diagnosis of tonsillitis or pharyngitis. Additionally, the patient is excluded by one of the exclusion criteria due to the presence of a clinically significant cardiac condition. There is also insufficient information to determine eligibility for several other criteria.",
+        "eligibility_score_E": -20.0
+    },
+    "NCT00242281": {
+        "relevance_explanation": "The patient's condition and symptoms are not entirely relevant to the clinical trial, which is focused on strep throat. The patient's symptoms are more consistent with a different condition, and the patient is also younger than the age requirement for the trial. However, the patient does meet some of the inclusion criteria, such as having a high fever, an elevated white blood cell count, and tender cervical lymph nodes.",
+        "relevance_score_R": 40.0,
+        "eligibility_explanation": "The patient is not eligible for the clinical trial. The patient does not meet several of the inclusion criteria, such as being 12 years or older and having a diagnosis of acute tonsillitis and/or pharyngitis. Additionally, the patient is excluded by several of the exclusion criteria, such as having a serious illness that could preclude the study evaluations or make it unlikely that the course of study therapy and follow-up could be completed, having conjunctivitis, and possibly having a cardiovascular disease secondary to previous infection with S. pyogenes or previous rheumatic fever.",
+        "eligibility_score_E": -40.0
+    },
+    "NCT00486863": {
+        "relevance_explanation": "The patient is a 2-year-old boy with multiple health issues, while the clinical trial is specifically designed for pregnant women aged 18 or over, infected with S. japonicum, and living in certain endemic villages. There is no overlap between the patient's condition and the target population of the clinical trial.",
+        "relevance_score_R": 0.0,
+        "eligibility_explanation": "Given the lack of relevance, the patient's eligibility for the clinical trial cannot be assessed. All the inclusion and exclusion criteria are not applicable to the patient.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT02282930": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms of high fever, irritability, conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy. The clinical trial is for patients with progressive IgA nephropathy and proteinuria. The patient's symptoms do not align with the target conditions of the clinical trial, and the patient note does not mention any information about proteinuria or IgA nephropathy. Therefore, the patient is not relevant to the clinical trial.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient does not meet most of the inclusion criteria for the clinical trial. The patient note does not provide any information about proteinuria, creatinine clearance, blood pressure, IgA nephropathy, ability to receive injections, kidney biopsy slide on file, IgA predominant Lupus nephritis, glomerular senescence or cortical scarring on renal biopsy, serum Cr or creatinine clearance glomerular filtration rate (GFR), history of Crohn's disease or Celiac Sprue, cirrhosis or chronic active liver disease, infection with hepatitis B, hepatitis C, or HIV, major episode of infection requiring hospitalization or treatment with IV antibiotics within 4 weeks of screening or oral antibiotics within 2 weeks prior to screening, therapy with oral prednisone or glucocorticoid equivalent in the past 3 months, immunosuppressive therapy including cyclophosphamide, mycophenolate mofetil (MMF), cyclosporine, tacrolimus or azathioprine in the last 6 months, current or recent (within 30 days) exposure to any investigational drug, live vaccine within 28 days of study enrollment, hemoglobin level, platelet count, Aspartate Aminotransferase (AST) or Alanine Aminotransferase (ALT) > 2.5 x Upper Limit of Normal, anaphylaxis or known allergic reactions to ACTH, previous treatment with ACTH, significant cardiac or pulmonary disease, or any other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding giving reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug or that may affect the interpretation of the results or render the patient at high risk from treatment complication. Therefore, the patient is not eligible for the clinical trial.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01143246": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms of high fever, irritability, and signs of inflammation. The clinical trial is for adults with Hepatorenal Syndrome. The patient's age and symptoms do not align with the target condition of the trial, making the patient's relevance to the trial low.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient does not meet most of the inclusion criteria, including the age requirement and the specific medical conditions required for the trial. The patient is also excluded by one of the exclusion criteria due to the presence of a possible severe cardiovascular disease. Therefore, the patient is ineligible for the trial.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01917721": {
+        "relevance_explanation": "The patient is a 2-year-old boy diagnosed with Kawasaki Disease, which is the target condition of the clinical trial. The patient's symptoms, including coronary artery dilation and possible aneurysm, align with the inclusion criteria of the trial. However, there is no information about the patient's initial treatment with IVIG and whether the KD is refractory, which is one of the inclusion criteria. Therefore, the patient is highly relevant but not exactly relevant to the trial.",
+        "relevance_score_R": 90.0,
+        "eligibility_explanation": "The patient meets most of the inclusion criteria, including age, diagnosis, and coronary artery conditions. However, there is not enough information to determine if the patient meets the criterion about refractory KD after initial treatment with IVIG. The patient does not meet one inclusion criterion about coronary artery measurements below a z-score of +2.5. The patient is not excluded by any of the exclusion criteria. Therefore, the patient is likely eligible but not fully eligible for the trial.",
+        "eligibility_score_E": 70.0
+    },
+    "NCT02486783": {
+        "relevance_explanation": "The patient is a 2-year-old boy presenting with symptoms of a severe inflammatory condition, possibly Kawasaki disease, which is not related to the focus of the clinical trial on neonatal sepsis, infection, and meningitis. The age of the patient is outside the specified range for the trial (0-1 month), and the patient's symptoms do not align with the clinical signs of infection specified in the trial's inclusion criteria. Furthermore, the exclusion criteria are not applicable as they pertain to newborns and maternal health status.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient is not eligible for the trial as he does not meet the inclusion criteria due to his age and the nature of his symptoms. The patient is not excluded by any of the exclusion criteria as they are not applicable to his case.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT00006055": {
+        "relevance_explanation": "The patient's condition does not match any of the target conditions of the clinical trial. Although the patient has some symptoms that could be associated with autoimmune diseases, such as high fever, inflammation, and anemia, there is no definitive diagnosis of any of the specific autoimmune diseases targeted by the trial. Furthermore, the patient does not meet the specific criteria for any of the inclusion criteria.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient is not eligible for the clinical trial. The patient does not meet the specific criteria for any of the inclusion criteria. For the performance status criterion, there is not enough information to determine eligibility.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01285310": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms that do not align with Rheumatoid Arthritis, the target condition of the clinical trial. The patient's symptoms and diagnosis are not mentioned, but the symptoms described do not align with Rheumatoid Arthritis. The patient's age and symptoms also do not match the typical profile of a patient with Rheumatoid Arthritis. Therefore, the relevance score is low.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient does not meet most of the inclusion criteria for the clinical trial, as he does not have a diagnosis of Rheumatoid Arthritis, is not receiving treatment on an outpatient basis, and is not receiving methotrexate treatment. The patient also meets several exclusion criteria, including having significant medical conditions and laboratory abnormalities that could prevent him from participating in the study or place him at unacceptable risk. Therefore, the eligibility score is negative.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01869933": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms and lab results indicating a severe systemic illness, possibly Kawasaki disease. The clinical trial is a Phase I study assessing the ocular and systemic safety and tolerability of OC-10X, a drug for Proliferative Diabetic Retinopathy (PDR). The patient's condition and the target condition of the trial are not related, and the patient's age does not meet the age requirement of the trial (>18 years). Therefore, the relevance between the patient and the trial is very low.",
+        "relevance_score_R": 5.0,
+        "eligibility_explanation": "The patient is not eligible for the trial. He does not meet several inclusion criteria, including age > 18 years and normal clinical laboratory profiles. He is also excluded by several exclusion criteria, including evidence of organ dysfunction, abnormal laboratory values, abnormal urine examination, presence of conjunctivitis, and possible hepatic disease.",
+        "eligibility_score_E": -5.0
+    },
+    "NCT00778349": {
+        "relevance_explanation": "The patient is a 2-year-old boy with several health issues, which makes him relevant to the clinical trial as the trial involves human subjects. However, the trial is specifically designed for healthy adults, and the patient does not meet this criterion. Furthermore, the patient's health issues, including high fever, conjunctivitis, inflammation of the hands and feet, enlarged liver, and possible coronary artery aneurysm, are not related to the study of metformin's pharmacokinetic profile.",
+        "relevance_score_R": 30.0,
+        "eligibility_explanation": "The patient is not eligible for the clinical trial. He does not meet several inclusion criteria, such as being in the age range of 18-45 years and being of normal health. Additionally, he is excluded by several exclusion criteria, including evidence of organ dysfunction, abnormal blood and urine values, and a history of serious cardiovascular and hepatic disease.",
+        "eligibility_score_E": -30.0
+    },
+    "NCT01193803": {
+        "relevance_explanation": "The patient's condition does not align with the target condition of the clinical trial, which is Osteoarticular Infections. The patient is a 2-year-old boy with symptoms suggestive of a different condition. Although the patient meets some of the inclusion criteria such as having a high fever and a high white blood cell count, the majority of the criteria are not applicable due to the patient's condition and age.",
+        "relevance_score_R": 20.0,
+        "eligibility_explanation": "The patient is ineligible for the trial due to not meeting the age criterion and having a C-reactive protein level below the required level. Additionally, the patient does not have the conditions specified in the majority of the inclusion criteria, such as spondylodiscitis, vertebral osteomyelitis, prosthetic joint infection, or septic arthritis.",
+        "eligibility_score_E": -20.0
+    },
+    "NCT01413100": {
+        "relevance_explanation": "The patient is a 2-year-old boy presenting with symptoms that do not align with the target condition of the clinical trial, which is Systemic Scleroderma. The patient's symptoms and diagnosis do not match the criteria for inclusion in the trial. Therefore, the relevance between the patient and the clinical trial is very low.",
+        "relevance_score_R": 5.0,
+        "eligibility_explanation": "The patient does not meet any of the inclusion criteria for the clinical trial. However, the patient is not excluded by any of the exclusion criteria either, as the patient's conditions and medical history do not match any of the exclusion criteria. Therefore, the patient's eligibility for the clinical trial is neutral.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT00171561": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms that do not align with the target conditions of the clinical trial, which are hypertension, diabetes, and albuminuria. The patient's note does not mention any of these conditions. The patient does have an enlarged liver and leukocytes in urine, which could indicate liver or kidney disease, but it is not clear if these conditions are not caused by diabetes. The patient's note also mentions an echocardiogram showing moderate dilation of the coronary arteries with possible coronary artery aneurysm, but there is no history of stroke, myocardial infarction, heart failure, chest pain, or abnormal heart rhythm.",
+        "relevance_score_R": 20.0,
+        "eligibility_explanation": "The patient does not meet any of the inclusion criteria for the clinical trial. The patient does not have type 2 diabetes, there is no information about the patient's blood pressure or pulse pressure, and it is not clear if the patient has albuminuria. The patient is not excluded by any of the exclusion criteria, as there is no mention of severe hypertension, history of stroke, myocardial infarction, heart failure, chest pain, abnormal heart rhythm, type 1 diabetes or uncontrolled type 2 diabetes, or allergy to certain medications used to treat high blood pressure in the patient note.",
+        "eligibility_score_E": -20.0
+    },
+    "NCT01147445": {
+        "relevance_explanation": "The patient is a 2-year-old boy suffering from multiple health issues, none of which are related to the target condition of the clinical trial, which is Gastroenteritis Escherichia Coli. The patient's age and health condition do not match the inclusion criteria of the trial, which is looking for healthy adults aged 18-45. Therefore, the patient's relevance to the trial is very low.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient is not eligible for the trial as he does not meet most of the inclusion criteria and is excluded by at least two exclusion criteria. The patient's age, health condition, and laboratory results do not meet the inclusion criteria. The patient is also excluded due to his high fever and possible coronary artery aneurysm.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01704690": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms of a possible inflammatory condition, but the clinical trial is specifically for adults aged 18 to 75 with advanced esophageal cancer. The patient's symptoms and conditions do not align with the target conditions of the trial, making the relevance very low.",
+        "relevance_score_R": 5.0,
+        "eligibility_explanation": "The patient does not meet several of the inclusion criteria, such as having a diagnosis of esophageal cancer, being within the age range of 18 to 75, and having normal marrow function and electrocardiogram results. The patient does meet some of the inclusion criteria, such as being able to provide informed consent and comply with the trial protocol. However, the patient does not meet any of the exclusion criteria, as they do not apply to the patient's condition.",
+        "eligibility_score_E": -5.0
+    },
+    "NCT01232387": {
+        "relevance_explanation": "The patient is a 2-year-old boy presenting with symptoms of a possible inflammatory condition, while the clinical trial is focused on identifying early predictors of fetomaternal hemorrhage in pregnant women. The patient's condition and the target conditions of the clinical trial are not related, making the patient irrelevant to the trial.",
+        "relevance_score_R": 0.0,
+        "eligibility_explanation": "Given the patient's irrelevance to the clinical trial, the eligibility score is also zero. The patient does not meet any of the inclusion or exclusion criteria because they are not applicable to his situation.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT01280461": {
+        "relevance_explanation": "The patient is a 2-year-old boy with symptoms consistent with a different condition, not pneumonia, which is the target condition of the clinical trial. Although the patient meets some of the inclusion criteria such as having a high fever and a high white blood cell count, he does not meet the age criterion and does not have pneumonia. Therefore, the overall relevance between the patient and the clinical trial is low.",
+        "relevance_score_R": 20.0,
+        "eligibility_explanation": "The patient is not eligible for the clinical trial. He is not included by most of the inclusion criteria due to his age and the absence of pneumonia. Furthermore, he is excluded by some of the exclusion criteria due to his elevated alanine aminotransferase and the presence of a possible coronary artery aneurysm.",
+        "eligibility_score_E": -20.0
+    }
+}
