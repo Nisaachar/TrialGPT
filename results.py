@@ -105,10 +105,19 @@ if __name__ == "__main__":
     for trial, score in sorted_trial2score:
         print(f"{trial}: {score:.4f}")
 
+    with open('filtered_studies.json', 'r') as file:
+        data = json.load(file)
+
     print("\nTop 5 Clinical Trials:")
     for trial, score in sorted_trial2score[:5]:
         title = trial_info[trial]["brief_title"] if trial in trial_info else "Title not found"
-        print(f"Trial ID: {trial}, Title: {title}, Score: {score:.4f}")
+
+        if trial in data:
+            lilly_alias = data[trial].get('lillyAlias', [])
+        else:
+            lilly_alias = 'Couldn\'t find Lilly alias'
+
+        print(f"Trial ID: {trial}, Lilly Alias: {lilly_alias}, Title: {title}, Score: {score:.4f}")
 
 
     print("===")
