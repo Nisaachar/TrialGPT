@@ -208,5 +208,103 @@
                 "not applicable"
             ]
         }
+    },
+    "NCT02486783": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which does not meet the age criterion of 0-1 month for neonates. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient does not have uncomplicated jaundice or any other signs of infection mentioned in this criterion. Therefore, the patient does not meet this criterion.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient has high fever and irritability, but does not show any other clinical signs of infection mentioned in this criterion such as tachypnea, dyspnea, apnea, grunting, tachycardia, bradycardia, hypotension, poor perfusion, vomitus, abdominal distension, constipation, poor feeding, lethargy, convulsions, temperature instability, pale, yellow, bleak, petechiae, bruising, bleeding. Therefore, the patient does not meet this criterion.",
+                [
+                    0
+                ],
+                "not included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The exclusion criterion is about extreme prematurity, specifically gestational age below 32 weeks. However, the patient note does not provide any information about the patient's gestational age at birth. Given the patient's current age of 2 years, it's unlikely that such information would be included in the note. Therefore, we can assume that this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The exclusion criterion is about extreme dysmaturity, specifically birthweight below 1500 grams. The patient note does not provide any information about the patient's birthweight. Given the patient's current age of 2 years, it's unlikely that such information would be included in the note. Therefore, we can assume that this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The exclusion criterion is about maternal HIV or malignancy. The patient note does not provide any information about the mother's health status. However, it's not common to include such information in a patient note unless it's directly relevant to the patient's current condition. Therefore, we can assume that this criterion is not applicable.",
+                [],
+                "not applicable"
+            ]
+        }
+    },
+    "NCT02317913": {
+        "inclusion": {
+            "0": [
+                "The patient note provides evidence of the patient meeting the 5th revised edition of diagnostic criteria for KD. The patient has fever persisting for 5 days, bilateral conjunctival congestion, changes of lips and oral cavity, changes of peripheral extremities, and acute nonpurulent cervical lymphadenopathy. The patient also has coronary abnormalities documented by echocardiography.",
+                [
+                    0,
+                    1,
+                    4
+                ],
+                "included"
+            ],
+            "1": [
+                "The patient note mentions that the patient has had a high fever for 5 days.",
+                [
+                    0
+                ],
+                "included"
+            ],
+            "2": [
+                "The patient note mentions that the patient has bilateral conjunctival congestion.",
+                [
+                    1
+                ],
+                "included"
+            ],
+            "3": [
+                "The patient note mentions that the patient has changes of lips and oral cavity, such as strawberry tongue.",
+                [
+                    1
+                ],
+                "included"
+            ],
+            "4": [
+                "The patient note does not provide information about polymorphous exanthema.",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "The patient note mentions that the patient has changes of peripheral extremities, such as inflammation of the hands and feet, and desquamation of the skin of the fingers and toes.",
+                [
+                    1
+                ],
+                "included"
+            ],
+            "6": [
+                "The patient note mentions that the patient has acute nonpurulent cervical lymphadenopathy.",
+                [
+                    1
+                ],
+                "included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The exclusion criterion is not applicable as it is not specific and does not provide any concrete criteria to compare with the patient's condition.",
+                [],
+                "not applicable"
+            ]
+        }
     }
 }
