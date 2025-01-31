@@ -108,16 +108,18 @@ if __name__ == "__main__":
     with open('filtered_studies.json', 'r') as file:
         data = json.load(file)
 
-    print("\nTop 5 Clinical Trials:")
+    print("\nThe suggested Clinical Trials are:\n")
     for trial, score in sorted_trial2score[:5]:
         title = trial_info[trial]["brief_title"] if trial in trial_info else "Title not found"
 
         if trial in data:
             lilly_alias = data[trial].get('lillyAlias', [])
         else:
-            lilly_alias = 'Couldn\'t find Lilly alias'
+            lilly_alias = 'Couldn\'t find Lilly alias!'
 
-        print(f"Trial ID: {trial}, Lilly Alias: {lilly_alias}, Title: {title}, Score: {score:.4f}")
+        print(f"==> Trial ID: {trial}, Lilly Alias: {lilly_alias}")
+        print(f'Title: {title}, Score: {score:.4f}')
+        print('\n')
 
 
-    print("===")
+    print("===xxx===")

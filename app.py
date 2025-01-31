@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import subprocess
+import os
 
 # Function to load the JSON file
 def load_json(file_path):
@@ -15,6 +16,46 @@ def update_patient_note(file_path, new_note):
         file.seek(0)
         json.dump(data, file, indent=4)
         file.truncate()
+
+
+#top Bar.
+
+st.set_page_config(page_title="Top Bar Example", layout="wide")
+
+# Injecting Custom HTML + CSS
+st.markdown(
+    """
+    <style>
+        .top-bar {
+            background-color: red;
+            height: 50px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .stApp {
+            margin-top: 60px;
+        }
+    </style>
+    <div class="top-bar">
+        🔥 My Awesome Streamlit App
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+# Main content
+st.title("Welcome to My Streamlit App")
+st.write("This app has a **red top bar** with fixed positioning.")
+st.write("You can scroll, and the top bar remains in place!")
 
 # Streamlit UI
 st.title("TrialGPT Demo")
@@ -31,27 +72,37 @@ if st.button("Fetch Trials"):
         try:
             update_patient_note(json_file_path, new_note)
             
+
+            #Running Stage of Pipleine: Retrieval
+            st.divider()
+            st.header("Stage 1: Retrieval")
+            # st.caption("Fetch the most relevant trials based upon keywords.")
+            with st.spinner(text="Fetching the most relevant trials based upon keywords..."):
+                try:
+                    result = subprocess.run(
+                        ["python", "retrieval.py"],
+                        capture_output=True,
+                        text=True,
+                        check=True
+                    )
+                    st.success("Trials fetched successfully!")
+                    # st.text("Output from retrieval.py:")
+                    st.text(result.stdout)
+                
+                except FileNotFoundError:
+                    st.error("retrieval.py not found. Please ensure the file is in the correct location.")
+            
+            #Loading Retirived Trials List
             try:
-                result = subprocess.run(
-                    ["python", "retrieval.py"],
-                    capture_output=True,
-                    text=True,
-                    check=True
-                )
-                st.success("Trials fetched successfully!")
-                # st.text("Output from retrieval.py:")
-                st.text(result.stdout)
-            
+                retrieved_data = load_json(retrieved_results_path)
+                st.markdown("Retrieved Trials:")
+                st.caption("(Fetched only the first three trials because of time constraints!)")
+                st.json(retrieved_data)
             except FileNotFoundError:
-                st.error("retrieval.py not found. Please ensure the file is in the correct location.")
+                st.error("retrieved_results.json not found. Ensure the retrieval script generates this file.")
             
-            # try:
-            #     retrieved_data = load_json(retrieved_results_path)
-            #     st.subheader("Retrieved Results:")
-            #     st.json(retrieved_data)
-            # except FileNotFoundError:
-            #     st.error("retrieved_results.json not found. Ensure the retrieval script generates this file.")
-            
+
+            #Fetching the details of Trails
             try:
                 result = subprocess.run(
                     ["python", "prepare_metadata.py"],
@@ -65,37 +116,65 @@ if st.button("Fetch Trials"):
                 if isinstance(detailed_trials, list):
                     detailed_trials = detailed_trials[:3]
 
-                st.subheader("Fetched Trials: ")
-                st.text("(Fetched only the first three trials for saving up space.)")
+                st.subheader("Details of retrieved trials: ")
+                
                 st.json(detailed_trials)            
             
             except FileNotFoundError:
                 st.error("detailed_trials.py not found. Please ensure the file is in the correct location.")
             
-            try:
-                result = subprocess.run(
-                    ["python", "run_matching.py"],
-                    capture_output=True,
-                    text=True,
-                    check=True
-                )
 
-                matched_trials = load_json('matching_results.json')
+            st.divider()
+            #Running Matching Stage
+            st.header("Stage 2: Matching")
+            with st.spinner(text="Preparing trials for next stage..."):
+                try:
+                    result = subprocess.run(
+                        ["python", "run_matching.py"],
+                        capture_output=True,
+                        text=True,
+                        check=True
+                    )
 
-                if isinstance(detailed_trials, list):
-                    detailed_trials = detailed_trials[:3]
+                    matched_trials = load_json('matching_results.json')
 
-                st.subheader("Matching Trials: ")
-                st.text("(This stage introduces tranparency.)")
-                st.json(matched_trials)            
-            
-            except FileNotFoundError:
-                st.error("run_matching.json not found. Please ensure the file is in the correct location.")
+                    if isinstance(detailed_trials, list):
+                        detailed_trials = detailed_trials[:3]
+
+                    st.subheader("Matching Trials: ")
+                    st.caption("This stage introduces tranparency.")
+                    st.json(matched_trials)            
+                
+                except FileNotFoundError:
+                    st.error("run_matching.json not found. Please ensure the file is in the correct location.")
+
+            st.divider()
+            st.header("Stage 3: Ranking")
+
+            #Running Aggregation Process
+            with st.spinner(text="Scoring each trial based upon Inlcusion and Exclusion criterias..."):
+                try:
+                    result = subprocess.run(
+                        ["python", "run_aggregation.py"],
+                        capture_output=True,
+                        text=True,
+                        check=True
+                    )
+
+                    
+                    st.text('Calculated Relevane Score and Eligibility Score for each trial')
+
+                    scored_trials = load_json('aggregation_results.json')
+
+                    st.json(scored_trials)            
+                
+                except FileNotFoundError:
+                    st.error("aggregation_results.json not found. Please ensure the file is in the correct location.")
 
 
 
-
-#end results
+            #end results
+            st.divider()
             try:
                 result = subprocess.run(
                     ["python", "results.py"],
@@ -104,15 +183,17 @@ if st.button("Fetch Trials"):
                     check=True
                 )
                
-                st.text("Final Trials:")
+                st.subheader("Ranked Trials:")
                 st.text(result.stdout)
             
             except FileNotFoundError:
                 st.error("retrieval.py not found. Please ensure the file is in the correct location.")
 
-
-
         except Exception as e:
             st.error(f"An error occurred: {e}")
+
+        #deleting file 'matching_results.json'
+        os.remove('matching_results.json')
+
     else:
         st.warning("Please provide both the file path and the new note.")

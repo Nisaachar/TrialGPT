@@ -79,7 +79,7 @@ def create_bm25_index(corpus_file, cache_file):
     """
     # Check if cache exists
     if os.path.exists(cache_file):
-        print(f"Loading BM25 index from cache: {cache_file}")
+        # print(f"Loading BM25 index from cache: {cache_file}")
         with open(cache_file, "r") as f:
             cache_data = json.load(f)
         tokenized_corpus = cache_data["tokenized_corpus"]
@@ -128,7 +128,7 @@ def create_medcpt_index(corpus_file, embed_cache, id_cache):
     """
     # Check if cache exists
     if os.path.exists(embed_cache) and os.path.exists(id_cache):
-        print(f"Loading MedCPT index from cache: {embed_cache} and {id_cache}")
+        # print(f"Loading MedCPT index from cache: {embed_cache} and {id_cache}")
         embeds = np.load(embed_cache)
         doc_ids = json.load(open(id_cache))
     else:
@@ -286,14 +286,14 @@ if __name__ == "__main__":
     bm25_cache_file = "bm25_cache.json"  # Path to the BM25 cache file
 
     bm25_index, bm25_document_ids, bm25_document_titles = create_bm25_index(corpus_file, bm25_cache_file)
-    print("BM25 index created. Document count:", len(bm25_document_ids))
+    # print("BM25 index created. Document count:", len(bm25_document_ids))
 
     # Example usage of MedCPT index creation
     medcpt_embed_cache = "medcpt_embeds.npy"  # Path to the embedding cache
     medcpt_id_cache = "medcpt_doc_ids.json"  # Path to the document ID cache
 
     medcpt_index, medcpt_document_ids = create_medcpt_index(corpus_file, medcpt_embed_cache, medcpt_id_cache)
-    print("MedCPT index created. Document count:", len(medcpt_document_ids))
+    # print("MedCPT index created. Document count:", len(medcpt_document_ids))
 
     # Example hybrid retrieval
     query = result["summary"] if result else "high fever, conjunctivitis, strawberry tongue, and coronary artery dilation"
@@ -306,7 +306,7 @@ if __name__ == "__main__":
         medcpt_document_ids,
         bm25_wt=1,
         medcpt_wt=1,
-        top_n=5
+        top_n=3
     )
     # print("\nTop documents from hybrid retrieval:")
     # for doc_id, title in top_docs:
@@ -322,4 +322,5 @@ if __name__ == "__main__":
     test_file = "test.tsv"
     query_id = data['patient_id']
     recall = calculate_recall(test_file, query_id, retrieved_trial_ids)
-    print(f"\nRecall for query ID {query_id}: {recall:.4f}")
+    # print(f"\nRecall for query ID {query_id}: {recall:.4f}")
+    print(f"Recall for this Patient Note is: {recall:.4f}")
