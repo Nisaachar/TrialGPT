@@ -1,38 +1,20 @@
 {
     "NCT02359643": {
-        "relevance_explanation": "The patient is a 2-year-old boy diagnosed with Kawasaki Disease, which is the target condition of the clinical trial. The patient's symptoms and condition align with the majority of the inclusion criteria of the trial, making him highly relevant to the trial.",
-        "relevance_score_R": 90.0,
-        "eligibility_explanation": "The patient meets most of the inclusion criteria and does not meet any of the exclusion criteria. However, there is not enough information to determine if the patient meets exclusion criterion 2 (Incomplete collection of each followed-up data). Therefore, the patient is likely eligible for the trial, but not definitively so.",
-        "eligibility_score_E": 80.0
+        "relevance_explanation": "The patient is a 2-year-old boy diagnosed with Kawasaki Disease, which is the target condition of the clinical trial. The patient's symptoms, such as high fever, conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy, as well as the echocardiogram results, align with the inclusion criteria of the trial. Therefore, the patient is highly relevant to the clinical trial.",
+        "relevance_score_R": 95.0,
+        "eligibility_explanation": "The patient meets most of the inclusion criteria for the trial, such as being a child diagnosed with Kawasaki Disease, having a fever for more than 5 days, and showing 4 of the 5 listed symptoms. The patient is not excluded by any of the exclusion criteria, as his symptoms fit the Kawasaki Disease criteria, his fever duration is within the acceptable range, and there is no information suggesting that he has received IVIG treatment at another hospital, has been treated with corticosteroids in the previous 2 weeks, has a disease that mimics Kawasaki Disease, has a previous diagnosis of Kawasaki Disease, or is unable to take aspirin. However, there is not enough information to determine whether the patient meets the inclusion criterion of having dysmorphous skin rashes or the exclusion criterion of incomplete collection of each followed-up data.",
+        "eligibility_score_E": 85.0
     },
     "NCT02114099": {
-        "relevance_explanation": "The patient has symptoms of Kawasaki Disease and a possible coronary artery aneurysm, which aligns with the target conditions of the clinical trial. However, the patient is only 2 years old, which does not meet the age requirement of the trial. There is also mention of an enlarged liver and elevated alanine aminotransferase in the patient note, which could indicate abnormal liver function, a potential exclusion criterion. However, there is no mention of active hepatitis or persistent abnormal liver function such as elevated GOT and GPT.",
-        "relevance_score_R": 70.0,
-        "eligibility_explanation": "The patient does not meet the age requirement for the trial, making them ineligible based on that criterion. However, they are not excluded by any of the exclusion criteria, as they have not had coronary artery bypass graft surgery, do not have a history of rhabdomyolysis, and are not a female subject who is pregnant or planning for child-bearing.",
-        "eligibility_score_E": -20.0
+        "relevance_explanation": "The patient is highly relevant to the clinical trial as he has been diagnosed with Kawasaki Disease and has a possible coronary artery aneurysm, which are the target conditions of the trial. However, the patient's age (2 years old) does not meet the age criterion of the trial (older than 10 years old).",
+        "relevance_score_R": 80.0,
+        "eligibility_explanation": "The patient is included in the trial based on the diagnosis of Kawasaki Disease and a possible coronary artery aneurysm. However, he is not included based on the age criterion. The patient is not excluded by any of the exclusion criteria, as he has not undergone coronary artery bypass graft surgery, does not have active hepatitis or persistent abnormal liver function such as elevated GOT and GPT, does not have a history of rhabdomyolysis, and is not a female subject who is pregnant or planning for child-bearing during the study periods.",
+        "eligibility_score_E": 0.0
     },
     "NCT02486783": {
-        "relevance_explanation": "The patient is a 2-year-old boy, which is older than the age range specified in the clinical trial (0-1 month). Therefore, the patient is not relevant to the clinical trial.",
-        "relevance_score_R": 0.0,
-        "eligibility_explanation": "The patient is not eligible for the clinical trial because he does not meet the age requirement (0-1 month) and does not exhibit the necessary symptoms or conditions specified in the inclusion criteria.",
-        "eligibility_score_E": -0.0
-    },
-    "NCT02458495": {
-        "relevance_explanation": "The patient note does not provide any information relevant to the clinical trial. The trial is about a medication adherence intervention for patients with type 2 diabetes, but the patient note does not mention any information about the patient's age, diagnosis, treatment, or any other relevant factors.",
-        "relevance_score_R": 0.0,
-        "eligibility_explanation": "There is not enough information in the patient note to determine the patient's eligibility for the clinical trial. All inclusion and exclusion criteria are marked as 'not enough information', except for one exclusion criterion about providing informed consent, which the patient does not meet. Therefore, the patient's eligibility cannot be determined.",
-        "eligibility_score_E": 0.0
-    },
-    "NCT02530944": {
-        "relevance_explanation": "The patient note does not provide any information relevant to the clinical trial's inclusion criteria. Therefore, we cannot determine the patient's relevance to the trial.",
-        "relevance_score_R": 0.0,
-        "eligibility_explanation": "Due to the lack of information in the patient note, we cannot determine the patient's eligibility for the clinical trial.",
-        "eligibility_score_E": 0.0
-    },
-    "NCT01070966": {
-        "relevance_explanation": "The patient note does not provide any information about the patient's medical condition or treatment history, including whether they have Primary Hypercholesterolemia, Homozygous Familial Hypercholesterolemia, or have taken Vytorin before. Therefore, it is impossible to determine the relevance of the clinical trial to the patient.",
-        "relevance_score_R": 0.0,
-        "eligibility_explanation": "Since the patient's relevance to the clinical trial is zero, the eligibility score is also zero, as there is no information to determine whether the patient meets any of the inclusion or exclusion criteria.",
-        "eligibility_score_E": 0.0
+        "relevance_explanation": "The patient is a 2-year-old boy, which does not meet the age criterion of 0-1 month for neonates in the clinical trial. The clinical trial is specifically focused on neonatal sepsis, neonatal infection, and neonatal meningitis, conditions that are not applicable to the patient's age group. Furthermore, the patient's symptoms and conditions do not align with the clinical signs of infection specified in the trial's inclusion criteria.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient is not eligible for the clinical trial as he does not meet the age criterion and does not exhibit the specific clinical signs of infection required for inclusion in the trial. The patient's conditions and symptoms do not match the inclusion criteria, and the exclusion criteria are not applicable as they pertain to neonates.",
+        "eligibility_score_E": -10.0
     }
 }

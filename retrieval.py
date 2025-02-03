@@ -309,7 +309,7 @@ if __name__ == "__main__":
         top_n=3
     )
     # print("\nTop documents from hybrid retrieval:")
-    # for doc_id, title in top_docs:
+    # for doc_id, title in top_docs
     #     print(f"ID: {doc_id}, Title: {title}")
 
     # Save retrieved trial IDs to a JSON file

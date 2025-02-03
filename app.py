@@ -3,6 +3,7 @@ import json
 import subprocess
 import os
 
+
 # Function to load the JSON file
 def load_json(file_path):
     with open(file_path, 'r') as file:
@@ -19,43 +20,24 @@ def update_patient_note(file_path, new_note):
 
 
 #top Bar.
+def load_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-st.set_page_config(page_title="Top Bar Example", layout="wide")
+# Apply CSS
+load_css("style.css")
 
-# Injecting Custom HTML + CSS
-st.markdown(
-    """
-    <style>
-        .top-bar {
-            background-color: red;
-            height: 50px;
-            width: 100%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 999;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        .stApp {
-            margin-top: 60px;
-        }
-    </style>
-    <div class="top-bar">
-        🔥 My Awesome Streamlit App
+# Full-width Header
+st.markdown("""
+    <div class="header-container">
+        <h1 class="header-text">Lilly</h1>
     </div>
-    """,
-    unsafe_allow_html=True,
-)
+""", unsafe_allow_html=True)
 
-# Main content
-st.title("Welcome to My Streamlit App")
-st.write("This app has a **red top bar** with fixed positioning.")
-st.write("You can scroll, and the top bar remains in place!")
+# Add space to prevent content from being hidden under the fixed header
+st.write("<br><br><br>", unsafe_allow_html=True)
+
+
 
 # Streamlit UI
 st.title("TrialGPT Demo")
@@ -193,7 +175,12 @@ if st.button("Fetch Trials"):
             st.error(f"An error occurred: {e}")
 
         #deleting file 'matching_results.json'
-        os.remove('matching_results.json')
+        try:
+            os.remove('matching_results.json')
+        except FileNotFoundError:
+            st.error("matching_results.json not found.")
+
+
 
     else:
         st.warning("Please provide both the file path and the new note.")

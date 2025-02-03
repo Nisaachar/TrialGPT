@@ -1,6 +1,6 @@
 import json
 
-ncts = ['NCT02359643', 'NCT02317913', 'NCT01917721', 'NCT02390596', 'NCT00486863']
+ncts = ['NCT05960851', 'NCT02317913', 'NCT01917721', 'NCT02390596', 'NCT00486863']
 
 
 with open('filtered_studies.json', 'r') as file:
