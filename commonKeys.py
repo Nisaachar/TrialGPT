@@ -17,7 +17,7 @@ for study in new.get("studies", []):
 
 
 orgKeys = set(original.keys())
-print(orgKeys)
+
 
 
 commonKeys = set()
@@ -27,4 +27,9 @@ for key in newKeys:
         commonKeys.add(key)
 
 print(commonKeys)
+
+
+print(f"Total number of trials in Original Dataset: {len(orgKeys)}")
+print(f"Total number of trials in New Dataset: {len(newKeys)}")
 print(f"Total common keys between two datasets are: {len(commonKeys)}")
+
