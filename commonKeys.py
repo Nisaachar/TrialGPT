@@ -28,28 +28,3 @@ for key in newKeys:
 
 print(commonKeys)
 print(f"Total common keys between two datasets are: {len(commonKeys)}")
-
-
-# import json
-
-# def extract_nct_ids(json_file):
-#     """
-#     Extracts NCT IDs from a JSON file.
-#     :param json_file: Path to the JSON file.
-#     :return: List of NCT IDs.
-#     """
-#     try:
-#         with open(json_file, 'r', encoding='utf-8') as file:
-#             data = json.load(file)
-#             nct_ids = list(data.keys())  # Extracting keys which are NCT IDs
-#             return nct_ids
-#     except Exception as e:
-#         print(f"Error reading JSON file: {e}")
-#         return []
-
-# if __name__ == "__main__":
-#     json_file_path = "clinical_trials.json"  # Change this to your actual file path
-#     nct_ids = extract_nct_ids(json_file_path)
-#     print("Extracted NCT IDs:", nct_ids)
-
-
