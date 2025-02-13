@@ -38,7 +38,24 @@ for study in data.get("studies", []): # [] returns null object if key not found.
     #disease List
     diseases_list = study.get("protocolSection", {}).get("conditionsModule", {}).get("conditions", {})
 
+    #Drug list
+    interventions = study.get("protocolSection", {}).get("armsInterventionsModule", {}).get("interventions", [])
+    drug_list = []
+    for x in interventions:
+        drug_name = x.get("name", [])
+        drug_list.append(drug_name)
 
+
+    #enrollment
+    enrollment = study.get("protocolSection", {}).get("designModule", {}).get("enrollmentInfo", {}).get("count", [])
+
+
+
+
+
+
+
+#Fetch keywords.
 
     if nct_id:
         result[nct_id] = {
@@ -48,7 +65,9 @@ for study in data.get("studies", []): # [] returns null object if key not found.
             "brief_summary": briefSummary,
             "trial_status": overallStatus,
             "phase": phase,
-            "diseases_list": diseases_list
+            "diseases_list": diseases_list,
+            "drugs_list" : drug_list,
+            "enrollment": enrollment
         }
 
 
