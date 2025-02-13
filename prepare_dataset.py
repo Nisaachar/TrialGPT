@@ -1,12 +1,11 @@
 import json
-
+import re
 
 dataset = "storage/trials_data.json"
 filtered_data = "storage/dataset.json"
 
 with open(dataset, 'r') as file:
     data = json.load(file)
-
 
 result = {}
 
@@ -35,8 +34,30 @@ for study in data.get("studies", []): # [] returns null object if key not found.
     eligible_criteria = study.get("protocolSection", {}).get("eligibilityModule", {}).get("eligibilityCriteria", {})
 
 
+
+
+    # Extract Inclusion Criteria
+    inclusion_match = re.search(r"(?<=Inclusion Criteria:\n\n)(.*?)(?=\n\nExclusion Criteria:)", eligible_criteria, re.DOTALL)
+    inclusion_criteria = inclusion_match.group(1).strip() if inclusion_match else None
+
+    #formatting
+    if inclusion_criteria:
+        inclusion_criteria = 'inclusion criteria: \n\n' + inclusion_criteria  
+        inclusion_criteria = re.sub(r"\*\s*", " ", inclusion_criteria)
+
+
+    # Extract Exclusion Criteria
+    exclusion_match = re.search(r"(?<=Exclusion Criteria:\n\n)(.*)", eligible_criteria, re.DOTALL)
+    exclusion_criteria = exclusion_match.group(1).strip() if exclusion_match else None
+
+    if exclusion_criteria:
+        exclusion_criteria = 'exclusion criteria: \n\n' + exclusion_criteria
+        exclusion_criteria = re.sub(r"\*\s*", "", exclusion_criteria)
+
+
+
     #disease List
-    diseases_list = study.get("protocolSection", {}).get("conditionsModule", {}).get("conditions", {})
+    diseases_list = study.get("protocolSection", {}).get("conditionsModule", {}).get("conditions", [])
 
     #Drug list
     interventions = study.get("protocolSection", {}).get("armsInterventionsModule", {}).get("interventions", [])
@@ -50,8 +71,8 @@ for study in data.get("studies", []): # [] returns null object if key not found.
     enrollment = study.get("protocolSection", {}).get("designModule", {}).get("enrollmentInfo", {}).get("count", [])
 
 
-
-
+    #keywords
+    keywords = study.get("protocolSection", {}).get("conditionsModule", {}).get("keywords", [])
 
 
 
@@ -67,7 +88,10 @@ for study in data.get("studies", []): # [] returns null object if key not found.
             "phase": phase,
             "diseases_list": diseases_list,
             "drugs_list" : drug_list,
-            "enrollment": enrollment
+            "enrollment": enrollment,
+            "inclusion_criteria" : inclusion_criteria,
+            "exclusion_criteria" : exclusion_criteria,
+            "keywords" : keywords,
         }
 
 
