@@ -1,0 +1,90 @@
+[
+    {
+        "trial_id": "NCT05237388",
+        "brief_title": "Janus Kinase-STAT Inhibition to Reduce APOL1 Associated Kidney Disease",
+        "official_title": "Janus Kinase-STAT Inhibition to Reduce APOL1 Associated Kidney Disease",
+        "lillyAlias": [
+            "R01MD016401-01"
+        ],
+        "brief_summary": "The purpose of this study is to determine if the drug, baricitinib, is safe and effective in reducing high levels of albumin in the urine (albuminuria) in African American/Blacks with APOL1- associated focal segmental glomerulosclerosis (FSGS) and non-diabetic APOL1-associated chronic kidney disease due to hypertension (HTN-CKD).",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE2"
+        ],
+        "diseases_list": [
+            "Chronic Kidney Diseases"
+        ],
+        "drugs_list": [
+            "Baricitinib",
+            "Placebo"
+        ],
+        "enrollment": 75,
+        "inclusion_criteria": "inclusion criteria: \n\n Adults 18-70 years\n High Risk APOL1 genotype (i.e., G1G1, G2G2, or G1G2)\n FSGS diagnosed by kidney biopsy or clinically diagnosed HTN-CKD\n UACR \u2265300 mg/dL\n Estimated glomerular filtration rate (eGFR) \u226526 ml/min/1.73 m2 at screening\n Stable antihypertensive regimen for \u2265 1 month prior to enrolment\n Able to provide written informed consent",
+        "exclusion_criteria": "exclusion criteria: \n\nDiabetes\nHIV\nSickle cell disease.\nTip variant of FSGS.\nSystolic BP \\>180 mmHg or diastolic BP \\>90 mmHg based on average of 3 measurements.\nActive serious viral, bacterial, fungal or parasitic infection.\nSymptomatic herpes zoster infection within 12 weeks prior to study entry.\nPositive hepatitis B surface antigen during screening (could enroll after treatment).\nPrevious kidney transplant.\nHistory of chronic liver disease with the most recent available aspartate aminotransferase (AST) or alanine aminotransferase (ALT) \\>1.5 times the ULN or the most recent available total bilirubin \u22651.5 times the ULN\nHemoglobin \\<10 g/dL.\nAbsolute lymphocyte count (ALC)\\<500cells/mm3 or absolute neutrophil count (ANC) \\< 1000 cells/mm3.\nPregnant or nursing at time of enrollment\nPrior or current treatment with JAK inhibitor.\nCurrent use of potent immunosuppressants such as abatacept, adalimumab, anakinra, azathioprine, certolizumab, etanercept, golimumab, infliximab, probenecid, rituximab, ruxolitinib, sarilumab, tofacitinib, or tocilizumab.\nHigh dose corticosteroids (\\>10 mg per day of prednisone or equivalent) or an unstable dosing regimen of corticosteroids within 2 weeks of study entry or within 6 weeks of planned randomization.",
+        "keywords": [
+            "APOL1",
+            "focal segmental glomerulosclerosis (FSGS)"
+        ]
+    },
+    {
+        "trial_id": "NCT05563246",
+        "brief_title": "A Study of LY3473329 in Adult Participants With Elevated Lipoprotein(a) at High Risk for Cardiovascular Events",
+        "official_title": "KRAKEN: A Phase 2, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Oral Once-Daily LY3473329 in Adults With Elevated Lipoprotein(a) at High Risk for Cardiovascular Events",
+        "lillyAlias": [
+            "J2O-MC-EKBC"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of LY3473329 in adult participants with elevated Lp(a) at high risk for cardiovascular events.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE2"
+        ],
+        "diseases_list": [
+            "Lipoprotein Disorder"
+        ],
+        "drugs_list": [
+            "LY3473329",
+            "Placebo"
+        ],
+        "enrollment": 233,
+        "inclusion_criteria": "inclusion criteria: \n\n Participants must be at least 40 years old\n Participants with Lp(a) \u2265175 nmol/L at randomization, measured at the central laboratory.\n High risk for cardiovascular events defined as documented coronary artery disease (CAD), stroke, or peripheral artery disease or atherosclerotic cardiovascular disease (ASCVD) risk equivalents (familial hypercholesterolemia or type 2 diabetes).\n Participants on the following medications according to local practice must be on a stable regimen for at least 4 weeks prior to randomization and expected to remain on a stable regimen through the end of the post-treatment follow-up period.\n\n   lipid-lowering drugs\n   testosterone, estrogens, anti-estrogens, progestins, selective estrogen receptor modulators, or growth hormone\n Have a body mass index within the range 18.5 to 40 kilogram/square meter (kg/m\u00b2), inclusive.\n Males who agree to use highly effective or effective methods of contraception may participate in this trial.\n Women of childbearing potential (WOCBP) who agree to use highly effective or effective methods of contraception and women not of childbearing potential (WNOCBP) may participate in this trial.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave a history or presence of an underlying disease, or surgical, physical, medical, or psychiatric condition that, in the opinion of the investigator, would potentially affect participant safety within the study or interfere with participating in or completing the study or with the interpretation of data.\nAny of the following, or other events indicating unstable medical condition in the opinion of the investigator, within 3 months of randomization:\n\n  major surgery\n  coronary, carotid, or peripheral arterial revascularization\n  stroke or transient ischemic attack\n  myocardial infarction or unstable angina\n  acute limb ischemia\nHave, in the 6 months prior to day 1, uncontrolled Type 1 or Type 2 diabetes\nHave uncontrolled hypertension",
+        "keywords": [
+            "Atherosclerotic cardiovascular disease",
+            "ASCVD",
+            "Dyslipidemia",
+            "Lipoprotein(a)",
+            "Lp(a)",
+            "Cardiovascular",
+            "Cardiovascular disease",
+            "Cholesterol",
+            "Hyperlipidemia"
+        ]
+    },
+    {
+        "trial_id": "NCT01202773",
+        "brief_title": "A Study in Participants With Rheumatoid Arthritis",
+        "official_title": "A Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of LY2127399 in Patients With Moderate to Severe Rheumatoid Arthritis (RA) Who Had an Inadequate Response to One or More TNF-\u03b1 Inhibitors (FLEX V)",
+        "lillyAlias": [
+            "H9B-MC-BCDV"
+        ],
+        "brief_summary": "The primary purpose of this study is to help answer if LY2127399 is safe and effective in the treatment of rheumatoid arthritis in participants with an inadequate response to one or more tumor necrosis factor-alpha (TNF-\u03b1) inhibitors.\n\nThis study is comprised of 2 periods:\n\nPeriod 1: 24-week blinded treatment\n\nPeriod 2: 48-week post-treatment follow-up",
+        "trial_status": "TERMINATED",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Rheumatoid Arthritis"
+        ],
+        "drugs_list": [
+            "LY2127399",
+            "Placebo Q4W",
+            "Placebo Q2W"
+        ],
+        "enrollment": 456,
+        "inclusion_criteria": "inclusion criteria: \n\n Diagnosis of RA of more than 6 months and less than 15 years\n At least 8 tender and swollen joints\n An abnormally high C-reactive protein (CRP) level or erythrocyte sedimentation rate (ESR)\n Positive for rheumatoid factor (RF) or anti-cyclic citrullinated peptide (CCP) antibody\n Previously treated with biologic TNF-\u03b1 inhibitor therapy (infliximab, certolizumab, golimumab, etanercept, adalimumab) and stopped treatment due to insufficient efficacy or intolerance\n Regular use of at least 1 conventional disease-modifying anti-rheumatic drug (DMARD), with a stable dose for at least 8 weeks prior to study start\n Woman must not be pregnant, breastfeeding, or become pregnant during the study",
+        "exclusion_criteria": "exclusion criteria: \n\nUse of unstable doses of non-steroidal anti-inflammatory drugs (NSAIDS) in the past 6 weeks\nSteroid injection or intravenous (IV) infusion in the last 6 weeks\nUse of more than 10 milligrams/day (mg/day) of oral steroids in the last 6 weeks\nHistory of a serious reaction to other biological DMARDs\nUse of an oral calcineurin inhibitor (for example, cyclosporin or tacrolimus) in the last 8 weeks\nSurgery on a joint or other major surgery less than 2 months ago, or plans to have joint surgery or major surgery during the study\nActive fibromyalgia, juvenile chronic arthritis, spondyloarthropathy, Crohn's disease, ulcerative colitis, psoriatic arthritis, or other systemic inflammatory condition except RA\nCervical cancer or squamous skin cancer within the past 3 years, or other cancer within the past 5 years\nReceived a live vaccine received within the past 12 weeks (for example, vaccines for measles, mumps, rubella, and chicken pox, and nasal-spray flu vaccines)\nHepatitis or human immunodeficiency virus (HIV)\nA serious bacterial infection (for example, pneumonia or cellulitis) within 3 months or a serious bone or joint infection within 6 months\nSymptoms of herpes zoster or herpes simplex within the last month\nActive or latent tuberculosis (TB)\nCurrent symptoms of a serious disorder or illness\nUse of an investigational drug within the last month",
+        "keywords": [
+            "Rheumatoid Arthritis"
+        ]
+    }
+]
