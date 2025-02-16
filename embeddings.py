@@ -62,10 +62,9 @@ def create_bm25_index(corpus_file, cache_file):
         with open(cache_file, "w") as f:
             json.dump({"tokenized_corpus": tokenized_corpus, "doc_ids": doc_ids, "doc_titles": doc_titles}, f, indent=4)
 
-        bm25 = BM25Okapi(tokenized_corpus)
-        return bm25, doc_ids, doc_titles
+    bm25 = BM25Okapi(tokenized_corpus)
+    return bm25, doc_ids, doc_titles
 
-create_bm25_index(corpus_file, bm25_cache_file)
 
 
 def create_medcpt_index(corpus_file, embed_cache, id_cache):
@@ -127,4 +126,3 @@ def create_medcpt_index(corpus_file, embed_cache, id_cache):
     return index, doc_ids
 
 
-create_medcpt_index(corpus_file, medcpt_embed_cache, medcpt_id_cache)
