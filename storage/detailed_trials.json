@@ -1,30 +1,252 @@
 [
     {
-        "trial_id": "NCT05237388",
-        "brief_title": "Janus Kinase-STAT Inhibition to Reduce APOL1 Associated Kidney Disease",
-        "official_title": "Janus Kinase-STAT Inhibition to Reduce APOL1 Associated Kidney Disease",
-        "lillyAlias": [
-            "R01MD016401-01"
+        "trial_id": "NCT03936660",
+        "brief_title": "A 12 Month Site Randomized Trial in Adults With Type 2 Diabetes Mellitus and History of Cardiovascular Disease",
+        "official_title": "COOrdinating CaRDIology CliNics RAndomized Trial of Interventions to Improve OutcomEs (COORDINATE) - Diabetes",
+        "lillyAlias": [],
+        "brief_summary": "COORDINATE-Diabetes is a cluster-randomized clinical trial to test the effectiveness of an innovative, clinic-level educational intervention to improve the management of patients with type 2 diabetes mellitus and cardiovascular disease.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "NA"
         ],
-        "brief_summary": "The purpose of this study is to determine if the drug, baricitinib, is safe and effective in reducing high levels of albumin in the urine (albuminuria) in African American/Blacks with APOL1- associated focal segmental glomerulosclerosis (FSGS) and non-diabetic APOL1-associated chronic kidney disease due to hypertension (HTN-CKD).",
-        "trial_status": "RECRUITING",
+        "diseases_list": [
+            "Diabetes Mellitus, Type 2",
+            "Cardiovascular Diseases"
+        ],
+        "drugs_list": [
+            "Intense Education Intervention"
+        ],
+        "enrollment": 1049,
+        "inclusion_criteria": "inclusion criteria: \n\n Age \u2265 18 years old\n Diagnosis of Type 2 diabetes mellitus (T2DM)\n History of at least one of the following conditions:\n\n  1. Coronary artery disease (defined as prior MI, coronary revascularization (CABG or PCI), and/or obstructive CAD (\u226550%) as documented by angiography or CTA)\n  2. Stroke and/or carotid artery stenosis (\u226550%)\n  3. Peripheral Arterial disease (defined as claudication with ABI\\<0.9, prior peripheral revascularization, and/or amputation due to circulatory insufficiency)\n Ability to communicate with site staff and understand and provide written informed consent and proof of Health Insurance Portability and Accountability Act (HIPAA) authorization",
+        "exclusion_criteria": "exclusion criteria: \n\nDetermined to be highly unlikely to survive and/or to continue follow-up in that clinic for at least 1 year, as identified by site investigator\nGFR\\<30 mL/min/1.73m2\nAlready on all guideline-recommended therapies for T2DM and CVD\nAbsolute contraindication to any of the guideline recommended therapies for T2DM and CVD",
+        "keywords": [
+            "COORDINATE-DIABETES",
+            "COORDINATE",
+            "T2DM",
+            "Diabetes Mellitus, Type 2",
+            "Cardiovascular Disease",
+            "Prevention"
+        ]
+    },
+    {
+        "trial_id": "NCT05433584",
+        "brief_title": "A Study of Tirzepatide Compared With Intensified Conventional Care in Adult Participants With Type 2 Diabetes",
+        "official_title": "A Randomized, Open-Label, Parallel-Group, Two-Arm, Phase 4 Study to Evaluate the Long-Term Efficacy and Safety of Tirzepatide Compared With Intensified Conventional Care in Adults When Initiating Treatment Early in the Course of Type 2 Diabetes",
+        "lillyAlias": [
+            "I8F-MC-GPHE",
+            "2022-000130-42",
+            "2022-5010733-40-00",
+            "U1111-1282-0263"
+        ],
+        "brief_summary": "This study aims to investigate the efficacy and safety of tirzepatide in participants with type 2 diabetes (T2D) compared to other existing treatment options when treatment is initiated early.",
+        "trial_status": "ACTIVE_NOT_RECRUITING",
+        "phase": [
+            "PHASE4"
+        ],
+        "diseases_list": [
+            "Type 2 Diabetes"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Antihyperglycemic medication"
+        ],
+        "enrollment": 780,
+        "inclusion_criteria": "inclusion criteria: \n\n Have, within the last 4 years, been diagnosed with T2D based on the World Health Organization classification or other locally applicable diagnostic standards.\n Have HbA1c \u22657% to \u22649.5% as determined by the central laboratory.\n Have been on a stable treatment of metformin only at least 90 days preceding baseline\n\n   with the minimum effective dose of \u22651500 mg/day, but not higher than the maximum approved dose per country-specific label, or\n   \\<1500 mg/day in case of intolerance of full therapeutic dose.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave type 1 diabetes mellitus\nHave a history of chronic or acute pancreatitis any time prior to study entry\nHave a history of\n\n  proliferative diabetic retinopathy\n  diabetic macular edema, or\n  no proliferative diabetic retinopathy requiring immediate or urgent treatment\nAre at high risk for cardiovascular disease (CVD) in the investigator's opinion or have a history of any of these CV conditions prior to study entry\n\n  myocardial infarction\n  percutaneous coronary revascularization procedure\n  carotid stenting or surgical revascularization\n  nontraumatic amputation\n  peripheral vascular procedure (e.g., stenting or surgical revascularization)\n  cerebrovascular accident (stroke), or congestive heart failure\nHave family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN2)\nHave within 90 days prior to screening received treatment with medications intended to promote weight loss. This includes prescribed, over the counter, or alternative remedies\nHave an estimated glomerular filtration rate (eGFR) \\<30 mL/minute/1.73 m2 (or lower than the country-specific threshold for discontinuing metformin therapy per local label), calculated by chronic kidney disease-epidemiology equation as determined by central laboratory at screening.\nHave been treated with any injectable glucagon-like peptide-1 (GLP-1) receptor agonists and insulin prior to screening.\n\n  Exception: use of insulin for gestational diabetes or short-term use (\\<14 days) for acute conditions such as acute illness, hospitalization, or elective surgery.",
+        "keywords": [
+            "T2D",
+            "Diabetes"
+        ]
+    },
+    {
+        "trial_id": "NCT05882045",
+        "brief_title": "A Study of Retatrutide (LY3437943) in Participants With Obesity and Cardiovascular Disease",
+        "official_title": "A Randomized, Double-Blind, Phase 3 Study to Investigate the Efficacy and Safety of LY3437943 Once Weekly Compared to Placebo in Participants With Severe Obesity and Established Cardiovascular Disease",
+        "lillyAlias": [
+            "J1I-MC-GZBM",
+            "2023-503659-88-00"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of retatrutide once weekly in participants with obesity and established cardiovascular disease (CVD). The study will last about 113 weeks.",
+        "trial_status": "ACTIVE_NOT_RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Cardiovascular Diseases"
+        ],
+        "drugs_list": [
+            "Retatrutide",
+            "Placebo"
+        ],
+        "enrollment": 1800,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) \u226535.0 kilogram/square meter (kg/m\u00b2).\n Have established cardiovascular (CV) disease with at least 1 of the following:\n\n   prior myocardial infarction\n   prior ischemic or hemorrhagic stroke, or\n   symptomatic peripheral arterial disease\n Have a history of at least 1 self-reported unsuccessful dietary effort to reduce body weight.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave had acute myocardial infarction, stroke, coronary revascularization, hospitalization for unstable angina, or hospitalization due to congestive heart failure within 90 days prior to screening.\nHave taken weight loss drugs, including over-the-counter medications, within 90 days prior to screening.\nHave a prior or planned surgical treatment of obesity.\nHave a change in body weight greater than 5 kg (11 pounds) within 90 days prior to screening.\nHave Type 1 diabetes.\nHave family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\nHave had pancreatitis.",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT00871572",
+        "brief_title": "A Study for Participants With Type 2 Diabetes Mellitus",
+        "official_title": "A Randomized, Double-Blind, Placebo-Controlled Phase 2 Study of LY2409021 in Patients With Type 2 Diabetes Mellitus",
+        "lillyAlias": [
+            "I1R-MC-GLBE"
+        ],
+        "brief_summary": "This drug is being evaluated for possible treatment of type 2 diabetes mellitus. Participation in this study is expected to last up to 18 weeks. A goal of this study is to determine the safety and effectiveness of LY2409021.",
+        "trial_status": "COMPLETED",
         "phase": [
             "PHASE2"
         ],
         "diseases_list": [
-            "Chronic Kidney Diseases"
+            "Diabetes Mellitus, Type 2"
         ],
         "drugs_list": [
-            "Baricitinib",
+            "LY2409021",
             "Placebo"
         ],
-        "enrollment": 75,
-        "inclusion_criteria": "inclusion criteria: \n\n Adults 18-70 years\n High Risk APOL1 genotype (i.e., G1G1, G2G2, or G1G2)\n FSGS diagnosed by kidney biopsy or clinically diagnosed HTN-CKD\n UACR \u2265300 mg/dL\n Estimated glomerular filtration rate (eGFR) \u226526 ml/min/1.73 m2 at screening\n Stable antihypertensive regimen for \u2265 1 month prior to enrolment\n Able to provide written informed consent",
-        "exclusion_criteria": "exclusion criteria: \n\nDiabetes\nHIV\nSickle cell disease.\nTip variant of FSGS.\nSystolic BP \\>180 mmHg or diastolic BP \\>90 mmHg based on average of 3 measurements.\nActive serious viral, bacterial, fungal or parasitic infection.\nSymptomatic herpes zoster infection within 12 weeks prior to study entry.\nPositive hepatitis B surface antigen during screening (could enroll after treatment).\nPrevious kidney transplant.\nHistory of chronic liver disease with the most recent available aspartate aminotransferase (AST) or alanine aminotransferase (ALT) \\>1.5 times the ULN or the most recent available total bilirubin \u22651.5 times the ULN\nHemoglobin \\<10 g/dL.\nAbsolute lymphocyte count (ALC)\\<500cells/mm3 or absolute neutrophil count (ANC) \\< 1000 cells/mm3.\nPregnant or nursing at time of enrollment\nPrior or current treatment with JAK inhibitor.\nCurrent use of potent immunosuppressants such as abatacept, adalimumab, anakinra, azathioprine, certolizumab, etanercept, golimumab, infliximab, probenecid, rituximab, ruxolitinib, sarilumab, tofacitinib, or tocilizumab.\nHigh dose corticosteroids (\\>10 mg per day of prednisone or equivalent) or an unstable dosing regimen of corticosteroids within 2 weeks of study entry or within 6 weeks of planned randomization.",
+        "enrollment": 87,
+        "inclusion_criteria": null,
+        "exclusion_criteria": "exclusion criteria: \n\nInsulin, exenatide, or any diabetic medication other than metformin 3 months prior to screening to control you diabetes,\nMedications to increase movement in your digestive tract or that slow movement in your digestive tract\nOver-the-counter drugs or drugs prescribed by your doctor that cause weight loss or high or low blood sugar,\nChronically use oral glucocorticoids therapy or have received this type of medication within 8 weeks prior to beginning this study,\nClass II and III antiarrhythmic agents (commonly used to prevent or relieve an irregular heartbeat),\nDrugs that damage the liver\nFibrates and niacin (both commonly used to treat high cholesterol) more than 1 gram/day (gm/day),\nCentral nervous stimulants, alcohol intake for males that is more than 2 units per day and for females that is more than 1 unit per day \\[1 unit=12 ounces (oz) or 360 milliliter (mL) of beer; 5 oz or 150 mL of wine; 1.5 oz or 45 mL of distilled spirits\\].\nYou have had one (1) or more cases of uncontrolled diabetes (very high blood sugars) which required hospitalization in the 6 months prior to the screening visit or have a diagnosis of hypoglycemia (low blood sugar) unawareness.\nYou had two (2) or more emergency room visits or were hospitalized for poor control of your diabetes (for example, keto-acidotic episode) in the last 6 months.\nParticipants have a problem with your stomach such that it empties slowly (diabetic gastroparesis) or you have had gastric bypass (bariatric) surgery.\nParticipants have a personal or family history of pancreatic neoplasia.\nParticipants have abnormal lipids (for example triglycerides).\nParticipants have had problems with your heart in the past 6 months, such as a heart attack, chest pain (angina), heart failure, heart bypass operation, angioplasty (a medical procedure to open a narrow or clogged blood vessel of the heart) or stent insertion (a procedure to insert a wire mesh tube to prop open a blood vessel after angioplasty), a heart rhythm problem, or a stroke.\nParticipants have an elevated or uncontrolled blood pressure.\nParticipant's electrocardiogram (ECG, a test that measures the electrical activity of your heart) is outside the normal limits, as determined by the study doctor.\nParticipants have a problem with your kidneys or are on dialysis.\nParticipants have a problem with your pancreas.\nParticipants must not have nor had liver disease (for example, Hepatitis B or C).\nParticipants have cancer, except for skin cancer or have been in remission (the absence of disease activity) from cancer for less than 5 years.\nParticipants have a serious or uncontrolled health problems (other than type 2 diabetes), blood disorders or laboratory tests that in the opinion of the doctor, could interfere with understanding the results of this study. The doctor will let you know if this applies to you.\nParticipants previously completed or withdrew from this study or any other study investigating LY2409021.\nParticipants are allergic to the study drug or other related drugs. You cannot be in this study if you are a woman and you possibly could become pregnant during this study.",
         "keywords": [
-            "APOL1",
-            "focal segmental glomerulosclerosis (FSGS)"
+            "Diabetes Mellitus, Type 2"
         ]
+    },
+    {
+        "trial_id": "NCT05803421",
+        "brief_title": "A Study of Daily Oral Orforglipron (LY3502970) Compared With Insulin Glargine in Participants With Type 2 Diabetes and Obesity or Overweight at Increased Cardiovascular Risk",
+        "official_title": "A Phase 3, Open-Label Study of Once Daily LY3502970 Compared With Insulin Glargine in Adult Participants With Type 2 Diabetes and Obesity or Overweight at Increased Cardiovascular Risk",
+        "lillyAlias": [
+            "J2A-MC-GZGS",
+            "2022-502833-25-00",
+            "U1111-1285-6821"
+        ],
+        "brief_summary": "The main purpose of this study is to determine safety and efficacy of orforglipron compared with insulin glargine in participants with type 2 diabetes and obesity or overweight at increased cardiovascular risk. The study will last approximately 2 years may include up to 27 visits.",
+        "trial_status": "ACTIVE_NOT_RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Type 2 Diabetes",
+            "Obesity",
+            "Overweight or Obesity",
+            "Overweight",
+            "Cardiovascular Diseases",
+            "Chronic Kidney Disease"
+        ],
+        "drugs_list": [
+            "Orforglipron",
+            "Insulin Glargine"
+        ],
+        "enrollment": 2749,
+        "inclusion_criteria": "inclusion criteria: \n\n Have been diagnosed with type 2 diabetes mellitus (T2DM)\n Are at least 18 years of age or legal age of consent in the jurisdiction in which the study is taking place, whichever is older.\n Have HbA1c at screening\n\n   \u22657.0% and \u226410.5% if background diabetes medication does not include a sulfonylurea, or\n   \u22657.5% and \u226410.5% if background diabetes medication includes a sulfonylurea.\n Are on stable treatment of at least 1 and no more than 3 oral antihyperglycemic drugs for at least 90 days before screening. Antihyperglycemic drugs may include metformin, SGLT-2 inhibitors, and/or sulfonylureas\n Have increased risk for cardiovascular (CV) events due to:\n\n   Coronary heart disease\n   Peripheral arterial disease, presumed to be of atherosclerotic origin\n   Cerebrovascular disease, presumed to be of atherosclerotic origin\n   Chronic kidney disease (CKD)\n   Congestive heart failure (CHF) New York Heart Association (NYHA) functional classification II to III\n Are of stable weight (\u00b1 5%) for at least 90 days prior to screening\n Have a BMI \u226525 kilograms per meter squared (kg/m2) at screening",
+        "exclusion_criteria": "exclusion criteria: \n\nHave type 1 diabetes mellitus\nHave had chronic or acute pancreatitis any time prior to screening\nCurrently receiving or planning to receive treatment for diabetic retinopathy and/or macular edema (e.g. laster photocoagulation or intravitreal injections of anty-VEGF inhibitors\nHave a known clinically significant gastric emptying abnormality\nHave acute or chronic hepatitis, signs and symptoms of any other liver disease, or blood alanine transaminase (ALT) or aspartate aminotransferase (AST) enzyme level \u22655.0 times the upper limit of normal (ULN) for the reference range, as determined by the central laboratory\nHave had any of the following within 60 days prior to screening: acute myocardial infarction, cerebrovascular accident (stroke), or hospitalization for congestive heart failure\nHave an eGFR \\<15 mL/min/1.73 m2 as determined at screening\nHave a family (first-degree relative) or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2\nHave been taking any other diabetes medicines other than metformin, SGLT-2 inhibitors, and/or sulfonylureas during the last 90 days\nHave used any weight loss drugs, including herbal or nutritional supplements, within 90 days of screening",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT05706506",
+        "brief_title": "A Study of Tirzepatide (LY3298176) in Adults With Type 2 Diabetes Switching From a GLP-1 RA (SURPASS-SWITCH-2)",
+        "official_title": "An Open-Label, Single-Arm, Phase 4 Study to Assess Glycemic Control When Adults With Type 2 Diabetes Switch From a GLP-1 RA to Tirzepatide (SURPASS-SWITCH-2)",
+        "lillyAlias": [
+            "I8F-MC-GPIL",
+            "2022-002708-18"
+        ],
+        "brief_summary": "The main purpose of this study is to investigate the effects of switching from glucagon-like peptide-1 receptor agonist (GLP-1 RA) therapy to tirzepatide glucose-dependent insulinotropic polypeptide (GIP) GLP-1 RA agonist in participants with type 2 diabetes (T2D).",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE4"
+        ],
+        "diseases_list": [
+            "Type 2 Diabetes",
+            "Diabetes Mellitus, Type 2"
+        ],
+        "drugs_list": [
+            "Tirzepatide"
+        ],
+        "enrollment": 152,
+        "inclusion_criteria": "inclusion criteria: \n\n Have Type 2 diabetes (T2D)\n Have an HbA1c c \u22656.5% (\u226548 mmol/mol) to \u22649.0% (\u226475 mmol/mol)\n Have a body mass index (BMI) \u226525 kilogram per square meter (kg/m\u00b2) at screening\n Have been on a stable treatment dose of 1 of the listed GLP-1 RAs for \u22653 months\n No treatment with oral antidiabetic medicine (OAM) or on stable doses (for at least 3 months before screening) of up to 3 OAM. The OAM may include metformin, sodium-glucose linked transporter-2 inhibitor (SGLT-2i), thiazolidinediones, or \u03b1-glucosidase inhibitors.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave Type 1 Diabetes (T1D)\nHave a clinical history of\n\n  proliferative diabetic retinopathy\n  diabetic maculopathy, or\n  non-proliferative diabetic retinopathy that requires acute treatment\nAre at high risk for cardiovascular disease or have a history of\n\n  myocardial infarction\n  percutaneous coronary revascularization procedure\n  carotid stenting or surgical revascularization\n  nontraumatic amputation\n  peripheral vascular procedure\n  cerebrovascular accident\n  or hospitalization for congestive heart failure\nHave New York Heart Association (NYHA) Functional Classification Class IV congestive heart failure\nHave a history of ketoacidosis or hyperosmolar state or coma\nHave a history of severe hypoglycemia or hypoglycemia unawareness within the 6 months.",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT01524705",
+        "brief_title": "FLuctuATion Reduction With inSULin and Glp-1 Added togetheR (FLAT-SUGAR)",
+        "official_title": "FLAT-SUGAR: FLuctuATion Reduction With inSULin and Glp-1 Added togetheR",
+        "lillyAlias": [],
+        "brief_summary": "Results of recent studies using standard long and short acting insulin therapy (Basal - Bolus or BBI) in type 2 diabetes mellitus (T2DM) have not shown benefits to lower risks for heart attacks, strokes, or eye, nerve and kidney problems. Some studies also show a long time between the start of treatment and signs of benefit. This has led to a review of current ways to normalize blood glucose control with basal bolus insulin and how to make blood glucose better. Improving blood sugar with insulin therapy usually causes weight gain, more high sugar levels after meals, and more low blood sugars. Early studies suggest that when people take long-acting insulin and metformin, they have fewer blood sugar extremes when they also take a new type of medicine called glucagon-like polypeptide-1 (GLP-1) agonist named exenatide (Byetta), instead of meal-time insulin. This means there might be a better way to treat Type 2 diabetes.\n\nParticipants are asked to take part in an eight month study to find out if middle-aged and older people with Type 2 diabetes who have added risk factors for heart disease can even out their blood sugar levels. They will start on long-acting insulin, mealtime insulin, and metformin, if they are not already on these medications. Their kidney function tests must be normal and they must not be allergic to metformin. Then, after a 2 month run-in phase, they must be willing to be assigned by chance into one of two groups. This means that they will have a 50/50 chance (like flipping a coin) of being in either group. Half of them will be started on the new medicine known as Byetta rather than the meal-time insulin and the other half will remain on the meal-time insulin during the next 6 months (26 weeks) to see which group has more steady blood sugars. They will be asked to use a continuous blood sugar monitoring system called DexCom. A sensor is inserted under the skin in the same areas the insulin is injected. The DexCom can check their blood sugars 24 hours of the day and night and will be worn until 7 days of recordings are collected. In the same 7 day period, they will also be asked to wear a Holter or Telemetry monitor that will record their heart beats and rhythm which will be compared to the blood sugar readings. They will also use home glucose meters to check their glucose levels about 3 to 4 times a day. The study will take place at 12 centers in the United States and enroll about 120-130 people.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE4"
+        ],
+        "diseases_list": [
+            "Type 2 Diabetes"
+        ],
+        "drugs_list": [
+            "Insulin Glargine",
+            "Metformin",
+            "Prandial insulin",
+            "Exenatide"
+        ],
+        "enrollment": 102,
+        "inclusion_criteria": "inclusion criteria: \n\n1. T2DM for \\>12 months defined according to current ADA criteria\n2. C-peptide \\>0.5 ng/mL-after informed consent has been signed, samples will be drawn fasting and sent to a central lab\n3. Participants must be on insulin therapy. Diabetes, Blood Pressure \\& Lipid therapy must be stable (in both dose and agent) for \u22653 months (dose of any 1 drug has not changed by more than 2-fold, \\& new agents not been added within the previous 3 months)\n4. HbA1c 7.5-8.5% for enrollment\n5. Age at enrollment (screening): 40-75 years (inclusive) when there is a history of cardiovascular disease (defined in 'a'), or 55 to 75 years (inclusive) when there is not a history of cardiovascular disease but 2 or more risk factors (with or without treatment) are present (defined in 'b')\n\n   a) Established cardiovascular disease defined as presence of one of the following: i. Previous myocardial infarction (MI). (most recent must be \\> 3 months prior enrollment) ii. Previous stroke. (most recent must be \\>3 months prior enrollment) iii. History of coronary revascularization (e.g., coronary artery bypass graft surgery, stent placement, percutaneous transluminal coronary angioplasty, or laser atherectomy)(most recent must be \\> 3 months prior enrollment) iv. History of carotid or peripheral revascularization (e.g., carotid endarterectomy, lower extremity atherosclerotic disease atherectomy, repair of abdominal aortic aneurysm, femoral or popliteal bypass). (most recent must be \\>3 months prior enrollment) v. Angina with either ischemic changes on a resting ECG, or ECG changes on a graded exercise test (GXT), or positive cardiac imaging study vi. Ankle/brachial index \\<0.9 vii. LVH with strain by ECG or ECHO viii. \\>50% stenosis of a coronary, carotid, renal or lower extremity artery. ix. Urine albumin to urine creatinine ratio of \\>30 mg albumin/g creatinine in 2 samples, separated by at least 7 days, within past 12 months) \\[Target of 50% of study cohort\\] or b) Increased CVD risk defined as presence of 2 or more of the following: i. Untreated LDL-C \\>130 mg/dL or on lipid treatment ii. Low HDL-C (\\<40 mg/dL for men and \\<50 mg/dL for women) iii. Untreated systolic BP \\>140 mm Hg, or on antihypertensive treatment iv. Current cigarette smoking v. Body mass index 25-45 (Asian populations 23-45) kg/m2\n6. No expectation that participant will move out of clinical center area during the next 8 months, unless move will be to an area served by another trial center\n7. Ability to speak \\& read English",
+        "exclusion_criteria": "exclusion criteria: \n\n1. The presence of a physical disability, significant medical or psychiatric disorder; substance abuse or use of a medication that in the judgment of the investigator will affect the use of CGM, wearing of the sensors, Holter or Telemetry monitor, complex medication regimen, or completion of any aspect of the protocol\n2. Cannot have had any cardiovascular event or interventional procedure, (MI, Stroke or revascularization) or been hospitalized for unstable angina within the last 3 months\n3. Inability or unwillingness to discontinue use of acetaminophen products during CGM use\n4. Inability or unwillingness to discontinue use of all other diabetes agents other than insulin \\& metformin during trial (including insulin pump participants who will need to convert to BBI)\n5. Intolerance of metformin dose \\<500 mg/day\n6. Inability or unwillingness to perform blood glucose testing a minimum of 3 times/per day\n7. Creatinine level \u22651.5 for males or 1.4 for females\n8. ALT level \u2265 3 times upper limit of normal\n9. Current symptomatic heart failure, history of NYHA Class III or IV congestive heart failure at any time, or ejection fraction (by any method) \\< 25%\n10. Inpatient psychiatric treatment in the past 6 months\n11. Currently participating in an intervention trial\n12. Chronic inflammatory diseases, such as collagen vascular diseases or inflammatory bowel disease\n13. History of pancreatitis\n14. BMI \\>45kg/m2\n15. For females, pregnant or intending to become pregnant during the next 7 months",
+        "keywords": [
+            "Pilot Study",
+            "Prospective Randomized Trial",
+            "Comparative Effectiveness",
+            "Glycemic Variability",
+            "insulin glargine",
+            "exenatide",
+            "basal insulin",
+            "bolus insulin"
+        ]
+    },
+    {
+        "trial_id": "NCT00853151",
+        "brief_title": "A Study to Test the Combination of Two Different Kinds of Medications for the Treatment of Diabetes",
+        "official_title": "A Proof of Concept Study to Evaluate the Coadministration of TT223 Given Daily and LY2428757 Given Once-Weekly for Four Weeks in Patients With Type 2 Diabetes Mellitus",
+        "lillyAlias": [
+            "I3H-MC-GAFA(b)"
+        ],
+        "brief_summary": "Test the safety, tolerability and improvement of blood sugar control with combination therapy in individuals with Type 2 Diabetes.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE1"
+        ],
+        "diseases_list": [
+            "Diabetes Mellitus, Type 2"
+        ],
+        "drugs_list": [
+            "LY2428757",
+            "TT223",
+            "Placebo for LY2428757",
+            "Placebo for TT223"
+        ],
+        "enrollment": 131,
+        "inclusion_criteria": "inclusion criteria: \n\n Written informed consent\n Have type 2 diabetes mellitus (T2DM) for at least 6 months\n Currently treated with diet and exercise alone or in combination with stable metformin\n Glycosylated hemoglobin (HbA1c) 7.0% to 10.0%\n Ages 18 to 70 years\n Women not of childbearing potential\n Body mass index (BMI) between 25 and 40 kilograms per meters squared (kg/m\\^2), and stable weight in the 3 months prior to screening.",
+        "exclusion_criteria": "exclusion criteria: \n\nUse of diabetes medicine other than metformin in past 3 months\nGastrointestinal disease or surgery or drugs that significantly impacts gastric filling, emptying or motility; ongoing cholelithiasis or cholecystitis.\nChronic, daily proton pump inhibitors (PPIs) and histamine (H2) antagonists.\nSevere hypoglycemia or hyperglycemia\nAdvanced microvascular diabetes complications\nMedications to promote weight loss.\nBreastfeeding women\nCardiac autonomic neuropathy\nIn the past 6 months have cardiac disease with functional status that is Class II-IV or a history of myocardial infarction, unstable angina, coronary artery bypass graft, percutaneous coronary intervention, transient ischemic attack, cerebrovascular accident (stroke), or decompensated congestive heart failure.\nHistory of a supraventricular or ventricular tachycardia, pacemaker implantation, or other cardiac arrhythmia: Poorly controlled hypertension, malignant hypertension, renal artery stenosis, and/or evidence of labile blood pressure including symptomatic postural hypotension.\nElectrocardiograms (ECG) abnormality or medication that impairs the ability to measure QT interval (QT), or correct the QT interval (QT) for rate.\nQT interval Bazett corrected (QTcB) \\>450 milliseconds (msec) or PR interval (PR) \\>220 milliseconds (msec)\nPersonal or family history of long QT interval (QT) syndrome, sudden death, or unexplained syncope\nClinical signs or symptoms of liver disease, acute or chronic hepatitis, or alanine transaminase levels \\> 2.5 times the upper limit of the reference range\nHypertriglyceridemia \\> 400 mg/deciliter (dL)\nInadequately treated hypothyroidism or hyperthyroidism\nPeptic ulcer disease and/or gastrointestinal bleeding/perforation.\nKnown pentagastrin hypersensitivity\nImpaired renal function\nTransplanted organ.\nActive, uncontrolled endocrine or autoimmune abnormality\n\\> 2 weeks systemic glucocorticoid therapy\nOngoing courses of non-steroidal anti-inflammatory drugs (NSAIDs), except for aspirin 81-325 milligrams (mg)\nDiagnosed malignancy or in remission for less than 5 years.\nPrior acute or chronic pancreatitis or elevated serum lipase or amylase\nCurrent central nervous system stimulant\nOther conditions that preclude the participant from participating, following or completing the protocol.\nChronic infection\nPersonnel affiliated with the study and their immediate families.\nWithin 30 days of the initial dose of study drug, have participated in an interventional medical, surgical, or pharmaceutical study in which a medical or surgical treatment was given.\nHave previously completed or withdrawn from this study after providing informed consent.\nAre currently enrolled in, or discontinued within the last 30 days from, a clinical trial involving an off-label use of an investigational drug or device (other than the study drug/device used in this study), or concurrently enrolled in any other type of medical research judged not to be scientifically or medically compatible with this study.",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT01159938",
+        "brief_title": "A Study of Postprandial Hyperglycemia in Participants With Type 2 Diabetes",
+        "official_title": "The Effect of Postprandial Hyperglycemia on the Arterial Stiffness in Patients With Type 2 Diabetes",
+        "lillyAlias": [
+            "F3Z-EW-IOPT"
+        ],
+        "brief_summary": "This Study is looking at whether high blood glucose levels after a meal affect arterial stiffness more or less than low blood glucose levels, and whether certain cardiovascular markers influence the outcome of this.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE4"
+        ],
+        "diseases_list": [
+            "Diabetes Mellitus, Type 2"
+        ],
+        "drugs_list": [
+            "Lispro"
+        ],
+        "enrollment": 72,
+        "inclusion_criteria": "inclusion criteria: \n\n Are diagnosed with T2DM (according to the American Diabetes Association classification \\[American Diabetes Association 2006\\]) and on insulin therapy for at least 6 months.\n Have not smoked in the last 12 hours prior to the study visit.\n Have albuminuria but normal kidney function or normal UAER \\[UAER \\< 20 micrograms per minute (mcg/min) or \\< 30 milligrams/24 hours (mg/24h), respectively\\]. Participants with or without albuminuria but normal kidney function will be matched for age and body mass index (BMI).\n Participants have been judged by the investigator to be reliable to keep appointments for clinic visits and all tests and examinations required by the protocol.\n Each participant must understand the nature of the study and must sign an informed consent document (ICD).\n\nHealthy participants are eligible to be included in the study only if they meet all of the following criteria:\n\n Healthy participants 45 to 70 years of age, matched for age and BMI, who have not smoked in the last 12 hours prior to the study.\n Normal glucose tolerance and normal UAER (UAER between \\< 20 \u03bcg/min in the overnight urine collection or \\< 30 mg/24h in the 24-h urine collection).\n Healthy participants have been judged by the investigator to be reliable to keep appointments for clinic visits and all tests and examinations required by the protocol.\n Each healthy participant must understand the nature of the study and must sign an ICD.",
+        "exclusion_criteria": "exclusion criteria: \n\nParticipants/healthy participants will be excluded from the study if they meet any of the following criteria:\n\nHave had a cardiovascular event \\[stroke, myocardial infarction (MI), coronary artery procedure (by-pass surgery or angioplasty), limb amputation due to ischemia, peripheral vascular disease\\] or coronary heart disease confirmed by exercise test or scintigraphy.\nHave arrhythmias.\nHave an acute infection.\nAre currently enrolled in, or discontinued within the last 30 days from, a clinical trial involving an investigational drug or device or off-label use of a drug or device (other than the study drug/device used in this study), or concurrently enrolled in any other type of medical research judged not to be scientifically or medically compatible with this study.\nAre unwilling or unable to comply with the use of a data collection device to directly record data from the participant.",
+        "keywords": []
     },
     {
         "trial_id": "NCT05563246",
@@ -58,33 +280,6 @@
             "Cardiovascular disease",
             "Cholesterol",
             "Hyperlipidemia"
-        ]
-    },
-    {
-        "trial_id": "NCT01202773",
-        "brief_title": "A Study in Participants With Rheumatoid Arthritis",
-        "official_title": "A Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of LY2127399 in Patients With Moderate to Severe Rheumatoid Arthritis (RA) Who Had an Inadequate Response to One or More TNF-\u03b1 Inhibitors (FLEX V)",
-        "lillyAlias": [
-            "H9B-MC-BCDV"
-        ],
-        "brief_summary": "The primary purpose of this study is to help answer if LY2127399 is safe and effective in the treatment of rheumatoid arthritis in participants with an inadequate response to one or more tumor necrosis factor-alpha (TNF-\u03b1) inhibitors.\n\nThis study is comprised of 2 periods:\n\nPeriod 1: 24-week blinded treatment\n\nPeriod 2: 48-week post-treatment follow-up",
-        "trial_status": "TERMINATED",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Rheumatoid Arthritis"
-        ],
-        "drugs_list": [
-            "LY2127399",
-            "Placebo Q4W",
-            "Placebo Q2W"
-        ],
-        "enrollment": 456,
-        "inclusion_criteria": "inclusion criteria: \n\n Diagnosis of RA of more than 6 months and less than 15 years\n At least 8 tender and swollen joints\n An abnormally high C-reactive protein (CRP) level or erythrocyte sedimentation rate (ESR)\n Positive for rheumatoid factor (RF) or anti-cyclic citrullinated peptide (CCP) antibody\n Previously treated with biologic TNF-\u03b1 inhibitor therapy (infliximab, certolizumab, golimumab, etanercept, adalimumab) and stopped treatment due to insufficient efficacy or intolerance\n Regular use of at least 1 conventional disease-modifying anti-rheumatic drug (DMARD), with a stable dose for at least 8 weeks prior to study start\n Woman must not be pregnant, breastfeeding, or become pregnant during the study",
-        "exclusion_criteria": "exclusion criteria: \n\nUse of unstable doses of non-steroidal anti-inflammatory drugs (NSAIDS) in the past 6 weeks\nSteroid injection or intravenous (IV) infusion in the last 6 weeks\nUse of more than 10 milligrams/day (mg/day) of oral steroids in the last 6 weeks\nHistory of a serious reaction to other biological DMARDs\nUse of an oral calcineurin inhibitor (for example, cyclosporin or tacrolimus) in the last 8 weeks\nSurgery on a joint or other major surgery less than 2 months ago, or plans to have joint surgery or major surgery during the study\nActive fibromyalgia, juvenile chronic arthritis, spondyloarthropathy, Crohn's disease, ulcerative colitis, psoriatic arthritis, or other systemic inflammatory condition except RA\nCervical cancer or squamous skin cancer within the past 3 years, or other cancer within the past 5 years\nReceived a live vaccine received within the past 12 weeks (for example, vaccines for measles, mumps, rubella, and chicken pox, and nasal-spray flu vaccines)\nHepatitis or human immunodeficiency virus (HIV)\nA serious bacterial infection (for example, pneumonia or cellulitis) within 3 months or a serious bone or joint infection within 6 months\nSymptoms of herpes zoster or herpes simplex within the last month\nActive or latent tuberculosis (TB)\nCurrent symptoms of a serious disorder or illness\nUse of an investigational drug within the last month",
-        "keywords": [
-            "Rheumatoid Arthritis"
         ]
     }
 ]

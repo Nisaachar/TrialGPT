@@ -1,0 +1,3037 @@
+{
+    "NCT05668962": {
+        "inclusion": {
+            "0": [
+                "The patient note does not mention any thyroid cancer, RET gene fusion, or any related diagnostic tests. The patient is also under 18 years old and does not have any mention of measurable disease. Therefore, the patient does not meet this criterion.",
+                [],
+                "not included"
+            ],
+            "1": [
+                "The patient is 2 years old, which is below the age range specified in this criterion. Additionally, there is no mention of thyroid cancer or any tumor deposits in the patient note. Therefore, the patient does not meet this criterion.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient note does not mention any thyroid cancer, RAI-refractory disease, or any related diagnostic tests. Therefore, the patient does not meet this criterion.",
+                [],
+                "not included"
+            ],
+            "3": [
+                "The patient is 2 years old, which is below the age range specified in this criterion. Additionally, there is no mention of thyroid cancer or any related diagnostic tests. Therefore, the patient does not meet this criterion.",
+                [],
+                "not included"
+            ],
+            "4": [
+                "The patient's white blood cell count is elevated, but there is no information about the other bloodwork parameters mentioned in this criterion. Therefore, there is not enough information to determine if the patient meets this criterion.",
+                [
+                    3
+                ],
+                "not enough information"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any chemotherapy, MKI or radiotherapy within 4 weeks. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any I-131 NaI treatment within 12 months. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any adverse events due to prior anti-cancer therapy. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any other investigational agents. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention any symptomatic CNS metastasis or lesions threatening for spinal cord compression. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note mentions moderate dilation of the coronary arteries with possible coronary artery aneurysm (sentence 4), which could be interpreted as a clinically significant active cardiovascular disease. Therefore, the patient meets this exclusion criterion.",
+                [
+                    4
+                ],
+                "excluded"
+            ],
+            "6": [
+                "The patient note does not mention any uncontrolled hypertension at screening. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not mention any uncontrolled hypertension at screening. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note mentions high fever and irritability (sentence 0), and enlarged liver (sentence 2), which could be interpreted as an active uncontrolled systemic bacterial, viral, or fungal infection or serious ongoing intercurrent illness. Therefore, the patient meets this exclusion criterion.",
+                [
+                    0,
+                    2
+                ],
+                "excluded"
+            ],
+            "9": [
+                "The patient note does not mention any uncontrolled symptomatic hyperthyroidism or hypothyroidism. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not mention any symptomatic hypercalcemia or hypocalcemia. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not mention any active hemorrhage or at significant risk for hemorrhage. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention any concomitant medication that is known to cause QTc prolongation. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note does not mention any clinically significant active malabsorption syndrome or other condition likely to affect gastrointestinal absorption of the drug. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "14": [
+                "The patient note does not mention any other uncontrolled serous intercurrent illness that would interfere with the ability to proceed with study therapy. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT03101254": {
+        "inclusion": {
+            "0": [
+                "The patient does not have a confirmed diagnosis of melanoma with a BRAF V600E or BRAF V600K mutation, which is a requirement for this trial. The patient's note does not mention any melanoma diagnosis or BRAF mutation.",
+                [],
+                "not included"
+            ],
+            "1": [
+                "The patient's note does not provide information about any prior BRAF or MEK inhibitor therapy. However, the patient is a 2-year-old boy, and it is unlikely that he would have received such therapy.",
+                [],
+                "included"
+            ],
+            "2": [
+                "The patient's note does not provide information about any measurable disease. However, the patient is diagnosed with a different condition, not melanoma.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient's note does not provide information about any measurable disease. However, the patient is diagnosed with a different condition, not melanoma.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The patient is a 2-year-old boy, which does not meet the age criterion of being 18 years or older.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "5": [
+                "The patient's note does not provide information about the patient's ECOG performance status.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "The patient's note provides some information about the patient's organ and marrow function, but not all required parameters are mentioned. The patient has an elevated white blood cell count and mild anemia, but other parameters such as neutrophil count, platelets, hemoglobin, bilirubin, AST/ALT, serum creatinine, PT-INR, and aPTT are not mentioned.",
+                [
+                    3
+                ],
+                "not enough information"
+            ],
+            "7": [
+                "The patient's note does not provide information about the patient's left ventricular ejection fraction (LVEF).",
+                [],
+                "not enough information"
+            ],
+            "8": [
+                "The patient's note does not provide information about the patient's QTc on the screening EKG.",
+                [],
+                "not enough information"
+            ],
+            "9": [
+                "The patient is a 2-year-old boy, and it is assumed that he is not of child-bearing potential. Therefore, this criterion is not applicable.",
+                [
+                    0
+                ],
+                "not applicable"
+            ],
+            "10": [
+                "The patient is willing to provide informed consent and comply with the trial protocol.",
+                [
+                    5
+                ],
+                "included"
+            ],
+            "11": [
+                "The patient's note does not provide information about the availability of archival tumor tissue. However, the patient is diagnosed with a different condition, not melanoma.",
+                [],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any chemotherapy, radiotherapy, biologic therapy, major surgery, or another investigational agent within 3 weeks prior to entering the study. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not provide information about previous cancer treatment or any related toxicity. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any prior BRAF or MEK inhibitor therapy. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any brain metastases. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not provide information about any allergic reactions to compounds of similar chemical or biologic composition to LY3022855, vemurafenib, or cobimetinib. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note mentions high fever, irritability, and possible coronary artery aneurysm, which could be considered as uncontrolled intercurrent illness. However, it does not specify whether these conditions would limit compliance with study requirements.",
+                [
+                    0,
+                    4
+                ],
+                "not excluded"
+            ],
+            "6": [
+                "The patient is a 2-year-old boy, so this criterion about pregnancy and breastfeeding is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "7": [
+                "The patient note does not mention any HIV history. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note does not provide information about a personal or family history of long QT syndrome. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note does not mention any history of a second primary malignancy. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not provide information about any impairment of GI function or GI disease. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not provide information about the patient's ability to swallow or retain oral medication. However, considering the patient's age, it is possible that he may have difficulty swallowing or retaining oral medication.",
+                [],
+                "not enough information"
+            ],
+            "12": [
+                "The patient note does not provide information about the co-administration of strong or moderate CYP3A inhibitors. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note does not provide information about the requirement for treatment with medications that are strong or moderate CYP3A inducers. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "14": [
+                "The patient note does not provide information about any evidence of retinal pathology on ophthalmologic examination. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT00149591": {
+        "inclusion": {
+            "0": [
+                "The patient note does not provide any information about the patient's pain onset, EKG results, or enzyme levels. However, the patient is a 2-year-old boy with symptoms of a different condition, which makes this criterion not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note does not provide any information about the patient's pain onset, EKG results, or enzyme levels. However, the patient is a 2-year-old boy with symptoms of a different condition, which makes this criterion not applicable.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient is a 2-year-old boy, which does not meet the age criterion of 18 to 80 years.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "3": [
+                "The patient note does not provide any information about viability testing performed prior to coronary angiography. However, the patient is a 2-year-old boy with symptoms of a different condition, which makes this criterion not applicable.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The patient note does not provide any information about an invasive procedure to be performed before viability testing. However, the patient is a 2-year-old boy with symptoms of a different condition, which makes this criterion not applicable.",
+                [],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note mentions that the patient will provide informed consent and will comply with the trial protocol without any practical issues. Therefore, the patient does not meet this exclusion criterion.",
+                [
+                    5
+                ],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not provide any information about the patient's reliability for follow-up. However, it is mentioned that the patient will comply with the trial protocol without any practical issues, which may imply reliable follow-up. But without direct evidence, it's hard to make a definitive judgement.",
+                [
+                    5
+                ],
+                "not enough information"
+            ],
+            "2": [
+                "The patient note does not provide any information about the technical possibility of viability testing for this patient. However, considering the patient's age and the absence of any mention of technical difficulties in the note, it is reasonable to assume that viability testing is technically possible.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not provide any information about heart failure or arrhythmia, which are contra-indications for dobutamine echocardiography. Given the absence of such information, it is reasonable to assume that the patient does not have these conditions.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not provide any information about severe diabetic nephropathy or known contrast-allergy, which are contra-indications for coronary angiography. Given the absence of such information, it is reasonable to assume that the patient does not have these conditions.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not provide any information about known hypersensitivity for abciximab. Given the absence of such information, it is reasonable to assume that the patient does not have this condition.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note mentions high fever, irritability, and other symptoms, but does not mention any serious, life-threatening non-cardiac illness. Therefore, the patient does not meet this exclusion criterion.",
+                [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT04874636": {
+        "inclusion": {
+            "0": [
+                "The patient note does not mention any information about the patient's pain level or use of a visual analog scale (VAS) for pain. However, the patient is a 2-year-old boy, and it's unlikely that a VAS pain value would be used in this age group.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note does not provide any information about the patient experiencing daily pain for at least 12 weeks. The patient is a 2-year-old boy with symptoms of a different condition, not chronic pain.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient note does not provide any information about the patient's score on the pain catastrophizing scale. However, the patient is a 2-year-old boy, and it's unlikely that this scale would be used in this age group.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient note does not provide any information about the patient's body mass index (BMI). However, the patient is a 2-year-old boy, and BMI is not typically a consideration in this age group for clinical trials.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The patient note does not provide any information about the patient's use of nonpharmacologic pain-relieving therapies. However, the patient is a 2-year-old boy, and it's unlikely that he would be using these types of therapies.",
+                [],
+                "not applicable"
+            ],
+            "5": [
+                "The patient note does not provide any information about the patient's use of medications for chronic pain conditions. However, the patient is a 2-year-old boy, and it's unlikely that he would be taking these types of medications.",
+                [],
+                "not applicable"
+            ],
+            "6": [
+                "The patient note does not provide any information about the patient having a history of low back pain. The patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain.",
+                [],
+                "not applicable"
+            ],
+            "7": [
+                "The patient note does not provide any information about the patient's low back pain being classified by the Quebec Task Force Category. The patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain.",
+                [],
+                "not applicable"
+            ],
+            "8": [
+                "The patient note does not provide any information about the patient's glycemic control or HbA1c levels. However, the patient is a 2-year-old boy, and it's unlikely that his glycemic control would be a consideration in this clinical trial.",
+                [],
+                "not applicable"
+            ],
+            "9": [
+                "The patient is a 2-year-old boy, so he is a male. However, the patient does not have chronic low back pain, which is the target disease of this clinical trial.",
+                [
+                    0
+                ],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any heart-related issues, specifically second or third-degree atrioventricular (AV) heart block, AV dissociation, or history of ventricular tachycardia. However, the patient does have a coronary artery issue, but it's not directly related to the exclusion criterion.",
+                [
+                    4
+                ],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any procedures within the past 6 months intended to produce permanent sensory loss in the target area of interest.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any planned surgeries during the study for any reason.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient has an acute, serious, and unstable medical condition, which is Kawasaki disease, indicated by the symptoms and the echocardiogram result.",
+                [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "excluded"
+            ],
+            "4": [
+                "The patient note does not mention any other causative or confounding sources of pain in the primary condition under study.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any history of cancer within 2 years of baseline.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any substance use disorder.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not mention any congenital QT prolongation or QT interval corrected for heart rate using Fridericia's formula (QTcF) interval measurement.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient has clinically important abnormalities at screening, as determined by the symptoms and the echocardiogram result.",
+                [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "excluded"
+            ],
+            "9": [
+                "The patient note does not mention any positive human immunodeficiency virus (HIV) test result at screening.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not mention any suicidal tendencies.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not mention any intolerance to acetaminophen or paracetamol or any of its excipients.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention any history of alcohol, illicit drug, analgesic or narcotic use disorder within 2 years prior to screening.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note does not mention any use of a therapeutic injection (botulinum toxin or corticosteroids) in the 3 months prior to starting the washout period.",
+                [],
+                "not excluded"
+            ],
+            "14": [
+                "The patient note does not mention any history of or current osteoporotic compression fracture.",
+                [],
+                "not excluded"
+            ],
+            "15": [
+                "The patient note does not mention any recent major trauma (within 6 months of baseline).",
+                [],
+                "not excluded"
+            ],
+            "16": [
+                "The patient note does not mention any surgical intervention for the treatment of low back pain in the past 6 months.",
+                [],
+                "not excluded"
+            ],
+            "17": [
+                "The patient note does not mention any history within 2 years prior to screening or current evidence of syncope, presyncope, uncontrolled vertigo, or postural dizziness.",
+                [],
+                "not excluded"
+            ],
+            "18": [
+                "The patient note does not mention any clinically significant active thyroid disease, including Hashimoto's thyroiditis.",
+                [],
+                "not excluded"
+            ],
+            "19": [
+                "The patient note does not mention any metformin therapy.",
+                [],
+                "not excluded"
+            ],
+            "20": [
+                "The patient is a 2-year-old boy, so he is not pregnant or breastfeeding.",
+                [
+                    0
+                ],
+                "not applicable"
+            ]
+        }
+    },
+    "NCT05630196": {
+        "inclusion": {
+            "0": [
+                "The patient note does not mention any information about the patient's pain level or use of a visual analog scale (VAS) for pain. Given the patient's age and symptoms, it is unlikely that such a measure would be used or relevant.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note does not mention any history of daily pain for at least 12 weeks. The patient's current symptoms are related to a high fever and other acute symptoms, not chronic pain.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient note does not provide any information about the patient's body mass index (BMI). However, given the patient's age, it is unlikely that BMI would be a relevant measure.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient note does not mention any nonpharmacologic pain-relieving therapies. The patient's current symptoms are related to a high fever and other acute symptoms, not chronic pain.",
+                [],
+                "not included"
+            ],
+            "4": [
+                "The patient note does not mention any medications taken for chronic pain conditions. The patient's current symptoms are related to a high fever and other acute symptoms, not chronic pain.",
+                [],
+                "not included"
+            ],
+            "5": [
+                "The patient note does not mention any history of low back pain. The patient's current symptoms are related to a high fever and other acute symptoms, not chronic pain.",
+                [],
+                "not included"
+            ],
+            "6": [
+                "The patient note does not mention any history of low back pain as classified by the Quebec Task Force Category 1 through 3. The patient's current symptoms are related to a high fever and other acute symptoms, not chronic pain.",
+                [],
+                "not included"
+            ],
+            "7": [
+                "The patient note does not provide any information about the patient's glycemic control or HbA1c levels. However, given the patient's age and symptoms, it is unlikely that such a measure would be relevant.",
+                [],
+                "not applicable"
+            ],
+            "8": [
+                "The patient is a 2-year-old boy, so the criterion about men or women able to abide by reproductive and contraceptive requirements is not applicable.",
+                [
+                    0
+                ],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any seizure disorder, history of seizure, or conditions that would increase the risk of seizure. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any procedure within the past 6 months intended to produce permanent sensory loss in the target area of interest. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any planned surgery during the study for any reason. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient has been diagnosed with several acute conditions, including high fever, irritability, conjunctivitis, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, cervical lymphadenopathy, tenderness and enlarged liver, and possible coronary artery aneurysm. These conditions may preclude study participation.",
+                [
+                    0,
+                    1,
+                    2,
+                    4
+                ],
+                "excluded"
+            ],
+            "4": [
+                "The patient note does not mention any history of cancer within 2 years of baseline. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any substance use disorder. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any positive human immunodeficiency virus (HIV) test result at screening. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not mention any suicidal tendencies. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note does not mention any intolerance to acetaminophen or paracetamol or any of its excipients. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note does not mention any history of alcohol, illicit drug, analgesic or narcotic use disorder within 2 years prior to screening. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not mention any use of a therapeutic injection (botulinum toxin or corticosteroids) in the 3 months prior to starting the washout period. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not mention any history of or current compression fracture. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention any recent major trauma (within 6 months of baseline). Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient is a 2-year-old boy, so he cannot be pregnant or breastfeeding. Therefore, this criterion is not applicable.",
+                [
+                    0
+                ],
+                "not applicable"
+            ],
+            "14": [
+                "The patient note does not mention any known history of gastric or duodenal ulcers. Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ],
+            "15": [
+                "The patient note does not mention any known history of inflammatory bowel disease (including ulcerative colitis or Crohn's disease). Therefore, we can assume that the patient does not meet this criterion.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT04386057": {
+        "inclusion": {
+            "0": [
+                "The patient does not have a confirmed diagnosis of adenocarcinoma or poorly differentiated carcinoma of the pancreas, which is a prerequisite for this criterion. The patient's note does not provide any evidence of pancreatic cancer.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient is a 2-year-old boy, which is below the minimum age requirement of 18 years for this trial.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "2": [
+                "There is no information in the patient note about the patient's ECOG performance status.",
+                [],
+                "not enough information"
+            ],
+            "3": [
+                "The patient note does not provide any evidence of measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The patient note does not provide any evidence of the patient having received any prior lines of systemic therapy for metastatic pancreatic cancer.",
+                [],
+                "not applicable"
+            ],
+            "5": [
+                "The patient's laboratory tests show elevated alanine aminotransferase, which may indicate liver damage, and low albumin, which may indicate poor organ function. However, the specific values required for this criterion are not provided in the patient note.",
+                [
+                    3
+                ],
+                "not enough information"
+            ],
+            "6": [
+                "The patient is a 2-year-old boy, so the requirement for contraception is not applicable.",
+                [
+                    0
+                ],
+                "not applicable"
+            ],
+            "7": [
+                "The patient note states that the patient will provide informed consent and comply with the trial protocol.",
+                [
+                    5
+                ],
+                "included"
+            ],
+            "8": [
+                "There is no information in the patient note about the patient's ability to swallow and retain oral medication.",
+                [],
+                "not enough information"
+            ],
+            "9": [
+                "There is no information in the patient note about the patient's QTcB on screening EKG.",
+                [],
+                "not enough information"
+            ],
+            "10": [
+                "There is no information in the patient note about the patient's willingness or ability to undergo a pre-treatment biopsy procedure.",
+                [],
+                "not enough information"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of pancreatic cancer or any type of carcinoma. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "There is no mention in the patient note of any prior treatment with a MAPK pathway inhibitor, including LY3214996.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any recent systemic chemotherapy, other investigational therapy, or immunotherapy.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "There is no mention in the patient note of the patient having received oral tyrosine kinase inhibitors.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention any recent radiation therapy.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any recent major surgery.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any known brain metastases.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "There is no mention in the patient note of any allergic reactions to compounds similar to LY3214996 or HCQ, or of a history of a different malignancy.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note mentions high fever, irritability, and possible coronary artery aneurysm, which could potentially limit compliance with study requirements. However, it is not clear if these conditions are uncontrolled intercurrent illnesses.",
+                [
+                    0,
+                    4
+                ],
+                "not enough information"
+            ],
+            "9": [
+                "The patient is a 2-year-old boy, so this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "10": [
+                "The patient note does not mention any seropositivity for HIV or hepatitis B or C.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not mention any history or findings of retinal diseases causing visual impairment.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention any personal or family history of long QT syndrome.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note does not mention any known G6PD deficiency.",
+                [],
+                "not excluded"
+            ],
+            "14": [
+                "The patient note does not mention any requirement for concomitant treatment with strong CYP3A4 inhibitors or inducers.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT04529096": {
+        "inclusion": {
+            "0": [
+                "The patient note does not mention any visual analog scale (VAS) pain value for the patient. However, the patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note does not mention any history of daily pain for at least 12 weeks. However, the patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient note does not mention any value on the pain catastrophizing scale. However, the patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient note does not mention the body mass index of the patient. However, the patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The patient note does not mention any ongoing nonpharmacologic pain-relieving therapies. However, the patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "5": [
+                "The patient note does not mention any medications taken for chronic pain conditions. However, the patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "6": [
+                "The patient note does not mention any history of low back pain for at least 3 months. However, the patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "7": [
+                "The patient note does not mention any history of low back pain as classified by the Quebec Task Force Category 1 through 3. However, the patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "8": [
+                "The patient note does not mention any glycemic control or glycated hemoglobin (HbA1c) level. However, the patient is a 2-year-old boy with symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "9": [
+                "The patient is a 2-year-old boy, so he is a male. However, the patient has symptoms of a different condition, not chronic low back pain. Therefore, this criterion is not applicable.",
+                [
+                    0
+                ],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any heart-related conditions, such as atrioventricular (AV) heart block, AV dissociation, or history of ventricular tachycardia. Given the severity of these conditions, it is unlikely that they would be omitted if present.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any recent procedures intended to produce permanent sensory loss in the target area of interest. Given the specificity of this criterion, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any planned surgeries during the study period. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient has been diagnosed with several acute conditions, including high fever, irritability, and possible coronary artery aneurysm. These conditions may preclude study participation.",
+                [
+                    0,
+                    1,
+                    2,
+                    4
+                ],
+                "excluded"
+            ],
+            "4": [
+                "The patient note does not provide enough information to determine whether there are other causative or confounding sources of pain in the primary condition under study.",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "The patient note does not mention any history of cancer within the past 2 years. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any substance use disorder. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not provide any information about the patient's QT prolongation or QT interval corrected for heart rate using Fridericia's formula (QTcF) interval measurement. Therefore, there is not enough information to determine eligibility based on this criterion.",
+                [],
+                "not enough information"
+            ],
+            "8": [
+                "The patient has several clinically important abnormalities, including high fever, irritability, possible coronary artery aneurysm, and enlarged liver. These could be detrimental to the participant or could compromise the study.",
+                [
+                    0,
+                    1,
+                    2,
+                    4
+                ],
+                "excluded"
+            ],
+            "9": [
+                "The patient note does not mention any positive human immunodeficiency virus (HIV) test result at screening. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not provide any information about the patient's mental health or suicidal tendencies. Therefore, there is not enough information to determine eligibility based on this criterion.",
+                [],
+                "not enough information"
+            ],
+            "11": [
+                "The patient note does not mention any intolerance to acetaminophen or paracetamol or any of its excipients. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention any history of alcohol, illicit drug, analgesic or narcotic use disorder within 2 years prior to screening. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note does not mention any use of therapeutic injection (botulinum toxin or corticosteroids) in the 3 months prior to starting the washout period. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "14": [
+                "The patient note does not mention any history of or current compression fracture. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "15": [
+                "The patient note does not mention any recent major trauma (within 6 months of baseline). Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "16": [
+                "The patient note does not mention any history of low back pain as classified by the Quebec Task Force Categories 4 through 11. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "17": [
+                "The patient note does not mention any use of spinal cord stimulator or dorsal root ganglion stimulator. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ],
+            "18": [
+                "The patient note does not mention any diagnosis of fibromyalgia. Given the importance of this information, it is unlikely to be omitted if it were true.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT01760005": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which does not meet the age criterion of 18-80 years.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "1": [
+                "The patient note does not mention any Alzheimer's disease-causing mutation or dominantly inherited Alzheimer's disease (DIAD) in the family.",
+                [],
+                "not enough information"
+            ],
+            "2": [
+                "The patient is 2 years old, which is far from the -15 to +10 years of the predicted or actual age of cognitive symptom onset.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "3": [
+                "The patient note does not mention any cognitive impairment or dementia, which are required for this criterion.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "The patient note does not mention the patient's language fluency or intellectual functioning.",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "The patient note does not mention if the patient can undergo MRI, LP, PET, or complete all study related testing and evaluations.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "This criterion is not applicable as the patient is a 2-year-old boy.",
+                [
+                    0
+                ],
+                "not applicable"
+            ],
+            "7": [
+                "The patient note does not mention the patient's visual and auditory abilities.",
+                [],
+                "not enough information"
+            ],
+            "8": [
+                "The patient note does not mention if the patient has a Study Partner who can provide accurate information about the patient's cognitive and functional abilities.",
+                [],
+                "not enough information"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of any brain MRI scans in the note. If there were significant abnormalities in a brain MRI, it would likely be mentioned in the patient's note.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient is a 2-year-old boy with no mention of alcohol or drug dependence. It's highly unlikely for a child of this age to have such issues.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient is a 2-year-old boy with no mention of any pacemakers, aneurysm clips, artificial heart valves, ear implants, or foreign metal objects in the eyes, skin or body. If such objects were present, they would likely be mentioned in the patient's note.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient has an enlarged liver and possible coronary artery aneurysm, which could be considered as significant cardiovascular and hepatic disorders.",
+                [
+                    2,
+                    4
+                ],
+                "excluded"
+            ],
+            "4": [
+                "The patient is a 2-year-old boy with no mention of any anticoagulant use. It's highly unlikely for a child of this age to be on such medication.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient is a 2-year-old boy with no mention of exposure to a monoclonal antibody targeting beta amyloid peptide. If such exposure had occurred, it would likely be mentioned in the patient's note.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient is a 2-year-old boy with no mention of any history of cancer. It's highly unlikely for a child of this age to have had cancer.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient is a 2-year-old boy, so pregnancy is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "8": [
+                "The patient's note mentions that he will comply with the trial protocol without any practical issues, which suggests that he is able to complete all study related testing.",
+                [
+                    5
+                ],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT04623242": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which does not meet the age criterion of 18-80 years.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "1": [
+                "The patient note does not mention any Alzheimer's disease-causing mutation or dominantly inherited Alzheimer's disease (DIAD) in the family.",
+                [],
+                "not enough information"
+            ],
+            "2": [
+                "The patient is a 2-year-old boy, which is not within -15 to + 10 years of the predicted or actual age of cognitive symptom onset for Alzheimer's disease.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "3": [
+                "The patient note does not mention any cognitive impairment or dementia, which are required for this criterion.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "The patient is a 2-year-old boy, which makes it unlikely for him to have fluency in DIAN-TU trial approved language and evidence of adequate premorbid intellectual functioning.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "5": [
+                "The patient note does not mention if the patient is able to undergo MRI, LP, PET, and complete all study related testing and evaluations.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "This criterion is not applicable as the patient is a 2-year-old boy and not a woman of childbearing potential.",
+                [
+                    0
+                ],
+                "not applicable"
+            ],
+            "7": [
+                "The patient note does not provide information about the patient's visual and auditory abilities.",
+                [],
+                "not enough information"
+            ],
+            "8": [
+                "The patient note mentions that the patient will comply with the trial protocol, which suggests that he might have a Study Partner who can provide accurate information. However, this is not explicitly stated.",
+                [
+                    5
+                ],
+                "not enough information"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of any brain MRI scans in the note. The criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient is a 2-year-old boy with no mention of alcohol or drug dependence. The criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient is a 2-year-old boy with no mention of any pacemakers, aneurysm clips, artificial heart valves, ear implants, or foreign metal objects. The criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient has an enlarged liver and moderate dilation of the coronary arteries, which could be indicative of cardiovascular and hepatic disorders.",
+                [
+                    2,
+                    4
+                ],
+                "excluded"
+            ],
+            "4": [
+                "The patient is a 2-year-old boy with no mention of any anticoagulant use. The criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "5": [
+                "The patient is a 2-year-old boy with no mention of exposure to a monoclonal antibody targeting beta amyloid peptide. The criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "6": [
+                "The patient is a 2-year-old boy with no mention of any history of cancer. The criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "7": [
+                "The patient is a 2-year-old boy, so pregnancy is not applicable. The criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "8": [
+                "The patient is willing to comply with the trial protocol, indicating that he is able to complete all study-related testing.",
+                [
+                    5
+                ],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT04627064": {
+        "inclusion": {
+            "0": [
+                "The patient note does not mention any diagnosis of renal cell carcinoma, let alone clear cell renal cell carcinoma. The patient is a 2-year-old boy with symptoms of a different condition.",
+                [],
+                "not included"
+            ],
+            "1": [
+                "The patient note does not mention any prior anti-VEGFR systemic therapy or immune checkpoint inhibitor for metastatic RCC. The patient is a 2-year-old boy with symptoms of a different condition.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient note does not mention any measurable disease as per RECIST 1.1. The patient is a 2-year-old boy with symptoms of a different condition.",
+                [],
+                "not included"
+            ],
+            "3": [
+                "The patient is a 2-year-old boy, which is below the age criterion of 18 years.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "4": [
+                "The patient note does not mention any ECOG performance status or Karnofsky score. However, the patient is a 2-year-old boy with symptoms of a different condition.",
+                [],
+                "not included"
+            ],
+            "5": [
+                "The patient note does not mention any fresh tumor biopsy. The patient is a 2-year-old boy with symptoms of a different condition.",
+                [],
+                "not included"
+            ],
+            "6": [
+                "The patient note mentions some laboratory results, but not all required for this criterion. The patient's white blood cell count is elevated, but there is no information about absolute neutrophil count, platelets, or hemoglobin. The patient's albumin is low, but there is no information about total bilirubin, AST/ALT, or creatinine clearance. The patient has leukocytes in urine, but there is no information about urine protein/creatinine ratio.",
+                [
+                    3
+                ],
+                "not enough information"
+            ],
+            "7": [
+                "The patient is a 2-year-old boy, which makes this criterion about contraception not applicable.",
+                [],
+                "not applicable"
+            ],
+            "8": [
+                "The patient note does not mention any difficulty in swallowing oral medications. However, the patient is a 2-year-old boy, and it's common for children of this age to have difficulty swallowing pills.",
+                [],
+                "not enough information"
+            ],
+            "9": [
+                "The patient note mentions that the patient will provide informed consent and comply with the trial protocol.",
+                [
+                    5
+                ],
+                "included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of clear cell renal cell carcinoma, thus the entire trial is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note does not mention any other investigational agents being received by the patient.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any prior CDK4/6 inhibitors being received by the patient.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any prior HIF-2\u03b1 inhibitor being received by the patient.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention any small molecule therapeutics being received by the patient.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any biologic therapy being received by the patient.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any radiotherapy being received by the patient.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not mention any O2 saturation levels.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note does not mention any deep vein thrombosis or pulmonary embolism.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note does not mention any serious and/or uncontrolled preexisting medical conditions.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not mention any active systemic bacterial, fungal, or detectable viral infection.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not mention any Hepatitis B or Hepatitis C infection.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention any prior allogenic stem cell or solid organ transplant.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note does not mention any impairment of gastrointestinal function or gastrointestinal disease.",
+                [],
+                "not excluded"
+            ],
+            "14": [
+                "The patient note does not mention any major surgery being undergone by the patient.",
+                [],
+                "not excluded"
+            ],
+            "15": [
+                "The patient note does not mention any therapeutic doses of warfarin sodium or any other coumadin-derivative anticoagulant being taken by the patient.",
+                [],
+                "not excluded"
+            ],
+            "16": [
+                "The patient note does not mention any other malignancy diagnosed within 2 years of first study treatment.",
+                [],
+                "not excluded"
+            ],
+            "17": [
+                "The patient note does not mention any personal history of syncope of cardiovascular etiology, ventricular arrhythmia of pathological origin, or sudden cardiac arrest.",
+                [],
+                "not excluded"
+            ],
+            "18": [
+                "The patient note does not mention any major cardiovascular event within 6 months prior to study drug administration.",
+                [],
+                "not excluded"
+            ],
+            "19": [
+                "The patient note does not mention any history of symptomatic respiratory condition.",
+                [],
+                "not excluded"
+            ],
+            "20": [
+                "The patient note does not mention any known hypersensitivity to the study compounds or to its excipients.",
+                [],
+                "not excluded"
+            ],
+            "21": [
+                "The patient is willing to comply with the trial protocol as mentioned in sentence 5.",
+                [
+                    5
+                ],
+                "not excluded"
+            ],
+            "22": [
+                "The patient is a 2-year-old boy, thus not a female that could be pregnant or lactating.",
+                [],
+                "not applicable"
+            ],
+            "23": [
+                "The patient note does not mention any herbal medications or certain fruits being taken by the patient.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT00440778": {
+        "inclusion": {
+            "0": [
+                "The patient note does not mention any symptoms of myocardial infarction or ischemia, nor does it mention the use of nitrates. The patient is also only 2 years old, which is below the age requirement of 18.",
+                [],
+                "not included"
+            ],
+            "1": [
+                "The patient note does not mention any ECG results or a new left bundle branch block. The patient is also only 2 years old, which is below the age requirement of 18.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient is only 2 years old, which is below the age requirement of 18. The patient note does not mention any agreement with an interventional cardiologist for randomization.",
+                [],
+                "not included"
+            ],
+            "3": [
+                "The patient note mentions that the patient will provide informed consent and comply with the trial protocol. However, the patient is only 2 years old, which is below the age requirement of 18.",
+                [
+                    5
+                ],
+                "not included"
+            ],
+            "4": [
+                "The patient note does not mention any diagnostic or therapeutic intervention performed through trans-radial/ulnar artery approach. The patient is also only 2 years old, which is below the age requirement of 18.",
+                [],
+                "not included"
+            ],
+            "5": [
+                "The patient note mentions dilation of the coronary arteries and a possible coronary artery aneurysm, but it does not specify if this is the culprit lesion or if it is suitable for primary PCI with stent implantation. The patient is also only 2 years old, which is below the age requirement of 18.",
+                [
+                    4
+                ],
+                "not included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any thrombolytic therapy within the last 4 weeks or any referral for rescue PCI. Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any concurrent participation in other investigational studies. Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any femoral sheath (artery). Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any intolerance or allergy to ASA, clopidogrel or ticlopidine. Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention any significant blood dyscrasia, diathesis or INR > 2.0. Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note mentions anemia and leukocytes in urine, but does not provide information about thrombocytopenia, active or recent bleeding, or hemoglobin level. Therefore, there is not enough information to determine if this criterion is met.",
+                [
+                    3
+                ],
+                "not enough information"
+            ],
+            "6": [
+                "The patient note does not mention any use of glycoprotein IIb-IIIa inhibitors in the previous 30 days. Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not mention any uncontrolled high blood pressure. Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note does not mention any life expectancy less than 6 months owing to non-cardiac cause. Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note does not mention any infarction caused by in-stent thrombosis or restenosis. Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not mention any cardiogenic shock evident before randomization. Therefore, we can assume that this criterion is not met.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT01484431": {
+        "inclusion": {
+            "0": [
+                "The patient note does not mention any diagnosis of Pulmonary Arterial Hypertension (PAH), which is the primary requirement for this clinical trial. The patient's symptoms and test results suggest a different condition.",
+                [],
+                "not included"
+            ],
+            "1": [
+                "The patient note does not provide any information about a history of PAH diagnosis established by a resting mean pulmonary artery pressure \u226525 mm Hg, pulmonary artery wedge pressure \u226415 mm Hg, and a pulmonary vascular resistance (PVR) \u22653 Wood units via right heart catheterization. The patient's echocardiogram shows dilation of the coronary arteries, not pulmonary arteries.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient note does not provide any information about the patient's World Health Organization (WHO) functional class value. This information is typically not included in a patient note unless it is relevant to the patient's current condition or treatment.",
+                [],
+                "not enough information"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any pulmonary hypertension related to conditions other than specified above. The patient does have an issue with his coronary arteries, but this is not the same as pulmonary hypertension. Therefore, this criterion does not apply.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note mentions an echocardiogram showing moderate dilation of the coronary arteries with possible coronary artery aneurysm. However, this does not directly indicate any of the conditions listed in the exclusion criterion, such as aortic or mitral valve disease, pericardial constriction, restrictive or congestive cardiomyopathy, left ventricular ejection fraction <40%, left ventricular shortening fraction <22%, life-threatening cardiac arrhythmias, or symptomatic coronary artery disease within 5 years of study entry. Therefore, the patient does not meet this exclusion criterion.",
+                [
+                    4
+                ],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any history of atrial septostomy or Potts Shunt within 3 months before administration of study drug. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any unrepaired congenital heart disease. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT01042158": {
+        "inclusion": {
+            "0": [
+                "The patient note does not provide any information about a right heart catheterization done at baseline with a mean pulmonary artery pressure (mPAP) \u2265 25mmHg, pulmonary artery wedge pressure (PAWP) \u2264 15mmHg, and pulmonary vascular resistance (PVR) \u22653 Woods units. This is a specific medical procedure and its results, which would likely be mentioned if it had been performed.",
+                [],
+                "not enough information"
+            ],
+            "1": [
+                "The patient note does not provide any information about the patient having scleroderma defined as systemic sclerosis with diffuse or limited scleroderma meeting the American College of Rheumatology (ACR) criteria. The patient's symptoms and lab results do not align with the criteria for scleroderma.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient is a 2-year-old boy, which does not meet the criterion of being older than 18 years of age with a diagnosis of PAH-SSc.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "3": [
+                "The patient note does not provide any information about the patient's NYHA functional class.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "The patient note does not provide any information about the patient's 6 minute walk distance.",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "The patient is a 2-year-old boy, which does not meet the criterion of needing a negative urine pregnancy test for women of childbearing age.",
+                [
+                    0
+                ],
+                "not applicable"
+            ],
+            "6": [
+                "The patient note mentions that the patient will provide informed consent, and will comply with the trial protocol without any practical issues, which meets the criterion of ability and willingness to provide written informed consent.",
+                [
+                    5
+                ],
+                "included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any right heart catheterization or pulmonary venous hypertension, so there is no direct evidence. However, this is a specific medical test that would likely be mentioned if performed, so we can assume it was not done.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any pulmonary function tests, chest radiography, or interstitial lung disease. Given the specificity of these tests and conditions, it is reasonable to assume they were not performed or diagnosed.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention portal hypertension. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention severe obstructive sleep apnea. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention chronic thromboembolic disease. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any HIV testing or positive antibodies. Given the importance of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any history of anorexigen use including fen-phen. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not mention any other disease known to be associated with pulmonary hypertension. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note does not mention any etiology for pulmonary hypertension besides PAH-SSc. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note mentions elevated alanine aminotransferase, which could indicate liver function abnormalities. However, it does not specify if it is more than 3 times the upper limit of normal.",
+                [
+                    3
+                ],
+                "not enough information"
+            ],
+            "10": [
+                "The patient note does not mention any kidney function tests or advanced kidney failure. Given the specificity of these tests and conditions, it is reasonable to assume they were not performed or diagnosed.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not mention any acute decompensation of underlying illness or hospitalization for pulmonary hypertension within 4 weeks prior to enrollment. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention any prior chronic therapy with an endothelin-receptor antagonist, PDE V inhibitor, or a prostacyclin analogue. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note does not mention any history of hypersensitivity reaction or adverse effect related to ambrisentan or tadalafil. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "14": [
+                "The patient note does not mention any history of implantable permanent pacemaker or any metallic objects in the body. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "15": [
+                "The patient note does not mention any participation in a clinical study involving an investigational drug or device within four weeks before the screening visit. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "16": [
+                "The patient is a 2-year-old boy, so he cannot be pregnant or lactating.",
+                [
+                    0
+                ],
+                "not applicable"
+            ],
+            "17": [
+                "The patient note does not mention any concomitant use of nitrates (any form) either regularly or intermittently. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "18": [
+                "The patient note does not mention any concomitant use of potent Cytochrome P3A (CYP3A) inhibitors (eg, ritonavir, ketoconazole, itraconazole). Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ],
+            "19": [
+                "The patient note does not mention any additional contraindications and precautions specified in the package inserts for Tadalafil (Adcirca) and Ambrisentan (Letairis) not listed above. Given the specificity of this condition, it is reasonable to assume the patient does not have it.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT00125918": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which is below the required age of 12 years for the trial. Therefore, he does not meet this criterion.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "1": [
+                "There is no information provided about the patient's body weight in the note.",
+                [],
+                "not enough information"
+            ],
+            "2": [
+                "The patient's diagnosis does not include pulmonary hypertension (PAH). The patient seems to have symptoms of a different condition, possibly Kawasaki disease, but not PAH.",
+                [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "not included"
+            ],
+            "3": [
+                "There is no information in the patient note about the patient being on bosentan or having an AST/ALT less than 3 times normal.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The patient note does not provide any information about a history of PAH established by a resting mean pulmonary artery pressure greater than or equal to 25 mm Hg, pulmonary artery wedge pressure less than or equal to 15 mm Hg, and pulmonary vascular resistance greater than or equal to 3 Wood units via right heart catheterization.",
+                [],
+                "not included"
+            ],
+            "5": [
+                "There is no information in the patient note about the patient's World Health Organization functional class status.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "There is no information in the patient note about a qualifying 6-minute walk test distance at screening.",
+                [],
+                "not applicable"
+            ],
+            "7": [
+                "There is no information in the patient note about significant parenchymal lung disease. However, the patient does not have a diagnosis of pulmonary hypertension, which is the target disease of the trial.",
+                [],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "1": [
+                "The first exclusion criterion is not applicable as it does not pertain to the patient's condition. The patient is a 2-year-old boy with symptoms of high fever, irritability, conjunctivitis, strawberry tongue, inflammation of hands and feet, desquamation of skin of fingers and toes, cervical lymphadenopathy, tenderness and enlarged liver, and possible coronary artery aneurysm. There is no mention of Pulmonary Hypertension, the target disease of the clinical trial.",
+                [],
+                "not applicable"
+            ]
+        }
+    },
+    "NCT00206375": {
+        "inclusion": {
+            "0": [
+                "The patient note does not provide any evidence of the patient having hypothyroidism or any related symptoms. The patient's lab results also do not include T4, fT4, or TSH levels. Therefore, it is not possible to determine if the patient meets this criterion.",
+                [],
+                "not enough information"
+            ],
+            "1": [
+                "The patient is a 2-year-old boy, which does not meet the age requirement for males in the study (9 to 17 years old).",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "2": [
+                "The patient is a 2-year-old boy, which does not meet the age requirement for males in the study (9 to 17 years old).",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "3": [
+                "The patient has multiple medical conditions including high fever, irritability, conjunctivitis, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, cervical lymphadenopathy, tenderness and enlarged liver, and possible coronary artery aneurysm. Therefore, the patient does not meet this criterion.",
+                [
+                    0,
+                    1,
+                    2,
+                    4
+                ],
+                "not included"
+            ],
+            "4": [
+                "The patient's parents brought him to the emergency department, indicating that a parent or guardian is available to attend study visits and be actively involved in the patient's treatment plan.",
+                [
+                    0
+                ],
+                "included"
+            ],
+            "5": [
+                "The patient note states that the patient will provide informed consent and comply with the trial protocol, indicating that the patient meets this criterion.",
+                [
+                    5
+                ],
+                "included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any medications that the patient is currently taking. Therefore, we cannot confirm if the patient is taking any medications that could affect their growth such as systemic corticosteroids or anabolic steroids.",
+                [],
+                "not enough information"
+            ],
+            "2": [
+                "The patient note mentions several health problems, including high fever, irritability, conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, cervical lymphadenopathy, tenderness and enlarged liver, and possible coronary artery aneurysm. However, none of these conditions are known to affect growth rate. Therefore, the patient does not meet this exclusion criterion.",
+                [
+                    0,
+                    1,
+                    2,
+                    4
+                ],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note mentions several health problems, including high fever, irritability, conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, cervical lymphadenopathy, tenderness and enlarged liver, and possible coronary artery aneurysm. However, none of these conditions are contraindications for GH therapy or GNRHa therapy. Therefore, the patient does not meet this exclusion criterion.",
+                [
+                    0,
+                    1,
+                    2,
+                    4
+                ],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention any plans for the patient to move to a location where they would not be able to be followed by a pediatric endocrinologist. Therefore, we can assume that this exclusion criterion does not apply to the patient.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note mentions that the patient will provide informed consent and will comply with the trial protocol without any practical issues. Therefore, the patient does not meet this exclusion criterion.",
+                [
+                    5
+                ],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT01824290": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which falls within the age range of the criterion (\u22656 months to <18 years of age at screening).",
+                [
+                    0
+                ],
+                "included"
+            ],
+            "1": [
+                "The patient note does not mention a diagnosis of PAH, which is required by the criterion. The patient has symptoms of a different condition.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient note does not provide information about a diagnosis of PAH established by a resting mean pulmonary artery pressure (mPAP) \u226525 millimeter of mercury (mm Hg), pulmonary artery wedge pressure \u226415 mm Hg, and a pulmonary vascular resistance (PVR) \u22653 Wood units via right heart catheterization (RHC).",
+                [],
+                "not enough information"
+            ],
+            "3": [
+                "The patient note does not provide information about the patient's World Health Organization (WHO) functional class value.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "The patient note does not provide information about the patient receiving an endothelin receptor antagonist (ERA) and having a screening aspartate transaminase (AST)/alanine transaminase (ALT) <3 times the upper limit of normal (ULN).",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "The patient note does not provide information about the patient being on stable doses of conventional PAH medication.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "This criterion is not applicable as the patient is a 2-year-old boy and not a female of childbearing potential.",
+                [],
+                "not applicable"
+            ],
+            "7": [
+                "The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",
+                [
+                    5
+                ],
+                "included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any pulmonary hypertension related to conditions other than specified in the trial, including chronic thromboembolic disease, portal pulmonary hypertension, left-sided heart disease or lung disease and hypoxia. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any history of left-sided heart disease, including any of the listed conditions. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any unrepaired congenital heart disease. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any history of angina pectoris or other condition that was treated with long- or short-acting nitrates within 12 weeks before administration of study drug. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note mentions an enlarged liver (sentence 2), but does not specify the severity of the hepatic impairment. Therefore, there is not enough information to determine if the patient meets this exclusion criterion.",
+                [
+                    2
+                ],
+                "not enough information"
+            ],
+            "5": [
+                "The patient note does not mention any severe renal insufficiency, defined as receiving renal dialysis or having a measured or estimated creatinine clearance (CC) <30 millimeter per minute (mL/min) (Schwartz Formula). Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any diagnosed retinal disorder. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not mention any severe hypotension or uncontrolled hypertension. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note does not mention any significant parenchymal lung disease. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note does not mention any bronchopulmonary dysplasia. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not mention any concurrent phosphodiesterase type 5 (PDE5) inhibitor therapy (sildenafil or vardenafil) or has received PDE5 inhibitor therapy within 12 weeks prior to the first study drug dosing. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not mention any concurrent therapy with prostacyclin or its analogues within 12 weeks of screening. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention any commencement or discontinuation of a chronic conventional PAH medication including but not restricted to: diuretics, anti-coagulants, digoxin, and oxygen therapy within 4 weeks of screening. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note does not mention any current treatment with doxazosin, nitrates, or cancer therapy. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "14": [
+                "The patient note does not mention any current treatment with potent Cytochrome P450 3A4 (CYP3A4) inhibitors, such as antiretroviral therapy (protease inhibitor), systemic ketoconazole, or systemic itraconazole, or chronic use of potent CYP3A4 inducers, such as rifampicin. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "15": [
+                "The patient is a 2-year-old boy, so he is not nursing or pregnant. Therefore, this exclusion criterion is not applicable.",
+                [
+                    0
+                ],
+                "not applicable"
+            ],
+            "16": [
+                "The patient note does not mention any previous completion or withdrawal from this study (LVHV), or any other study investigating tadalafil. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "17": [
+                "The patient note does not mention any received tadalafil therapy within 12 weeks prior to the first study drug dosing or are hypersensitive to tadalafil. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "18": [
+                "The patient note does not mention any allergy to the excipients, notably lactose. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "19": [
+                "The patient note does not mention any current enrollment in, or discontinuation within the last 30 days from, a clinical trial involving an investigational product or non-approved use of a drug or device, or concurrently enrolled in any other type of medical research judged not to be scientifically or medically compatible with this study by the Sponsor. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "20": [
+                "The patient note does not mention any inability to take orally administered tablets (without chewing, crushing or breaking) or suspension. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "21": [
+                "The patient is not an investigator site personnel directly affiliated with this study or their immediate families. Therefore, this exclusion criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "22": [
+                "The patient note does not mention any diagnosis of Down syndrome. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT00638638": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which does not meet the criterion of being over 18 years of age.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "1": [
+                "There is no mention of the patient experiencing a myocardial infarction within 6 hours from symptoms onset. The patient's symptoms are related to a different condition.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient note does not mention any chest pain or ST-segment elevation, which are required for this criterion.",
+                [],
+                "not included"
+            ],
+            "3": [
+                "The patient note mentions that the patient will provide informed consent and comply with the trial protocol.",
+                [
+                    5
+                ],
+                "included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any ventricular conduction anomalies, left or right bundle branch block, electrical left ventricular hypertrophy, or known hypersensitivity to Abciximab or to any component of the product or to murine monoclonal antibodies. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any hemorrhagic diathesis, internal hemorrhage, or hemorrhagic stroke within 2 years. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any ischemic stroke within the last 3 months. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any intra-cranial neoplasm, intracranial malformation or arteria venous aneurysm. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention any recent intracranial or intraspinal surgery or trauma (within two months). Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any recent within (2 months) major surgery. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any known peptic ulcer or upper gastrointestinal bleeding within the previous 6 month. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not mention any known coagulation anomaly. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note does not mention any oral anti-coagulant or low molecular weight heparin treatment. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note does not mention any ongoing thrombolytic treatment. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT00357968": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which does not meet the age requirement of the trial that requires subjects to be greater than or equal to 18 years of age. Therefore, the patient does not meet this criterion.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "1": [
+                "This criterion is not applicable as the patient does not meet the premise of the criterion, which is being greater than or equal to 18 years of age and undergoing cardiac catheterization with planned percutaneous coronary intervention.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "This criterion is not applicable as the patient does not meet the premise of the criterion, which is being greater than or equal to 18 years of age and undergoing cardiac catheterization with planned percutaneous coronary intervention.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "This criterion is not applicable as the patient does not meet the premise of the criterion, which is being greater than or equal to 18 years of age and undergoing cardiac catheterization with planned percutaneous coronary intervention.",
+                [],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The exclusion criterion is about having known CK-MB or cardiac troponin greater than the upper limit of normal at time of screening. The patient note does not provide any information about the patient's CK-MB or cardiac troponin levels.",
+                [],
+                "not enough information"
+            ],
+            "1": [
+                "The exclusion criterion is about planned PCI for acute MI or planned PCI within 48 hours of fibrinolytic therapy for STEMI. The patient note does not mention any planned PCI or MI.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The exclusion criterion is about having cardiogenic shock at the time of screening. The patient note does not mention any symptoms or conditions related to cardiogenic shock.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The exclusion criterion is about having refractory ventricular arrhythmias. The patient note does not mention any symptoms or conditions related to refractory ventricular arrhythmias.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The exclusion criterion is about having New York Heart Association Class IV congestive heart failure. The patient note does not mention any symptoms or conditions related to congestive heart failure.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT04509674": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which is below the age of consent (18 years) according to the trial's inclusion criteria.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "1": [
+                "The patient note mentions that the patient will provide informed consent and comply with the trial protocol, which meets the trial's requirement for informed consent.",
+                [
+                    5
+                ],
+                "included"
+            ],
+            "2": [
+                "The patient is a male, which meets the trial's inclusion criteria for gender. The criterion about women of childbearing potential is not applicable.",
+                [
+                    0
+                ],
+                "included"
+            ],
+            "3": [
+                "The patient note does not mention any diagnosis of Acute Myocardial Infarction (AMI), ST-Elevation Myocardial Infarction (STEMI), or Non-ST Elevation Myocardial Infarction (NSTEMI). The patient's symptoms and conditions described in the note are not indicative of these conditions.",
+                [],
+                "not included"
+            ],
+            "4": [
+                "The patient note does not provide any information about symptoms or signs of congestion that require treatment, or about the patient's Left Ventricular Ejection Fraction (LVEF).",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "The patient note does not provide any information about the patient's age, LVEF, prior MI, eGFR, atrial fibrillation, type 2 diabetes mellitus, NT-proBNP or BNP levels, uric acid levels, Pulmonary Artery Systolic Pressure, revascularization status, coronary artery disease, or peripheral artery disease.",
+                [],
+                "not enough information"
+            ]
+        },
+        "exclusion": {
+            "1": [
+                "The first exclusion criterion is not applicable as it pertains to patients who have had a myocardial infarction. The patient note does not mention any history of myocardial infarction for this patient.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The second exclusion criterion is not applicable as it pertains to patients who are currently in hospital for treatment of a heart attack. The patient note does not mention any recent hospitalization for heart attack.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The third exclusion criterion is not applicable as it pertains to patients who are at risk for heart failure. The patient note does not mention any risk factors for heart failure in this patient.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The fourth exclusion criterion is not applicable as it pertains to patients with type 2 diabetes. The patient note does not mention any diagnosis of type 2 diabetes for this patient.",
+                [],
+                "not applicable"
+            ],
+            "5": [
+                "The fifth exclusion criterion is not applicable as it pertains to patients who are unable to comply with the trial protocol. The patient note explicitly mentions that the patient will comply with the trial protocol.",
+                [
+                    5
+                ],
+                "not applicable"
+            ]
+        }
+    },
+    "NCT00857961": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, and there is no evidence of a prior documented diagnosis of hypoandrogenism. Hypoandrogenism is a condition that typically affects adult males, and it is unlikely that such a young patient would have this condition. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note does not provide any information about the patient's eligibility to receive treatment for hypoandrogenism. Given the patient's age and the absence of any mention of hypoandrogenism, it is reasonable to infer that the patient is not eligible for such treatment.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient note does not provide any information about the patient's Body Mass Index (BMI). However, given the patient's age, it is unlikely that the patient's BMI would be calculated or relevant for this study.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient note mentions several laboratory tests, but it does not specify whether these are the required screening tests for this study. Therefore, there is not enough information to determine whether the patient meets this criterion.",
+                [
+                    3
+                ],
+                "not enough information"
+            ],
+            "4": [
+                "The patient note mentions mild normochromic, normocytic anemia, but it does not provide a specific haemoglobin level. Therefore, there is not enough information to determine whether the patient meets this criterion.",
+                [
+                    3
+                ],
+                "not enough information"
+            ],
+            "5": [
+                "The patient note does not provide any information about the patient's venous access. Therefore, there is not enough information to determine whether the patient meets this criterion.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "The patient note mentions that the patient will provide informed consent and comply with the trial protocol. Therefore, the patient meets this criterion.",
+                [
+                    5
+                ],
+                "included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "5": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "6": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "7": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "8": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "9": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "10": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "11": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "12": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "13": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "14": [
+                "The patient is a 2-year-old boy and the trial is for men with hypogonadism. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ]
+        }
+    },
+    "NCT03936660": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which does not meet the age criterion of being 18 years or older.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "1": [
+                "The patient does not have a diagnosis of Type 2 diabetes mellitus.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient does not have a history of coronary artery disease, stroke, carotid artery stenosis, or peripheral arterial disease. The patient does have an issue with his coronary arteries, but it is not one of the conditions listed in the criteria.",
+                [
+                    4
+                ],
+                "not included"
+            ],
+            "3": [
+                "The patient is able to communicate with site staff and understand and provide written informed consent, as indicated by the note.",
+                [
+                    5
+                ],
+                "included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The exclusion criterion is about the patient's likelihood to survive and continue follow-up in the clinic for at least 1 year. The patient note does not provide any information related to this criterion. However, considering the patient's age and the absence of any life-threatening conditions mentioned in the note, it is reasonable to assume that the patient is not highly unlikely to survive for at least 1 year.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The exclusion criterion is about the patient's GFR (Glomerular Filtration Rate). The patient note does not mention anything about the patient's GFR. However, considering the patient's age and the absence of any kidney-related conditions mentioned in the note, it is reasonable to assume that the patient's GFR is not less than 30 mL/min/1.73m2.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The exclusion criterion is about the patient already being on all guideline-recommended therapies for Type 2 Diabetes Mellitus (T2DM) and Cardiovascular Disease (CVD). The patient note does not mention anything about the patient having T2DM or CVD, or being on any therapies for these conditions. Therefore, this criterion is not applicable to this patient.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The exclusion criterion is about the patient having an absolute contraindication to any of the guideline recommended therapies for T2DM and CVD. The patient note does not mention anything about the patient having T2DM or CVD, or having any contraindications to therapies for these conditions. Therefore, this criterion is not applicable to this patient.",
+                [],
+                "not applicable"
+            ]
+        }
+    },
+    "NCT05433584": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of Type 2 Diabetes (T2D) in the patient note. The patient's symptoms and lab results are not consistent with T2D. Therefore, the patient does not meet the premise of the criterion.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient is a 2-year-old boy with no mention of Type 2 Diabetes (T2D) or metformin treatment in the patient note. Therefore, the patient does not meet the premise of the criterion.",
+                [],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, and the trial is for adults with type 2 diabetes. Therefore, the patient does not meet the premise of the criterion.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient is a 2-year-old boy, and the trial is for adults with type 2 diabetes. Therefore, the patient does not meet the premise of the criterion.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient is a 2-year-old boy, and the trial is for adults with type 2 diabetes. Therefore, the patient does not meet the premise of the criterion.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient is a 2-year-old boy, and the trial is for adults with type 2 diabetes. Therefore, the patient does not meet the premise of the criterion.",
+                [],
+                "not applicable"
+            ]
+        }
+    },
+    "NCT05882045": {
+        "inclusion": {
+            "0": [
+                "The patient note does not provide any information about the patient's body mass index (BMI), which is required to meet this criterion. However, given the patient's age (2 years old), it is unlikely that the patient would have a BMI \u226535.0 kg/m\u00b2, which is typically associated with adult obesity.",
+                [],
+                "not included"
+            ],
+            "1": [
+                "The patient note mentions that the patient has a possible coronary artery aneurysm (sentence 4), which is a type of cardiovascular disease. However, the specific conditions listed in the criterion (myocardial infarction, ischemic or hemorrhagic stroke, symptomatic peripheral arterial disease) are not mentioned in the patient note. Therefore, the patient does not meet this criterion.",
+                [
+                    4
+                ],
+                "not included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any recent acute myocardial infarction, stroke, coronary revascularization, hospitalization for unstable angina, or hospitalization due to congestive heart failure. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any use of weight loss drugs, including over-the-counter medications. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any prior or planned surgical treatment of obesity. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not provide information about the patient's body weight changes. Therefore, there is not enough information to determine whether the patient meets this exclusion criterion.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "The patient note does not mention Type 1 diabetes. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2). Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any history of pancreatitis. Therefore, we can assume that the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT05803421": {
+        "inclusion": {
+            "0": [
+                "The patient note does not mention any diagnosis of type 2 diabetes mellitus (T2DM), which is the primary condition for this trial. The patient is also not of the required age, as he is only 2 years old.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note does not mention any HbA1c levels or any diabetes medication, including sulfonylurea. The patient's age and lack of a T2DM diagnosis also make this criterion not applicable.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient note mentions coronary artery dilation and a possible aneurysm (sentence 4), which could be related to coronary heart disease. However, the patient does not have a T2DM diagnosis, is not of the required age, and there is no mention of peripheral arterial disease, cerebrovascular disease, chronic kidney disease, or congestive heart failure.",
+                [
+                    4
+                ],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, and there is no mention of him having type 1 diabetes mellitus in the patient note. If the patient had this condition, it would likely be mentioned in the note due to its medical importance.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "There is no mention of the patient having chronic or acute pancreatitis in the patient note. If the patient had this condition, it would likely be mentioned in the note due to its medical importance.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "There is no mention of the patient receiving or planning to receive treatment for diabetic retinopathy and/or macular edema in the patient note. If the patient had this condition, it would likely be mentioned in the note due to its medical importance.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "There is no mention of the patient having a known clinically significant gastric emptying abnormality in the patient note. If the patient had this condition, it would likely be mentioned in the note due to its medical importance.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note mentions that the patient has an enlarged liver and elevated alanine aminotransferase, which could be signs of liver disease. However, it does not specify whether the enzyme level is \u22655.0 times the upper limit of normal (ULN) for the reference range.",
+                [
+                    2,
+                    3
+                ],
+                "not enough information"
+            ],
+            "5": [
+                "There is no mention of the patient having an acute myocardial infarction, cerebrovascular accident (stroke), or hospitalization for congestive heart failure within 60 days prior to screening in the patient note. If the patient had these conditions, they would likely be mentioned in the note due to their medical importance.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "There is no mention of the patient's eGFR in the patient note. Without this information, it is not possible to determine whether the patient meets this exclusion criterion.",
+                [],
+                "not enough information"
+            ],
+            "7": [
+                "There is no mention of the patient having a family (first-degree relative) or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2 in the patient note. If the patient had these conditions, they would likely be mentioned in the note due to their medical importance.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "There is no mention of the patient taking any diabetes medicines in the patient note. If the patient was taking these medicines, it would likely be mentioned in the note due to its medical importance.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "There is no mention of the patient using any weight loss drugs, including herbal or nutritional supplements, within 90 days of screening in the patient note. If the patient was using these drugs, it would likely be mentioned in the note due to its medical importance.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT05706506": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of Type 2 diabetes in the patient note. The clinical trial is specifically for adults with Type 2 diabetes.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "There is no mention of HbA1c levels in the patient note.",
+                [],
+                "not enough information"
+            ],
+            "2": [
+                "There is no mention of the patient's body mass index (BMI) in the patient note.",
+                [],
+                "not enough information"
+            ],
+            "3": [
+                "There is no mention of the patient being on a stable treatment dose of any GLP-1 RAs in the patient note.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "There is no mention of the patient being treated with oral antidiabetic medicine (OAM) or being on stable doses of up to 3 OAM in the patient note.",
+                [],
+                "not enough information"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of Type 1 Diabetes in the note. The trial is for adults with Type 2 Diabetes, so this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note does not mention any diabetic retinopathy, maculopathy, or any other eye conditions related to diabetes. Given the patient's age and lack of diabetes diagnosis, it's unlikely that such information would be omitted if present.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "The patient has an echocardiogram showing moderate dilation of the coronary arteries with possible coronary artery aneurysm, which could be considered a cardiovascular disease. However, there is no mention of myocardial infarction, percutaneous coronary revascularization procedure, carotid stenting or surgical revascularization, nontraumatic amputation, peripheral vascular procedure, cerebrovascular accident, or hospitalization for congestive heart failure.",
+                [
+                    4
+                ],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any New York Heart Association (NYHA) Functional Classification Class IV congestive heart failure. Given the patient's age and lack of heart failure diagnosis, it's unlikely that such information would be omitted if present.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention any history of ketoacidosis, hyperosmolar state, or coma. Given the patient's age and lack of diabetes diagnosis, it's unlikely that such information would be omitted if present.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any history of severe hypoglycemia or hypoglycemia unawareness within the 6 months. Given the patient's age and lack of diabetes diagnosis, it's unlikely that such information would be omitted if present.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT01524705": {
+        "inclusion": {
+            "0": [
+                "The patient note does not mention any diagnosis of Type 2 Diabetes Mellitus (T2DM) for the patient. The patient is a 2-year-old boy, which is much younger than the typical age of onset for T2DM. Therefore, it is highly unlikely that the patient has T2DM.",
+                [],
+                "not included"
+            ],
+            "1": [
+                "There is no mention of a C-peptide test in the patient note. However, given that the patient does not have a diagnosis of T2DM, it is unlikely that such a test would have been performed.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient note does not mention any insulin therapy, diabetes, blood pressure, or lipid therapy. The patient is a 2-year-old boy, which makes it highly unlikely that he would be on such therapies.",
+                [],
+                "not included"
+            ],
+            "3": [
+                "There is no mention of an HbA1c test in the patient note. However, given that the patient does not have a diagnosis of T2DM, it is unlikely that such a test would have been performed.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The patient is a 2-year-old boy, which is much younger than the age range specified in the criterion (40-75 years with a history of cardiovascular disease, or 55-75 years with 2 or more risk factors for cardiovascular disease).",
+                [],
+                "not included"
+            ],
+            "5": [
+                "The patient note does not mention any history of cardiovascular disease or risk factors for cardiovascular disease. The patient is a 2-year-old boy, which makes it highly unlikely that he would have such a history or risk factors.",
+                [],
+                "not included"
+            ],
+            "6": [
+                "The patient note does not provide information about the patient's plans to move in the next 8 months. However, the patient is a 2-year-old boy, which means that his residence is determined by his parents, not by himself.",
+                [],
+                "not enough information"
+            ],
+            "7": [
+                "The patient note does not provide information about the patient's ability to speak and read English. However, the patient is a 2-year-old boy, which makes it highly unlikely that he would be able to read English.",
+                [],
+                "not included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of any physical disability, significant medical or psychiatric disorder, substance abuse or use of a medication that could affect the trial protocol. However, the patient has been diagnosed with a coronary artery aneurysm, which could potentially interfere with the use of CGM, wearing of the sensors, Holter or Telemetry monitor, complex medication regimen, or completion of any aspect of the protocol.",
+                [
+                    0,
+                    4
+                ],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any cardiovascular event or interventional procedure, or hospitalization for unstable angina within the last 3 months.",
+                [],
+                "not excluded"
+            ],
+            "2": [
+                "There is no information in the patient note about the use of acetaminophen products.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention the use of any diabetes agents other than insulin and metformin.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "There is no information in the patient note about the use or intolerance of metformin.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "There is no information in the patient note about the patient's willingness or ability to perform blood glucose testing a minimum of 3 times per day.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not provide information about the patient's creatinine level.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient's ALT level is elevated, but it is not specified whether it is 3 times the upper limit of normal.",
+                [
+                    3
+                ],
+                "not enough information"
+            ],
+            "8": [
+                "The patient note does not provide information about the patient's heart failure status or ejection fraction.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note does not mention any inpatient psychiatric treatment in the past 6 months.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not mention participation in any other intervention trial.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not mention any chronic inflammatory diseases.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention a history of pancreatitis.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note does not provide information about the patient's BMI.",
+                [],
+                "not excluded"
+            ],
+            "14": [
+                "The patient is a 2-year-old boy, so this criterion is not applicable.",
+                [],
+                "not applicable"
+            ]
+        }
+    },
+    "NCT00853151": {
+        "inclusion": {
+            "0": [
+                "The patient note mentions that the patient will provide informed consent (sentence 5). Therefore, the patient meets this criterion.",
+                [
+                    5
+                ],
+                "included"
+            ],
+            "1": [
+                "The patient note does not mention that the patient has type 2 diabetes mellitus. Given the importance of this information for a diabetes trial, it is unlikely that it would be omitted if true. Therefore, the patient does not meet this criterion.",
+                [],
+                "not included"
+            ],
+            "2": [
+                "The patient note does not mention any treatment with diet, exercise, or metformin. Given the importance of this information for a diabetes trial, it is unlikely that it would be omitted if true. Therefore, the patient does not meet this criterion.",
+                [],
+                "not included"
+            ],
+            "3": [
+                "The patient note does not mention the patient's HbA1c level. Given the importance of this information for a diabetes trial, it is unlikely that it would be omitted if true. Therefore, the patient does not meet this criterion.",
+                [],
+                "not included"
+            ],
+            "4": [
+                "The patient is 2 years old (sentence 0), which is outside the age range of 18 to 70 years specified in the criterion. Therefore, the patient does not meet this criterion.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "5": [
+                "The patient is a 2-year-old boy (sentence 0), so this criterion about women not of childbearing potential is not applicable.",
+                [
+                    0
+                ],
+                "not applicable"
+            ],
+            "6": [
+                "The patient note does not mention the patient's BMI or weight stability. Given the importance of this information for a diabetes trial, it is unlikely that it would be omitted if true. Therefore, the patient does not meet this criterion.",
+                [],
+                "not included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient note does not mention any use of diabetes medicine. Since the patient is a 2-year-old boy, it is unlikely that he has been on diabetes medication. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any gastrointestinal disease, surgery, or drugs that impact gastric filling, emptying or motility. The patient does have an enlarged liver, but this does not necessarily indicate a gastrointestinal disease or surgery. Therefore, the patient does not meet this exclusion criterion.",
+                [
+                    2
+                ],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any use of proton pump inhibitors (PPIs) and histamine (H2) antagonists. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any severe hypoglycemia or hyperglycemia. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention any advanced microvascular diabetes complications. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any medications to promote weight loss. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "This criterion is not applicable as the patient is a 2-year-old boy.",
+                [],
+                "not applicable"
+            ],
+            "7": [
+                "The patient note does not mention any cardiac autonomic neuropathy. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note mentions moderate dilation of the coronary arteries with possible coronary artery aneurysm, which could be a sign of cardiac disease. However, it does not specify the functional status of the cardiac disease. Therefore, there is not enough information to determine if the patient meets this exclusion criterion.",
+                [
+                    4
+                ],
+                "not enough information"
+            ],
+            "9": [
+                "The patient note does not mention any history of a supraventricular or ventricular tachycardia, pacemaker implantation, or other cardiac arrhythmia. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not mention any ECG abnormality or medication that impairs the ability to measure QT interval. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "11": [
+                "The patient note does not mention any QT interval Bazett corrected (QTcB) >450 milliseconds (msec) or PR interval (PR) >220 milliseconds (msec). Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "12": [
+                "The patient note does not mention any personal or family history of long QT interval (QT) syndrome, sudden death, or unexplained syncope. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "13": [
+                "The patient note mentions elevated alanine aminotransferase levels, which could be a sign of liver disease or acute or chronic hepatitis. Therefore, the patient meets this exclusion criterion.",
+                [
+                    3
+                ],
+                "excluded"
+            ],
+            "14": [
+                "The patient note does not mention any hypertriglyceridemia > 400 mg/deciliter (dL). Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "15": [
+                "The patient note does not mention any inadequately treated hypothyroidism or hyperthyroidism. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "16": [
+                "The patient note does not mention any peptic ulcer disease and/or gastrointestinal bleeding/perforation. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "17": [
+                "The patient note does not mention any known pentagastrin hypersensitivity. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "18": [
+                "The patient note does not mention any impaired renal function. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "19": [
+                "The patient note does not mention any transplanted organ. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "20": [
+                "The patient note does not mention any active, uncontrolled endocrine or autoimmune abnormality. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "21": [
+                "The patient note does not mention any > 2 weeks systemic glucocorticoid therapy. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "22": [
+                "The patient note does not mention any ongoing courses of non-steroidal anti-inflammatory drugs (NSAIDs), except for aspirin 81-325 milligrams (mg). Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "23": [
+                "The patient note does not mention any diagnosed malignancy or in remission for less than 5 years. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "24": [
+                "The patient note does not mention any prior acute or chronic pancreatitis or elevated serum lipase or amylase. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "25": [
+                "The patient note does not mention any current central nervous system stimulant. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "26": [
+                "The patient note mentions that the patient will comply with the trial protocol without any practical issues. Therefore, the patient does not meet this exclusion criterion.",
+                [
+                    5
+                ],
+                "not excluded"
+            ],
+            "27": [
+                "The patient note does not mention any chronic infection. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "28": [
+                "This criterion is not applicable as the patient is a 2-year-old boy.",
+                [],
+                "not applicable"
+            ],
+            "29": [
+                "The patient note does not mention any participation in an interventional medical, surgical, or pharmaceutical study in which a medical or surgical treatment was given within 30 days of the initial dose of study drug. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "30": [
+                "The patient note does not mention any previous completion or withdrawal from this study after providing informed consent. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ],
+            "31": [
+                "The patient note does not mention any current enrollment in, or discontinuation within the last 30 days from, a clinical trial involving an off-label use of an investigational drug or device. Therefore, the patient does not meet this exclusion criterion.",
+                [],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT01159938": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of Type 2 Diabetes Mellitus (T2DM) or insulin therapy in his medical history. The trial is specifically for participants diagnosed with T2DM and on insulin therapy for at least 6 months. Therefore, this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient is a 2-year-old boy, which does not fall within the age range of 45 to 70 years specified in the criterion. Therefore, the patient does not meet this criterion.",
+                [
+                    0
+                ],
+                "not included"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with no mention of diabetes, thus this criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "1": [
+                "The patient note mentions a possible coronary artery aneurysm, which could be interpreted as a cardiovascular event. However, the patient does not have a history of stroke, myocardial infarction, coronary artery procedure, limb amputation due to ischemia, peripheral vascular disease, or coronary heart disease confirmed by exercise test or scintigraphy. The patient does not have arrhythmias or an acute infection.",
+                [
+                    4
+                ],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any involvement in a clinical trial involving an investigational drug or device or off-label use of a drug or device. The patient is also not unwilling or unable to comply with the use of a data collection device to directly record data from the participant.",
+                [
+                    5
+                ],
+                "not excluded"
+            ]
+        }
+    },
+    "NCT05563246": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy, which does not meet the age requirement of at least 40 years old for the trial.",
+                [
+                    0
+                ],
+                "not included"
+            ],
+            "1": [
+                "There is no information in the patient note about the patient's Lp(a) levels.",
+                [],
+                "not enough information"
+            ],
+            "2": [
+                "The patient has been diagnosed with a possible coronary artery aneurysm, which could be considered a high risk for cardiovascular events. However, there is no direct evidence of documented coronary artery disease (CAD), stroke, or peripheral artery disease or atherosclerotic cardiovascular disease (ASCVD) risk equivalents (familial hypercholesterolemia or type 2 diabetes).",
+                [
+                    4
+                ],
+                "not enough information"
+            ],
+            "3": [
+                "There is no information in the patient note about the patient's medication regimen, including lipid-lowering drugs, testosterone, estrogens, anti-estrogens, progestins, selective estrogen receptor modulators, or growth hormone.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "There is no information in the patient note about the patient's body mass index.",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "The patient is a male, but there is no information about his willingness to use contraception.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "This criterion is not applicable as the patient is a male and not a woman of childbearing potential.",
+                [],
+                "not applicable"
+            ]
+        },
+        "exclusion": {
+            "0": [
+                "The patient is a 2-year-old boy with symptoms of a possible inflammatory condition, but there is no mention of any underlying disease, surgical, physical, medical, or psychiatric condition that could potentially affect his safety within the study or interfere with his participation or completion of the study. Therefore, this criterion does not exclude the patient.",
+                [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "not excluded"
+            ],
+            "1": [
+                "The patient note does not mention any major surgery, coronary, carotid, or peripheral arterial revascularization, stroke or transient ischemic attack, myocardial infarction or unstable angina, or acute limb ischemia within the last 3 months. The patient does have an enlarged liver and possible coronary artery aneurysm, but these conditions do not meet the specific conditions listed in the exclusion criteria.",
+                [
+                    2,
+                    4
+                ],
+                "not excluded"
+            ],
+            "2": [
+                "The patient note does not mention any diagnosis of Type 1 or Type 2 diabetes, controlled or uncontrolled, in the last 6 months. Therefore, this criterion does not exclude the patient.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any diagnosis of hypertension, controlled or uncontrolled. Therefore, this criterion does not exclude the patient.",
+                [],
+                "not excluded"
+            ]
+        }
+    }
+}
