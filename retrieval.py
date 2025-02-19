@@ -42,7 +42,6 @@ def get_keyword_generation_messages(note, max_keywords):
     return messages
 
 
-
 def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inquiry-agent-gpt4"):
     """
     Generate a patient summary and search keywords from the given note.
@@ -64,10 +63,9 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
     except json.JSONDecodeError as e:
         print("Error decoding JSON:", e)
         return None
-    
 
 
-def hybrid_retrieval_and_fusion(query, bm25, bm25_doc_ids, bm25_doc_titles, medcpt_index, medcpt_doc_ids, bm25_wt=1, medcpt_wt=1, top_n=10):
+def hybrid_retrieval_and_fusion(query, bm25, bm25_doc_ids, bm25_doc_titles, medcpt_index, medcpt_doc_ids, bm25_wt=1, medcpt_wt=1, top_n=100):
     """
     Perform hybrid retrieval and fusion for a given query.
 
@@ -132,11 +130,12 @@ if __name__ == "__main__":
     # Example patient record
 
     # Open the JSON file and load it into a Python dictionary
-    with open('input.json', 'r') as file:
+    with open('storage/input.json', 'r') as file:
         data = json.load(file)
 
     patient_note = data['patient_note']
     max_keywords = 32  # Define the maximum number of keywords
+    print(patient_note)
 
     result = generate_summary_and_keywords(patient_note, max_keywords=max_keywords)
 
@@ -171,7 +170,7 @@ if __name__ == "__main__":
         medcpt_document_ids,
         bm25_wt=1,
         medcpt_wt=1,
-        top_n=3
+        top_n=10
     )
     # print("\nTop documents from hybrid retrieval:")
     # for doc_id, title in top_docs
