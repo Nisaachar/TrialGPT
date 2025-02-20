@@ -126,6 +126,51 @@ def hybrid_retrieval_and_fusion(query, bm25, bm25_doc_ids, bm25_doc_titles, medc
 
     return [(doc_id, doc_id_to_title.get(doc_id, "Unknown Title")) for doc_id, _ in ranked_docs]
 
+
+
+def calculate_recall(test_file, query_id, retrieved_doc_ids):
+    """
+    Calculate the recall for a specific query ID.
+
+    Parameters:
+    test_file (str): Path to the test file (TSV format).
+    query_id (str): Query ID for which recall needs to be calculated.
+    retrieved_doc_ids (list): List of document IDs retrieved for the query.
+
+    Returns:
+    float: Recall value for the query.
+    """
+    relevant_docs = set()
+    dic = {}
+    total_score = 0
+    # Read the test file to extract relevant documents for the given query ID
+    with open(test_file, "r") as file:
+        for line in file:
+            parts = line.strip().split(",")
+     
+            if parts[0] == query_id and int(parts[2]) > 0:
+                score = int(parts[2])
+                relevant_docs.add(parts[1])
+                dic[parts[1]] = score
+                total_score += score
+    # print(total_score)
+    if not relevant_docs:
+        print(f"No relevant documents found for query ID: {query_id}")
+        return 0.0
+
+    # Calculate recall
+    # retrieved_relevant_docs = [doc_id for doc_id in retrieved_doc_ids if doc_id in relevant_docs]
+    score = 0
+    retrieved_relevant_docs = []
+    #cal
+    for id in retrieved_doc_ids:
+        if id in relevant_docs:
+            retrieved_relevant_docs.append(id)
+            score += dic[id]
+
+    recall = score/total_score
+    return recall
+
 if __name__ == "__main__":
     # Example patient record
 
@@ -135,7 +180,7 @@ if __name__ == "__main__":
 
     patient_note = data['patient_note']
     max_keywords = 32  # Define the maximum number of keywords
-    print(patient_note)
+    # print(patient_note)
 
     result = generate_summary_and_keywords(patient_note, max_keywords=max_keywords)
 
@@ -150,14 +195,14 @@ if __name__ == "__main__":
     bm25_cache_file = "storage/embeddings/bm25_cache.json"  # Path to the BM25 cache file
 
     bm25_index, bm25_document_ids, bm25_document_titles = create_bm25_index(corpus_file, bm25_cache_file)
-    print("BM25 index created. Document count:", len(bm25_document_ids))
+    # print("BM25 index created. Document count:", len(bm25_document_ids))
 
     # Example usage of MedCPT index creation
     medcpt_embed_cache = "storage/embeddings/medcpt_embeds.npy"  # Path to the embedding cache
     medcpt_id_cache = "storage/embeddings/medcpt_doc_ids.json"  # Path to the document ID cache
 
     medcpt_index, medcpt_document_ids = create_medcpt_index(corpus_file, medcpt_embed_cache, medcpt_id_cache)
-    print("MedCPT index created. Document count:", len(medcpt_document_ids))
+    # print("MedCPT index created. Document count:", len(medcpt_document_ids))
 
     # Example hybrid retrieval
     query = result["summary"] if result else "high fever, conjunctivitis, strawberry tongue, and coronary artery dilation"
@@ -170,7 +215,7 @@ if __name__ == "__main__":
         medcpt_document_ids,
         bm25_wt=1,
         medcpt_wt=1,
-        top_n=10
+        top_n=20
     )
     # print("\nTop documents from hybrid retrieval:")
     # for doc_id, title in top_docs
@@ -180,14 +225,14 @@ if __name__ == "__main__":
     retrieved_trial_ids = [doc_id for doc_id, _ in top_docs]
     with open("storage/retrieved_trials.json", "w") as f:
         json.dump({"retrieved_trials": retrieved_trial_ids}, f, indent=4)
-    print("\nRetrieved Clinical Trial IDs saved to 'retrieved_trials.json'.")
+    # print("\nRetrieved Clinical Trial IDs saved to 'retrieved_trials.json'.")
 
     # Evaluate recall
-    # test_file = "test.tsv"
-    # query_id = data['patient_id']
-    # recall = calculate_recall(test_file, query_id, retrieved_trial_ids)
+    test_file = "storage/test.csv"
+    query_id = data['patient_id']
+    recall = calculate_recall(test_file, query_id, retrieved_trial_ids) * 100
     # print(f"\nRecall for query ID {query_id}: {recall:.4f}")
-    # print(f"Recall for this Patient Note is: {recall:.4f}")
+    print(f"\n\nValidation Score for this Patient Note is: {recall:.2f}%")
 
 
 #extracting prepared dataset from keys.
@@ -220,8 +265,8 @@ with open(detailed_trials_file, "w") as f:
     json.dump(detailed_trials, f, indent=4)
 
 # Print a summary of the operation
-print(f"Total trials in trial_info.json: {len(trial_info)}")
-print(f"Relevant trial IDs in retrieved_trials.json: {len(relevant_trial_ids)}")
-print(f"Matched detailed trials saved: {len(detailed_trials)}")
-print(f"Detailed trial data saved to {detailed_trials_file}.")
+# print(f"Total trials in trial_info.json: {len(trial_info)}")
+# print(f"Relevant trial IDs in retrieved_trials.json: {len(relevant_trial_ids)}")
+# print(f"Matched detailed trials saved: {len(detailed_trials)}")
+# print(f"Detailed trial data saved to {detailed_trials_file}.")
 

@@ -42,7 +42,7 @@ for study in data.get("studies", []): # [] returns null object if key not found.
 
     # Extract Inclusion Criteria
     inclusion_match = re.search(r"(?<=Inclusion Criteria:\n\n)(.*?)(?=\n\nExclusion Criteria:)", eligible_criteria, re.DOTALL)
-    inclusion_criteria = inclusion_match.group(1).strip() if inclusion_match else None
+    inclusion_criteria = inclusion_match.group(1).strip() if inclusion_match else " "
 
     #formatting
     if inclusion_criteria:
@@ -52,7 +52,7 @@ for study in data.get("studies", []): # [] returns null object if key not found.
 
     # Extract Exclusion Criteria
     exclusion_match = re.search(r"(?<=Exclusion Criteria:\n\n)(.*)", eligible_criteria, re.DOTALL)
-    exclusion_criteria = exclusion_match.group(1).strip() if exclusion_match else None
+    exclusion_criteria = exclusion_match.group(1).strip() if exclusion_match else " "
 
     if exclusion_criteria:
         exclusion_criteria = 'exclusion criteria: \n\n' + exclusion_criteria

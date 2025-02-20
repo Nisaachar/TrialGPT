@@ -1,176 +1,182 @@
 {
-    "NCT05668962": {
-        "relevance_explanation": "The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not match the target conditions of the clinical trial (various types of thyroid cancer). The patient's age is within the range specified in some of the inclusion criteria, but there is no mention of thyroid cancer or any related diagnostic tests in the patient note. Therefore, the patient's relevance to the clinical trial is low.",
-        "relevance_score_R": 10.0,
-        "eligibility_explanation": "The patient does not meet any of the inclusion criteria due to the lack of mention of thyroid cancer or any related diagnostic tests in the patient note. The patient is not excluded by the exclusion criterion because there is no mention of chemotherapy, MKI or radiotherapy within 4 weeks in the patient note. Therefore, the patient's eligibility for the clinical trial is negative.",
-        "eligibility_score_E": -10.0
-    },
-    "NCT03101254": {
-        "relevance_explanation": "The patient's note does not mention any diagnosis of melanoma or BRAF mutation, which are the target conditions for this clinical trial. Therefore, the patient's condition is not relevant to the clinical trial.",
+    "NCT01936376": {
+        "relevance_explanation": "The patient's condition, as described in the note, is related to neurological issues, specifically cognitive deficits and memory dysfunction. The clinical trial, on the other hand, is focused on evaluating kidney injury biomarkers in patients receiving cisplatin chemotherapy for head and neck cancers. There is no overlap between the patient's condition and the focus of the clinical trial, making the patient irrelevant to the trial.",
         "relevance_score_R": 0.0,
-        "eligibility_explanation": "The patient does not meet the inclusion criteria for the trial as they do not have a confirmed diagnosis of melanoma with a BRAF V600E or BRAF V600K mutation. However, the patient also does not meet any of the exclusion criteria mentioned in the patient note.",
+        "eligibility_explanation": "Given that the patient's condition is not relevant to the clinical trial, the patient is ineligible for the trial. The patient's neurological condition does not meet the inclusion criteria for a trial focused on head and neck cancers and kidney injury.",
         "eligibility_score_E": -0.0
     },
-    "NCT00149591": {
-        "relevance_explanation": "The patient has a history of cardiovascular disease and coronary revascularization, which are relevant to the clinical trial's target conditions of Myocardial Infarction and Coronary Artery Disease. However, the patient note does not provide any information about the patient's pain onset, EKG results, or enzyme levels, which are key inclusion criteria for the trial. Furthermore, the patient has type 2 diabetes, which could potentially be a contraindication for coronary angiography, an exclusion criterion for the trial.",
-        "relevance_score_R": 60.0,
-        "eligibility_explanation": "The patient is not excluded by the exclusion criteria, as the patient note mentions that the patient will provide informed consent and will comply with the trial protocol without any practical issues. However, the patient does not meet the inclusion criteria due to lack of information about the patient's pain onset, EKG results, or enzyme levels. Furthermore, the patient's type 2 diabetes could potentially be a contraindication for coronary angiography.",
-        "eligibility_score_E": -20.0
-    },
-    "NCT04874636": {
-        "relevance_explanation": "The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not align with the target condition of the clinical trial, which is chronic low back pain. The patient's note does not mention any history of chronic low back pain or any related symptoms. Therefore, the patient's conditions are not directly relevant to the clinical trial.",
-        "relevance_score_R": 10.0,
-        "eligibility_explanation": "The patient is not excluded by the exclusion criteria as the patient's conditions do not match the exclusion criteria. However, the patient does not meet any of the inclusion criteria as there is no mention of chronic low back pain or related symptoms in the patient's note. Therefore, the patient is not eligible for the clinical trial.",
-        "eligibility_score_E": -10.0
-    },
-    "NCT05630196": {
-        "relevance_explanation": "The patient's note does not mention any chronic low back pain, which is the target condition of the clinical trial. The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) are not directly related to the trial's focus. Therefore, the relevance is low.",
-        "relevance_score_R": 10.0,
-        "eligibility_explanation": "The patient does not meet any of the inclusion criteria due to lack of information about chronic low back pain, pain scale, and other related factors. However, the patient is not excluded by any of the exclusion criteria as the conditions mentioned in the patient's note are not listed in the exclusion criteria.",
-        "eligibility_score_E": -10.0
-    },
-    "NCT04386057": {
-        "relevance_explanation": "The patient's medical history does not indicate any diagnosis of pancreatic cancer, which is the primary target condition of the clinical trial. The patient's age and other conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not align with the trial's focus.",
-        "relevance_score_R": 10.0,
-        "eligibility_explanation": "The patient does not meet the inclusion criteria due to the absence of a pancreatic cancer diagnosis. The patient's age and other conditions do not exclude them from the trial, but they do not contribute to eligibility either.",
-        "eligibility_score_E": -10.0
-    },
-    "NCT04529096": {
-        "relevance_explanation": "The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not align with the target condition of the clinical trial, which is chronic low back pain. The patient's note does not mention any history or symptoms of chronic low back pain. Therefore, the patient's conditions are not relevant to the clinical trial.",
-        "relevance_score_R": 10.0,
-        "eligibility_explanation": "Although the patient is not excluded by the exclusion criteria, the patient does not meet any of the inclusion criteria due to the lack of information about chronic low back pain. Therefore, the patient is not eligible for the clinical trial.",
-        "eligibility_score_E": -10.0
-    },
-    "NCT01760005": {
-        "relevance_explanation": "The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not match the target conditions of the clinical trial (Alzheimer's Disease, Dementia, Familial Alzheimer's Disease). The patient's age falls within the inclusion criteria, but there is no mention of Alzheimer's disease or dementia in the patient's note.",
-        "relevance_score_R": 20.0,
-        "eligibility_explanation": "The patient is not included in the trial as they do not have an Alzheimer's disease-causing mutation or a family history of dominantly inherited Alzheimer's disease. However, the patient is not excluded by the trial's exclusion criteria, as they do not have a history or presence of significant abnormalities in brain MRI scans, alcohol or drug dependence, presence of pacemakers or foreign metal objects, or other listed conditions.",
-        "eligibility_score_E": -20.0
-    },
-    "NCT04623242": {
-        "relevance_explanation": "The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not match the target conditions of the clinical trial (Alzheimer's Disease, Dementia, Familial Alzheimer's Disease). The patient's age falls within the inclusion criteria, but the patient does not have the Alzheimer's disease-causing mutation or a family history of dominantly inherited Alzheimer's disease (DIAD), which are key inclusion criteria for this trial. Therefore, the patient's relevance to the trial is low.",
-        "relevance_score_R": 20.0,
-        "eligibility_explanation": "The patient is ineligible due to the presence of cardiovascular disease, which is an exclusion criterion for the trial. Additionally, the patient does not meet several key inclusion criteria, such as having an Alzheimer's disease-causing mutation or a family history of DIAD.",
-        "eligibility_score_E": -20.0
-    },
-    "NCT04627064": {
-        "relevance_explanation": "The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not match the target condition of the clinical trial (Clear Cell Renal Cell Carcinoma). The patient is also not of the required age (18 years) for the trial.",
+    "NCT00701935": {
+        "relevance_explanation": "The patient's condition, as described in the note, is primarily neurological with symptoms of memory loss and jerking movements. The patient's note does not mention any history or presence of Type 2 Diabetes, which is the target condition for the clinical trial. The trial is focused on the effect of Exenatide on abdominal fat distribution in patients with Type 2 Diabetes, which does not seem to be relevant to the patient's condition.",
         "relevance_score_R": 0.0,
-        "eligibility_explanation": "The patient does not meet any of the inclusion criteria for the trial, as they do not have the target condition, have not undergone the required treatments, and are not of the required age. The patient is also not excluded by any of the exclusion criteria, as they do not meet any of the conditions listed.",
-        "eligibility_score_E": -0.0
-    },
-    "NCT00440778": {
-        "relevance_explanation": "The patient has a history of cardiovascular disease and coronary revascularization, which is relevant to the clinical trial that focuses on coronary arteries and myocardial infarction. However, the patient does not show symptoms of myocardial infarction or ischemia, which are the target conditions of the trial. Also, the patient's age is not mentioned in the note, which is a key criterion for the trial.",
-        "relevance_score_R": 50.0,
-        "eligibility_explanation": "The patient is not included in any of the inclusion criteria because they do not show symptoms of myocardial infarction or ischemia, and their age is not mentioned. However, they are not excluded by the exclusion criteria because they have not received thrombolytic therapy within the last 4 weeks or any referral for rescue PCI.",
-        "eligibility_score_E": -25.0
-    },
-    "NCT01484431": {
-        "relevance_explanation": "The patient's medical history does not align with the target condition of the clinical trial, which is Pulmonary Arterial Hypertension (PAH). The patient has type 2 diabetes, cardiovascular disease, and a history of coronary revascularization and stroke, none of which are relevant to PAH. Therefore, the patient's relevance to the clinical trial is low.",
-        "relevance_score_R": 10.0,
-        "eligibility_explanation": "The patient does not meet any of the inclusion criteria for the clinical trial, as they do not have a diagnosis of PAH or any of the related conditions specified in the inclusion criteria. Furthermore, the patient does not meet any of the exclusion criteria, as their cardiovascular disease and history of coronary revascularization and stroke do not fall under the conditions specified in the exclusion criteria. Therefore, the patient's eligibility for the clinical trial is negative.",
-        "eligibility_score_E": -10.0
-    },
-    "NCT01042158": {
-        "relevance_explanation": "The patient's note does not mention any of the target conditions of the clinical trial, such as Pulmonary Arterial Hypertension, Systemic Sclerosis, Scleroderma Spectrum of Diseases, Connective Tissue Disease, or Pulmonary Hypertension. The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not seem to be directly related to the trial's focus. The only matching criterion is the patient's age, which is above 18 years.",
-        "relevance_score_R": 10.0,
-        "eligibility_explanation": "The patient's note does not provide enough information to determine eligibility for most of the inclusion criteria. The patient is not excluded by any of the exclusion criteria based on the available information. However, the lack of information about the patient's specific conditions and medical history makes it difficult to determine eligibility.",
+        "eligibility_explanation": "Given the lack of relevance, the patient's eligibility cannot be determined. The patient's condition does not match the inclusion criteria of the trial, which requires patients to have Type 2 Diabetes and be treated with metformin. The patient's note does not provide any information that would exclude him from the trial, but it also does not provide any information that would include him.",
         "eligibility_score_E": 0.0
     },
-    "NCT00125918": {
-        "relevance_explanation": "The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not match the target condition of the clinical trial (Pulmonary Hypertension). Therefore, the patient's conditions are not relevant to the clinical trial.",
+    "NCT00957853": {
+        "relevance_explanation": "The patient's condition does not match the target condition of the clinical trial, which is Head and Neck Squamous Cell Carcinoma. The patient is suffering from severe cognitive deficits and memory dysfunction, which are not related to the trial's focus.",
+        "relevance_score_R": 0,
+        "eligibility_explanation": "The patient is ineligible for the trial as his condition does not meet the inclusion criteria and he is not suffering from the target condition of the trial.",
+        "eligibility_score_E": 0
+    },
+    "NCT01191268": {
+        "relevance_explanation": "The patient's note does not mention any symptoms or conditions related to Type 2 Diabetes, which is the target condition for the clinical trial. The patient's primary issues are related to neurologic conditions, not metabolic or endocrine disorders like diabetes. Therefore, the patient's condition is not highly relevant to the clinical trial.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient is not eligible for the trial as the primary condition of the patient does not match with the target condition of the trial. The patient's neurologic conditions do not meet the inclusion criteria for a trial focused on Type 2 Diabetes. Furthermore, the patient note does not provide enough information to assess the patient against the exclusion criteria.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01200290": {
+        "relevance_explanation": "The patient's condition, as described in the note, is primarily neurological, with symptoms of memory loss, jerking movements, and cognitive deficits. The clinical trial, however, is focused on End-Stage Renal Disease (ESRD) and kidney transplantation. There is no mention of kidney disease or related issues in the patient's note, making the trial largely irrelevant to the patient's condition.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient does not meet the inclusion criteria for the trial, as they do not have ESRD or are awaiting a kidney transplant. However, they are not excluded by any of the exclusion criteria listed, as none of the conditions or procedures mentioned in the exclusion criteria are present in the patient's note.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT00456885": {
+        "relevance_explanation": "The patient is a 62-year-old man with neurological issues, while the clinical trial is specifically designed for obese, healthy women aged 25-60. The trial is studying the effects of a drug on weight, appetite, and energy expenditure, which does not align with the patient's condition of cognitive deficits and memory dysfunction.",
         "relevance_score_R": 0.0,
-        "eligibility_explanation": "The patient does not meet the inclusion criteria of the clinical trial, specifically the age requirement. Therefore, the patient is not eligible for the clinical trial.",
+        "eligibility_explanation": "Given the patient's gender, age, and health condition, he does not meet the inclusion criteria for the trial. Furthermore, the patient's condition does not exclude him from the trial, but he is not eligible due to the lack of relevance.",
         "eligibility_score_E": -0.0
     },
-    "NCT00206375": {
-        "relevance_explanation": "The patient's conditions (type 2 diabetes, cardiovascular disease, history of coronary revascularization, and stroke) do not match the target condition of the clinical trial (hypothyroidism). The patient's age is also outside the specified age range for the trial. Therefore, the patient is not relevant to the clinical trial.",
+    "NCT06009653": {
+        "relevance_explanation": "The patient's condition, as described in the note, is primarily neurological, with symptoms of memory loss and jerking movements. The clinical trial, however, is focused on obesity and metabolic health, specifically in Latino adults. There is no mention of the patient's weight, metabolic health, or ethnicity in the note. Therefore, the patient's condition does not seem to be relevant to the clinical trial.",
         "relevance_score_R": 0.0,
-        "eligibility_explanation": "Given the patient's irrelevance to the clinical trial, the eligibility score is also zero. The patient does not meet any of the inclusion criteria and there is not enough information to determine if the patient meets any of the exclusion criteria.",
+        "eligibility_explanation": "The patient does not meet the inclusion criteria for the trial, as they do not self-identify as Hispanic or Latino, and there is no information about their BMI or HbA1c levels. Additionally, the patient is not excluded by the exclusion criteria, as there is no mention of diabetes, unstable weight, or any of the other conditions listed. However, since the patient does not meet the inclusion criteria, they are not eligible for the trial.",
+        "eligibility_score_E": -0.0
+    },
+    "NCT01281228": {
+        "relevance_explanation": "The patient's note indicates that he is suffering from severe cognitive deficits and memory dysfunction, which is not relevant to the clinical trial that focuses on obesity and diabetes. Although the patient is obese, there is no mention of him having diabetes. Furthermore, the patient's neurological condition might interfere with the trial's focus on central reward and satiety circuits.",
+        "relevance_score_R": 30.0,
+        "eligibility_explanation": "The patient's eligibility cannot be fully determined due to lack of information on several key criteria such as the patient's glucose levels, diagnosis of T2DM, and treatment with metformin. However, the patient's neurological condition might exclude him from the trial as per exclusion criterion 1.",
+        "eligibility_score_E": -20.0
+    },
+    "NCT00993421": {
+        "relevance_explanation": "The patient's condition does not match the target condition of the clinical trial. The patient is suffering from severe cognitive deficits and memory dysfunction, while the clinical trial is focused on the treatment of obesity. There is no mention of the patient's weight or BMI in the patient note.",
+        "relevance_score_R": 0.0,
+        "eligibility_explanation": "As the patient's condition is not relevant to the clinical trial, the patient is not eligible for the trial.",
         "eligibility_score_E": 0.0
     },
-    "NCT01824290": {
-        "relevance_explanation": "The patient has type 2 diabetes and cardiovascular disease, which are not the target conditions of the clinical trial. The trial is focused on pediatric participants with pulmonary arterial hypertension, which is not mentioned in the patient's note. The patient's age is within the range specified in the trial, but the patient does not meet the other inclusion criteria.",
+    "NCT04081337": {
+        "relevance_explanation": "The patient's condition does not match the target condition of the clinical trial, which is obesity. Although the patient's BMI falls within the required range for the trial, the patient's primary health concern is related to neurological issues, not obesity. Therefore, the relevance between the patient and the clinical trial is low.",
         "relevance_score_R": 20.0,
-        "eligibility_explanation": "The patient is not included in the inclusion criteria because they do not have a diagnosis of pulmonary arterial hypertension. The patient is not excluded by the exclusion criteria because they do not have any of the conditions specified.",
-        "eligibility_score_E": -20.0
-    },
-    "NCT00638638": {
-        "relevance_explanation": "The patient has a history of cardiovascular disease and coronary revascularization, which is relevant to the clinical trial focused on myocardial infarction. However, the patient does not have a myocardial infarction, which is the target condition of the trial. Therefore, the patient is somewhat relevant but not exactly relevant to the trial.",
-        "relevance_score_R": 60.0,
-        "eligibility_explanation": "The patient meets the age criterion for inclusion but does not meet the other inclusion criteria related to myocardial infarction symptoms. The patient also does not meet any of the exclusion criteria, including recent stroke. Therefore, the patient is somewhat eligible but not fully eligible for the trial.",
-        "eligibility_score_E": 20.0
-    },
-    "NCT00357968": {
-        "relevance_explanation": "The patient has a history of coronary revascularization and cardiovascular disease, which is relevant to the clinical trial that targets coronary artery disease and involves percutaneous coronary intervention. However, the patient's age is incorrectly stated in the eligibility predictions, which should be 18 years old instead of 2 years old. Therefore, the patient is relevant to the trial.",
-        "relevance_score_R": 80.0,
-        "eligibility_explanation": "The patient meets the age requirement and has a history of coronary revascularization, which is relevant to the trial. However, there is not enough information about the patient's current condition and whether they are planning to undergo percutaneous coronary intervention, which are required for the inclusion criteria. Also, there is not enough information to determine whether the patient meets the exclusion criteria.",
+        "eligibility_explanation": "The patient meets the inclusion criteria regarding BMI, and there is no evidence in the patient note to suggest that the patient meets any of the exclusion criteria. However, the patient's primary health concern is not related to the focus of the trial, which may affect the patient's eligibility.",
         "eligibility_score_E": 0.0
     },
-    "NCT04509674": {
-        "relevance_explanation": "The patient has type 2 diabetes and cardiovascular disease, which are relevant to the clinical trial that is studying the effects of empagliflozin on people who had a heart attack. However, the patient does not have a history of myocardial infarction, which is the target condition of the trial. The patient's age and history of coronary revascularization are also relevant to the trial's inclusion criteria.",
-        "relevance_score_R": 60.0,
-        "eligibility_explanation": "The patient meets some of the trial's inclusion criteria, such as being of full age of consent and having type 2 diabetes. However, the patient does not meet the key inclusion criterion of having a diagnosis of myocardial infarction. Therefore, the patient is not fully eligible for the trial.",
-        "eligibility_score_E": -20.0
-    },
-    "NCT00857961": {
-        "relevance_explanation": "The patient is a 2-year-old boy with type 2 diabetes and cardiovascular disease. The clinical trial is for men with hypogonadism, a condition that typically affects adult males. Therefore, the patient's conditions and age do not match the target conditions of the clinical trial.",
-        "relevance_score_R": 0.0,
-        "eligibility_explanation": "Given the patient's age and conditions, none of the inclusion or exclusion criteria are applicable. Therefore, the patient is not eligible for the clinical trial.",
-        "eligibility_score_E": -0.0
-    },
-    "NCT03936660": {
-        "relevance_explanation": "The patient has type 2 diabetes and cardiovascular disease, which are the target conditions of the clinical trial. The patient also meets the age criterion and has a history of coronary revascularization and stroke, which are part of the inclusion criteria. However, there is a discrepancy in the patient's age in the eligibility predictions, which needs to be clarified.",
-        "relevance_score_R": 90.0,
-        "eligibility_explanation": "The patient meets some of the inclusion criteria, such as age, diagnosis of type 2 diabetes, and history of cardiovascular disease. However, the patient is not included in one of the inclusion criteria due to a discrepancy in the patient's age in the eligibility predictions. The patient is not excluded by the exclusion criterion.",
+    "NCT01459016": {
+        "relevance_explanation": "The patient's symptoms of progressive memory loss, cognitive deficits, and memory dysfunction, along with the neuroimaging findings of cerebral atrophy, align with the clinical trial's target condition of Alzheimer's Disease. The patient's age and gender also meet the inclusion criteria of the trial.",
+        "relevance_score_R": 85.0,
+        "eligibility_explanation": "The patient meets several of the inclusion criteria, including age, gender, and symptoms indicative of Alzheimer's Disease. There is no information in the patient note that would exclude the patient based on the trial's exclusion criteria.",
         "eligibility_score_E": 70.0
     },
-    "NCT05433584": {
-        "relevance_explanation": "The patient is an 18-year-old with type 2 diabetes, which is the target condition of the clinical trial. However, the patient's age and condition do not match the descriptions in the criterion-level eligibility predictions, which refer to a 2-year-old boy without type 2 diabetes. This discrepancy suggests an error in the criterion-level eligibility predictions.",
-        "relevance_score_R": 50.0,
-        "eligibility_explanation": "Given the discrepancy between the patient's note and the criterion-level eligibility predictions, it is difficult to accurately determine the patient's eligibility for the clinical trial. However, the patient does have type 2 diabetes, which is the target condition of the trial, and also has cardiovascular disease, which may affect eligibility based on the exclusion criteria.",
-        "eligibility_score_E": 0.0
+    "NCT05457998": {
+        "relevance_explanation": "The patient is relevant to the clinical trial as he falls within the specified age range of 50 to 80 years old. Furthermore, the patient's symptoms of severe cognitive deficits and memory dysfunction align with the target conditions of the trial, which include Alzheimer's Disease and Dementia.",
+        "relevance_score_R": 85.0,
+        "eligibility_explanation": "Despite the patient's relevance to the trial, he is ineligible due to his severe cognitive deficits and memory dysfunction, which could be interpreted as mild cognitive impairment or dementia. This condition is listed as an exclusion criterion for the trial.",
+        "eligibility_score_E": -85.0
     },
-    "NCT05882045": {
-        "relevance_explanation": "The patient has cardiovascular disease, which is a target condition of the clinical trial. However, the patient does not have obesity, another target condition of the trial. Furthermore, the patient does not meet the specific inclusion criteria of the trial, such as having a BMI \u226535.0 kg/m\u00b2 or a history of myocardial infarction, ischemic or hemorrhagic stroke, symptomatic peripheral arterial disease. Therefore, the patient's relevance to the trial is moderate.",
-        "relevance_score_R": 50.0,
-        "eligibility_explanation": "The patient is not included by any of the inclusion criteria, as they do not meet the specific conditions required. However, the patient is also not excluded by the exclusion criteria, as they do not have any of the conditions that would disqualify them from the trial. Therefore, the patient's eligibility for the trial is neutral.",
-        "eligibility_score_E": 0.0
-    },
-    "NCT05803421": {
-        "relevance_explanation": "The patient has type 2 diabetes and cardiovascular disease, which are both target conditions for the clinical trial. However, the patient does not meet all the inclusion criteria such as age and specific medication usage. There is also no mention of obesity or overweight, which are also target conditions for the trial.",
-        "relevance_score_R": 60.0,
-        "eligibility_explanation": "The patient meets some of the inclusion criteria such as having type 2 diabetes and cardiovascular disease. However, the patient does not meet all the inclusion criteria such as age and specific medication usage. The patient is not excluded by any of the exclusion criteria.",
-        "eligibility_score_E": 20.0
-    },
-    "NCT05706506": {
-        "relevance_explanation": "The patient has type 2 diabetes, which is the target condition for the clinical trial. However, the patient's age is not mentioned in the eligibility criteria, and the patient has a history of cardiovascular disease, which is not a focus of the trial.",
-        "relevance_score_R": 70.0,
-        "eligibility_explanation": "The patient meets the inclusion criterion of having type 2 diabetes. However, the patient's history of cardiovascular disease and stroke may exclude them from the trial, as these conditions are not mentioned in the inclusion criteria and could potentially interfere with the trial's focus on diabetes treatment.",
-        "eligibility_score_E": -20.0
-    },
-    "NCT01524705": {
-        "relevance_explanation": "The patient has type 2 diabetes and cardiovascular disease, which are both relevant to the clinical trial. However, the patient's age (18 years old) is below the required age range (40-75 years) for the trial. The patient also has a history of coronary revascularization and stroke, which are relevant to the trial's focus on cardiovascular disease.",
-        "relevance_score_R": 70.0,
-        "eligibility_explanation": "The patient meets some of the inclusion criteria, such as having type 2 diabetes and a history of cardiovascular disease. However, the patient's age makes them ineligible for the trial. Additionally, the patient's history of coronary revascularization and stroke could potentially exclude them from the trial, as these conditions might interfere with the trial protocol.",
-        "eligibility_score_E": -20.0
-    },
-    "NCT00853151": {
-        "relevance_explanation": "The patient has type 2 diabetes which is the target condition of the clinical trial. The patient's age also falls within the age range specified in the inclusion criteria. However, the patient has a history of cardiovascular disease and stroke, which are mentioned in the exclusion criteria.",
+    "NCT02624778": {
+        "relevance_explanation": "The patient is a 62-year-old man with severe cognitive deficits and memory dysfunction, which could be indicative of mild cognitive impairment (MCI) or mild-to-moderate Alzheimer's disease (AD). However, the note does not explicitly diagnose the patient with AD. The clinical trial is for participants with MCI due to AD or mild to moderate AD. Therefore, the patient's condition is relevant to the clinical trial, but not exactly matching the target condition.",
         "relevance_score_R": 80.0,
-        "eligibility_explanation": "The patient meets some of the inclusion criteria such as having type 2 diabetes and being within the specified age range. However, the patient's history of cardiovascular disease and stroke may exclude them from the trial as these conditions are mentioned in the exclusion criteria.",
+        "eligibility_explanation": "The patient's eligibility cannot be fully determined due to lack of information. The patient's cognitive deficits and memory dysfunction could potentially meet the inclusion criteria of having MCI or mild-to-moderate AD. However, the patient's note does not provide information about the patient's social support, which is required in the exclusion criteria. Therefore, the patient's eligibility is uncertain.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT05026866": {
+        "relevance_explanation": "The patient's condition of severe cognitive deficits and memory dysfunction is relevant to the clinical trial, which is targeting Alzheimer's Disease. The patient's symptoms align with the disease being studied in the trial.",
+        "relevance_score_R": 85.0,
+        "eligibility_explanation": "The patient is not eligible for the trial. The patient does not meet the inclusion criteria due to severe cognitive deficits and memory dysfunction, which contradicts the requirement of intact cognitive functioning. Furthermore, the patient meets the exclusion criteria of having mild cognitive impairment or dementia.",
+        "eligibility_score_E": -85.0
+    },
+    "NCT05108922": {
+        "relevance_explanation": "The patient's condition of progressive memory loss and cognitive deficits aligns with the target conditions of the clinical trial, which are Mild Cognitive Impairment (MCI) and Alzheimer's Disease. However, the patient's specific symptoms, such as jerking movements of the lower extremities and the results of the cortical biopsy, are not directly mentioned in the clinical trial description. Therefore, while the patient's condition is relevant to the trial, it is not a perfect match.",
+        "relevance_score_R": 80.0,
+        "eligibility_explanation": "The patient's eligibility cannot be fully determined due to insufficient information. While the patient's memory loss and cognitive deficits suggest potential eligibility, the duration of these symptoms is not specified, which is a requirement for one of the inclusion criteria. Additionally, there is no information available regarding the patient's medical history, potential allergies, or previous treatments, which are necessary to evaluate the exclusion criteria.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT01662882": {
+        "relevance_explanation": "The patient's age, gender, and symptoms of cognitive deficits and memory dysfunction are relevant to the clinical trial, which is focused on Alzheimer's Disease and Mild Cognitive Impairment. However, the patient's nationality is not mentioned, and the trial specifically targets Japanese subjects. Additionally, the patient's MMSE score, living situation, caregiver status, and ability to provide informed consent are not mentioned, which are all relevant to the trial's inclusion criteria.",
+        "relevance_score_R": 70.0,
+        "eligibility_explanation": "The patient's eligibility for the trial cannot be determined due to insufficient information. While the patient's age, gender, and symptoms suggest potential eligibility, the lack of information about the patient's nationality, MMSE score, living situation, caregiver status, and ability to provide informed consent make it impossible to definitively include or exclude the patient based on the trial's criteria.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT01874756": {
+        "relevance_explanation": "The patient's condition does not match the target condition of the clinical trial, which is schizophrenia. The patient is suffering from severe cognitive deficits and memory dysfunction, which are not the primary focus of the trial. The trial is primarily focused on negative and cognitive symptoms in patients with schizophrenia, which the patient does not have.",
+        "relevance_score_R": 20.0,
+        "eligibility_explanation": "The patient meets some of the inclusion criteria such as age and gender. However, the patient does not have a diagnosis of schizophrenia, which is a key inclusion criterion. Furthermore, the patient's neurological condition could potentially exclude him from the trial, but there is not enough information to determine this.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01928823": {
+        "relevance_explanation": "The patient's condition, characterized by memory loss and cognitive deficits, does not align with the target condition of the clinical trial, which is agoraphobia. The patient's neurological symptoms and the clinical trial's focus on anxiety disorders make the patient's relevance to the trial low.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient meets the first inclusion criterion of providing informed consent. However, the patient does not meet the diagnosis of agoraphobia, which is a key inclusion criterion. Furthermore, the patient is excluded by the criterion of having a severe psychiatric disorder like dementia, which is evident from the patient's note.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01659177": {
+        "relevance_explanation": "The patient is a 62-year-old man with severe cognitive deficits and memory dysfunction, which does not align with the target condition of the clinical trial, which is looking for healthy participants. Therefore, the patient's condition is not relevant to the clinical trial.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient does not meet the inclusion criteria as he is not a healthy individual. He is not excluded by the exclusion criteria as his condition or medical history does not match any of the exclusion criteria. Therefore, the patient is ineligible for the clinical trial.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT02245737": {
+        "relevance_explanation": "The patient's symptoms of progressive memory loss, cognitive deficits, and cerebral atrophy are relevant to the clinical trial's focus on early Alzheimer's disease. However, the patient note does not provide enough information to confirm whether the patient's condition aligns with the specific criteria for mild cognitive impairment (MCI) or mild Alzheimer's Disease (AD) as defined by the National Institute on Aging and the Alzheimer's Association (NIA-AA).",
+        "relevance_score_R": 80.0,
+        "eligibility_explanation": "The patient is not excluded by the trial's exclusion criteria, as the patient note does not mention any significant neurological disease affecting the central nervous system other than AD. However, there is not enough information to determine whether the patient meets the trial's inclusion criteria, particularly regarding the duration and reporting of memory loss.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT01609218": {
+        "relevance_explanation": "The patient is a 62-year-old man with severe cognitive deficits and memory dysfunction, which does not align with the 'healthy' participant requirement of the trial. Furthermore, the trial is designed for healthy participants to evaluate the effect of activated charcoal on absorption of LY2140023, which is not relevant to the patient's condition.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient does not meet the inclusion criteria as he is not a 'healthy' participant. However, he is not excluded by the exclusion criteria as his conditions or medical history do not match any of the exclusion criteria.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01440478": {
+        "relevance_explanation": "The patient is a 62-year-old man with severe cognitive deficits and memory dysfunction, which does not align with the requirement of being 'overtly healthy' for the clinical trial. The trial is designed for healthy subjects to explore the effect of urinary pH changes on a pharmacokinetic dose, which is not relevant to the patient's condition.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient is not included in the trial as he does not meet the inclusion criteria of being 'overtly healthy'. However, he is not excluded by any of the exclusion criteria as his conditions or medical history do not match any of the exclusion criteria.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT01637142": {
+        "relevance_explanation": "The patient is a 62-year-old man, which matches the gender requirement of the trial. However, the trial is specifically for healthy participants, and the patient has severe cognitive deficits and memory dysfunction, which contradicts the health requirement of the trial. Therefore, the patient is not highly relevant to the trial.",
+        "relevance_score_R": 30.0,
+        "eligibility_explanation": "The patient is not included in the inclusion criteria due to his health condition. However, he is not excluded by any of the exclusion criteria as his medical history does not mention any of the conditions listed in the exclusion criteria.",
+        "eligibility_score_E": -30.0
+    },
+    "NCT03153410": {
+        "relevance_explanation": "The patient's condition, as described in the note, is not relevant to the clinical trial. The patient is experiencing neurological issues, while the clinical trial is focused on pancreatic cancer. There is no mention of pancreatic cancer or any related symptoms in the patient's note.",
+        "relevance_score_R": 0.0,
+        "eligibility_explanation": "As the patient's condition is not relevant to the clinical trial, the patient is not eligible for the trial. The patient does not meet the inclusion criteria, which require a diagnosis of adenocarcinoma of the pancreas. The patient is not excluded by the exclusion criteria, but this is irrelevant as the patient does not meet the inclusion criteria.",
+        "eligibility_score_E": -0.0
+    },
+    "NCT01561430": {
+        "relevance_explanation": "The patient's symptoms of progressive memory loss and cognitive deficits could be indicative of Mild Cognitive Impairment (MCI) due to Alzheimer's Disease (AD) or mild AD, which are the target conditions of the clinical trial. However, the patient note does not provide enough information to confirm a diagnosis of either condition, and there is no mention of the patient undergoing the required assessments or meeting the specific criteria outlined in the trial's inclusion criteria. Therefore, while there is some relevance, it is not definitive.",
+        "relevance_score_R": 60.0,
+        "eligibility_explanation": "The patient does not meet all of the inclusion criteria due to lack of information in the patient note about the required assessments and criteria. However, the patient is not excluded by any of the exclusion criteria mentioned in the trial. Therefore, the patient's eligibility is uncertain.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT01591330": {
+        "relevance_explanation": "The patient is a 62-year-old man with severe cognitive deficits and memory dysfunction, which does not align with the requirement of being 'overtly healthy' for the clinical trial. The trial is specifically for healthy volunteers, and the patient's conditions do not match this description. Therefore, the patient's relevance to the trial is low.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient does not meet the inclusion criteria of being 'overtly healthy', as he has severe cognitive deficits and memory dysfunction. Additionally, the patient does not meet any of the exclusion criteria, as his conditions and medical history do not match any of the listed exclusion criteria. Therefore, the patient's eligibility for the trial is negative.",
+        "eligibility_score_E": -10.0
+    },
+    "NCT04408625": {
+        "relevance_explanation": "The patient's age and symptoms align with the target demographic and condition of the clinical trial, which is for patients with frontotemporal dementia. However, the patient's specific diagnosis is not explicitly stated as frontotemporal dementia, and the patient's genetic status (specifically regarding progranulin mutations) is also unknown. Therefore, while there is some relevance, it is not complete.",
+        "relevance_score_R": 70.0,
+        "eligibility_explanation": "The patient meets the age criterion for inclusion and shows symptoms of dementia, which is relevant to the trial. However, the specific type of dementia is not confirmed to be frontotemporal, and the patient's genetic status is unknown. Additionally, the patient's eligibility regarding the exclusion criteria cannot be fully determined due to lack of information. Therefore, the patient's eligibility is uncertain.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT03857321": {
+        "relevance_explanation": "The patient's condition of severe cognitive deficits and memory dysfunction aligns with the target conditions of the clinical trial, which are Mild Cognitive Impairment and Cognitive Impairment. However, the patient's condition seems to be more severe than the target conditions, and the patient's diagnosis is not explicitly stated as dementia, which is an exclusion criterion for the trial.",
+        "relevance_score_R": 80.0,
+        "eligibility_explanation": "The patient meets the inclusion criteria as inferred from the patient note. However, the patient might be excluded due to the severity of cognitive deficits and memory dysfunction, which could be interpreted as dementia. But without a clear diagnosis of dementia, the eligibility is uncertain.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT05912621": {
+        "relevance_explanation": "The patient's note does not indicate any issues related to obesity, overweight, or metabolic health, which are the primary focus of the clinical trial. The patient's primary health concerns are neurological, specifically memory loss and jerking movements, which are not relevant to the trial's focus on obesity and metabolic health.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "While the patient does not meet any of the exclusion criteria, there is not enough information to determine if the patient meets the inclusion criteria. The patient's note does not provide information on the patient's weight, BMI, or any weight-related risk factors. Therefore, it is unclear if the patient would be eligible for the trial.",
+        "eligibility_score_E": 0.0
+    },
+    "NCT02252367": {
+        "relevance_explanation": "The patient is a 62-year-old man, which matches the gender and age group for the clinical trial. However, the patient's symptoms and treatments are related to neurological issues, not prostatic hyperplasia or lower urinary tract symptoms, which are the target conditions of the clinical trial. Therefore, the patient's condition is not relevant to the clinical trial.",
+        "relevance_score_R": 20.0,
+        "eligibility_explanation": "The patient is not included in the inclusion criteria because there is no evidence that he is planned to undergo simple prostatectomy for benign prostatic hyperplasia or that he is on treatment with alpha-blockers. The patient is not excluded by the exclusion criteria because there is no evidence of participation in another clinical trial, prostatic cancer, lack of compliance, severe allergies or hypersensitivity to the study drug, neurogenic bladder, urinary infections, or bladder stone.",
         "eligibility_score_E": -20.0
-    },
-    "NCT01159938": {
-        "relevance_explanation": "The patient has type 2 diabetes, which is the target condition of the clinical trial. However, the patient's age and lack of insulin therapy make them irrelevant to some of the inclusion criteria. The patient's history of cardiovascular disease and stroke could potentially exclude them from the trial.",
-        "relevance_score_R": 60.0,
-        "eligibility_explanation": "The patient is not eligible for the trial due to their age and lack of insulin therapy. Additionally, their history of cardiovascular disease and stroke could potentially exclude them from the trial.",
-        "eligibility_score_E": -60.0
-    },
-    "NCT05563246": {
-        "relevance_explanation": "The patient has type 2 diabetes and cardiovascular disease, which are relevant to the trial's focus on participants at high risk for cardiovascular events. However, the patient's age (18 years old) does not meet the trial's age requirement of at least 40 years old. Also, there is no information about the patient's Lipoprotein(a) levels, which is a key criterion for the trial.",
-        "relevance_score_R": 60.0,
-        "eligibility_explanation": "The patient is not eligible due to not meeting the age requirement. While the patient has type 2 diabetes and cardiovascular disease, which are relevant to the trial's focus, the patient's age (18 years old) does not meet the trial's age requirement of at least 40 years old. Also, there is no information about the patient's Lipoprotein(a) levels, which is a key criterion for the trial. The patient is not excluded by any of the exclusion criteria.",
-        "eligibility_score_E": -60.0
     }
 }
