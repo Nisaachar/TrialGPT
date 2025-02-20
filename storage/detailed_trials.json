@@ -1,5 +1,364 @@
 [
     {
+        "trial_id": "NCT04657016",
+        "brief_title": "A Study of Tirzepatide (LY3298176) In Participants After A Lifestyle Weight Loss Program",
+        "official_title": "Efficacy and Safety of Tirzepatide Once Weekly Versus Placebo After an Intensive Lifestyle Program in Participants Without Type 2 Diabetes Who Have Obesity or Are Overweight With Weight-Related Comorbidities: A Randomized, Double Blind, Placebo-Controlled Trial (SURMOUNT-3)",
+        "lillyAlias": [
+            "I8F-MC-GPHM"
+        ],
+        "brief_summary": "This is a study of tirzepatide in participants with obesity. The purpose of this study is to learn more about how tirzepatide maintains body weight or adds to weight loss after an intensive lifestyle modification program. The study will last about 2 years (29 visits).",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Placebo"
+        ],
+        "enrollment": 579,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) \u226530 kg/m2 or \u226527 kg/m2 and previously diagnosed with at least 1 of the following comorbidities: hypertension, dyslipidemia, obstructive sleep apnea or cardiovascular disease\n History of at least one unsuccessful dietary effort to lose body weight",
+        "exclusion_criteria": "exclusion criteria: \n\nDiabetes mellitus\nChange in body weight greater than 5 kg within 3 months prior to starting study\nObesity induced by other endocrinologic disorders or monogenetic or syndromic forms of obesity\nHistory of pancreatitis\nFamily or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\nHistory of significant active or unstable major depressive disorder (MDD) or other severe psychiatric disorder within the last 2 years\nAny lifetime history of a suicide attempt",
+        "keywords": [
+            "Diet",
+            "Exercise",
+            "Metabolism and Nutrition Disorder",
+            "Behavioral Modification"
+        ]
+    },
+    {
+        "trial_id": "NCT04184622",
+        "brief_title": "A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight",
+        "official_title": "Efficacy and Safety of Tirzepatide Once Weekly in Participants Without Type 2 Diabetes Who Have Obesity or Are Overweight With Weight- Related Comorbidities: A Randomized, Double-Blind, Placebo-Controlled Trial (SURMOUNT-1)",
+        "lillyAlias": [
+            "I8F-MC-GPHK"
+        ],
+        "brief_summary": "This is a study of tirzepatide in participants with overweight and obesity. The main purpose is to learn more about how tirzepatide affects body weight. The study has two phases: A main phase and an extension phase. The main phase of the study will last 72 weeks. Participants with prediabetes will continue in the extension for another 2 years.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Overweight",
+            "Obesity"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Placebo"
+        ],
+        "enrollment": 2539,
+        "inclusion_criteria": "inclusion criteria: \n\n Body mass Index (BMI) \u226530 kilograms per square meter (kg/m\u00b2), or \u226527 kg/m\u00b2 and previous diagnosis with at least one of the following comorbidities: hypertension, dyslipidemia, obstructive sleep apnea, cardiovascular disease\n History of at least one unsuccessful dietary effort to lose body weight",
+        "exclusion_criteria": "exclusion criteria: \n\nDiabetes mellitus\nChange in body weight greater than 5 kg within 3 months prior to starting study\nObesity induced by other endocrinologic disorders or monogenetic or syndromic forms of obesity\nHistory of pancreatitis\nFamily or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\nHistory of significant active or unstable major depressive disorder (MDD) or other severe psychiatric disorder within the last 2 years\nAny lifetime history of a suicide attempt",
+        "keywords": [
+            "Metabolism and Nutrition Disorder",
+            "Prediabetes"
+        ]
+    },
+    {
+        "trial_id": "NCT05822830",
+        "brief_title": "A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight With Weight Related Comorbidities",
+        "official_title": "A Phase 3b, Randomized Controlled Study to Evaluate the Efficacy and Safety of Tirzepatide Compared to Semaglutide in Adults Who Have Obesity or Overweight With Weight Related Comorbidities",
+        "lillyAlias": [
+            "I8F-MC-GPHJ",
+            "U1111-1283-5404"
+        ],
+        "brief_summary": "The main purpose of this phase 3b study is to evaluate the efficacy and safety of tirzepatide compared with semaglutide in adult participants who have obesity or overweight with weight related comorbidities without Type 2 Diabetes. The study will last around 74 weeks.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Semaglutide"
+        ],
+        "enrollment": 751,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) of \u226530 kilogram per square meter (kg/m\u00b2) or \u226527 kg/m\u00b2 and previously diagnosed with at least one of the following weight related comorbidities: hypertension, dyslipidemia, obstructive sleep apnea, cardiovascular disease\n Have a history of at least 1 unsuccessful dietary effort to lose body weight",
+        "exclusion_criteria": "exclusion criteria: \n\nDiabetes mellitus\nChange in body weight greater than 5 kg within 3 months prior to starting study\nObesity induced by other endocrinologic disorders or monogenetic or syndromic forms of obesity\nHistory of pancreatitis\nFamily or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\nHistory of significant active or unstable major depressive disorder (MDD) or other severe psychiatric disorder within the last 2 years",
+        "keywords": [
+            "Metabolism and Nutrition",
+            "Disorder",
+            "Prediabetes",
+            "Diet",
+            "Exercise"
+        ]
+    },
+    {
+        "trial_id": "NCT04881760",
+        "brief_title": "A Study of LY3437943 in Participants Who Have Obesity or Are Overweight",
+        "official_title": "A Phase 2 Study of Once-Weekly LY3437943 Compared With Placebo in Participants Who Have Obesity or Are Overweight With Weight-Related Comorbidities",
+        "lillyAlias": [
+            "J1I-MC-GZBF"
+        ],
+        "brief_summary": "This is a study of LY3437943 in participants who have obesity or are overweight. The main purpose is to learn more about how LY3437943 affects body weight loss. The study will last about 18 months and may include up to 18 visits.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE2"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight"
+        ],
+        "drugs_list": [
+            "LY3437943",
+            "Placebo"
+        ],
+        "enrollment": 338,
+        "inclusion_criteria": "inclusion criteria: \n\n Participants must have a Body Mass Index (BMI) ) \u226530 and \u226450 kilograms per square meter (kg/m\u00b2), or \u226527 kg/m\u00b2 and \\<30 kg/m\u00b2, with at least one of the following comorbidities: hypertension, dyslipidemia, cardiovascular disease\n Participants must be willing to learn how to self-inject study drug or receive an injection from a trained individual if visually impaired or with physical limitations, and follow study procedures for the duration of the study, including, but not limited to, follow lifestyle advice (for example, dietary changes and physical activity plan), maintain a study drug administration log, and complete required questionnaires",
+        "exclusion_criteria": "exclusion criteria: \n\nParticipants must not have type 1 or type 2 diabetes mellitus\nParticipants must not have had an increase or decrease in body weight \\> more than 5 kg (11 pounds) within the past 3 months\nParticipants must not have had surgery for obesity or plan to have such surgery during the study\nParticipants must not be using medications that promote weight loss or cause weight gain\nParticipants must not drink excessive amounts of alcohol (more than 14 units a week for women or more than 21 units a week for men)\nParticipants must not have used marijuana within the last 3 months.\nParticipants must not have heart attack, stroke, or hospitalization for congestive heart failure in the past 3 months\nParticipants must not have active cancer within the last 5 years\nParticipants must not have uncontrolled high blood pressure\nParticipants must not have liver disease other than non-alcoholic fatty liver disease\nParticipants must not have renal impairment with estimated glomerular filtration rate (eGFR) \\<45 mL/min/1.73 m2\nParticipants must not have a history of acute or chronic pancreatitis symptomatic gallbladder disease or documented human immunodeficiency virus infection\nParticipants must not have a major problem with depression or other mental illness within the last 2 years\nParticipants must not have family or personal history of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma (family is defined as a first degree relative)\nFemale participants must not be pregnant, breast-feeding, or intend to become pregnant or of childbearing potential and not using adequate contraceptive method (adequate contraceptive measures as required by local regulation or practice)",
+        "keywords": [
+            "Nutritional or Metabolism Disorder",
+            "Weight Loss",
+            "Overnutrition",
+            "Incretins",
+            "Hormones",
+            "Physiological Effects of Drugs"
+        ]
+    },
+    {
+        "trial_id": "NCT05051579",
+        "brief_title": "A Study of LY3502970 in Participants With Obesity or Overweight With Weight-related Comorbidities",
+        "official_title": "A Phase 2 Study of Once-Daily LY3502970 Compared With Placebo in Participants Who Have Obesity or Are Overweight With Weight-Related Comorbidities",
+        "lillyAlias": [
+            "J2A-MC-GZGI",
+            "2021-002805-88"
+        ],
+        "brief_summary": "The main purpose of the study was to assess the effect of LY3502970 in participants who have obesity or are overweight.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE2"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight and Obesity"
+        ],
+        "drugs_list": [
+            "LY3502970",
+            "Placebo"
+        ],
+        "enrollment": 272,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) of \u226530-kilogram square meter (kg/m\u00b2)\n Have a BMI \u226527 kg/m\u00b2 and \\<30 kg/m\u00b2 with at least 1 of the following weight-related comorbidities eg; \\[Have hypertension, or dyslipidemia, cardiovascular disease\\]\n Have had a stable body weight for the 3 months prior to randomization (not more than 5% body weight gain and/or loss)",
+        "exclusion_criteria": "exclusion criteria: \n\nHave any prior diagnosis of diabetes\nHave a prior or planned surgical treatment for obesity\nHave obesity induced by other endocrinological disorders or diagnosed monogenetic or syndromic forms of obesity\nHave renal impairment measured as estimated glomerular filtration rate (eGFR) \\<30 milliliter (mL)/minute (min)/1.73 m\u00b2\nHave a history of acute chronic pancreatitis\nHave a history of significant active or unstable Major Depressive Disorder (MDD) or other severe psychiatric disorder (for example, schizophrenia, bipolar disorder, or other serious mood or anxiety disorder) within the last 2 years Note: Participants with MDD or generalized anxiety disorder whose disease state is considered stable for the past 2 years and expected to remain stable throughout the course of the study, may be considered for inclusion if they are not on excluded medications.\n\nWithin 3 months prior to screening:\n\nHave poorly controlled hypertension\nHave history of acute myocardial infarction\nHave history of cerebrovascular accident (stroke)\nHad hospitalization due to congestive heart failure (CHF)\nHave cancer\nHave human immunodeficiency virus (HIV) and/or positive HIV antibodies historically or at screening\nHave hepatitis B and/or positive hepatitis B surface antigen",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT05869903",
+        "brief_title": "A Study of Orforglipron (LY3502970) in Adult Participants With Obesity or Overweight With Weight-Related Comorbidities",
+        "official_title": "A Phase 3, Randomized, Double-Blind Study to Investigate the Efficacy and Safety of Once-Daily Oral LY3502970 Compared With Placebo in Adult Participants With Obesity or Overweight With Weight-Related Comorbidities (ATTAIN-1)",
+        "lillyAlias": [
+            "J2A-MC-GZGP",
+            "2022-502839-19-00",
+            "U1111-1289-8877"
+        ],
+        "brief_summary": "This study will investigate the efficacy and safety of once daily oral orforglipron in adult participants with obesity or overweight with weight-related comorbidities.",
+        "trial_status": "ACTIVE_NOT_RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight",
+            "Overweight or Obesity"
+        ],
+        "drugs_list": [
+            "Orforglipron",
+            "Placebo"
+        ],
+        "enrollment": 3000,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a BMI\n\n   \u226530.0 kilogram/square meter (kg/m\u00b2),\n   \u226527.0 kg/m\u00b2 and presence of at least 1 of the following weight-related comorbidities (treated or untreated) at screening:\n\n     Hypertension, dyslipidemia, obstructive sleep apnea, cardiovascular disease (for example, ischemic cardiovascular disease, New York Heart Association Functional Class I-III heart failure).\n Have a history of at least 1 self-reported unsuccessful dietary effort to lose body weight.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave Type 1 diabetes, Type 2 diabetes, or any other types of diabetes, history of ketoacidosis, or hyperosmolar state/coma\nHave a self-reported change in body weight \\>5 kg (11 pounds) within 90 days prior to screening.\nHave family (first-degree relative) or personal history of medullary thyroid cancer (MTC) or multiple endocrine neoplasia (MEN)2 syndrome.\nHave had a history of chronic or acute pancreatitis.",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06023095",
+        "brief_title": "A Study of LY3502970 in Chinese Participants With Obesity or Are Overweight With Weight-related Comorbidities",
+        "official_title": "A Multiple Dose Titration Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3502970 in Chinese Participants Who Have Obesity or Are Overweight With Weight-related Comorbidities",
+        "lillyAlias": [
+            "J2A-GH-GZGX"
+        ],
+        "brief_summary": "The main purpose of this study is to learn about the safety and tolerability of LY3502970 when given to Chinese participants with obesity or overweight with weight-related comorbidities. Blood tests will be performed to investigate how the body processes the study drug and how the study drug affects the body. Each enrolled participant will receive LY3502970, or placebo given orally. For each participant, the study will last about approximately 22- and 30-weeks for both cohort 1 and 2, respectively including screening period.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE1"
+        ],
+        "diseases_list": [
+            "Overweight",
+            "Obesity"
+        ],
+        "drugs_list": [
+            "LY3502970",
+            "Placebo"
+        ],
+        "enrollment": 24,
+        "inclusion_criteria": "inclusion criteria: \n\n Are native Chinese males or females\n Have had a stable body weight for the 3 months prior to randomization (less than 5% body weight change) and body mass index of \u2265 30.0 kilograms per square meter (kg/m\u00b2) or between 27.0 up to 30.0 kg/m\u00b2 with at least 1 of the following weight-related comorbidities including Hypertension, Dyslipidemia, Cardiovascular disease, Obstructive sleep apnea",
+        "exclusion_criteria": "exclusion criteria: \n\nHave any prior diagnosis of type 1 diabetes mellitus (T1DM) or type 2 diabetes mellitus (T2DM), or rare forms of diabetes mellitus\nHave used or intend to use any prescription or over-the-counter medications or traditional Chinese treatments within 3 months prior to screening, exception of medications for the treatment of concurrent medical conditions with a stable dose\nHave known allergies to GLP-1RAs, LY3502970, related compounds, any components of the formulation, or have a history of significant atopy\nAre overweight or have obesity induced by other endocrinological disorders, diagnosed monogenetic, or syndromic forms of obesity\nHave or plan to have a surgical, endoscopic or device-based treatment for obesity\nHave a history or presence of psychiatric disorder, a moderately severe or severe depression status, or a significantly risk for suicide\nHave a history of acute or chronic pancreatitis\nHave a known self or family history of multiple endocrine neoplasia type 2A or type 2B, thyroid C-cell hyperplasia, or medullary thyroid carcinoma\nHave other acute, chronic, or uncontrolled medical conditions, vital organ failure or abnormal laboratory value in the judgment of the investigator would make the participant inappropriate for entry into this study",
+        "keywords": [
+            "Safety and Tolerability",
+            "Chinese",
+            "LY3502970"
+        ]
+    },
+    {
+        "trial_id": "NCT06047548",
+        "brief_title": "A Study of LY3298176 (Tirzepatide) For the Maintenance of Body Weight Reduction in Participants Who Have Obesity or Overweight With Weight-Related Comorbidities",
+        "official_title": "A Phase 3b, Randomized Controlled Study to Evaluate the Efficacy and Safety of Tirzepatide Once Weekly 5 mg and/or Maximum Tolerated Dose Versus Placebo for Maintenance of Body Weight Reduction in Participants Who Have Obesity or Overweight With Weight-Related Comorbidities (SURMOUNT-MAINTAIN)",
+        "lillyAlias": [
+            "I8F-MC-GPIQ"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of tirzepatide for the maintenance of body weight reduction.",
+        "trial_status": "ACTIVE_NOT_RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Overweight",
+            "Obesity"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Placebo"
+        ],
+        "enrollment": 400,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a Body Mass Index (BMI) of \u226530 kilogram/square meter (kg/m\u00b2) or \u226527 kg/m\u00b2 and previously diagnosed with at least 1 of the following weight related comorbidities:\n\n   Hypertension, dyslipidemia, obstructive sleep apnea, cardiovascular disease\n Have a history of at least 1 self-reported unsuccessful dietary effort to lose body weight (BW)",
+        "exclusion_criteria": "exclusion criteria: \n\nHave Type 1 Diabetes (T1D) or Type 2 Diabetes (T2D), a history of ketoacidosis, or hyperosmolar state or coma.\nHave a self-reported change in BW\\>5 kilogram (kg) within 3 months prior to screening\nHave a prior or planned surgical treatment for obesity, excluding liposuction or abdominoplasty if performed \\>1 year prior to screening.\nHave a history of chronic or acute pancreatitis\nHave any of the following cardiovascular conditions within 3 months prior to week 0.\n\n  Acute myocardial infarction, cerebrovascular accident (stroke), unstable angina, and hospitalization due to congestive heart failure (CHF)\n  family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\nHistory of significant active or unstable major depressive disorder (MDD) or other severe psychiatric disorder within the last 2 years\nAny lifetime history of a suicide attempt",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06643728",
+        "brief_title": "A Study to Investigate Weight Management With Bimagrumab (LY3985863) and Tirzepatide (LY3298176), Alone or in Combination, in Adults With Obesity or Overweight",
+        "official_title": "A Phase 2, Double-Blind, Randomized, Placebo-Controlled Study of Bimagrumab and Tirzepatide, Alone or in Combination, to Investigate the Efficacy and Safety in Adult Participants With Obesity or Overweight Without Type 2 Diabetes",
+        "lillyAlias": [
+            "J4Z-MC-GIDF"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of Bimagrumab and Tirzepatide, alone or in combination, in adults with obesity or overweight, with at least one obesity related comorbidity, without Type 2 Diabetes. The study will last about 54 weeks.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE2"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight"
+        ],
+        "drugs_list": [
+            "Bimagrumab",
+            "Tirzepatide",
+            "Placebo"
+        ],
+        "enrollment": 140,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a BMI of\n\n   \u226530 kilograms per square meter (kg/m2) or\n   \u226527 kg/m2 and \\<30 kg/m2, with at least one of the following weight-related comorbidities:\n\n     Hypertension\n     Dyslipidemia\n     Cardiovascular disease\n     Obstructive sleep apnea\n Have had a stable body weight for the 3 months prior to randomization (\\<5% body weight gain and/or loss)",
+        "exclusion_criteria": "exclusion criteria: \n\nHave a prior or planned surgical treatment for obesity\nHave at least one laboratory value suggestive of diabetes during screening\nUse of metformin, or any other glucose-lowering medications\nHave Type 1 Diabetes, latent autoimmune diabetes, been diagnosed with any form of diabetes mellitus except for a prior diagnosis of gestational diabetes mellitus, or history of ketoacidosis or hyperosmolar coma\nHave poorly controlled hypertension\nHave any of the following cardiovascular conditions within 3 months prior to screening:\n\n  acute myocardial infarction\n  cerebrovascular accident (stroke)\n  unstable angina, or\n  hospitalization due to congestive heart failure\nHave ongoing or a history of frequent intermittent or chronic tachyarrhythmia syndromes\nHave ongoing or a history of bradyarrhythmias other than sinus bradycardia\nHave a history of New York Heart Association (NYHA) Functional Classification III or IV congestive heart failure\nHave a history of symptomatic gallbladder disease within the past 2 years\nHave signs and symptoms of any liver disease\nHave a disease or condition known to cause gastrointestinal malabsorption or a known clinically significant gastric emptying abnormality\nHave a history of acute or chronic pancreatitis\nHave renal impairment, measured as estimated glomerular filtration rate \\<30 mL/minute/1.73 m2\nCurrently taking or have taken medications that may cause significant weight gain or promote weight loss within 3 months prior to screening",
+        "keywords": [
+            "Muscle",
+            "Lean",
+            "Fat"
+        ]
+    },
+    {
+        "trial_id": "NCT04660643",
+        "brief_title": "A Study of Tirzepatide (LY3298176) in Participants With Obesity or Overweight for the Maintenance of Weight Loss",
+        "official_title": "Efficacy and Safety of Tirzepatide Once Weekly Versus Placebo for Maintenance of Weight Loss in Participants Without Type 2 Diabetes Who Have Obesity or Are Overweight With Weight-Related Comorbidities: A Randomized, Double-Blind, Placebo-Controlled Trial (SURMOUNT-4)",
+        "lillyAlias": [
+            "I8F-MC-GPHN"
+        ],
+        "brief_summary": "This was a study of tirzepatide in participants with obesity or overweight. The main purpose was to learn more about how tirzepatide maintained body weight loss. The study had two phases: a lead-in phase in which all participants took tirzepatide and a treatment phase in which participants either continued tirzepatide or switched to placebo. The study lasted about 2 years (25 visits).",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Placebo"
+        ],
+        "enrollment": 783,
+        "inclusion_criteria": "inclusion criteria: \n\n Body Mass Index (BMI) \u226530 kilograms per square meter (kg/m\u00b2), or \u226527 kg/m\u00b2 and previous diagnosis with at least one of the following comorbidities: hypertension, dyslipidemia, obstructive sleep apnea, cardiovascular disease\n History of at least one unsuccessful dietary effort to lose body weight",
+        "exclusion_criteria": "exclusion criteria: \n\nDiabetes mellitus\nChange in body weight greater than 5 kg within 3 months prior to starting study\nObesity induced by other endocrinologic disorders or monogenetic or syndromic forms of obesity\nHistory of pancreatitis\nFamily or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\nHistory of significant active or unstable major depressive disorder (MDD) or other severe psychiatric disorder within the last 2 years\nAny lifetime history of a suicide attempt",
+        "keywords": [
+            "Metabolism and Nutrition Disorder",
+            "Prediabetes"
+        ]
+    },
+    {
+        "trial_id": "NCT05556512",
+        "brief_title": "A Study of Tirzepatide (LY3298176) on the Reduction on Morbidity and Mortality in Adults With Obesity",
+        "official_title": "A Phase 3, Randomized, Double-blind, Placebo-Controlled Study to Investigate the Effect of Tirzepatide on the Reduction of Morbidity and Mortality in Adults With Obesity",
+        "lillyAlias": [
+            "I8F-MC-GPIJ",
+            "2022-501744-15-00"
+        ],
+        "brief_summary": "This study will investigate the effect of tirzepatide on the reduction of morbidity and mortality in adults living with obesity and provide additional evidence for the potential clinical benefits of tirzepatide in this population.",
+        "trial_status": "ACTIVE_NOT_RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Placebo"
+        ],
+        "enrollment": 15374,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) \u226527.0 kilogram/square meter (kg/m \u00b2)\n Are either\n\n   individuals \u226540 years of age with established cardiovascular disease (CVD).\n\n     CVD is defined as meeting at least one of the following:\n\n       Coronary artery disease\n       Cerebrovascular disease\n     Peripheral arterial disease OR\n     individuals without established CVD but have the presence of cardiovascular (CV) risk factors (primary prevention)\n     women 55-69 years of age or men 50-64 years of age with at least 3 risk factors like tobacco use, dyslipidemia, hypertension at screening, or\n\n       women \u226570 years of age or men, \u226565 years of age with at least 2 risk factors at screening.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave type 1 diabetes (T1D) or (T2D), history of ketoacidosis, or hyperosmolar state/coma\nHave laboratory evidence diagnostic of diabetes mellitus at screening of HbA1c \u22656.5% (\u226548 millimole/mole (mmol/mol) or fasting glucose (FG) \u2265126 milligram/deciliter (\u22657.0 millimole/liter (mmol/L).\nAny one of the following CV conditions within 90 days prior to screening\n\n  MI\n  acute coronary syndrome\n  stroke\n  coronary or peripheral arterial revascularization procedure, which may also include carotid artery revascularization, or\n  acute decompensated heart failure\nHave a known clinically significant gastric emptying abnormality such as severe gastroparesis or gastric outlet obstruction or have undergone or currently planning any gastric bypass (metabolic) surgery or restrictive bariatric surgery. Note: Liposuction or abdominoplasty are not considered as gastric bypass procedures.\nHave a history of chronic or acute pancreatitis\nHave a family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2.\nHave acute or chronic hepatitis, or clinical signs or symptoms of any other liver disease, or have elevated liver enzyme measurements, determined by the central laboratory at screening\nHave a presence or history of malignant neoplasms within the past 5 years prior to screening.",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06354101",
+        "brief_title": "The Purpose of This Registry Study is to Learn More About Metabolic Health: Approximately 15,000 Participants Who Are Overweight or Have Obesity With or Without Metabolic Diseases Are Expected to Participate in This Registry Study.",
+        "official_title": "The VITALITY Registry",
+        "lillyAlias": [],
+        "brief_summary": "The purpose of this registry study is to learn more about metabolic health. The information gathered will be used to support research on the natural history of obesity and weight related diseases, their treatments, and how it affects overall health. Approximately 15,000 participants who are overweight or have obesity with or without metabolic diseases are expected to participate in this registry study.",
+        "trial_status": "WITHDRAWN",
+        "phase": {},
+        "diseases_list": [
+            "Metabolic Health"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Semaglutide"
+        ],
+        "enrollment": 0,
+        "inclusion_criteria": "inclusion criteria: \n\n At least 18 years of age (or age of majority)\n Willing to provide consent to participate",
+        "exclusion_criteria": "exclusion criteria: \n\n-",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT00374855",
+        "brief_title": "A Study in People With Mild Hypertension",
+        "official_title": "Protocol H8D-MC-EMBH PPAR Alpha (LY518674): a Phase 2 Dose-Response Study to Evaluate the Blood Pressure-Lowering Effect in Essential Hypertension",
+        "lillyAlias": [
+            "H8D-MC-EMBH"
+        ],
+        "brief_summary": "The primary objective of this study is to test the hypothesis that LY518674, administered for 6 weeks to patients with mild hypertension, reduces Systolic Blood Pressure, compared with placebo.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE2"
+        ],
+        "diseases_list": [
+            "Mild Hypertension"
+        ],
+        "drugs_list": [
+            "PPAR alpha",
+            "Hydrochlorothiazide",
+            "Placebo"
+        ],
+        "enrollment": 153,
+        "inclusion_criteria": "inclusion criteria: \n\n1. Are men and women between 18 and 70 years of age, inclusive\n2. Have given signed informed consent to participate in this study\n3. Are diagnosed with mild essential hypertension at screening (currently untreated or treated with monotherapy)",
+        "exclusion_criteria": "exclusion criteria: \n\n1. Secondary or malignant hypertension\n2. Have or have had a history of hyperlipidemia within 3 months of screening requiring treatment\n3. Any previous cardiovascular disease other than hypertension\n4. Type 1 or 2 diabetes",
+        "keywords": []
+    },
+    {
         "trial_id": "NCT03936660",
         "brief_title": "A 12 Month Site Randomized Trial in Adults With Type 2 Diabetes Mellitus and History of Cardiovascular Disease",
         "official_title": "COOrdinating CaRDIology CliNics RAndomized Trial of Interventions to Improve OutcomEs (COORDINATE) - Diabetes",
@@ -29,257 +388,191 @@
         ]
     },
     {
-        "trial_id": "NCT05433584",
-        "brief_title": "A Study of Tirzepatide Compared With Intensified Conventional Care in Adult Participants With Type 2 Diabetes",
-        "official_title": "A Randomized, Open-Label, Parallel-Group, Two-Arm, Phase 4 Study to Evaluate the Long-Term Efficacy and Safety of Tirzepatide Compared With Intensified Conventional Care in Adults When Initiating Treatment Early in the Course of Type 2 Diabetes",
+        "trial_id": "NCT00804986",
+        "brief_title": "A Study for Patients With Type 2 Diabetes Mellitus",
+        "official_title": "A 12-Week,Double-Blind, Placebo-Controlled Trial of LY2428757 in Patients With Type 2 Diabetes Mellitus",
         "lillyAlias": [
-            "I8F-MC-GPHE",
-            "2022-000130-42",
-            "2022-5010733-40-00",
-            "U1111-1282-0263"
+            "I1I-MC-GECD",
+            "CTRI/2009/091/000091"
         ],
-        "brief_summary": "This study aims to investigate the efficacy and safety of tirzepatide in participants with type 2 diabetes (T2D) compared to other existing treatment options when treatment is initiated early.",
-        "trial_status": "ACTIVE_NOT_RECRUITING",
-        "phase": [
-            "PHASE4"
-        ],
-        "diseases_list": [
-            "Type 2 Diabetes"
-        ],
-        "drugs_list": [
-            "Tirzepatide",
-            "Antihyperglycemic medication"
-        ],
-        "enrollment": 780,
-        "inclusion_criteria": "inclusion criteria: \n\n Have, within the last 4 years, been diagnosed with T2D based on the World Health Organization classification or other locally applicable diagnostic standards.\n Have HbA1c \u22657% to \u22649.5% as determined by the central laboratory.\n Have been on a stable treatment of metformin only at least 90 days preceding baseline\n\n   with the minimum effective dose of \u22651500 mg/day, but not higher than the maximum approved dose per country-specific label, or\n   \\<1500 mg/day in case of intolerance of full therapeutic dose.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave type 1 diabetes mellitus\nHave a history of chronic or acute pancreatitis any time prior to study entry\nHave a history of\n\n  proliferative diabetic retinopathy\n  diabetic macular edema, or\n  no proliferative diabetic retinopathy requiring immediate or urgent treatment\nAre at high risk for cardiovascular disease (CVD) in the investigator's opinion or have a history of any of these CV conditions prior to study entry\n\n  myocardial infarction\n  percutaneous coronary revascularization procedure\n  carotid stenting or surgical revascularization\n  nontraumatic amputation\n  peripheral vascular procedure (e.g., stenting or surgical revascularization)\n  cerebrovascular accident (stroke), or congestive heart failure\nHave family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN2)\nHave within 90 days prior to screening received treatment with medications intended to promote weight loss. This includes prescribed, over the counter, or alternative remedies\nHave an estimated glomerular filtration rate (eGFR) \\<30 mL/minute/1.73 m2 (or lower than the country-specific threshold for discontinuing metformin therapy per local label), calculated by chronic kidney disease-epidemiology equation as determined by central laboratory at screening.\nHave been treated with any injectable glucagon-like peptide-1 (GLP-1) receptor agonists and insulin prior to screening.\n\n  Exception: use of insulin for gestational diabetes or short-term use (\\<14 days) for acute conditions such as acute illness, hospitalization, or elective surgery.",
-        "keywords": [
-            "T2D",
-            "Diabetes"
-        ]
-    },
-    {
-        "trial_id": "NCT05882045",
-        "brief_title": "A Study of Retatrutide (LY3437943) in Participants With Obesity and Cardiovascular Disease",
-        "official_title": "A Randomized, Double-Blind, Phase 3 Study to Investigate the Efficacy and Safety of LY3437943 Once Weekly Compared to Placebo in Participants With Severe Obesity and Established Cardiovascular Disease",
-        "lillyAlias": [
-            "J1I-MC-GZBM",
-            "2023-503659-88-00"
-        ],
-        "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of retatrutide once weekly in participants with obesity and established cardiovascular disease (CVD). The study will last about 113 weeks.",
-        "trial_status": "ACTIVE_NOT_RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Obesity",
-            "Cardiovascular Diseases"
-        ],
-        "drugs_list": [
-            "Retatrutide",
-            "Placebo"
-        ],
-        "enrollment": 1800,
-        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) \u226535.0 kilogram/square meter (kg/m\u00b2).\n Have established cardiovascular (CV) disease with at least 1 of the following:\n\n   prior myocardial infarction\n   prior ischemic or hemorrhagic stroke, or\n   symptomatic peripheral arterial disease\n Have a history of at least 1 self-reported unsuccessful dietary effort to reduce body weight.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave had acute myocardial infarction, stroke, coronary revascularization, hospitalization for unstable angina, or hospitalization due to congestive heart failure within 90 days prior to screening.\nHave taken weight loss drugs, including over-the-counter medications, within 90 days prior to screening.\nHave a prior or planned surgical treatment of obesity.\nHave a change in body weight greater than 5 kg (11 pounds) within 90 days prior to screening.\nHave Type 1 diabetes.\nHave family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\nHave had pancreatitis.",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT00871572",
-        "brief_title": "A Study for Participants With Type 2 Diabetes Mellitus",
-        "official_title": "A Randomized, Double-Blind, Placebo-Controlled Phase 2 Study of LY2409021 in Patients With Type 2 Diabetes Mellitus",
-        "lillyAlias": [
-            "I1R-MC-GLBE"
-        ],
-        "brief_summary": "This drug is being evaluated for possible treatment of type 2 diabetes mellitus. Participation in this study is expected to last up to 18 weeks. A goal of this study is to determine the safety and effectiveness of LY2409021.",
+        "brief_summary": "A multicenter, multinational, randomized,double-blind, placebo-controlled study in patients with Type 2 Diabetes Mellitus (T2DM). Patients with inadequate glycemic control using diet and exercise alone, or in combination with metformin, will be enrolled. The primary objective of this study is to test the hypothesis that LY2428757 given to patients with T2DM inadequately controlled with diet and exercise alone, or metformin monotherapy, produces a significant decrease in the mean hemoglobin A1c (HbA1c) from baseline to endpoint at 12 weeks as compared to placebo. Trial consists of 12 weeks of double-blind treatment and 4-week safety follow-up.",
         "trial_status": "COMPLETED",
         "phase": [
             "PHASE2"
-        ],
-        "diseases_list": [
-            "Diabetes Mellitus, Type 2"
-        ],
-        "drugs_list": [
-            "LY2409021",
-            "Placebo"
-        ],
-        "enrollment": 87,
-        "inclusion_criteria": null,
-        "exclusion_criteria": "exclusion criteria: \n\nInsulin, exenatide, or any diabetic medication other than metformin 3 months prior to screening to control you diabetes,\nMedications to increase movement in your digestive tract or that slow movement in your digestive tract\nOver-the-counter drugs or drugs prescribed by your doctor that cause weight loss or high or low blood sugar,\nChronically use oral glucocorticoids therapy or have received this type of medication within 8 weeks prior to beginning this study,\nClass II and III antiarrhythmic agents (commonly used to prevent or relieve an irregular heartbeat),\nDrugs that damage the liver\nFibrates and niacin (both commonly used to treat high cholesterol) more than 1 gram/day (gm/day),\nCentral nervous stimulants, alcohol intake for males that is more than 2 units per day and for females that is more than 1 unit per day \\[1 unit=12 ounces (oz) or 360 milliliter (mL) of beer; 5 oz or 150 mL of wine; 1.5 oz or 45 mL of distilled spirits\\].\nYou have had one (1) or more cases of uncontrolled diabetes (very high blood sugars) which required hospitalization in the 6 months prior to the screening visit or have a diagnosis of hypoglycemia (low blood sugar) unawareness.\nYou had two (2) or more emergency room visits or were hospitalized for poor control of your diabetes (for example, keto-acidotic episode) in the last 6 months.\nParticipants have a problem with your stomach such that it empties slowly (diabetic gastroparesis) or you have had gastric bypass (bariatric) surgery.\nParticipants have a personal or family history of pancreatic neoplasia.\nParticipants have abnormal lipids (for example triglycerides).\nParticipants have had problems with your heart in the past 6 months, such as a heart attack, chest pain (angina), heart failure, heart bypass operation, angioplasty (a medical procedure to open a narrow or clogged blood vessel of the heart) or stent insertion (a procedure to insert a wire mesh tube to prop open a blood vessel after angioplasty), a heart rhythm problem, or a stroke.\nParticipants have an elevated or uncontrolled blood pressure.\nParticipant's electrocardiogram (ECG, a test that measures the electrical activity of your heart) is outside the normal limits, as determined by the study doctor.\nParticipants have a problem with your kidneys or are on dialysis.\nParticipants have a problem with your pancreas.\nParticipants must not have nor had liver disease (for example, Hepatitis B or C).\nParticipants have cancer, except for skin cancer or have been in remission (the absence of disease activity) from cancer for less than 5 years.\nParticipants have a serious or uncontrolled health problems (other than type 2 diabetes), blood disorders or laboratory tests that in the opinion of the doctor, could interfere with understanding the results of this study. The doctor will let you know if this applies to you.\nParticipants previously completed or withdrew from this study or any other study investigating LY2409021.\nParticipants are allergic to the study drug or other related drugs. You cannot be in this study if you are a woman and you possibly could become pregnant during this study.",
-        "keywords": [
-            "Diabetes Mellitus, Type 2"
-        ]
-    },
-    {
-        "trial_id": "NCT05803421",
-        "brief_title": "A Study of Daily Oral Orforglipron (LY3502970) Compared With Insulin Glargine in Participants With Type 2 Diabetes and Obesity or Overweight at Increased Cardiovascular Risk",
-        "official_title": "A Phase 3, Open-Label Study of Once Daily LY3502970 Compared With Insulin Glargine in Adult Participants With Type 2 Diabetes and Obesity or Overweight at Increased Cardiovascular Risk",
-        "lillyAlias": [
-            "J2A-MC-GZGS",
-            "2022-502833-25-00",
-            "U1111-1285-6821"
-        ],
-        "brief_summary": "The main purpose of this study is to determine safety and efficacy of orforglipron compared with insulin glargine in participants with type 2 diabetes and obesity or overweight at increased cardiovascular risk. The study will last approximately 2 years may include up to 27 visits.",
-        "trial_status": "ACTIVE_NOT_RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Type 2 Diabetes",
-            "Obesity",
-            "Overweight or Obesity",
-            "Overweight",
-            "Cardiovascular Diseases",
-            "Chronic Kidney Disease"
-        ],
-        "drugs_list": [
-            "Orforglipron",
-            "Insulin Glargine"
-        ],
-        "enrollment": 2749,
-        "inclusion_criteria": "inclusion criteria: \n\n Have been diagnosed with type 2 diabetes mellitus (T2DM)\n Are at least 18 years of age or legal age of consent in the jurisdiction in which the study is taking place, whichever is older.\n Have HbA1c at screening\n\n   \u22657.0% and \u226410.5% if background diabetes medication does not include a sulfonylurea, or\n   \u22657.5% and \u226410.5% if background diabetes medication includes a sulfonylurea.\n Are on stable treatment of at least 1 and no more than 3 oral antihyperglycemic drugs for at least 90 days before screening. Antihyperglycemic drugs may include metformin, SGLT-2 inhibitors, and/or sulfonylureas\n Have increased risk for cardiovascular (CV) events due to:\n\n   Coronary heart disease\n   Peripheral arterial disease, presumed to be of atherosclerotic origin\n   Cerebrovascular disease, presumed to be of atherosclerotic origin\n   Chronic kidney disease (CKD)\n   Congestive heart failure (CHF) New York Heart Association (NYHA) functional classification II to III\n Are of stable weight (\u00b1 5%) for at least 90 days prior to screening\n Have a BMI \u226525 kilograms per meter squared (kg/m2) at screening",
-        "exclusion_criteria": "exclusion criteria: \n\nHave type 1 diabetes mellitus\nHave had chronic or acute pancreatitis any time prior to screening\nCurrently receiving or planning to receive treatment for diabetic retinopathy and/or macular edema (e.g. laster photocoagulation or intravitreal injections of anty-VEGF inhibitors\nHave a known clinically significant gastric emptying abnormality\nHave acute or chronic hepatitis, signs and symptoms of any other liver disease, or blood alanine transaminase (ALT) or aspartate aminotransferase (AST) enzyme level \u22655.0 times the upper limit of normal (ULN) for the reference range, as determined by the central laboratory\nHave had any of the following within 60 days prior to screening: acute myocardial infarction, cerebrovascular accident (stroke), or hospitalization for congestive heart failure\nHave an eGFR \\<15 mL/min/1.73 m2 as determined at screening\nHave a family (first-degree relative) or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2\nHave been taking any other diabetes medicines other than metformin, SGLT-2 inhibitors, and/or sulfonylureas during the last 90 days\nHave used any weight loss drugs, including herbal or nutritional supplements, within 90 days of screening",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT05706506",
-        "brief_title": "A Study of Tirzepatide (LY3298176) in Adults With Type 2 Diabetes Switching From a GLP-1 RA (SURPASS-SWITCH-2)",
-        "official_title": "An Open-Label, Single-Arm, Phase 4 Study to Assess Glycemic Control When Adults With Type 2 Diabetes Switch From a GLP-1 RA to Tirzepatide (SURPASS-SWITCH-2)",
-        "lillyAlias": [
-            "I8F-MC-GPIL",
-            "2022-002708-18"
-        ],
-        "brief_summary": "The main purpose of this study is to investigate the effects of switching from glucagon-like peptide-1 receptor agonist (GLP-1 RA) therapy to tirzepatide glucose-dependent insulinotropic polypeptide (GIP) GLP-1 RA agonist in participants with type 2 diabetes (T2D).",
-        "trial_status": "COMPLETED",
-        "phase": [
-            "PHASE4"
-        ],
-        "diseases_list": [
-            "Type 2 Diabetes",
-            "Diabetes Mellitus, Type 2"
-        ],
-        "drugs_list": [
-            "Tirzepatide"
-        ],
-        "enrollment": 152,
-        "inclusion_criteria": "inclusion criteria: \n\n Have Type 2 diabetes (T2D)\n Have an HbA1c c \u22656.5% (\u226548 mmol/mol) to \u22649.0% (\u226475 mmol/mol)\n Have a body mass index (BMI) \u226525 kilogram per square meter (kg/m\u00b2) at screening\n Have been on a stable treatment dose of 1 of the listed GLP-1 RAs for \u22653 months\n No treatment with oral antidiabetic medicine (OAM) or on stable doses (for at least 3 months before screening) of up to 3 OAM. The OAM may include metformin, sodium-glucose linked transporter-2 inhibitor (SGLT-2i), thiazolidinediones, or \u03b1-glucosidase inhibitors.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave Type 1 Diabetes (T1D)\nHave a clinical history of\n\n  proliferative diabetic retinopathy\n  diabetic maculopathy, or\n  non-proliferative diabetic retinopathy that requires acute treatment\nAre at high risk for cardiovascular disease or have a history of\n\n  myocardial infarction\n  percutaneous coronary revascularization procedure\n  carotid stenting or surgical revascularization\n  nontraumatic amputation\n  peripheral vascular procedure\n  cerebrovascular accident\n  or hospitalization for congestive heart failure\nHave New York Heart Association (NYHA) Functional Classification Class IV congestive heart failure\nHave a history of ketoacidosis or hyperosmolar state or coma\nHave a history of severe hypoglycemia or hypoglycemia unawareness within the 6 months.",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT01524705",
-        "brief_title": "FLuctuATion Reduction With inSULin and Glp-1 Added togetheR (FLAT-SUGAR)",
-        "official_title": "FLAT-SUGAR: FLuctuATion Reduction With inSULin and Glp-1 Added togetheR",
-        "lillyAlias": [],
-        "brief_summary": "Results of recent studies using standard long and short acting insulin therapy (Basal - Bolus or BBI) in type 2 diabetes mellitus (T2DM) have not shown benefits to lower risks for heart attacks, strokes, or eye, nerve and kidney problems. Some studies also show a long time between the start of treatment and signs of benefit. This has led to a review of current ways to normalize blood glucose control with basal bolus insulin and how to make blood glucose better. Improving blood sugar with insulin therapy usually causes weight gain, more high sugar levels after meals, and more low blood sugars. Early studies suggest that when people take long-acting insulin and metformin, they have fewer blood sugar extremes when they also take a new type of medicine called glucagon-like polypeptide-1 (GLP-1) agonist named exenatide (Byetta), instead of meal-time insulin. This means there might be a better way to treat Type 2 diabetes.\n\nParticipants are asked to take part in an eight month study to find out if middle-aged and older people with Type 2 diabetes who have added risk factors for heart disease can even out their blood sugar levels. They will start on long-acting insulin, mealtime insulin, and metformin, if they are not already on these medications. Their kidney function tests must be normal and they must not be allergic to metformin. Then, after a 2 month run-in phase, they must be willing to be assigned by chance into one of two groups. This means that they will have a 50/50 chance (like flipping a coin) of being in either group. Half of them will be started on the new medicine known as Byetta rather than the meal-time insulin and the other half will remain on the meal-time insulin during the next 6 months (26 weeks) to see which group has more steady blood sugars. They will be asked to use a continuous blood sugar monitoring system called DexCom. A sensor is inserted under the skin in the same areas the insulin is injected. The DexCom can check their blood sugars 24 hours of the day and night and will be worn until 7 days of recordings are collected. In the same 7 day period, they will also be asked to wear a Holter or Telemetry monitor that will record their heart beats and rhythm which will be compared to the blood sugar readings. They will also use home glucose meters to check their glucose levels about 3 to 4 times a day. The study will take place at 12 centers in the United States and enroll about 120-130 people.",
-        "trial_status": "COMPLETED",
-        "phase": [
-            "PHASE4"
-        ],
-        "diseases_list": [
-            "Type 2 Diabetes"
-        ],
-        "drugs_list": [
-            "Insulin Glargine",
-            "Metformin",
-            "Prandial insulin",
-            "Exenatide"
-        ],
-        "enrollment": 102,
-        "inclusion_criteria": "inclusion criteria: \n\n1. T2DM for \\>12 months defined according to current ADA criteria\n2. C-peptide \\>0.5 ng/mL-after informed consent has been signed, samples will be drawn fasting and sent to a central lab\n3. Participants must be on insulin therapy. Diabetes, Blood Pressure \\& Lipid therapy must be stable (in both dose and agent) for \u22653 months (dose of any 1 drug has not changed by more than 2-fold, \\& new agents not been added within the previous 3 months)\n4. HbA1c 7.5-8.5% for enrollment\n5. Age at enrollment (screening): 40-75 years (inclusive) when there is a history of cardiovascular disease (defined in 'a'), or 55 to 75 years (inclusive) when there is not a history of cardiovascular disease but 2 or more risk factors (with or without treatment) are present (defined in 'b')\n\n   a) Established cardiovascular disease defined as presence of one of the following: i. Previous myocardial infarction (MI). (most recent must be \\> 3 months prior enrollment) ii. Previous stroke. (most recent must be \\>3 months prior enrollment) iii. History of coronary revascularization (e.g., coronary artery bypass graft surgery, stent placement, percutaneous transluminal coronary angioplasty, or laser atherectomy)(most recent must be \\> 3 months prior enrollment) iv. History of carotid or peripheral revascularization (e.g., carotid endarterectomy, lower extremity atherosclerotic disease atherectomy, repair of abdominal aortic aneurysm, femoral or popliteal bypass). (most recent must be \\>3 months prior enrollment) v. Angina with either ischemic changes on a resting ECG, or ECG changes on a graded exercise test (GXT), or positive cardiac imaging study vi. Ankle/brachial index \\<0.9 vii. LVH with strain by ECG or ECHO viii. \\>50% stenosis of a coronary, carotid, renal or lower extremity artery. ix. Urine albumin to urine creatinine ratio of \\>30 mg albumin/g creatinine in 2 samples, separated by at least 7 days, within past 12 months) \\[Target of 50% of study cohort\\] or b) Increased CVD risk defined as presence of 2 or more of the following: i. Untreated LDL-C \\>130 mg/dL or on lipid treatment ii. Low HDL-C (\\<40 mg/dL for men and \\<50 mg/dL for women) iii. Untreated systolic BP \\>140 mm Hg, or on antihypertensive treatment iv. Current cigarette smoking v. Body mass index 25-45 (Asian populations 23-45) kg/m2\n6. No expectation that participant will move out of clinical center area during the next 8 months, unless move will be to an area served by another trial center\n7. Ability to speak \\& read English",
-        "exclusion_criteria": "exclusion criteria: \n\n1. The presence of a physical disability, significant medical or psychiatric disorder; substance abuse or use of a medication that in the judgment of the investigator will affect the use of CGM, wearing of the sensors, Holter or Telemetry monitor, complex medication regimen, or completion of any aspect of the protocol\n2. Cannot have had any cardiovascular event or interventional procedure, (MI, Stroke or revascularization) or been hospitalized for unstable angina within the last 3 months\n3. Inability or unwillingness to discontinue use of acetaminophen products during CGM use\n4. Inability or unwillingness to discontinue use of all other diabetes agents other than insulin \\& metformin during trial (including insulin pump participants who will need to convert to BBI)\n5. Intolerance of metformin dose \\<500 mg/day\n6. Inability or unwillingness to perform blood glucose testing a minimum of 3 times/per day\n7. Creatinine level \u22651.5 for males or 1.4 for females\n8. ALT level \u2265 3 times upper limit of normal\n9. Current symptomatic heart failure, history of NYHA Class III or IV congestive heart failure at any time, or ejection fraction (by any method) \\< 25%\n10. Inpatient psychiatric treatment in the past 6 months\n11. Currently participating in an intervention trial\n12. Chronic inflammatory diseases, such as collagen vascular diseases or inflammatory bowel disease\n13. History of pancreatitis\n14. BMI \\>45kg/m2\n15. For females, pregnant or intending to become pregnant during the next 7 months",
-        "keywords": [
-            "Pilot Study",
-            "Prospective Randomized Trial",
-            "Comparative Effectiveness",
-            "Glycemic Variability",
-            "insulin glargine",
-            "exenatide",
-            "basal insulin",
-            "bolus insulin"
-        ]
-    },
-    {
-        "trial_id": "NCT00853151",
-        "brief_title": "A Study to Test the Combination of Two Different Kinds of Medications for the Treatment of Diabetes",
-        "official_title": "A Proof of Concept Study to Evaluate the Coadministration of TT223 Given Daily and LY2428757 Given Once-Weekly for Four Weeks in Patients With Type 2 Diabetes Mellitus",
-        "lillyAlias": [
-            "I3H-MC-GAFA(b)"
-        ],
-        "brief_summary": "Test the safety, tolerability and improvement of blood sugar control with combination therapy in individuals with Type 2 Diabetes.",
-        "trial_status": "COMPLETED",
-        "phase": [
-            "PHASE1"
         ],
         "diseases_list": [
             "Diabetes Mellitus, Type 2"
         ],
         "drugs_list": [
             "LY2428757",
-            "TT223",
-            "Placebo for LY2428757",
-            "Placebo for TT223"
+            "Placebo"
         ],
-        "enrollment": 131,
-        "inclusion_criteria": "inclusion criteria: \n\n Written informed consent\n Have type 2 diabetes mellitus (T2DM) for at least 6 months\n Currently treated with diet and exercise alone or in combination with stable metformin\n Glycosylated hemoglobin (HbA1c) 7.0% to 10.0%\n Ages 18 to 70 years\n Women not of childbearing potential\n Body mass index (BMI) between 25 and 40 kilograms per meters squared (kg/m\\^2), and stable weight in the 3 months prior to screening.",
-        "exclusion_criteria": "exclusion criteria: \n\nUse of diabetes medicine other than metformin in past 3 months\nGastrointestinal disease or surgery or drugs that significantly impacts gastric filling, emptying or motility; ongoing cholelithiasis or cholecystitis.\nChronic, daily proton pump inhibitors (PPIs) and histamine (H2) antagonists.\nSevere hypoglycemia or hyperglycemia\nAdvanced microvascular diabetes complications\nMedications to promote weight loss.\nBreastfeeding women\nCardiac autonomic neuropathy\nIn the past 6 months have cardiac disease with functional status that is Class II-IV or a history of myocardial infarction, unstable angina, coronary artery bypass graft, percutaneous coronary intervention, transient ischemic attack, cerebrovascular accident (stroke), or decompensated congestive heart failure.\nHistory of a supraventricular or ventricular tachycardia, pacemaker implantation, or other cardiac arrhythmia: Poorly controlled hypertension, malignant hypertension, renal artery stenosis, and/or evidence of labile blood pressure including symptomatic postural hypotension.\nElectrocardiograms (ECG) abnormality or medication that impairs the ability to measure QT interval (QT), or correct the QT interval (QT) for rate.\nQT interval Bazett corrected (QTcB) \\>450 milliseconds (msec) or PR interval (PR) \\>220 milliseconds (msec)\nPersonal or family history of long QT interval (QT) syndrome, sudden death, or unexplained syncope\nClinical signs or symptoms of liver disease, acute or chronic hepatitis, or alanine transaminase levels \\> 2.5 times the upper limit of the reference range\nHypertriglyceridemia \\> 400 mg/deciliter (dL)\nInadequately treated hypothyroidism or hyperthyroidism\nPeptic ulcer disease and/or gastrointestinal bleeding/perforation.\nKnown pentagastrin hypersensitivity\nImpaired renal function\nTransplanted organ.\nActive, uncontrolled endocrine or autoimmune abnormality\n\\> 2 weeks systemic glucocorticoid therapy\nOngoing courses of non-steroidal anti-inflammatory drugs (NSAIDs), except for aspirin 81-325 milligrams (mg)\nDiagnosed malignancy or in remission for less than 5 years.\nPrior acute or chronic pancreatitis or elevated serum lipase or amylase\nCurrent central nervous system stimulant\nOther conditions that preclude the participant from participating, following or completing the protocol.\nChronic infection\nPersonnel affiliated with the study and their immediate families.\nWithin 30 days of the initial dose of study drug, have participated in an interventional medical, surgical, or pharmaceutical study in which a medical or surgical treatment was given.\nHave previously completed or withdrawn from this study after providing informed consent.\nAre currently enrolled in, or discontinued within the last 30 days from, a clinical trial involving an off-label use of an investigational drug or device (other than the study drug/device used in this study), or concurrently enrolled in any other type of medical research judged not to be scientifically or medically compatible with this study.",
+        "enrollment": 247,
+        "inclusion_criteria": "inclusion criteria: \n\n Have type 2 diabetes mellitus for at least 6 months prior to entering the trial.\n Treated with diet and exercise alone or in combination with at least 1000 milligrams (mg)/day of metformin for at least 2 months prior to screening.\n Have a glycosylated fraction of hemoglobin A (HbA1c) value of 7.0% - 10.0% at screening\n Women of child-bearing potential must test negative for pregnancy at screening and agree to abstain from heterosexual intercourse for the duration of the study, or use 2 effective forms of birth control during the study.\n Have a body mass index (BMI) between 25 and 40 kilograms per square meters kg/m\\^2) at screening\n Stable weight during the 3 months prior to screening.",
+        "exclusion_criteria": "exclusion criteria: \n\nUse any antidiabetic agent other than metformin during the 2 months prior to screening.\nHave a gastrointestinal disease that significantly impacts gastric emptying or motility or have undergone bariatric surgery.\nAre currently taking prescription or over-the counter medications to promote weight loss.\nHave been previously diagnosed with pancreatitis\nWomen who are breastfeeding.\nHave a history of myocardial infarction, unstable angina, coronary artery bypass graft (CABG), percutaneous coronary intervention, transient ischemic attack, stroke or decompensated congestive heart failure in the past 6 months.\nHave poorly controlled hypertension",
         "keywords": []
     },
     {
-        "trial_id": "NCT01159938",
-        "brief_title": "A Study of Postprandial Hyperglycemia in Participants With Type 2 Diabetes",
-        "official_title": "The Effect of Postprandial Hyperglycemia on the Arterial Stiffness in Patients With Type 2 Diabetes",
+        "trial_id": "NCT01408095",
+        "brief_title": "A Study in Patients With Type 2 Diabetes",
+        "official_title": "A 12-Week, Phase 2, Randomized, Double-Blind, Active-Controlled Study of LY2608204 Given as Monotherapy or in Combination With Metformin in Patients With Type 2 Diabetes Mellitus",
         "lillyAlias": [
-            "F3Z-EW-IOPT"
+            "I3P-MC-GKBC"
         ],
-        "brief_summary": "This Study is looking at whether high blood glucose levels after a meal affect arterial stiffness more or less than low blood glucose levels, and whether certain cardiovascular markers influence the outcome of this.",
-        "trial_status": "COMPLETED",
+        "brief_summary": "The study is designed to see if once daily oral dosing of LY2608204 will help control diabetes as measured by the glycosylated fraction of hemoglobin A (HbA1c) level. It will also help to determine the safety of the medication and the most useful doses of the medication.",
+        "trial_status": "WITHDRAWN",
         "phase": [
-            "PHASE4"
+            "PHASE2"
         ],
         "diseases_list": [
             "Diabetes Mellitus, Type 2"
         ],
         "drugs_list": [
-            "Lispro"
+            "LY2608204",
+            "Glimepiride"
         ],
-        "enrollment": 72,
-        "inclusion_criteria": "inclusion criteria: \n\n Are diagnosed with T2DM (according to the American Diabetes Association classification \\[American Diabetes Association 2006\\]) and on insulin therapy for at least 6 months.\n Have not smoked in the last 12 hours prior to the study visit.\n Have albuminuria but normal kidney function or normal UAER \\[UAER \\< 20 micrograms per minute (mcg/min) or \\< 30 milligrams/24 hours (mg/24h), respectively\\]. Participants with or without albuminuria but normal kidney function will be matched for age and body mass index (BMI).\n Participants have been judged by the investigator to be reliable to keep appointments for clinic visits and all tests and examinations required by the protocol.\n Each participant must understand the nature of the study and must sign an informed consent document (ICD).\n\nHealthy participants are eligible to be included in the study only if they meet all of the following criteria:\n\n Healthy participants 45 to 70 years of age, matched for age and BMI, who have not smoked in the last 12 hours prior to the study.\n Normal glucose tolerance and normal UAER (UAER between \\< 20 \u03bcg/min in the overnight urine collection or \\< 30 mg/24h in the 24-h urine collection).\n Healthy participants have been judged by the investigator to be reliable to keep appointments for clinic visits and all tests and examinations required by the protocol.\n Each healthy participant must understand the nature of the study and must sign an ICD.",
-        "exclusion_criteria": "exclusion criteria: \n\nParticipants/healthy participants will be excluded from the study if they meet any of the following criteria:\n\nHave had a cardiovascular event \\[stroke, myocardial infarction (MI), coronary artery procedure (by-pass surgery or angioplasty), limb amputation due to ischemia, peripheral vascular disease\\] or coronary heart disease confirmed by exercise test or scintigraphy.\nHave arrhythmias.\nHave an acute infection.\nAre currently enrolled in, or discontinued within the last 30 days from, a clinical trial involving an investigational drug or device or off-label use of a drug or device (other than the study drug/device used in this study), or concurrently enrolled in any other type of medical research judged not to be scientifically or medically compatible with this study.\nAre unwilling or unable to comply with the use of a data collection device to directly record data from the participant.",
+        "enrollment": 240,
+        "inclusion_criteria": "inclusion criteria: \n\n Clinical diagnosis of type 2 diabetes mellitus prior to entering the trial\n May be treated with:\n\n  1. Diet and exercise alone or\n  2. Diet and exercise in combination with a stable dose of metformin for at least 3 months before Screening or\n  3. Diet and exercise in combination with a stable dose of sulfonylurea or meglitinide (repaglinide, nateglinide) for at least 3 months before Screening or\n  4. Diet and exercise in combination with stable doses of metformin and sulfonylurea or metformin and meglitinides for at least 3 months before Screening and have had diabetes for at least 6 years\n Must have an Hemoglobin A1c value between 7% and 10%\n Must have a body mass index (BMI) between 20 and 40 kg/m2\n Must have stable weight during the 3 months prior to Screening (weight change not to exceed 5 kg (11 lb))\n If female, you must not be able to get pregnant\n Must be well motivated, capable, and willing to complete study required glucose monitoring and instruction",
+        "exclusion_criteria": "exclusion criteria: \n\nUse of insulin or any antidiabetic agent other than metformin or sulfonylurea or meglitinide during the 3 months prior to Screening\nHave a gastrointestinal disease that significantly impacts gastric emptying or motility or have undergone gastric bypass or gastric banding surgery\nHave had more than one episode of severe hypoglycemia within 6 months prior to entry into the study, or are currently diagnosed as having hypoglycemia unawareness or have had 2 or more emergency room visits or hospitalizations due to poor glucose control in the past 6 months\nAre currently taking or have taken within the last 2 months, prescription or over-the counter medications which affect body weight\nHave cardiac disease with functional status that is New York Heart Association \\[NYHA\\] Class II, III, or IV or a history of myocardial infarction, unstable angina, or decompensated congestive heart failure in the past 6 months.\nHave poorly controlled hypertension, history of malignant hypertension, evidence of renal artery stenosis and/or evidence of labile blood pressure including symptomatic postural hypotension. Doses of antihypertensive medications must be stable for 30 days before randomization\nHave a QTcB (Bazett's-corrected QT interval) interval greater than 450 msec for men or greater than 470 for women at Screening or any personal history of ventricular tachycardia or unexplained syncope\nHave obvious clinical signs or symptoms of liver disease, acute or chronic hepatitis, or significantly elevated liver blood tests\nAre currently receiving renal dialysis, have a serum creatinine greater than 2.0 mg/dL (177 \u03bcmol/L) or a calculated creatinine clearance of less than 60 ml/min or in patients being treated with metformin, have other known contradictions to metformin use including, but not limited to, a serum creatinine above (or creatinine clearance below) what is approved in the metformin product label\nHave fasting state hypertriglyceridemia (defined as greater than 5.65 mmol/L, 500 mg/dl) at Screening. If taking lipid-lowering agents, doses of these medications must be stable for 30 days prior to randomization.\nAre receiving chronic (for more than 2 weeks) systemic glucocorticoid therapy (excluding topical or inhaled preparations) or have received such therapy within 4 weeks immediately prior to Randomization\nHave an active or untreated malignancy or have been in remission from a clinically significant malignancy (other than basal or squamous cell skin cancer, in situ carcinomas of the cervix, or in situ prostate cancer) for less than 5 years\nHave a history of seizure disorder\nAre currently using or intend to use inhibitors of Cytochrome P450 family 3A (CYP3A4)\nCurrently taking a medication that is a sensitive substrate of the CYP3A4 pathway with a narrow therapeutic index",
+        "keywords": [
+            "diabetes",
+            "glimepiride",
+            "diabetes type II",
+            "diabetes type 2",
+            "Type 2 diabetes",
+            "diabetes mellitus"
+        ]
+    },
+    {
+        "trial_id": "NCT06439277",
+        "brief_title": "A Study of Tirzepatide in Adolescents With Obesity and Weight-Related Comorbidities (SURMOUNT-ADOLESCENTS-2)",
+        "official_title": "Efficacy and Safety of Tirzepatide Once Weekly Versus Placebo for the Treatment of Obesity and Weight-Related Comorbidities in Adolescents: A Randomized, Double-Blind, Placebo- Controlled Trial (SURMOUNT-ADOLESCENTS-2)",
+        "lillyAlias": [
+            "I8F-MC-GPIX"
+        ],
+        "brief_summary": "The goal of the study is to assess how tirzepatide impacts bodyweight and cardiovascular risk factors when used in conjunction with healthy nutrition and physical activity in adolescents with obesity and multiple weight related comorbidities. The study will last approximately 76 weeks and may include up to 23 visits.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Weight Gain"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Placebo"
+        ],
+        "enrollment": 300,
+        "inclusion_criteria": "inclusion criteria: \n\n Have body mass index (BMI) equal to or above the 95th percentile for age and sex (on age and gender-specific growth chart for diagnosis of obesity) with at least 2 of the following predefined weight-related comorbidities: hypertension, prediabetes and hypertriglyceridemia.\n Have history of at least 1 self-reported unsuccessful dietary effort to lose weight.\n Are capable of giving signed informed consent by a legal representative or assent by a study participant (when applicable).",
+        "exclusion_criteria": "exclusion criteria: \n\nHave undergone or plan to undergo a weight reduction procedure during the study, such as, but not limited to\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state\nHave type 2 diabetes or have a HbA1c \\> 6.4% at screening\nHave a history of chronic or acute pancreatitis\nHave a family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2",
         "keywords": []
     },
     {
-        "trial_id": "NCT05563246",
-        "brief_title": "A Study of LY3473329 in Adult Participants With Elevated Lipoprotein(a) at High Risk for Cardiovascular Events",
-        "official_title": "KRAKEN: A Phase 2, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Oral Once-Daily LY3473329 in Adults With Elevated Lipoprotein(a) at High Risk for Cardiovascular Events",
+        "trial_id": "NCT06383390",
+        "brief_title": "The Effect of Retatrutide Once Weekly on Cardiovascular Outcomes and Kidney Outcomes in Adults Living With Obesity (TRIUMPH-Outcomes)",
+        "official_title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Event-Driven Study to Investigate the Effect of Retatrutide on the Incidence of Major Adverse Cardiovascular Events and Major Adverse Kidney Events in Participants With Body Mass Index \u226527 kg/m2 and Atherosclerotic Cardiovascular Disease and/or Chronic Kidney Disease",
         "lillyAlias": [
-            "J2O-MC-EKBC"
+            "J1I-MC-GZBO",
+            "2023-508630-34-00"
         ],
-        "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of LY3473329 in adult participants with elevated Lp(a) at high risk for cardiovascular events.",
-        "trial_status": "COMPLETED",
+        "brief_summary": "The main purpose of this study is to determine if retatrutide can significantly lower the incidence of serious heart-related complications or prevent the worsening of kidney function. The trial will enroll adults with body mass index 27 kg/m\\^2 or higher and Atherosclerotic Cardiovascular Disease and/or chronic kidney disease. The study will last for about 5 years. Participants will have up to 27 clinic visits with the study doctor.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Atherosclerotic Cardiovascular Disease (ASCVD)",
+            "Chronic Kidney Disease (CKD)"
+        ],
+        "drugs_list": [
+            "Retatrutide",
+            "Placebo"
+        ],
+        "enrollment": 10000,
+        "inclusion_criteria": "inclusion criteria: \n\n Participants may be without type 2 diabetes (T2D), or with T2D if their hemoglobin A1c (HbA1c) is 10% or lower\n Participants have established atherosclerotic cardiovascular disease (ASCVD) and/or chronic kidney disease (CKD), as evidenced at least one of the following:\n\n   Coronary artery disease\n   Cerebrovascular disease\n   Peripheral arterial disease\n   Chronic kidney disease defined as:\n\n     eGFR \\<45 millilitres/minute/1.73 meter squared (mL/min/1.73m\\^2) and UACR \\>30 milligram/gram (mg/g) (0.030 mg/mg)\n     eGFR \\<60 mL/min/1.73 m\\^2 and UACR \\>100 mg/g (0.100 mg/mg), or\n     eGFR \\<75 mL/min/1.73 m\\^2 and UACR \\>300 mg/g (0.300 mg/mg) (eGFR is calculated by central lab based on Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) creatinine-cystatin c equation as determined by central lab)\n A Body Mass Index of \u226527.0 kilograms per meter squared (kg/m\\^2)",
+        "exclusion_criteria": "exclusion criteria: \n\nDiabetes related:\n\nParticipants have Type 1 Diabetes or any history of diabetic ketoacidosis\n\nCV related:\n\nParticipants have any of the following cardiovascular conditions \u2264 90 days prior to randomization:\n\n  Myocardial infarction\n  Acute coronary syndrome\n  Stroke, or\n  Coronary, peripheral, or carotid artery arterial revascularization procedure.\nHave acute decompensated heart failure requiring hospitalization.\nHave New York Heart Association (NYHA) Classification Class IV heart failure at screening\n\nKidney related:\n\nParticipants have an eGFR \\<20 mL/min/1.73 m\\^2 at screening\nHave UACR \\>5000 mg/g (5.000 mg/mg) at screening\nHave received any form of dialysis \u2264 90 days from the date of randomization\nHave either undergone a kidney transplant or have a transplant procedure scheduled\n\nOther medical conditions:\n\nParticipants have had or plan to have a surgical treatment for obesity,\nHave a history of chronic or acute pancreatitis\nHave a family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia (MEN) syndrome type 2\nHave a known clinically significant gastric emptying abnormality, such as severe gastroparesis or gastric outlet obstruction",
+        "keywords": [
+            "Cardiovascular Disease",
+            "Kidney Disease",
+            "Major Adverse Cardiovascular Events (MACE)",
+            "Renal Outcomes",
+            "Cardiovascular Risk Reduction",
+            "Kidney Disease Progression",
+            "Cardiometabolic Risk Factors",
+            "Cardiovascular Outcomes",
+            "Kidney Outcomes",
+            "Type 2 Diabetes",
+            "Heart Disease",
+            "Coronary Artery Disease",
+            "Cerebrovascular Disease",
+            "Peripheral Arterial Disease",
+            "Nonfatal Myocardial Infarction (MI)",
+            "Nonfatal Stroke",
+            "Cardiovascular (CV) Death",
+            "Hospitalization or Urgent Visit Due to Heart Failure (HF)",
+            "Renal Death",
+            "End Stage Kidney Disease (ESKD)"
+        ]
+    },
+    {
+        "trial_id": "NCT00993421",
+        "brief_title": "A Weight Loss Study in Overweight Men and Women",
+        "official_title": "LY377604 + Sibutramine Hydrochloride Monohydrate: A Phase 2 Weight Loss Efficacy Study in Overweight/Obese Men and Women",
+        "lillyAlias": [
+            "I1L-MC-GAEB"
+        ],
+        "brief_summary": "The purpose of this study is to determine if LY377604 + sibutramine work better than LY377604 or sibutramine alone in the treatment of obesity.",
+        "trial_status": "TERMINATED",
         "phase": [
             "PHASE2"
         ],
         "diseases_list": [
-            "Lipoprotein Disorder"
+            "Obesity"
         ],
         "drugs_list": [
-            "LY3473329",
+            "LY377604",
+            "Sibutramine",
+            "Metoprolol",
+            "Placebo sibutramine",
+            "Placebo Metoprolol",
+            "Placebo LY377604"
+        ],
+        "enrollment": 343,
+        "inclusion_criteria": "inclusion criteria: \n\n Are between the body mass index (BMI) of 27 and 45 kg/m\\^2, inclusive, at the time of screening.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave a Diastolic Blood Pressure (DBP) greater than 90 mm Hg or less than 55 mm Hg, and/or Systolic Blood Pressure (SBP) \\>140 mm Hg or \\<90 mmHg, confirmed by at least 1 repeat measurement. Subjects with hypertension treated with antihypertensive medication are not excluded if blood pressure is within the prescribed limits and they are not treated with excluded medications. Changes in antihypertensive medication are not permitted within 30 days prior to randomization\nPrevious history of poorly controlled hypertension, (that is, \\>160/100 or hypertension which requires more than 2 drugs for control).\nHave a pulse rate \\>90 bpm or \\<50 bpm.\nEvidence or history of prior significant cardiovascular disease, coronary artery disease, cardiovascular surgery, significant valvular disease, heart failure, arrhythmias, sick sinus syndrome or stroke.\nCurrent treatment with \u03b2-blockers, calcium channel blockers, digitalis glycosides (for example, digoxin, etc), or clonidine.\nRecent treatment (within 2 weeks prior to randomization) with catecholamine-depleting drugs (such as reserpine or tetrabenazine, monoamine oxidase inhibitors (MAOIs).\nCurrent treatment with serotonergic drugs, such as selective serotonin reuptake inhibitors (SSRI), any drug that is a serotonin, norepinephrine, or dopamine reuptake inhibitor, \"triptan\" or ergot therapies for migraine or nausea, or serotonin-releasing agents.\nTreatment with significant inhibitors of Cytochrome P2D6 (CYP2D6), such as bupropion, fluoxetine, paroxetine, quinidine, duloxetine, amiodarone, cimetidine, chlorpheniramine, clomipramine, doxepin, haloperidol, methadone, mibefradil, and ritonavir.\nParticipants with bronchospastic diseases or who are treated with bronchodilators or other prescription or nonprescription beta adrenergic agonists.\nPeripheral vascular disease\nHistory of thyrotoxicosis\nHistory of seizures (except for childhood febrile convulsion) or at increased risk of seizures (for example, history of significant head trauma or intracranial surgery).\nHave had a significant change in weight, defined as a gain or loss of at least 4 kg (9 lb) in the 90 days prior to randomization\nHave had bariatric surgery (for example, gastric banding or gastric bypass)\nHave had liposuction within 90 days prior to randomization\nHave a disease that affects adipose mass or distribution of energy balance (for example, Cushing's syndrome, uncontrolled hyper- or hypothyroidism).\nHave taken in the 30 days prior to randomization, a medication, herbal product, or nutritional supplement that affects adipose mass or distribution or energy balance, such as glucocorticoids, antiretrovirals, atypical antipsychotics, lithium, valproic acid, lamotrigine, or other anticonvulsants, mirtazapine, bupropion, phentermine, sibutramine, orlistat, rimonabant, amphetamine, or ephedra-containing supplements. Note: Medications that have small and transient effects on weight or medications that may affect weight independent of adipose mass (for example, estrogens or diuretics), may be continued, but may not be started, stopped, or changed during the course of the study.\nHave been diagnosed with an eating disorder, such as anorexia, bulimia, binge eating disorder, or nocturnal eating disorder.\nHave diabetes mellitus treated with medication, or type 2 diabetes mellitus managed with diet and exercise with hemoglobin A1c (HbA1C) \\>7.0%.\nSymptomatic cholelithiasis in the 90 days prior to randomization.\nAny lifetime history of suicide attempt.\nHistory of major depressive disorder in the last 2 years or any lifetime history of severe psychiatric disorders (for example, schizophrenia or bipolar disorder).",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT00456885",
+        "brief_title": "The Effect of Exenatide on Weight and Hunger in Obese, Healthy Women",
+        "official_title": "The Effect of Exenatide on Body Weight, Energy Expenditure and Hunger in Obese Women Without Diabetes Mellitus",
+        "lillyAlias": [
+            "BFA912"
+        ],
+        "brief_summary": "This study will look at the effect of exenatide, a drug which has been approved for the treatment of type 2 diabetes, on body weight, appetite and energy expenditure among moderately obese women without diabetes.\n\nThe study is 35 weeks long and includes 19 outpatient visits. Participants will receive exenatide for 16 weeks and placebo for 16 weeks with a 3 week rest period in between. Neither participants nor investigators will know whether exenatide or placebo is being administered. Participants will be started randomly on either exenatide or placebo.\n\nOur hypothesis is that treatment with exenatide will curb appetite and lead to weight loss and may lead to changes in energy expenditure.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE4"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Impaired Glucose Tolerance"
+        ],
+        "drugs_list": [
+            "exenatide",
             "Placebo"
         ],
-        "enrollment": 233,
-        "inclusion_criteria": "inclusion criteria: \n\n Participants must be at least 40 years old\n Participants with Lp(a) \u2265175 nmol/L at randomization, measured at the central laboratory.\n High risk for cardiovascular events defined as documented coronary artery disease (CAD), stroke, or peripheral artery disease or atherosclerotic cardiovascular disease (ASCVD) risk equivalents (familial hypercholesterolemia or type 2 diabetes).\n Participants on the following medications according to local practice must be on a stable regimen for at least 4 weeks prior to randomization and expected to remain on a stable regimen through the end of the post-treatment follow-up period.\n\n   lipid-lowering drugs\n   testosterone, estrogens, anti-estrogens, progestins, selective estrogen receptor modulators, or growth hormone\n Have a body mass index within the range 18.5 to 40 kilogram/square meter (kg/m\u00b2), inclusive.\n Males who agree to use highly effective or effective methods of contraception may participate in this trial.\n Women of childbearing potential (WOCBP) who agree to use highly effective or effective methods of contraception and women not of childbearing potential (WNOCBP) may participate in this trial.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave a history or presence of an underlying disease, or surgical, physical, medical, or psychiatric condition that, in the opinion of the investigator, would potentially affect participant safety within the study or interfere with participating in or completing the study or with the interpretation of data.\nAny of the following, or other events indicating unstable medical condition in the opinion of the investigator, within 3 months of randomization:\n\n  major surgery\n  coronary, carotid, or peripheral arterial revascularization\n  stroke or transient ischemic attack\n  myocardial infarction or unstable angina\n  acute limb ischemia\nHave, in the 6 months prior to day 1, uncontrolled Type 1 or Type 2 diabetes\nHave uncontrolled hypertension",
+        "enrollment": 41,
+        "inclusion_criteria": "inclusion criteria: \n\n1. Females aged 25-60\n2. BMI 28-35 kg/m2\n3. No known diagnosis of diabetes\n4. No known diagnosis of coronary heart disease\n5. Self-described sedentary lifestyle with minimal regular cardiovascular exercise (no more than 1 hour per week)\n6. Stable weight (variation \\< 3 kg within 6 months of screening visit)\n7. Ability to give informed consent\n8. Ability to follow verbal and written instructions\n9. Use of medically approved form of contraception (monophasic oral contraception, intra uterine device, surgical sterilization or 2 combined barrier methods)\n10. Nonsmoker (tobacco, marijuana)\n11. Outpatient visits every 2 weeks throughout the study period are required. While most of these visits are short (15 minutes)ability to commute to the performance site in Boston, on a regular basis, is necessary.",
+        "exclusion_criteria": "exclusion criteria: \n\n1. Type 1 or type 2 diabetes mellitus diagnosed according to American Diabetes Association criteria\n2. Coronary heart disease (history of myocardial infarction or unstable angina pectoris)\n3. Uncontrolled hypertension hypertension (BP \\> 150/90 mmHg on or off antihypertensive medication)\n4. Uncontrolled dyslipidemia (LDL \\> 200 or TG \\> 400 on or off lipid lowering medication)\n5. Tobacco, marijuana or intravenous drug use\n6. Shift workers (night shift or alternating day/night shifts)\n7. Recent weight loss (\\> 3 kg within 4 months of the screening visit)\n8. Gastroparesis\n9. Inflammatory bowel disease\n10. Malignancy treated with chemotherapy within the past 3 years\n11. History of pancreatitis\n12. Depression requiring hospitalization or diagnosis of psychosis\n13. Renal insufficiency (creatinine clearance \\< 50 ml/min)\n14. Transaminases \\> 2x above the normal range\n15. Pregnancy within 6 months of the screening visit\n16. Breastfeeding\n17. Failure to use medically approved contraceptive methods\n18. History of an eating disorder (anorexia, bulimia or laxative abuse)\n19. History of surgery for the treatment of obesity (gastric banding, gastric bypass, gastric stapling)\n20. New diagnosis of hypo or hyperthyroidism within 1 year of screening visit\n21. Previous participation in a clinical study with exenatide\n22. Presence or history of allergic reaction to multiple drugs",
         "keywords": [
-            "Atherosclerotic cardiovascular disease",
-            "ASCVD",
-            "Dyslipidemia",
-            "Lipoprotein(a)",
-            "Lp(a)",
-            "Cardiovascular",
-            "Cardiovascular disease",
-            "Cholesterol",
-            "Hyperlipidemia"
+            "obesity",
+            "double blind",
+            "placebo controlled",
+            "weight loss",
+            "appetite",
+            "energy expenditure"
         ]
     }
 ]

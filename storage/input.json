@@ -1,5 +1,6 @@
 {
-    "patient_note": "The patient has type 2 diabetes and is 18 years old. Also has cardiovascular disease. Has history of coronary revascularization. Has also suffered from stroke.",
-    "patient_id": "sigir-20144"
+    "patient_note": "The patient is a female with a BMI of 30, classified as overweight. She leads a sedentary lifestyle but is a non-smoker. No history of cardiovascular disease or other significant comorbidities reported. She expresses willingness to cooperate with clinical staff and follow study procedures.",
+    "patient_id": "1",
+    "alternate" : "A 62-year-old man sees a neurologist for progressive memory loss and jerking movements of the lower extremities. Neurologic examination confirms severe cognitive deficits and memory dysfunction. An electroencephalogram shows generalized periodic sharp waves. Neuroimaging studies show moderately advanced cerebral atrophy. A cortical biopsy shows diffuse vacuolar changes of the gray matter with reactive astrocytosis but no inflammatory infiltration."
 }
 
