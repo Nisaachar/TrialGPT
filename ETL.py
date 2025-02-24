@@ -23,7 +23,13 @@ for study in data.get("studies", []): # [] returns null object if key not found.
 
     #lilly alias
     secondary_ids = identification.get("secondaryIdInfos", [])
-    lilly_alias = [entry["id"] for entry in secondary_ids if "id" in entry]
+    secondary_alias = [entry["id"] for entry in secondary_ids if "id" in entry]
+
+    #extracting lilly alias from this list of id's
+    lilly_alias = []
+    pattern = r"\b[a-zA-Z0-9]{3}-[a-zA-Z0-9]{2}-[a-zA-Z0-9]{4}\b"
+    lilly_alias = [s for s in secondary_alias if re.fullmatch(pattern, s)]
+
 
     #brief summary
     briefSummary = study.get("protocolSection", {}).get("descriptionModule", {}).get("briefSummary", {})
@@ -80,7 +86,7 @@ for study in data.get("studies", []): # [] returns null object if key not found.
 
 
 
-#Fetch keywords.
+
 
     if nct_id:
         result[nct_id] = {
