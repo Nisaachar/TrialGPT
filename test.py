@@ -62,3 +62,4 @@ retrieved_doc_ids = [
 res = calculate_recall(test_file, query_id, retrieved_doc_ids)
 
 print(res)
+
