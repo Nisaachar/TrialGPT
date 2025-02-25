@@ -30,6 +30,36 @@
         ]
     },
     {
+        "trial_id": "NCT00456885",
+        "brief_title": "The Effect of Exenatide on Weight and Hunger in Obese, Healthy Women",
+        "official_title": "The Effect of Exenatide on Body Weight, Energy Expenditure and Hunger in Obese Women Without Diabetes Mellitus",
+        "lillyAlias": [],
+        "brief_summary": "This study will look at the effect of exenatide, a drug which has been approved for the treatment of type 2 diabetes, on body weight, appetite and energy expenditure among moderately obese women without diabetes.\n\nThe study is 35 weeks long and includes 19 outpatient visits. Participants will receive exenatide for 16 weeks and placebo for 16 weeks with a 3 week rest period in between. Neither participants nor investigators will know whether exenatide or placebo is being administered. Participants will be started randomly on either exenatide or placebo.\n\nOur hypothesis is that treatment with exenatide will curb appetite and lead to weight loss and may lead to changes in energy expenditure.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE4"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Impaired Glucose Tolerance"
+        ],
+        "drugs_list": [
+            "exenatide",
+            "Placebo"
+        ],
+        "enrollment": 41,
+        "inclusion_criteria": "inclusion criteria: \n\n1. Females aged 25-60\n2. BMI 28-35 kg/m2\n3. No known diagnosis of diabetes\n4. No known diagnosis of coronary heart disease\n5. Self-described sedentary lifestyle with minimal regular cardiovascular exercise (no more than 1 hour per week)\n6. Stable weight (variation \\< 3 kg within 6 months of screening visit)\n7. Ability to give informed consent\n8. Ability to follow verbal and written instructions\n9. Use of medically approved form of contraception (monophasic oral contraception, intra uterine device, surgical sterilization or 2 combined barrier methods)\n10. Nonsmoker (tobacco, marijuana)\n11. Outpatient visits every 2 weeks throughout the study period are required. While most of these visits are short (15 minutes)ability to commute to the performance site in Boston, on a regular basis, is necessary.",
+        "exclusion_criteria": "exclusion criteria: \n\n1. Type 1 or type 2 diabetes mellitus diagnosed according to American Diabetes Association criteria\n2. Coronary heart disease (history of myocardial infarction or unstable angina pectoris)\n3. Uncontrolled hypertension hypertension (BP \\> 150/90 mmHg on or off antihypertensive medication)\n4. Uncontrolled dyslipidemia (LDL \\> 200 or TG \\> 400 on or off lipid lowering medication)\n5. Tobacco, marijuana or intravenous drug use\n6. Shift workers (night shift or alternating day/night shifts)\n7. Recent weight loss (\\> 3 kg within 4 months of the screening visit)\n8. Gastroparesis\n9. Inflammatory bowel disease\n10. Malignancy treated with chemotherapy within the past 3 years\n11. History of pancreatitis\n12. Depression requiring hospitalization or diagnosis of psychosis\n13. Renal insufficiency (creatinine clearance \\< 50 ml/min)\n14. Transaminases \\> 2x above the normal range\n15. Pregnancy within 6 months of the screening visit\n16. Breastfeeding\n17. Failure to use medically approved contraceptive methods\n18. History of an eating disorder (anorexia, bulimia or laxative abuse)\n19. History of surgery for the treatment of obesity (gastric banding, gastric bypass, gastric stapling)\n20. New diagnosis of hypo or hyperthyroidism within 1 year of screening visit\n21. Previous participation in a clinical study with exenatide\n22. Presence or history of allergic reaction to multiple drugs",
+        "keywords": [
+            "obesity",
+            "double blind",
+            "placebo controlled",
+            "weight loss",
+            "appetite",
+            "energy expenditure"
+        ]
+    },
+    {
         "trial_id": "NCT04881760",
         "brief_title": "A Study of LY3437943 in Participants Who Have Obesity or Are Overweight",
         "official_title": "A Phase 2 Study of Once-Weekly LY3437943 Compared With Placebo in Participants Who Have Obesity or Are Overweight With Weight-Related Comorbidities",
@@ -62,44 +92,35 @@
         ]
     },
     {
-        "trial_id": "NCT00456885",
-        "brief_title": "The Effect of Exenatide on Weight and Hunger in Obese, Healthy Women",
-        "official_title": "The Effect of Exenatide on Body Weight, Energy Expenditure and Hunger in Obese Women Without Diabetes Mellitus",
+        "trial_id": "NCT06672549",
+        "brief_title": "A Platform Trial for Pediatric Participants With Obesity or Overweight (LY900040)",
+        "official_title": "A Master Protocol for a Randomized, Controlled, Clinical Platform Trial to Investigate the Efficacy and Safety of Interventions for Chronic Weight Management in Pediatric Participants With Obesity or Overweight",
         "lillyAlias": [
-            "BFA912"
+            "J4M-MC-PWMP"
         ],
-        "brief_summary": "This study will look at the effect of exenatide, a drug which has been approved for the treatment of type 2 diabetes, on body weight, appetite and energy expenditure among moderately obese women without diabetes.\n\nThe study is 35 weeks long and includes 19 outpatient visits. Participants will receive exenatide for 16 weeks and placebo for 16 weeks with a 3 week rest period in between. Neither participants nor investigators will know whether exenatide or placebo is being administered. Participants will be started randomly on either exenatide or placebo.\n\nOur hypothesis is that treatment with exenatide will curb appetite and lead to weight loss and may lead to changes in energy expenditure.",
-        "trial_status": "COMPLETED",
+        "brief_summary": "The purpose of this pediatric, chronic weight management, Phase 3 Master Protocol (PWMP) is to create a framework to evaluate the safety and efficacy of pharmacologic agents for the treatment of obesity or overweight in pediatric participants.",
+        "trial_status": "RECRUITING",
         "phase": [
-            "PHASE4"
+            "PHASE3"
         ],
         "diseases_list": [
             "Obesity",
-            "Impaired Glucose Tolerance"
+            "Overweight"
         ],
         "drugs_list": [
-            "exenatide",
+            "Orforglipron",
             "Placebo"
         ],
-        "enrollment": 41,
-        "inclusion_criteria": "inclusion criteria: \n\n1. Females aged 25-60\n2. BMI 28-35 kg/m2\n3. No known diagnosis of diabetes\n4. No known diagnosis of coronary heart disease\n5. Self-described sedentary lifestyle with minimal regular cardiovascular exercise (no more than 1 hour per week)\n6. Stable weight (variation \\< 3 kg within 6 months of screening visit)\n7. Ability to give informed consent\n8. Ability to follow verbal and written instructions\n9. Use of medically approved form of contraception (monophasic oral contraception, intra uterine device, surgical sterilization or 2 combined barrier methods)\n10. Nonsmoker (tobacco, marijuana)\n11. Outpatient visits every 2 weeks throughout the study period are required. While most of these visits are short (15 minutes)ability to commute to the performance site in Boston, on a regular basis, is necessary.",
-        "exclusion_criteria": "exclusion criteria: \n\n1. Type 1 or type 2 diabetes mellitus diagnosed according to American Diabetes Association criteria\n2. Coronary heart disease (history of myocardial infarction or unstable angina pectoris)\n3. Uncontrolled hypertension hypertension (BP \\> 150/90 mmHg on or off antihypertensive medication)\n4. Uncontrolled dyslipidemia (LDL \\> 200 or TG \\> 400 on or off lipid lowering medication)\n5. Tobacco, marijuana or intravenous drug use\n6. Shift workers (night shift or alternating day/night shifts)\n7. Recent weight loss (\\> 3 kg within 4 months of the screening visit)\n8. Gastroparesis\n9. Inflammatory bowel disease\n10. Malignancy treated with chemotherapy within the past 3 years\n11. History of pancreatitis\n12. Depression requiring hospitalization or diagnosis of psychosis\n13. Renal insufficiency (creatinine clearance \\< 50 ml/min)\n14. Transaminases \\> 2x above the normal range\n15. Pregnancy within 6 months of the screening visit\n16. Breastfeeding\n17. Failure to use medically approved contraceptive methods\n18. History of an eating disorder (anorexia, bulimia or laxative abuse)\n19. History of surgery for the treatment of obesity (gastric banding, gastric bypass, gastric stapling)\n20. New diagnosis of hypo or hyperthyroidism within 1 year of screening visit\n21. Previous participation in a clinical study with exenatide\n22. Presence or history of allergic reaction to multiple drugs",
-        "keywords": [
-            "obesity",
-            "double blind",
-            "placebo controlled",
-            "weight loss",
-            "appetite",
-            "energy expenditure"
-        ]
+        "enrollment": 125,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a history of at least 1 unsuccessful effort to lose sufficient body weight after participation in a structured lifestyle modification program (diet and exercise counseling for at least 3 months) prior to screening.\n Obesity as defined by BMI equal to or above the 95th percentile for age and sex (on age- and gender-specific growth chart \\[CDC-NCHS, 2022\\]); OR\n Applies to participant age between 12 and \\<18 years old. Overweight as defined by BMI equal to or above the 85th percentile but less than the 95th percentile for age and sex, on age- and sex-specific growth chart (CDC-NCHS, 2022), and at least 1 weight-related comorbidity,\n\n   hypertension\n   type 2 diabetes (T2D)\n   prediabetes\n   dyslipidemia\n   obstructive sleep apnea\n   metabolic dysfunction-associated steatohepatitis (MASH) or metabolic dysfunction-associated steatotic liver disease (MASLD)",
+        "exclusion_criteria": "exclusion criteria: \n\nHave undergone or plan to undergo weight reduction procedure during the study, such as, but not limited to:\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band\u00ae gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a diagnosis that is a secondary cause of obesity or have a history of abrupt onset of obesity suggesting a secondary cause, such as hypothalamic, monogenetic, syndromic, or endocrine causes.\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state.\nHave HbA1c \\>9.0% (75 mmol/mol) as measured by central laboratory at screening.\nHave a family or personal history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia Syndrome Type 2.",
+        "keywords": []
     },
     {
         "trial_id": "NCT06009653",
         "brief_title": "Effects of Tirzepatide Plus Intensive Lifestyle Therapy on Body Weight and Metabolic Health in Latinos With Obesity",
         "official_title": "Effect of Tirzepatide Plus Intensive Lifestyle Therapy on Body Weight and Metabolic Health in Latinos With Obesity",
-        "lillyAlias": [
-            "P50MD017344"
-        ],
+        "lillyAlias": [],
         "brief_summary": "The purpose of this study is to conduct a three-arm 52-week, randomized controlled trial with double blind treatment to evaluate the effects of a drug called tirzepatide in combination with an innovative, culturally-appropriate, intensive lifestyle intervention (ILI) delivered by community health workers (CHWs) in Latino adults with obesity. Participants will be randomized to 1) standard care (SC, n=25); 2) culturally-tailored dietary and behavioral intensive lifestyle intervention (ILI, n=25) provided by CHWs plus placebo; or 3) ILI plus tirzepatide (ILI-TRZ) for 52 weeks to evaluate the intervention's effect on: i) weight loss; ii) clinical efficacy (change in body fat mass, liver fat, intra-abdominal fat mass and intrahepatic triglyceride content, oral glucose tolerance, glycemic control, insulin sensitivity and b-cell function, plasma lipids, blood pressure, sleep duration, quality and behaviors, physical performance scores); iii) adherence and fidelity to the intervention (adherence to the intervention and barriers to long term adherence, quality-of-life, fidelity of the implementation by CHWs, CHW's and study participants' acceptability and satisfaction with the intervention and eating behaviors. Placebo or tirzepatide will be injected subcutaneously in the abdomen or thigh once a week for 12 months.",
         "trial_status": "TERMINATED",
         "phase": [
@@ -126,67 +147,48 @@
         ]
     },
     {
-        "trial_id": "NCT06191848",
-        "brief_title": "Subcutaneous Tirzepatide Once-weekly in Patients With Obesity and Knee Osteoarthritis (STOP KNEE-OA)",
-        "official_title": "Effect of Subcutaneous Tirzepatide Once-weekly in Patients With Obesity and Knee Osteoarthritis (STOP KNEE-OA): A Randomized, Double-Blind, Placebo-Controlled Trial",
-        "lillyAlias": [],
-        "brief_summary": "This is a trial of tirzepatide in people with obesity and knee osteoarthritis. The main purpose of this study is to see if tirzepatide can reduce number of these participants who require a knee replacement. Participants will be randomized to take a weekly injection of tirzepatide or a placebo for a total of 72 weeks.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE4"
-        ],
-        "diseases_list": [
-            "Obesity",
-            "Knee Osteoarthritis",
-            "Osteoarthritis, Knee"
-        ],
-        "drugs_list": [
-            "Tirzepatide",
-            "Placebo"
-        ],
-        "enrollment": 352,
-        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index of \u2265 30 kg/m2.\n Report one or more previous unsuccessful attempt to lose body weight via lifestyle modification.\n Have been deemed eligible to enter the waiting list for primary knee replacement for the treatment of osteoarthritis in the target joint by an orthopaedic surgeon at one of the participating study sites.\n Have moderate-to-severe knee osteoarthritis in the target joint.\n Be willing to and capable of learning how to self-inject the study drug and follow study procedures for the duration of the trial.\n Provide informed consent to study participation in line with the requirements of the human research ethics committee of the study site.\n\nFemale participants must either:\n\n\u2022 Not be of reproductive potential, defined as:\n\n Infertile due to surgical sterilization or congenital anomaly, OR\n Post-menopausal defined as:\n\n   A woman over the age of 40 years with spontaneous cessation of menses for at least 12 consecutive months (in the absence of medications known to induce amenorrhea), with a follicle-stimulating hormone \u226540mIU/mL, and a negative pregnancy test prior to study entry, OR\n   A woman over the age of 55 years with cessation of menses for at least 12 consecutive months (in the absence of medications known to induce amenorrhea), OR\n   A woman over the age of 55 years that has commenced hormone replacement therapy after a documented diagnosis of menopause.\n\nOR\n\n\u2022 Be of reproductive potential, and:\n\n Test negative for pregnancy on the initial screening visit via a serum pregnancy test, AND\n Use at least two effective forms of contraception, if sexually active, for the duration of the trial and until one month after the last injection of the study drug AND\n Not be breastfeeding.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave been deemed eligible to enter the waiting list for knee replacement in the contralateral knee by an orthopaedic surgeon at one of the participating study sites.\nHave used any prescription medications intended to promote weight loss (e.g., tirzepatide, liraglutide, semaglutide) in the three months prior to screening.\nHave previously undergone any surgical or endoscopic procedure intended to promote weight loss.\nHave been diagnosed with type 1 diabetes mellitus (T1DM) or T2DM\nHave laboratory evidence indicative of diabetes mellitus during screening.\nHave personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)\nHave an active malignancy (excluding basal or squamous cell skin cancer).\nHave had a transplanted organ or awaiting an organ transplant\nHave evidence of a significant, active autoimmune abnormality (e.g., lupus or rheumatoid arthritis)\nHave any other medical conditions, abnormal laboratory tests or concomitant medications that make them unsuitable for participation:\n\n  Have a clinically significant gastric emptying abnormality.\n  Have had a history of acute or chronic pancreatitis.\n  Have obesity induced by other endocrinologic disorders\n  Have an unstable psychiatric disorder\n  Have uncontrolled hypertension (systolic blood pressure above or equal to 160 mmHg and/or diastolic blood pressure above or equal to 100 mmHg)\n  Have had within the past 6 months prior to randomisation any of the following: acute myocardial infarction, cerebrovascular accident, unstable angina, or hospitalisation due to congestive cardiac failure (are also exclusion criteria for elective knee replacement)\n  Have renal impairment as measured by a serum Creatinine of \u22650.3 mg/dL (\u226526.5 \u03bcmol/L) at screening visit\n  Have thyroid-stimulating hormone outside of the range of 0.4 to 6.0 mIU/L at screening visit\n  Have acute or chronic hepatitis or abnormal liver function tests as measured by either alanine aminotransferase or alkaline phosphatase \\>200 IU.\n  Have a calcitonin level at Visit 1 of: \u226520 ng/L with eGFR \u226560 mL/min/1.73 m2, or \u226535 ng/L with eGFR \\<60 mL/min/1.73 m2.\n  Have any other known contraindication to any glucagon-like peptide-1 receptor agonists.\nAre study site personnel, or immediate family of a member of the study site.\nHave been enrolled in any other study of an investigational product within the past ninety days or are currently enrolled in such a study",
-        "keywords": [
-            "Osteoarthritis",
-            "Obesity",
-            "Total knee replacement"
-        ]
-    },
-    {
-        "trial_id": "NCT06439277",
-        "brief_title": "A Study of Tirzepatide in Adolescents With Obesity and Weight-Related Comorbidities (SURMOUNT-ADOLESCENTS-2)",
-        "official_title": "Efficacy and Safety of Tirzepatide Once Weekly Versus Placebo for the Treatment of Obesity and Weight-Related Comorbidities in Adolescents: A Randomized, Double-Blind, Placebo- Controlled Trial (SURMOUNT-ADOLESCENTS-2)",
+        "trial_id": "NCT06584916",
+        "brief_title": "A Study of Orforglipron for the Maintenance of Body Weight Reduction in Participants Who Have Obesity or Overweight With Weight-Related Comorbidities (ATTAIN-MAINTAIN)",
+        "official_title": "A Phase 3b, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Orforglipron Once Daily Versus Placebo for Maintenance of Body Weight Reduction in Participants Who Have Obesity or Overweight With Weight-Related Comorbidities",
         "lillyAlias": [
-            "I8F-MC-GPIX"
+            "J2A-MC-GZPN"
         ],
-        "brief_summary": "The goal of the study is to assess how tirzepatide impacts bodyweight and cardiovascular risk factors when used in conjunction with healthy nutrition and physical activity in adolescents with obesity and multiple weight related comorbidities. The study will last approximately 76 weeks and may include up to 23 visits.",
-        "trial_status": "RECRUITING",
+        "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of orforglipron on maintenance of body weight reduction.",
+        "trial_status": "ENROLLING_BY_INVITATION",
         "phase": [
             "PHASE3"
         ],
         "diseases_list": [
             "Obesity",
-            "Weight Gain"
+            "Overweight"
         ],
         "drugs_list": [
-            "Tirzepatide",
+            "Orforglipron",
             "Placebo"
         ],
         "enrollment": 300,
-        "inclusion_criteria": "inclusion criteria: \n\n Have body mass index (BMI) equal to or above the 95th percentile for age and sex (on age and gender-specific growth chart for diagnosis of obesity) with at least 2 of the following predefined weight-related comorbidities: hypertension, prediabetes and hypertriglyceridemia.\n Have history of at least 1 self-reported unsuccessful dietary effort to lose weight.\n Are capable of giving signed informed consent by a legal representative or assent by a study participant (when applicable).",
-        "exclusion_criteria": "exclusion criteria: \n\nHave undergone or plan to undergo a weight reduction procedure during the study, such as, but not limited to\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state\nHave type 2 diabetes or have a HbA1c \\> 6.4% at screening\nHave a history of chronic or acute pancreatitis\nHave a family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2",
-        "keywords": []
+        "inclusion_criteria": "inclusion criteria: \n\n Have completed the SURMOUNT-5 study on study treatment",
+        "exclusion_criteria": "exclusion criteria: \n\nHave Type 1 Diabetes, Type 2 Diabetes, or any other types of diabetes, history of ketoacidosis, or hyperosmolar state/coma\nHave a prior or planned surgical treatment for obesity\nHave acute or chronic hepatitis\nHave a history of acute or chronic pancreatitis",
+        "keywords": [
+            "Maintenance",
+            "Weight maintenance",
+            "Body weight changes",
+            "Weight loss",
+            "Incretins",
+            "Hormones",
+            "Hormone substitutes",
+            "Hormone antagonists",
+            "Physiological effects of drugs"
+        ]
     },
     {
-        "trial_id": "NCT06075667",
-        "brief_title": "A Study of Tirzepatide (LY3298176) Once Weekly in Adolescent Participants Who Have Obesity or Overweight With Weight-Related Comorbidities",
-        "official_title": "Efficacy, Safety, and Pharmacokinetics of Tirzepatide Once Weekly Versus Placebo in Adolescent Participants Who Have Obesity, or Are Overweight With Weight-Related Comorbidities: A Randomized, Double-Blind Trial (SURMOUNT-ADOLESCENTS)",
+        "trial_id": "NCT06672939",
+        "brief_title": "A Study of Orforglipron (LY3502970) in Adolescent Participants With Obesity, or Overweight With Related Comorbidities",
+        "official_title": "Efficacy, Safety, and Pharmacokinetics of Orforglipron Once Daily Oral Versus Placebo in Adolescent Participants Who Have Obesity, or Overweight With Weight-Related Comorbidities: A Randomized, Double-Blind Trial (ADVANCE-ATTAIN-ADOLESCENTS)",
         "lillyAlias": [
-            "I8F-MC-GPHP",
-            "2023-504413-80-00"
+            "J4M-MC-PW01"
         ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of tirzepatide in adolescents that have obesity or overweight with at least one weight-related comorbidity. The study will last approximately 90 weeks and may include up to 25 visits.",
+        "brief_summary": "The main purpose of this study, performed under Master Protocol J4M-MC-PWMP, is to evaluate the efficacy, safety, and pharmacokinetics of orforglipron once daily oral versus Placebo in adolescent participants with obesity, or overweight with related comorbidities. Participation in the study will last about 18 months.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE3"
@@ -196,99 +198,87 @@
             "Overweight"
         ],
         "drugs_list": [
-            "Tirzepatide",
+            "Orforglipron",
             "Placebo"
         ],
-        "enrollment": 150,
-        "inclusion_criteria": "inclusion criteria: \n\n Have obesity, as defined by BMI equal to or above the 95th percentile for age and sex, on age- and sex-specific growth chart, OR\n Have overweight, as defined by BMI equal to or above the 85th percentile but less than the 95th percentile for age and sex, on age- and sex-specific growth chart, with at least 1 weight-related comorbidity.\n\n   dyslipidemia\n   pre-hypertension\n   hypertension\n   nonalcoholic fatty liver disease\n   obstructive sleep apnea\n   prediabetes\n   documented preexisting condition of Type 2 Diabetes\n\nParticipants with Type 2 Diabetes Mellitus (T2DM)\n\n Have been treated with either diet and exercise alone or stable treatment with metformin for at least 90 days prior to screening and have a HbA1c\\<9.0%",
-        "exclusion_criteria": "exclusion criteria: \n\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight more than 5 kilogram (kg) (11 lbs.) within 90 days before screening irrespective of medical records.\nHave Type 1 Diabetes\nHave taken within 90 days before screening or intend to start prescribed or over-the-counter medications, or alternative remedies including herbal or nutritional supplements, intended to promote body weight reduction.\nAre prepubertal (Tanner stage 1).\nHave a family or personal history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia (MEN) Syndrome Type 2\nHave a history of chronic or acute pancreatitis.\nHave undergone or plan to undergo weight reduction procedure during the study, such as, but not limited to\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band gastric banding, or\n  any other procedure intended to result in weight reduction.",
+        "enrollment": 125,
+        "inclusion_criteria": "inclusion criteria: \n\nJ4M-MC-PWMP\n\n Have a history of at least 1 unsuccessful effort to lose sufficient body weight after participation in a structured lifestyle modification program (diet and exercise counseling for at least 3 months) prior to screening.\n Obesity as defined by BMI equal to or above the 95th percentile for age and sex (on age- and gender-specific growth chart \\[CDC-NCHS, 2022\\]); OR\n Overweight as defined by BMI equal to or above the 85th percentile but less than the 95th percentile for age and sex, on age- and sex-specific growth chart (CDC-NCHS, 2022), and at least 1 weight-related comorbidity,\n\n   hypertension\n   type 2 diabetes (T2D)\n   prediabetes\n   dyslipidemia\n   obstructive sleep apnea\n   metabolic dysfunction-associated steatohepatitis (MASH) or metabolic dysfunction-associated steatotic liver disease (MASLD)",
+        "exclusion_criteria": "exclusion criteria: \n\nJ4M-MC-PW01\n\nPrepubertal (Tanner stage 1)\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kilograms (kg) (11 pounds) within 90 days before screening\n\nJ4M-MC-PWMP\n\nHave undergone or plan to undergo weight reduction procedure during the study, such as, but not limited to:\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band\u00ae gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a diagnosis that is a secondary cause of obesity or have a history of abrupt onset of obesity suggesting a secondary cause, such as hypothalamic, monogenetic, syndromic, or endocrine causes.\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state.\nHave HbA1c \\>9.0% (75 mmol/mol) as measured by central laboratory at screening.\nHave a family or personal history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia Syndrome Type 2.",
         "keywords": []
     },
     {
-        "trial_id": "NCT06603571",
-        "brief_title": "A Study to Investigate Weight Management With LY3841136 and Tirzepatide (LY3298176), Alone or in Combination, in Adult Participants With Obesity or Overweight With Type 2 Diabetes",
-        "official_title": "A Phase 2, Parallel-Group, Double-Blind, Placebo-Controlled Study to Investigate Weight Management With LY3841136 and Tirzepatide, Alone or in Combination, in Adult Participants With Obesity or Overweight With Type 2 Diabetes",
+        "trial_id": "NCT05051579",
+        "brief_title": "A Study of LY3502970 in Participants With Obesity or Overweight With Weight-related Comorbidities",
+        "official_title": "A Phase 2 Study of Once-Daily LY3502970 Compared With Placebo in Participants Who Have Obesity or Are Overweight With Weight-Related Comorbidities",
         "lillyAlias": [
-            "W8M-MC-LAA2",
-            "W8M-MC-CWMM Master Protocol"
+            "J2A-MC-GZGI"
         ],
-        "brief_summary": "The main purpose of this study, performed under the master protocol W8M-MC-CWMM (NCT06143956), is to investigate the safety and efficacy of LY3841136 for chronic weight management alone or in combination with Tirzepatide across a wide dose range in participants with Type 2 Diabetes. Participation in the study will last about 64 weeks.",
-        "trial_status": "RECRUITING",
+        "brief_summary": "The main purpose of the study was to assess the effect of LY3502970 in participants who have obesity or are overweight.",
+        "trial_status": "COMPLETED",
         "phase": [
             "PHASE2"
         ],
         "diseases_list": [
             "Obesity",
-            "Overweight"
+            "Overweight and Obesity"
         ],
         "drugs_list": [
-            "LY3841136",
-            "Tirzepatide",
+            "LY3502970",
             "Placebo"
         ],
-        "enrollment": 350,
-        "inclusion_criteria": "inclusion criteria: \n\nW8M-MC-LAA2\n\n Have a Body Mass Index (BMI) of \u226527 kilograms per square meter (kg/m\u00b2)\n Have Type 2 Diabetes\n Have a HbA1c \u22657.0 % (53 millimoles/mole (mmol/mol)) to \u226410.5% (91 mmol/mol) and treated with diet and exercise alone or with a stable dose of metformin (and not more than the locally approved dose) with or without a sodium-glucose cotransporter 2 (SGLT2) inhibitor for at least 3 months prior to screening\n\nW8M-MC-CWMM:\n\n Have had a stable body weight for the 3 months prior to randomization (\\<5% body weight gain and/or loss)",
-        "exclusion_criteria": "exclusion criteria: \n\nW8M-MC-LAA2\n\nHave a history of severe hypoglycemia or hypoglycemia unawareness within the last 6 months prior to screening\nHave an on-going or history of bradyarrhythmia and/or sinus bradycardia\nHave an elevated resting pulse rate (mean \\>100 beats per minute (bpm)) or reduced resting pulse rate (mean \\<60 bpm) at screening\nHave any of the following cardiovascular conditions within 6 months prior to screening:\n\n  acute myocardial infarction\n  cerebrovascular accident (stroke)\n  unstable angina, or\n  hospitalization due to congestive heart failure\nHave renal impairment measured as estimated glomerular filtration rate (eGFR) \\<45 milliliters per minute (mL/min)/1.73 m2\nHave a history of acute or chronic pancreatitis\nHave fasting triglycerides \\>500 milligrams per deciliter (mg/dL) (5.7 mmol/L) at screening\nAll concomitant medications should be at a stable dose for at least 3 months prior to screening\n\nW8M-MC-CWMM\n\nHave a prior or planned surgical treatment for obesity, except prior liposuction or abdominoplasty, if performed \\>1 year prior to screening.\nHave type 1 diabetes mellitus, latent autoimmune diabetes in adults, or history of ketoacidosis or hyperosmolar coma.\nHave poorly controlled hypertension.\nHave a history of symptomatic gallbladder disease within the past 2 years\nHave signs and symptoms of any liver disease other than nonalcoholic fatty liver disease.\nHave a lifetime history of suicide attempts.",
-        "keywords": [
-            "Type 2 Diabetes"
-        ]
+        "enrollment": 272,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) of \u226530-kilogram square meter (kg/m\u00b2)\n Have a BMI \u226527 kg/m\u00b2 and \\<30 kg/m\u00b2 with at least 1 of the following weight-related comorbidities eg; \\[Have hypertension, or dyslipidemia, cardiovascular disease\\]\n Have had a stable body weight for the 3 months prior to randomization (not more than 5% body weight gain and/or loss)",
+        "exclusion_criteria": "exclusion criteria: \n\nHave any prior diagnosis of diabetes\nHave a prior or planned surgical treatment for obesity\nHave obesity induced by other endocrinological disorders or diagnosed monogenetic or syndromic forms of obesity\nHave renal impairment measured as estimated glomerular filtration rate (eGFR) \\<30 milliliter (mL)/minute (min)/1.73 m\u00b2\nHave a history of acute chronic pancreatitis\nHave a history of significant active or unstable Major Depressive Disorder (MDD) or other severe psychiatric disorder (for example, schizophrenia, bipolar disorder, or other serious mood or anxiety disorder) within the last 2 years Note: Participants with MDD or generalized anxiety disorder whose disease state is considered stable for the past 2 years and expected to remain stable throughout the course of the study, may be considered for inclusion if they are not on excluded medications.\n\nWithin 3 months prior to screening:\n\nHave poorly controlled hypertension\nHave history of acute myocardial infarction\nHave history of cerebrovascular accident (stroke)\nHad hospitalization due to congestive heart failure (CHF)\nHave cancer\nHave human immunodeficiency virus (HIV) and/or positive HIV antibodies historically or at screening\nHave hepatitis B and/or positive hepatitis B surface antigen",
+        "keywords": []
     },
     {
-        "trial_id": "NCT01454973",
-        "brief_title": "Characterization of the Variability of Insulin Secretory Parameters in the Meal Tolerance and the Maximal Stimulation Tests of Healthy Subjects",
-        "official_title": "Characterization of the Variability of Insulin Secretory Parameters in the Meal Tolerance and the Maximal Stimulation Tests of Healthy Subjects",
-        "lillyAlias": [],
-        "brief_summary": "A multi-year clinical study to improve tools for measuring the function of insulin-producing beta cells in people with type 2 diabetes mellitus.",
-        "trial_status": "COMPLETED",
-        "phase": {},
-        "diseases_list": [
-            "Type 2 Diabetes"
-        ],
-        "drugs_list": [],
-        "enrollment": 25,
-        "inclusion_criteria": "inclusion criteria: \n\n1. Ability to give informed consent and comply with all study requirements\n2. Overweight and obese, generally healthy men and women. Healthy is defined as no clinically relevant abnormalities identified by a detailed medical history, full physical examination, including blood pressure and pulse rate measurement, 12 lead ECG and clinical laboratory tests.\n3. Women of child-bearing potential are allowed (but must agree to use non-hormonal contraception and not plan to become pregnant for the duration of the study. Must agree to maintain the same contraceptive measures throughout the study. Acceptable contraceptive methods for female subjects of childbearing potential include one of the following:\n\n    Abstinence.\n    One (1) of the following methods:\n\n      Tubal ligation\n      Copper-containing intrauterine device (IUD)\n      Condom AND spermicidal foam/gel/film/cream/suppository\n      Male partner who has had a vasectomy for at least 6 months.\n4. It is required that all male subjects use an acceptable method of contraception (as outlined below), starting from the first dose of study medication and continuing for at least 28 days after the last dose of study drug:\n\n    Abstinence\n    A condom AND one of the following:\n    Vasectomy for more than 6 months. Female partner who meets one of the following conditions: has had a tubal ligation, hysterectomy, or bilateral oophorectomy; or is post menopausal\n5. BMI 27-40; stable weight (less than 3% change in past 3 months) Age Range: 30-65\n6. No history of diabetes mellitus or impaired glucose tolerance (and impaired fasting glucose)\n7. Other conditions may be allowed, if medically stable and controlled within acceptable limits, including: hypertension, dyslipidemia, osteoarthritis, osteoporosis\n8. Smokers allowed, but must be able to participate on inpatient stay and not smoke\n9. Normal oral glucose tolerance test response (see exclusion criteria)",
-        "exclusion_criteria": "exclusion criteria: \n\nSubjects presenting with any of the following will not be included in the study:\n\n1. Evidence or history of clinically significant hematological, renal, endocrine, pulmonary, gastrointestinal, cardiovascular, hepatic, psychiatric, neurologic, or allergic or clinical findings at Screening.\n2. Any condition possibly affecting absorption (eg, gastrectomy, malabsorption syndromes, abdominal surgery other than appendectomy, cholecystectomy or hysterectomy).\n3. Use of unacceptable medications (see Appendix A)\n4. A positive urine drug screen.\n5. History of regular alcohol consumption exceeding 7 drinks/week for females or 14 drinks/week for men (1 drink = 5 ounces (150 mL) of wine or 12 ounces (360 mL) of beer or 1.5 ounces (45 mL) of hard liquor) within 6 months of Screening.\n6. Treatment with an investigational drug within 30 days or 5 half-lives preceding the first dose of study medication.\n7. 12 lead ECG demonstrating QTc \\>450 msec at Screening for males, 470 msec for females. If QTc exceeds 450/470 msec, the ECG should be repeated two more times and the average of the three QTc values should be used to determine the subject's eligibility.\n8. Supine blood pressure \\>=140 mm Hg (systolic) or 90 mm Hg (diastolic), on a single measurement. If elevated, confirm by a single repeat, following at least 10 minutes of rest.\n9. Screening fasting serum glucose \\>=100 mg/dL or HbA1c \\>6.5%, confirmed by a single repeat if deemed necessary.\n10. Abnormal oral glucose tolerance test (see below for definition of abnormal).\n11. Screening serum alanine transaminase (ALT) or serum aspartate transaminase (AST) greater than 2X the upper limit of the laboratory reference range.\n12. Elevated fasting triglycerides at screening (\\>500 mg/dL), confirmed by a single repeat if deemed necessary.\n13. Pregnant or nursing females; inability to use effective contraception.\n14. Blood donation of approximately 1 pint (500 mL) within 56 days prior to dosing.\n15. Participation in a clinical biomedical research study within prior two months may be excluded, depending on study type and details.\n16. History of sensitivity to heparin or heparin-induced thrombocytopenia, if utilized by the site for blood draws.\n17. Unwilling or unable to comply with directions and procedures described in this protocol.\n18. Subject is the Investigator or a sub-Investigator, research assistant, pharmacist, study coordinator, other staff, or a relative of study personnel directly involved with the conduct of the study.\n19. Other severe acute or chronic medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or investigational product administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the subject inappropriate for entry into this study.",
-        "keywords": [
-            "type 2 diabetes",
-            "beta cell function",
-            "meal tolerance test",
-            "maximum stimulation test",
-            "method standardization",
-            "insulin secretion"
-        ]
-    },
-    {
-        "trial_id": "NCT01281228",
-        "brief_title": "The Effect of GLP-1 Receptor Activation on Central Reward and Satiety in Obesity and Diabetes",
-        "official_title": "The Effect of GLP-1 Receptor Activation on Central Reward and Satiety Circuits in Response to Food Stimuli in Obesity and Diabetes",
+        "trial_id": "NCT05623839",
+        "brief_title": "A Study of LY3305677 in Participants With Obesity Or Overweight",
+        "official_title": "A Multiple Dose Titration Study in Participants With Obesity or Overweight to Investigate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3305677",
         "lillyAlias": [
-            "2010-023635-42"
+            "I8P-MC-OXAG"
         ],
-        "brief_summary": "Glucagon-like peptide 1 (GLP-1) based therapies, such as exenatide, are already successfully employed in the treatment of Type 2 Diabetes (T2DM). Exenatide improves glycemic control and is associated with reduced food intake and body weight. The investigators hypothesize that it affects central reward and satiety circuits and that this may contribute to the weight loss.",
+        "brief_summary": "The main purpose of this study is to learn about the safety and tolerability of LY3305677 when given to participants with obesity or overweight. Blood tests will be performed to investigate how the body processes the study drug and how the study drug affects the body. Each enrolled participant will receive injections of LY3305677 or placebo given just under the skin. For each participant, the study will last about approximately 28 weeks.",
         "trial_status": "COMPLETED",
         "phase": [
-            "NA"
+            "PHASE1"
         ],
         "diseases_list": [
-            "Diabetes Mellitus",
-            "Diabetes Mellitus, Type 2",
+            "Overweight",
             "Obesity"
         ],
         "drugs_list": [
-            "exenatide",
-            "exenatide + exendin (9-39)",
-            "placebo"
+            "LY3305677",
+            "Placebo"
         ],
-        "enrollment": 48,
-        "inclusion_criteria": "inclusion criteria: \n\nFor all 3 study groups:\n\n1. age 18-70 years.\n2. Men and women. For women, only postmenopausal women (as ascertained by serum FSH) will be included in order to avoid variations related to the menstrual cycle.\n3. To promote comparability and to overcome the interference of lateralization, only right-handed persons will be included.\n\nFor the healthy lean subjects, inclusion criteria will be:\n\n1. body-mass index (BMI) of \\<25 kg/m2\n2. stable bodyweight (\\<5% reported change during the previous 3 months)\n3. Normal fasting and 2-h postload glucose as ascertained during a 75-g oral glucose tolerance test (OGTT)\n\nFor the normoglycemic obese individuals, inclusion criteria will be:\n\n1. body-mass index (BMI) \u226530 kg/m2\n2. stable bodyweight (\\<5% reported change during the previous 3 months)\n3. Normal fasting and 2-h postload glucose as ascertained during a 75-g oral glucose tolerance test (OGTT)\n\nFor the obese T2DM individuals, inclusion criteria will be:\n\n1. Diagnosed with T2DM (20) \\> 3 months prior to screening\n2. BMI \u226530 kg/m2\n3. HbA1c 6.2-8.5%\n4. Treatment with metformin at a stable dose for at least 3 months.",
-        "exclusion_criteria": "exclusion criteria: \n\nIn the obese T2DM patients, no blood glucose- and weight lowering agents will be allowed within 3 months before screening except for metformin. The normoglycemic lean and obese individuals will not be allowed to take blood glucose-lowering agents at any time before and during the study.\n\nFor all individuals, exclusion criteria will be:\n\n1. congestive heart failure (NYHA II-IV)\n2. chronic renal failure (glomerular filtration rate \\< 60 mL/min/1.73m2 per Modification of Diet in Renal Disease (MDRD)) or serious liver impairment\n3. a history of gastrointestinal disorders, including gastroparesis, pancreatitis and cholelithiasis\n4. neurological illness\n5. malignancy\n6. pregnancy or breast feeding\n7. implantable devices\n8. substance abuse\n9. addiction\n10. contra-indication for MRI, such as claustrophobia or pacemaker\n11. any psychiatric illness, including eating disorders and depression\n12. hypersensitivity to the active substance or to any of the excipients\n13. chronic use of glucocorticoids or centrally acting drugs within 2 weeks immediately prior to screening\n14. use of cytostatic or immuno-modulatory agents\n15. participation in other studies\n16. individuals who have received treatment within the last 30 days with a drug that has not received regulatory approval for any indication at the time of study entry\n17. individuals who are investigator site personnel directly affiliated with the study, or are immediate family of investigator site personnel directly affiliated with the study. Immediate family is defined as a spouse, parent, child, or sibling, whether biological or legally adopted\n18. individuals who have previously completed or withdrawn from this study or any other study investigating GLP-1 receptor agonist or dipeptidyl peptidase (DPP)-4 within 6 months\n19. individuals, who in the opinion of the investigator, are unsuitable in any other way to participate in this study\n20. individuals who are employed by Amylin Pharmaceutical Inc. or Eli Lilly \\& company (that is, employees, temporary contract workers, or designees responsible for conducting the study). Immediate family of Amylin or Lilly employees may participate in sponsored clinical trials, but are not permitted to participate at an Amylin or Lilly facility. Immediate family is defined as a spouse, parent, child, or sibling, whether biological or legally adopted\n21. poor commandment of the Dutch language or any (mental) disorder that precludes full understanding the purpose, instruction and hence participation in the study.",
-        "keywords": [
-            "Exenatide",
-            "Type 2 diabetes mellitus",
-            "Incretin hormones",
-            "GLP-1 agonist",
-            "Satiety",
-            "Reward"
-        ]
+        "enrollment": 32,
+        "inclusion_criteria": "inclusion criteria: \n\n Participants who are overtly healthy as determined by medical evaluation\n Participants with stable weight for 3 months and body mass index of 27.0 and 50.0 kilograms per square meter (kg/m\u00b2)",
+        "exclusion_criteria": "exclusion criteria: \n\nHave history of type 1 diabetes mellitus or type 2 diabetes mellitus, ketoacidosis, or hyperosmolar state or coma",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT05548231",
+        "brief_title": "A Study of LY3437943 in Chinese Participants With Obesity Or Overweight",
+        "official_title": "A Multiple Dose Escalation Study in Chinese Participants With Overweight BMI or Obesity to Investigate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3437943",
+        "lillyAlias": [
+            "J1I-MC-GZBE"
+        ],
+        "brief_summary": "The main purpose of this study is to learn about the safety and tolerability of LY3437943 when given to Chinese participants with overweight body mass index (BMI) or obesity. Blood tests will be performed to investigate how the body processes the study drug and how the study drug affects the body. Each enrolled participant will receive injections of LY3437943 or placebo given just under the skin. For each participant, the study will last about 20 weeks excluding screening period and may include up to 20 visits to the study center.",
+        "trial_status": "COMPLETED",
+        "phase": [
+            "PHASE1"
+        ],
+        "diseases_list": [
+            "Overweight",
+            "Obesity"
+        ],
+        "drugs_list": [
+            "LY3437943",
+            "Placebo"
+        ],
+        "enrollment": 32,
+        "inclusion_criteria": "inclusion criteria: \n\nFor All Participants:\n\n Are native Chinese males or females\n Have a body mass index of \u226527 and \u226440 kilograms per square meter (kg/m\u00b2)\n Have not modified diet or adopted any nutritional lifestyle modification for 3 months\n Have stable body weight for the last three months\n Male participants must agree to use contraception during the study and for 4 months afterward and female participants must be woman of nonchildbearing potential\n\nFor Type 2 Diabetes Mellitus (T2DM) Participants:\n\n Have type 2 diabetes for at least 3 months\n Have a glycated hemoglobin (HbA1c) value of \u22657.0% and \u226410.5% and have been treated with diet and exercise alone or a stable dose of metformin for at least 3 months prior to screening",
+        "exclusion_criteria": "exclusion criteria: \n\nFor All Participants:\n\nHave an average weekly alcohol intake that exceeds 21 units per week (males) and 14 units per week and smoke more than 10 cigarettes, or cigarette equivalent (as determined by investigator), per day\nHave other serious or unstable illnesses\nHave had an episode of severe hypoglycemia\nCurrent or chronic history of liver disease.\n\nFor T2DM Participants:\n\nHave type 1 diabetes mellitus\nHave uncontrolled diabetes, defined as an episode of ketoacidosis or hyperosmolar state requiring hospitalization\nAny glucose-lowering medications other than metformin within 3 months prior to screening",
+        "keywords": []
     }
 ]
