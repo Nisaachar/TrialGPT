@@ -118,7 +118,8 @@ for study in data.get("studies", []): # [] returns null object if key not found.
                 "enrollment": enrollment,
                 "inclusion_criteria": inclusion_criteria,
                 "exclusion_criteria": exclusion_criteria,
-                "brief_summary": briefSummary
+                "brief_summary": briefSummary,
+                "keywords": keywords,
             }
         }
     trial_list.append(trial_data)
