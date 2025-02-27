@@ -37,7 +37,7 @@ def get_matching_score(matching):
             no_info_exc += 1
 
     # Compute the matching score
-    score = 0
+    score = 0   
     score += included / (included + not_inc + no_info_inc + eps)
 
     if not_inc > 0:
@@ -114,4 +114,4 @@ if __name__ == "__main__":
     print("===")
 
 
-# // NCT03936660
+# // NCT03936660p
