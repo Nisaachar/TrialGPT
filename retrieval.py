@@ -224,7 +224,7 @@ if __name__ == "__main__":
         medcpt_document_ids,
         bm25_wt=1,
         medcpt_wt=1,
-        top_n=7
+        top_n=2
     )
 
     # print("\nTop documents from hybrid retrieval:")

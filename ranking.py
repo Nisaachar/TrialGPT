@@ -108,7 +108,7 @@ if __name__ == "__main__":
     for trial, score in sorted_trial2score[:5]:
         title = trial_info[trial]["brief_title"] if trial in trial_info else "Title not found"
         lilly_alias = data[trial].get('lillyAlias', [])
-        print(f"Lilly ID: {lilly_alias}, Trial ID: {trial}, Title: {title}, Score: {score:.4f}")
+        print(f"Lilly ID: **{lilly_alias}**, Trial ID: {trial}, Title: {title}, Score: {score:.4f}")
 
 
     print("===")

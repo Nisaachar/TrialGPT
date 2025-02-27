@@ -1,106 +1,29 @@
 [
     {
-        "trial_id": "NCT05457998",
-        "brief_title": "BioFINDER-Brown: Examination of Alzheimer's Disease Biomarkers",
-        "official_title": "BioFINDER-Brown: Examination of Alzheimer's Disease Biomarkers",
-        "lillyAlias": [],
-        "brief_summary": "This research study aims to examine biomarkers of Alzheimer's disease as early as possible which could potentially be a screening tool for the general population. This observational study will take place at the Memory and Aging Program at Butler Hospital. The study will enroll up to 200 cognitively healthy subjects aged 50 to 80 years with ongoing recruitment and enrollment for 2 years, and subject participation lasting approximately 4 years. Disclosure of AD risk assessments will be an optional procedure. Two PET imaging sub-studies will also be optional.",
-        "trial_status": "ENROLLING_BY_INVITATION",
-        "phase": {},
-        "diseases_list": [
-            "Alzheimer Disease",
-            "Mild Cognitive Impairment",
-            "Dementia"
-        ],
-        "drugs_list": [
-            "Flutemetamol F18 Injection",
-            "[18F]-RO6958948 Injection",
-            "[18F]-MK-6240 Injection"
-        ],
-        "enrollment": 200,
-        "inclusion_criteria": "inclusion criteria: \n\n Individuals between the ages of 50 and 80 years old (inclusive)\n Score of 16 or above on the MoCA telephone\n Score of 27 or greater on the MMSE for individuals aged 50 to 64 years old or a score of 26 or greater for individuals aged 65 to 80 years old\n Participants in the 50-60 age range will additionally need to meet at least one of the following: (1) First degree family history of dementia with onset before age 75; (2) APOE e4 allele carrier; or (3) Prior elevated result on amyloid PET or amyloid CSF testing\n Conversationally fluent in English to the extent that an interpreter is not necessary for comprehension of the study information, procedures, and cognitive tests.\n If participants elect to participate in the optional disclosure procedure, they will be required to have an appropriate study partner who agrees to participate in the study and who is intellectually, visually, and auditory capable, and conversationally fluent in English to the extent that an interpreter is not necessary.\n Adequate visual and auditory acuity to allow neuropsychological testing.\n Participants must be willing and able to provide written informed consent.",
-        "exclusion_criteria": "exclusion criteria: \n\nDiagnosis of mild cognitive impairment or dementia\nHistory of significant brain injury or other known neurologic disease or insult, resulting in lasting cognitive sequelae that would confound the assessment and staging of potential neurodegenerative disease (e.g., Huntington's disease, Parkinson's disease, Parkinsonism due to multiple system atrophy (MSA), progressive supranuclear palsy (PSP), Shy Drager Syndrome (SDS) or other neuro-degenerative dementias, encephalitis or other brain infection, epilepsy or stroke with lasting impairment to cognitive function).\nCurrent serious or unstable systemic illness or organ failure that, in the PI's judgement, would make it difficult to participate in the study (e.g., such as terminal cancer, cardiovascular, hepatic, renal, gastroenterological, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease or other conditions ). History of cancer is acceptable with at least one year in remission with a good prognosis.\nIndividuals with clinically significant depression, bipolar disorder, anxiety, or suicidal ideations within the past year as defined by the most current version of the Diagnostic and Statistical Manual of Mental Disorders (DSM).\nA history of schizophrenia as defined by the most current version of the DSM.\nHistory within the past year of chronic alcohol or drug abuse/dependence as defined by the most current version of the DSM.\nMarijuana use is acceptable, but frequent users will be asked to abstain from use within 24 hours of any assessments.\nRefusing or unable to complete any study procedures.\nCurrently enrolled in another study which involves clinical drug trial or other medical intervention.",
-        "keywords": [
-            "Early diagnosis",
-            "Biomarker",
-            "PET",
-            "MRI",
-            "\u03b2-amyloid",
-            "tau",
-            "Cognitive test"
-        ]
-    },
-    {
-        "trial_id": "NCT01459016",
-        "brief_title": "A Non-drug Methods Study in Participants With Alzheimer's Disease",
-        "official_title": "An Exploratory Study of Brain Imaging Biomarkers in Patients With Alzheimer's Pathology Receiving Standard of Care",
+        "trial_id": "NCT02008357",
+        "brief_title": "Clinical Trial of Solanezumab for Older Individuals Who May be at Risk for Memory Loss",
+        "official_title": "Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4 Study)",
         "lillyAlias": [
-            "I4O-MC-BACH"
+            "H8A-MC-LZAZ"
         ],
-        "brief_summary": "This study will investigate the volume, function and composition of the brain using magnetic resonance imaging (MRI) and positron emission tomography (PET) scanning technology in participants with memory complaints or early signs of Alzheimer's pathology.",
+        "brief_summary": "The purpose of this study is to test whether an investigational drug called solanezumab can slow the progression of memory problems associated with brain amyloid (protein that forms plaques in the brains of people with Alzheimer Disease \\[AD\\]).",
         "trial_status": "COMPLETED",
         "phase": [
-            "PHASE1"
+            "PHASE3"
         ],
         "diseases_list": [
-            "Alzheimer's Disease"
+            "Cognition Disorders"
         ],
         "drugs_list": [
-            "PET scan using florbetapir",
-            "MRI Scan"
+            "Placebo",
+            "Solanezumab"
         ],
-        "enrollment": 56,
-        "inclusion_criteria": "inclusion criteria: \n\n Present with prodromal Alzheimer's Disease (AD) or mild AD based on the disease diagnostic criteria\n Are men or post-menopausal women, at least 55 years of age. Post-menopausal women are defined as women who have had a hysterectomy and/or bilateral oophorectomy; or who have been amenorrheic for at least 2 years\n Have a caretaker/study informant who provides a separate written informed consent to participate. If a caretaker/study informant cannot continue, one replacement is allowed\n Gradual and progressive change in memory function reported by participants or informants over more than 6 months\n Objective evidence of significantly impaired episodic memory characteristic of hippocampal dysfunction on testing: Free and Cued Selective Reminding Test (FCSRT): less than or equal to (\u2264) 16 for free recall or \u2264 40 for total recall. Protocol amendment: FCSRT \u2264 24 for free recall or \u2264 44 for total recall\n Clinical Dementia Rating (CDR) equals 0.5 or 1, Memory box score greater than or equal to 0.5\n Mini Mental Scale Examination (MMSE) 20-30. Protocol amendment: MMSE 23-30, inclusive\n Positive florbetapir F 18 scan\n Participants must meet all of the Disease Diagnostic Criteria to be considered for enrollment",
-        "exclusion_criteria": "exclusion criteria: \n\nDiagnosis or history of other possible etiology of dementia, including but not limited to other neurodegenerative disorders\nFrontotemporal dementia, Lewy body disease, vascular dementia, Huntington's Disease or concomitant Parkinson's disease, progressive supranuclear palsy (PSNP) or other movement disorder\nHas B12 \\<200 pg/L or folate \\<7.5 nmol/L indicating vitamin deficiency\nHas a history within the past 5 years of a serious infectious disease affecting the brain, including meningitis, or encephalitis\nSignificant history of alcoholism or substance abuse (at the judgment of the investigator)\nSevere or recurrent head injury that is clinically relevant to the disease under study, (that is, with permanent neurological/cognitive sequelae)\nOnset of dementia following heart surgery or cardiac arrest\nDiagnosis or history of cerebrovascular disease (for example, stroke, transient ischemic attack), severe carotid stenosis, cerebral hemorrhage, intracranial tumor, subarachnoid hemorrhage, or subdural hematoma that could contribute to the subject's current cognitive or functional status, impair ability to fully participate in the trial or that may impact status\nHas had a Positron Emission Tomography (PET) within 6 months of the scheduled imaging follow-up\nGreater than 4 cerebral microhemorrhages (CMH) on T2\\-weighted gradient-recalled echo sequences (regardless of their anatomical or diagnostic characterization as \"possible\" or \"definite\"), a single area of superficial siderosis, or prior evidence of macrohemorrhage\nAny indications of severe deep white matter lesions or vasogenic edema that present as hyperintense regions on the Fluid Attenuated Inversion Recovery (FLAIR) sequence, or other clinically relevant findings observed on the Magnetic Resonance Imaging (MRI) scans\nSpecific exclusionary brain MRI findings, as determined by the investigator in consultation with the sponsor, that could either contribute to the participant's current cognitive or functional decline impair ability to fully participate in the trial or that may impact status during the trial (for example, brain tumors or other non-vascular structural abnormalities like hydrocephalus)\nHistory within the past 5 years of a primary or recurrent malignant disease with the exception of resected cutaneous squamous cell carcinoma in situ, basal cell carcinoma, cervical carcinoma in situ, or in situ prostate cancer with a normal prostate-specific antigen (PSA) post resection\nHistory of clinically significant cardiovascular or renal events\nDiastolic blood pressure of 95 or more and systolic blood pressure of 160 or more in sitting position after at least 5 minutes of rest\nAny history of seizure\nHistory of clinically significant head trauma or clinically significant unexplained loss of consciousness within the last 5 years (as determined by the investigator in consultation with the Sponsor)\nA current Axis I diagnosis of major depressive disorder or other psychiatric illness (Diagnostic and Statistical Manual Revised Fourth Edition \\[DSM-IV-TR\\]) criteria per the investigator's judgment. (Note: Participants on a stable antidepressant and/or anxiolytic treatment may participate.)\nHaving suicidal ideations, or attempted suicide in the past 15 years\nHistory of schizophrenia, bipolar disorder, or other severe mental illness\nKnown history of alcohol or drug abuse (as defined by the DSM-IV-TR) within 5 years prior to enrolling or a positive result regarding use of illicit drugs on the drug screening test\nChronic hepatic diseases as indicated by liver function test abnormalities (alanine trasaminase \\[ALT\\], aspartate transaminase \\[AST\\], bilirubin, or gamma-glutamyl transferase \\[GGT\\] above 2 times upper limit of normal), positive serology for Hepatitis B or C, or other manifestations of liver disease\nHas compromised renal function at screening, as determined by creatinine clearance \\<30 mL/min based on Cockcroft-Gault calculation of creatinine clearance\nHistory of asthma, chronic obstructive pulmonary disease, or other chronic respiratory conditions\nKnown positive human immunodeficiency virus (HIV) status, history of syphilitic infection\nA clinically significant abnormality in the 12-lead electrocardiograms (ECG), including complete heart block, bradycardia (heart rate \\<50 beats/minute), tachycardia (heart rate \u226595 beats/minute), sinus pauses \\>2 seconds, second or third degree heart block, QTc \\>450 msec for males or QTc \\>470 for females\nTreatment with an investigational small molecule within 1 year preceding the first study period, or participation in a trial with active or passive immunization against amyloid if participant was assigned to the active treatment arm\nFulfillment of any contraindications to a 3T magnetic resonance imaging (MRI) scan (for example, subjects with non-removable ferromagnetic implants (such as cardiac pacemaker), aneurysm clips or other foreign bodies, or subjects with claustrophobic symptoms that would contraindicate an MRI scan)\nSensitivity to florbetapir F 18\nAre not capable of swallowing whole oral medications\nAbnormal thyroid function\n\n  Thyroid stimulating hormone (TSH) values are outside of the normal range 0.3-5.6 mIU/L. (NOTE: Participants with stable treatment of hypothyroidism and with normal value of TSH will be allowed to enter the study)",
+        "enrollment": 1169,
+        "inclusion_criteria": "inclusion criteria: \n\n Has a Mini-Mental State Examination (MMSE) score at screening of 25 to 30\n Has a global Clinical Dementia Rating (CDR) scale score at screening of 0\n Has a Logical Memory II score at screening of 6 to 18\n Has a florbetapir positron emission tomography (PET) scan that shows evidence of brain amyloid pathology at screening\n Has a study partner that is willing to participate as a source of information and has at least weekly contact with the participant (contact can be in-person, via telephone or electronic communication)",
+        "exclusion_criteria": "exclusion criteria: \n\nIs receiving a prescription acetylcholinesterase inhibitor (AChEI) and/or memantine at screening or baseline\nLacks good venous access, such that intravenous drug delivery or multiple blood draws would be precluded\nHas current serious or unstable illness including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease or other conditions that, in the investigator's opinion, could interfere with the analyses of safety and efficacy in this study\nHas had a history within the last 5 years of a serious infectious disease affecting the brain (including neurosyphilis, meningitis, or encephalitis) or head trauma resulting in protracted loss of consciousness\nHas had a history within the last 5 years of a primary or recurrent malignant disease with the exception of any in situ cancer that was appropriately treated and is being appropriately monitored, such as resected cutaneous squamous cell carcinoma in situ or in situ prostate cancer with normal prostate-specific antigen post-treatment\nHas a known history of human immunodeficiency virus (HIV), clinically significant multiple or severe drug allergies, or severe post-treatment hypersensitivity reactions (including, but not limited to, erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, or exfoliative dermatitis)\nIs clinically judged by the investigator to be at serious risk for suicide\nHas a history within the past 2 years of major depression or bipolar disorder as defined by the most current version of the Diagnostic and Statistical Manual of Mental Disorders (DSM)\nHas a history within the past 5 years of chronic alcohol or drug abuse/dependence as defined by the most current version of the DSM\n\nOpen-Label Inclusion Criteria:\n\nAll participants who complete the placebo-controlled period will be allowed to continue into the open-label period",
         "keywords": [
-            "Mild Cognitive Impairment",
-            "Brain Imaging Biomarkers",
-            "Magnetic resonance imaging biomarker",
-            "Positron Emission Tomography"
-        ]
-    },
-    {
-        "trial_id": "NCT03402919",
-        "brief_title": "Comprehensive Assessment of Neurodegeneration and Dementia",
-        "official_title": "The Comprehensive Assessment of Neurodegeneration and Dementia Study",
-        "lillyAlias": [],
-        "brief_summary": "This is a 5-year observational study recruiting sixteen hundred and fifty individuals between the ages of 50 and 90 with different types of dementia as well as a comparison group of six hundred and fifty aged matched individuals without cognitive deficits. Participants will be recruited at sites across Canada and will undergo assessments and provide biological samples at baseline and two years after baseline.",
-        "trial_status": "UNKNOWN",
-        "phase": {},
-        "diseases_list": [
-            "Dementia"
-        ],
-        "drugs_list": [],
-        "enrollment": 2300,
-        "inclusion_criteria": "inclusion criteria: \n\n Has subjective or objective cognitive impairment\n Written informed consent must be obtained and documented (from the patient or, where jurisdictions allow it, from a caregiver/family member)\n Sufficient proficiency in English or French to undertake self report and neuropsychological testing\n Geographic accessibility to the study site\n Must have a study partner who can participate as required in the protocol (provide corroborative information)",
-        "exclusion_criteria": "exclusion criteria: \n\nThe presence of other significant known chronic brain disease such as: moderate to severe chronic static leukoencephalopathy (including previous traumatic injury), multiple sclerosis, a serious developmental handicap, malignant tumors, Parkinson's disease (other than for the Parkinson's/Lewy Body Dementia cohort), and other rarer brain illnesses\nOngoing alcohol or drug abuse which in the opinion of the investigator may interfere with the subject's ability to comply with the study procedures\nSymptomatic stroke within the previous year\nMoCA \\< 13\nUnable to undergo MRI scan due to medical contraindications or inability to tolerate the procedure",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT01561430",
-        "brief_title": "Study of LY2886721 in Mild Cognitive Impairment Due to Alzheimer's Disease or Mild Alzheimer's Disease",
-        "official_title": "Assessment of Safety, Tolerability, and Pharmacodynamic Effects of LY2886721 in Patients With Mild Cognitive Impairment Due to Alzheimer's Disease or Mild Alzheimer's Disease",
-        "lillyAlias": [
-            "I4O-MC-BACC"
-        ],
-        "brief_summary": "The purpose of this Phase 1/Phase 2 study is to evaluate how the body handles the drug and the drug's effect on the body of participants with mild cognitive impairment (MCI) due to Alzheimer's Disease (AD) or mild AD and who test positive for amyloid plaque.",
-        "trial_status": "TERMINATED",
-        "phase": [
-            "PHASE1",
-            "PHASE2"
-        ],
-        "diseases_list": [
-            "Alzheimer's Disease"
-        ],
-        "drugs_list": [
-            "LY2886721",
-            "Placebo"
-        ],
-        "enrollment": 70,
-        "inclusion_criteria": "inclusion criteria: \n\nMeets criteria for MCI due to AD or Mild AD\n\nAll participants will be required to undergo assessment via the Mini Mental State Examination (MMSE) scale at screening\n\n Participants with MMSE scores of 20 to 26, inclusive, may be enrolled provided they meet the criteria for mild AD, as follows:\n\n   Participant meets the National Institute of Neurological and Communicative Disorders and Stroke/Alzheimer's Disease and Related Disorders Association (NINCDS/ADRDA) criteria for probable AD\n   Clinical Dementia Rating Scale (CDR) score of 0.5 or 1\n   Positive scan for the presence of amyloid beta\n Participants with MMSE of 27 to 30, inclusive, may be enrolled as participants with MCI due to AD provided they meet the following criteria:\n\n   Gradual and progressive change in memory function as reported by the participant or a caregiver during a period of more than 6 months\n   Free and Cued Selective Reminding Test with Immediate Recall (FCSRT-IR): free recall \u226422 and total recall \u226446\n   Absence of dementia\n   Preservation of functional independence\n   Exclusion of other potential (vascular, traumatic, or medical) causes of cognitive decline, where possible\n   Positive scan for the presence of amyloid beta\n Women must be postmenopausal\n Men are required to use an approved barrier method of contraception if their partners are pregnant, or of childbearing potential and not using approved contraceptive methods",
-        "exclusion_criteria": "exclusion criteria: \n\nParticipant in another drug or device study\nHave a history of frontotemporal dementia, Lewy body disease, vascular dementia, Huntington's disease, Parkinson's disease, progressive supranuclear palsy (PSNP), or other movement disorder\nParticipants are not on a stable standard of care (acetylcholinesterase inhibitors, memantine) initiated less than 2 months prior to entry or have less than 4 weeks of stable therapy. Note: Stable standard of care is allowed.\nHave had a serious infectious disease affecting the brain in the past 5 years\nHave had a serious or repeat head injury\nHave significant retinal impairment or disease\nHave had a stroke or other circulation problems that are affecting current health\nHave had a seizure\nHave major depressive disorder and are not on a stable dose of medication. Participants who no longer meet the Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition-Text Revision (DSM-IV) criteria for major depression may be included\nHistory of schizophrenia, bipolar disorder, or severe mental illness\nHistory of alcohol or drug abuse\nHave asthma, chronic obstructive pulmonary disease (COPD), or other breathing disease that is not controlled with medicine\nHave human immunodeficiency virus (HIV) or syphilis\nAre taking blood thinners",
-        "keywords": [
-            "beta-secretase inhibitor"
+            "Cognition",
+            "Prevention"
         ]
     },
     {
@@ -126,63 +49,5 @@
         "inclusion_criteria": "inclusion criteria: \n\n Meets National Institute of Neurological and Communicative Disorders and Stroke/Alzheimer's Disease and Related Disorders Association (NINCDS/ADRDA) criteria for probable AD\n Has a Modified Hachinski Ischemia Scale score of less than or equal to 4\n Has a Mini-Mental State Examination (MMSE) score of 20 through 26 at Screening visit\n Has a Geriatric Depression Scale score of less than or equal to 6 (on the staff-administered short form)\n Has had a magnetic resonance imaging (MRI) or computerized tomography (CT) scan performed within the past 2 years that has confirmed no findings inconsistent with a diagnosis of AD\n Has a florbetapir positron emission tomography (PET) scan or cerebrospinal fluid (CSF) result consistent with the presence of amyloid pathology at screening",
         "exclusion_criteria": "exclusion criteria: \n\nDoes not have a reliable caregiver who is in frequent contact with the participant (defined as at least 10 hours per week), will accompany the participant to the office and/or be available by telephone at designated times, and will monitor administration of prescribed medications\nMeets National Institute of Neurological Disorders and Stroke/Association Internationale pour la Recherche et l'Enseignement en Neurosciences (NINDS/AIREN) criteria for vascular dementia\nHas current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic (other than AD), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses of safety and efficacy in this study; or has a life expectancy of \\<2 years\nHas had a history within the last 5 years of a serious infectious disease affecting the brain or head trauma resulting in protracted loss of consciousness\nHas a history within the last 5 years of a primary or recurrent malignant disease with the exception of resected cutaneous squamous cell carcinoma in situ, basal cell carcinoma, cervical carcinoma in situ, or in situ prostate cancer with a normal prostate-specific antigen posttreatment\nHas a known history of human immunodeficiency virus (HIV), clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions\nHas received acetylcholinesterase inhibitor (AChEIs), memantine and/or other AD therapy for less than 4 months or has less than 2 months of stable therapy on these treatments\nHas received medications that affect the central nervous system (CNS), except treatments for AD, for less than 4 weeks\nHas a history of chronic alcohol or drug abuse/dependence within the past 5 years\nHas a Visit 1 MRI with results showing \\>4 Amyloid-related Imaging Abnormality (ARIA), -hemorrhage /hemosiderin deposition (ARIA-H) or presence of ARIA-E (edema/effusions)",
         "keywords": []
-    },
-    {
-        "trial_id": "NCT01703702",
-        "brief_title": "Effectiveness of Florbetapir (18F) PET Imaging in Changing Patient Management and the Relationship Between Scan Status and Cognitive Decline",
-        "official_title": "A Randomized, Multicenter, Multicountry Study to Evaluate the Effectiveness of Florbetapir (18F) PET Imaging in Changing Patient Management and to Evaluate the Relationship Between Florbetapir (18F) PET Scan Status and Cognitive Decline",
-        "lillyAlias": [],
-        "brief_summary": "This study is designed to determine the effectiveness of florbetapir (18F) in changing patient management and to evaluate the association between scan status and cognitive decline.",
-        "trial_status": "COMPLETED",
-        "phase": [
-            "PHASE4"
-        ],
-        "diseases_list": [
-            "Alzheimer's Disease"
-        ],
-        "drugs_list": [
-            "florbetapir (18F)"
-        ],
-        "enrollment": 641,
-        "inclusion_criteria": "inclusion criteria: \n\nPatients may be enrolled in the mild impairment (not demented) group if the following criteria are met:\n\n1. Males or females \u2265 50 to \\<= 90 years of age.\n2. Have cognitive decline verified by a study partner or cognitive impairment verified by the study physician.\n3. Have a study partner who provides separate consent and is willing to accompany the patient on all of the study visits.\n4. Have an MMSE score of 24 to 30 inclusive.\n5. Can tolerate a 10-minute PET scan.\n6. Have the ability to cooperate and comply with all study procedures.\n7. Have an enrolling physician who has less than high confidence in their diagnosis for the patient related to the cognitive decline at the time of enrollment.\n8. Ability to provide informed consent for study procedures.\n\nPatients may be enrolled in the dementia group if the following criteria are met:\n\n1. Are males or females \u2265 50 to \\<= 90 years of age.\n2. Meet clinical criteria for dementia.\n3. Have a caregiver who provides separate consent and is willing to accompany the patient on all of the study visits.\n4. Have an MMSE score of 16 to 24 inclusive.\n5. Have not received a clinical examination and/or laboratory test results that strongly indicates a non-neurodegenerative cause for the patients cognitive impairment.\n6. Can tolerate a 10-minute PET scan.\n7. Have the ability to cooperate and comply with all study procedures.\n8. Have an enrolling physician who has less than high confidence in their diagnosis for the patient related to the cognitive decline at the time of enrollment.\n9. Ability to provide informed consent for study procedures. (If the patient is incapable of giving informed consent, the patient's legal representative may consent on behalf of the patient but the patient must still confirm assent. This person may serve as the study partner as well).",
-        "exclusion_criteria": "exclusion criteria: \n\nPatients will be excluded from enrollment if they:\n\n1. Have a current serious or unstable illness;\n2. The patient or enrolling physician knows the result of a previous amyloid imaging scan;\n3. The patient has a known brain lesion, pathology or alternative diagnosis that strongly explains the patient's clinical presentation;\n4. Are receiving any investigational medications, or have participated in a trial with investigational medications within the last 30 days;\n5. Have ever participated in an experimental study with an amyloid targeting agent (e.g. anti-amyloid immunotherapy, \u03b3 -secretase or \u03b2 -secretase inhibitor) unless it can be documented that the patient received only placebo during the course of the trial;\n6. Have had a radiopharmaceutical imaging or treatment procedure within 7 days prior to the study imaging session; or\n7. Are females of childbearing potential who are not surgically sterile, not refraining from sexual activity or not using reliable methods of contraception.\n\nPatients will also be excluded from enrollment if their enrolling physician:\n\n1. Does not consider Alzheimer's disease as a potential cause of the patient's cognitive decline.\n2. Is not the primary physician taking care of the patient with respect to the management of their cognitive impairment.\n3. Cannot categorize the patient as either: a) having a documented and completed evaluation for cognitive decline within the past 18 months old; or b) currently undergoing evaluation for cognitive decline.\n4. Is unwilling to suspend all testing and other evaluation procedures between the time of the baseline evaluation of the enrolling physician's diagnosis and management plan and the time the completion of the PET scan.",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT05508789",
-        "brief_title": "A Study of Donanemab (LY3002813) in Participants With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ 5)",
-        "official_title": "Global Study to Investigate Safety and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease",
-        "lillyAlias": [
-            "I5T-MC-AACO"
-        ],
-        "brief_summary": "The reason for this study is to assess the safety and efficacy of donanemab in participants with early Alzheimer's disease. The study duration including screening and follow-up is up to 93 weeks.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Alzheimer Disease",
-            "Dementia",
-            "Brain Diseases",
-            "Central Nervous System Diseases",
-            "Nervous System Diseases",
-            "Tauopathies",
-            "Neurodegenerative Diseases",
-            "Neurocognitive Disorders",
-            "Mental Disorders"
-        ],
-        "drugs_list": [
-            "Donanemab",
-            "Placebo"
-        ],
-        "enrollment": 1500,
-        "inclusion_criteria": "inclusion criteria: \n\n Gradual and progressive change in memory function reported by the participant or informant for \u22656 months\n A MMSE score of 20 to 28 (inclusive) at Day 601 or 1.\n Meet flortaucipir F18 scan (central read) criteria\n Meet florbetapir F18 scan (central read) criteria\n Have a study partner who will provide written informed consent to participate, is in frequent contact with the participant (defined as at least 10 hours per week), and will accompany the participant to the study or be available by telephone at designated times.\n A second study partner may serve as backup. The study partner(s) is/are required to accompany the participant for signing consent. The study partner must be present on all days the cognitive and functional scales are administered.\n If a participant has a second study partner, it is preferred that 1 study partner be primarily responsible for the CDR and the ADCS-ADL assessments.\n Days requiring the following assessments and scales must have a study partner available by telephone if not accompanying participant for the following assessments\n\n   AEs and concomitant medications\n   CDR, and\n   ADCS-ADL\n Stable concomitant symptomatic AD medications and other medications that may impact cognition for at least approximately 30 days prior to randomization.",
-        "exclusion_criteria": "exclusion criteria: \n\nHas significant neurological disease affect the central nervous system other than AD, that may affect cognition or ability to complete the study, including but not limited to, other dementias, serious infection of the brain, Parkinson's disease, multiple concussions, or epilepsy or recurrent seizures (except febrile childhood seizures).\nHas current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic (other than AD), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses in this study; or has a life expectancy of \\<24 months.\nHistory of cancer within the last 5 years, except of non-metastatic basal and/or squamous cell carcinoma of the skin, in situ cervical cancer, nonprogressive prostate cancer, or other cancers with low risk of recurrence or spread.\nContraindication to MRI or PET scans",
-        "keywords": [
-            "Alzheimer's",
-            "Dementia",
-            "Cognitive Impairment",
-            "Amyloid Plaque"
-        ]
     }
 ]
