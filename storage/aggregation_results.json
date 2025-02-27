@@ -1,44 +1,14 @@
 {
-    "NCT05457998": {
-        "relevance_explanation": "The patient is relevant to the clinical trial as he falls within the specified age range of 50 to 80 years old. Furthermore, his symptoms of severe cognitive deficits and memory dysfunction align with the target conditions of the trial, which include Alzheimer's Disease and Dementia.",
-        "relevance_score_R": 85.0,
-        "eligibility_explanation": "Despite the patient's relevance to the trial, he is ineligible due to his severe cognitive deficits and memory dysfunction, which could be interpreted as mild cognitive impairment or dementia. This condition is listed as an exclusion criterion for the trial.",
-        "eligibility_score_E": -85.0
-    },
-    "NCT01459016": {
-        "relevance_explanation": "The patient's symptoms of progressive memory loss and cognitive deficits align with the target condition of the clinical trial, which is Alzheimer's Disease. However, the patient's specific stage of Alzheimer's (prodromal or mild) is not mentioned in the patient note, which is a key inclusion criterion for the trial.",
-        "relevance_score_R": 80.0,
-        "eligibility_explanation": "The patient is not excluded by any of the exclusion criteria mentioned in the clinical trial, as the patient note does not mention any other neurodegenerative disorders, vitamin deficiencies, or abnormal thyroid function. However, there is not enough information in the patient note to confirm the patient's eligibility for all the inclusion criteria, such as the specific stage of Alzheimer's and the results of specific tests like the Free and Cued Selective Reminding Test (FCSRT) and the Mini Mental Scale Examination (MMSE).",
+    "NCT02008357": {
+        "relevance_explanation": "The patient's condition of progressive memory loss and cognitive deficits aligns with the target condition of the clinical trial, which is cognition disorders. However, the patient's specific test scores and brain amyloid pathology, which are required for inclusion, are not mentioned in the patient note. Therefore, the patient is somewhat relevant to the trial.",
+        "relevance_score_R": 70.0,
+        "eligibility_explanation": "The patient is not excluded by any of the mentioned exclusion criteria, as the patient note does not mention any of the conditions or treatments that would lead to exclusion. However, due to the lack of specific test scores and brain amyloid pathology information, it is not clear if the patient meets the inclusion criteria. Therefore, the patient's eligibility is uncertain.",
         "eligibility_score_E": 0.0
-    },
-    "NCT03402919": {
-        "relevance_explanation": "The patient's condition of severe cognitive deficits and memory dysfunction aligns with the target condition of the clinical trial, which is dementia. The patient's age also falls within the age range specified in the trial. Therefore, the patient is highly relevant to the clinical trial.",
-        "relevance_score_R": 90.0,
-        "eligibility_explanation": "The patient meets the inclusion criteria as he has objective cognitive impairment. He is not excluded by any of the exclusion criteria as there is no mention of other chronic brain diseases, alcohol or drug abuse, recent stroke, MoCA score, or inability to undergo an MRI scan in the patient's note. Therefore, the patient is eligible for the clinical trial.",
-        "eligibility_score_E": 90.0
-    },
-    "NCT01561430": {
-        "relevance_explanation": "The patient's symptoms of severe cognitive deficits and memory dysfunction could be indicative of MCI due to AD or Mild AD, which is the target condition of the clinical trial. However, the patient note lacks specific information required by the trial's inclusion criteria, such as MMSE scores, CDR scores, and the presence of amyloid beta. Therefore, while the patient's condition is relevant to the trial, the lack of specific information reduces the overall relevance score.",
-        "relevance_score_R": 60.0,
-        "eligibility_explanation": "The patient is not included in most of the inclusion criteria due to lack of specific information. However, the patient is not excluded by the exclusion criteria provided in the trial description. Therefore, the patient's eligibility score is negative, reflecting the lack of inclusion but not exclusion.",
-        "eligibility_score_E": -40.0
     },
     "NCT01900665": {
-        "relevance_explanation": "The patient's symptoms of severe cognitive deficits and memory dysfunction are indicative of Alzheimer's Disease, which is the target condition of the clinical trial. However, the patient note does not provide enough information to confirm that the patient meets all the specific criteria for probable AD as required by the trial.",
+        "relevance_explanation": "The patient's symptoms of progressive memory loss and cognitive deficits are indicative of Alzheimer's Disease, which is the target condition of the clinical trial. However, the patient's specific diagnosis and the severity of his condition are not clearly stated in the patient note, and there is no direct evidence that the patient meets the specific criteria for probable AD as required by the trial's inclusion criteria.",
         "relevance_score_R": 70.0,
-        "eligibility_explanation": "While the patient's symptoms suggest possible Alzheimer's Disease, there is not enough information in the patient note to determine if the patient meets all the inclusion criteria or if any of the exclusion criteria apply. Therefore, the patient's eligibility for the trial cannot be definitively determined.",
-        "eligibility_score_E": 0.0
-    },
-    "NCT01703702": {
-        "relevance_explanation": "The patient's age and symptoms of cognitive decline and memory dysfunction are relevant to the clinical trial, which is focused on Alzheimer's Disease and cognitive decline. However, the patient's severe cognitive deficits and memory dysfunction indicate a more advanced stage than mild impairment, which may not be the primary target of the trial. Additionally, there is no information about a study partner or caregiver who can accompany the patient on all study visits, which is a requirement for the trial.",
-        "relevance_score_R": 70.0,
-        "eligibility_explanation": "The patient meets some of the inclusion criteria, such as age and cognitive decline. However, there is not enough information to determine if the patient meets all the inclusion criteria, such as having a study partner or caregiver. The patient does not meet any of the exclusion criteria based on the available information.",
-        "eligibility_score_E": 30.0
-    },
-    "NCT05508789": {
-        "relevance_explanation": "The patient's symptoms of progressive memory loss, severe cognitive deficits, and memory dysfunction are relevant to the clinical trial's target condition of Alzheimer's disease. The patient's neuroimaging studies showing advanced cerebral atrophy and the cortical biopsy results are also indicative of neurodegenerative diseases, which are a target condition of the trial. However, the patient note does not provide enough information on some of the trial's inclusion criteria, such as the duration of memory loss, MMSE score, and the use of any concomitant medications.",
-        "relevance_score_R": 80.0,
-        "eligibility_explanation": "The patient is not excluded by the trial's exclusion criteria as there is no evidence of any other neurological disease that may affect cognition or ability to complete the study. However, there is not enough information to determine if the patient meets all the inclusion criteria, such as the duration of memory loss, MMSE score, and the use of any concomitant medications.",
+        "eligibility_explanation": "There is insufficient information in the patient note to determine whether the patient meets all of the trial's inclusion criteria or whether he is excluded by any of the trial's exclusion criteria. For example, there is no information about the patient's MMSE score, Geriatric Depression Scale score, or the results of any recent neuroimaging studies. Similarly, there is no information about the patient's caregiver, his history of other illnesses, or his use of medications that could affect his eligibility for the trial.",
         "eligibility_score_E": 0.0
     }
 }
