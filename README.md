@@ -26,32 +26,14 @@ TrialGPT/
 ## Setup Instructions
 ### Prerequisites
 Ensure you have the following installed:
-- Python 3.8+
+- Python 3.10.10
 - Required Python dependencies from `requirements.txt`
 
-### Installation
-```sh
-# Clone the repository
-git clone https://github.com/your-repo/trialgpt.git
-cd trialgpt
-
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-# Install dependencies
-pip install -r requirements.txt
-```
 
 ## Usage
-### Running the Retrieval Pipeline
+### Running the Pipeline
 ```sh
-python retrieval/retrieval.py
-```
-### Running the Ranking Pipeline
-```sh
-python ranking/aggregation.py
-python ranking/ranking.py
+python pipeline.py
 ```
 
 

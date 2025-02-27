@@ -224,7 +224,7 @@ if __name__ == "__main__":
         medcpt_document_ids,
         bm25_wt=1,
         medcpt_wt=1,
-        top_n=7
+        top_n=10
     )
 
     # print("\nTop documents from hybrid retrieval:")
@@ -274,10 +274,3 @@ detailed_trials = [
 with open(detailed_trials_file, "w") as f:
     json.dump(detailed_trials, f, indent=4)
 
-# Print a summary of the operation
-# print(f"Total trials in trial_info.json: {len(trial_info)}")
-# print(f"Relevant trial IDs in retrieved_trials.json: {len(relevant_trial_ids)}")
-# print(f"Matched detailed trials saved: {len(detailed_trials)}")
-# print(f"Detailed trial data saved to {detailed_trials_file}.")
-
-# A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed. She states that she has recently had difficulty sleeping and feels excessively anxious and agitated. She also states that she has had thoughts of suicide. She often finds herself fidgety and unable to sit still for extended periods of time. Her family tells her that she is increasingly irritable. Her current medications include lithium carbonate and zolpidem.
