@@ -52,8 +52,15 @@ def create_bm25_index(corpus_file, cache_file):
 
                 # Tokenize and weight fields
                 tokens = word_tokenize(entry["title"].lower()) * 3
+
                 for disease in entry.get("metadata", {}).get("diseases_list", []):
                     tokens += word_tokenize(disease.lower()) * 2
+
+                #-------------
+                for keyword in entry.get("metadata", {}).get("keywords", []):
+                    tokens += word_tokenize(keyword.lower()) * 2
+                #-------------
+
                 tokens += word_tokenize(entry["text"].lower())
 
                 tokenized_corpus.append(tokens)
@@ -124,5 +131,4 @@ def create_medcpt_index(corpus_file, embed_cache, id_cache):
     index = faiss.IndexFlatIP(768)
     index.add(embeds)
     return index, doc_ids
-
 

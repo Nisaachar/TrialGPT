@@ -2,13 +2,11 @@ from embeddings import create_bm25_index, create_medcpt_index
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 from transformers import AutoTokenizer, AutoModel
-import faiss
 import os
 import json
 import numpy as np
 import torch
 from nltk import word_tokenize
-from rank_bm25 import BM25Okapi
 
 
 
@@ -65,12 +63,12 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
         return None
 
 
-def hybrid_retrieval_and_fusion(query, bm25, bm25_doc_ids, bm25_doc_titles, medcpt_index, medcpt_doc_ids, bm25_wt=1, medcpt_wt=1, top_n=100):
+def hybrid_retrieval_and_fusion(queries, bm25, bm25_doc_ids, bm25_doc_titles, medcpt_index, medcpt_doc_ids, bm25_wt=1, medcpt_wt=1, top_n=100, k=20):
     """
-    Perform hybrid retrieval and fusion for a given query.
+    Perform hybrid retrieval and fusion using multiple queries (keywords).
 
     Parameters:
-    query (str): The query string.
+    queries (list): List of query strings (keywords).
     bm25 (BM25Okapi): The BM25 index.
     bm25_doc_ids (list): Document IDs for BM25.
     bm25_doc_titles (list): Document titles for BM25.
@@ -79,47 +77,51 @@ def hybrid_retrieval_and_fusion(query, bm25, bm25_doc_ids, bm25_doc_titles, medc
     bm25_wt (int): Weight for BM25 scores.
     medcpt_wt (int): Weight for MedCPT scores.
     top_n (int): Number of top documents to return.
+    k (int): Smoothing factor for rank-based scoring.
 
     Returns:
     list: Top N documents with their IDs and titles ranked by combined score.
     """
-    # BM25 retrieval
-    bm25_tokens = word_tokenize(query.lower())
-    bm25_scores = bm25.get_scores(bm25_tokens)
-    bm25_top_indices = np.argsort(bm25_scores)[-top_n:][::-1]
-    bm25_top_scores = bm25_scores[bm25_top_indices]
-    bm25_top_doc_ids = [bm25_doc_ids[i] for i in bm25_top_indices]
-    bm25_top_doc_titles = [bm25_doc_titles[i] for i in bm25_top_indices]
 
-    # MedCPT retrieval
-    tokenizer = AutoTokenizer.from_pretrained("ncbi/MedCPT-Query-Encoder")
-    model = AutoModel.from_pretrained("ncbi/MedCPT-Query-Encoder").to("mps")
-
-    with torch.no_grad():
-        encoded_query = tokenizer(
-            query,
-            truncation=True,
-            padding=True,
-            return_tensors='pt',
-            max_length=512
-        ).to("mps")
-        query_embed = model(**encoded_query).last_hidden_state[:, 0, :].cpu().numpy()
-
-    medcpt_scores, medcpt_indices = medcpt_index.search(query_embed, top_n)
-    medcpt_top_doc_ids = [medcpt_doc_ids[i] for i in medcpt_indices[0]]
-    medcpt_top_scores = medcpt_scores[0]
-
-    # Combine scores
     combined_scores = {}
     doc_id_to_title = {doc_id: title for doc_id, title in zip(bm25_doc_ids, bm25_doc_titles)}
 
-    # Add BM25 scores
-    for doc_id, score in zip(bm25_top_doc_ids, bm25_top_scores):
-        combined_scores[doc_id] = combined_scores.get(doc_id, 0) + bm25_wt * score
+    tokenizer = AutoTokenizer.from_pretrained("ncbi/MedCPT-Query-Encoder")
+    model = AutoModel.from_pretrained("ncbi/MedCPT-Query-Encoder").to("mps")
 
-    # Add MedCPT scores
-    for doc_id, score in zip(medcpt_top_doc_ids, medcpt_top_scores):
-        combined_scores[doc_id] = combined_scores.get(doc_id, 0) + medcpt_wt * score
+    for query_idx, query in enumerate(queries):
+        # BM25 retrieval
+        bm25_tokens = word_tokenize(query.lower()) #individual keywords just word tokenzied in case multiple words in a single keyword or for summary
+        bm25_scores = bm25.get_scores(bm25_tokens)
+        bm25_top_indices = np.argsort(bm25_scores)[-top_n:][::-1]
+        
+        for rank, idx in enumerate(bm25_top_indices):
+            doc_id = bm25_doc_ids[idx]
+            score = (1 / (rank + k)) * (1 / (query_idx + 1))  # Fusion rank-based score
+            combined_scores[doc_id] = combined_scores.get(doc_id, 0) + bm25_wt * score #accumulates the score overtime: {'NCT02896868': 0.00390625, 'NCT05516758': 0.003472222222222222, 'NCT06023095': 0.005208333333333333}}
+
+        # MedCPT retrieval
+        with torch.no_grad():
+            encoded_query = tokenizer(
+                query,
+                truncation=True,
+                padding=True,
+                return_tensors='pt',
+                max_length=512
+            ).to("mps")
+            query_embed = model(**encoded_query).last_hidden_state[:, 0, :].cpu().numpy()  #a 768-d vector formed from the query.
+
+        medcpt_scores, medcpt_indices = medcpt_index.search(query_embed, top_n)
+        
+        for rank, idx in enumerate(medcpt_indices[0]):
+            doc_id = medcpt_doc_ids[idx]
+            #--------------
+            # score = (1 / (rank + k)) * (1 / (query_idx + 1))  # Fusion rank-based score
+            
+            score = medcpt_scores[0][rank] * (1 / (rank + k)) * (1 / (query_idx + 1))   #new scoring method utilizing medcpt_scores
+
+            #--------------
+            combined_scores[doc_id] = combined_scores.get(doc_id, 0) + medcpt_wt * score
 
     # Rank documents by combined scores
     ranked_docs = sorted(combined_scores.items(), key=lambda x: -x[1])[:top_n]
@@ -205,9 +207,16 @@ if __name__ == "__main__":
     # print("MedCPT index created. Document count:", len(medcpt_document_ids))
 
     # Example hybrid retrieval
-    query = result["summary"] if result else "high fever, conjunctivitis, strawberry tongue, and coronary artery dilation"
+
+    #--------------
+    queries = [result["summary"]] + result["conditions"]  # Combine summary and keywords
+
+    # queries = result["conditions"]
+    #--------------
+
+
     top_docs = hybrid_retrieval_and_fusion(
-        query,
+        queries,
         bm25_index,
         bm25_document_ids,
         bm25_document_titles,
@@ -215,8 +224,9 @@ if __name__ == "__main__":
         medcpt_document_ids,
         bm25_wt=1,
         medcpt_wt=1,
-        top_n=10
+        top_n=7
     )
+
     # print("\nTop documents from hybrid retrieval:")
     # for doc_id, title in top_docs
     #     print(f"ID: {doc_id}, Title: {title}")
@@ -270,3 +280,4 @@ with open(detailed_trials_file, "w") as f:
 # print(f"Matched detailed trials saved: {len(detailed_trials)}")
 # print(f"Detailed trial data saved to {detailed_trials_file}.")
 
+# A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed. She states that she has recently had difficulty sleeping and feels excessively anxious and agitated. She also states that she has had thoughts of suicide. She often finds herself fidgety and unable to sit still for extended periods of time. Her family tells her that she is increasingly irritable. Her current medications include lithium carbonate and zolpidem.
