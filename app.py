@@ -156,7 +156,7 @@ if st.button("Extract Trials"):
                     check=True
                 )
                 st.subheader("Ranked Trials:")
-                st.markdown(result.stdout)
+                st.text(result.stdout)
 
             except Exception as e:
                 st.error(f"An error occurred: {e}")
@@ -164,6 +164,10 @@ if st.button("Extract Trials"):
 
         except Exception as e:
             st.error(f"An error occurred: {e}")
+
+
+
+
 
 
 
