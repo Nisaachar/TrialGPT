@@ -31,14 +31,9 @@ Ensure you have the following installed:
 
 
 ## Usage
-### Running the Retrieval Pipeline
+### Running the Pipeline
 ```sh
-python retrieval/retrieval.py
-```
-### Running the Ranking Pipeline
-```sh
-python ranking/aggregation.py
-python ranking/ranking.py
+python pipeline.py
 ```
 
 
