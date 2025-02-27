@@ -22,17 +22,17 @@ if __name__ == "__main__":
     output_path = "storage/matching_results.json"
 
     # Load or initialize output
-    if os.path.exists(output_path):
-        output = json.load(open(output_path))
-    else:
-        output = {}
+    # if os.path.exists(output_path):
+    #     output = json.load(open(output_path))
+    # else:
+        
+    output = {}
 
     # loading info from input file.
     with open('storage/input.json', 'r') as file:
         data = json.load(file)
 
     patient_note = data['patient_note']
-    print(patient_note)
     sents = sent_tokenize(patient_note)
     sents.append("The patient will provide informed consent, and will comply with the trial protocol without any practical issues.")
     sents = [f"{idx}. {sent}" for idx, sent in enumerate(sents)]

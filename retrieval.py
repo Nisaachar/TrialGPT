@@ -2,13 +2,11 @@ from embeddings import create_bm25_index, create_medcpt_index
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 from transformers import AutoTokenizer, AutoModel
-import faiss
 import os
 import json
 import numpy as np
 import torch
 from nltk import word_tokenize
-from rank_bm25 import BM25Okapi
 
 
 
@@ -65,7 +63,7 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
         return None
 
 
-def hybrid_retrieval_and_fusion(queries, bm25, bm25_doc_ids, bm25_doc_titles, medcpt_index, medcpt_doc_ids, bm25_wt=1, medcpt_wt=1, top_n=100, k=5):
+def hybrid_retrieval_and_fusion(queries, bm25, bm25_doc_ids, bm25_doc_titles, medcpt_index, medcpt_doc_ids, bm25_wt=1, medcpt_wt=1, top_n=100, k=20):
     """
     Perform hybrid retrieval and fusion using multiple queries (keywords).
 
@@ -119,8 +117,10 @@ def hybrid_retrieval_and_fusion(queries, bm25, bm25_doc_ids, bm25_doc_titles, me
             doc_id = medcpt_doc_ids[idx]
             #--------------
             # score = (1 / (rank + k)) * (1 / (query_idx + 1))  # Fusion rank-based score
-            #--------------
+            
             score = medcpt_scores[0][rank] * (1 / (rank + k)) * (1 / (query_idx + 1))   #new scoring method utilizing medcpt_scores
+
+            #--------------
             combined_scores[doc_id] = combined_scores.get(doc_id, 0) + medcpt_wt * score
 
     # Rank documents by combined scores
@@ -210,9 +210,11 @@ if __name__ == "__main__":
 
     #--------------
     queries = [result["summary"]] + result["conditions"]  # Combine summary and keywords
+
+    # queries = result["conditions"]
     #--------------
 
-    
+
     top_docs = hybrid_retrieval_and_fusion(
         queries,
         bm25_index,
@@ -222,7 +224,7 @@ if __name__ == "__main__":
         medcpt_document_ids,
         bm25_wt=1,
         medcpt_wt=1,
-        top_n=10
+        top_n=7
     )
 
     # print("\nTop documents from hybrid retrieval:")
@@ -278,3 +280,4 @@ with open(detailed_trials_file, "w") as f:
 # print(f"Matched detailed trials saved: {len(detailed_trials)}")
 # print(f"Detailed trial data saved to {detailed_trials_file}.")
 
+# A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed. She states that she has recently had difficulty sleeping and feels excessively anxious and agitated. She also states that she has had thoughts of suicide. She often finds herself fidgety and unable to sit still for extended periods of time. Her family tells her that she is increasingly irritable. Her current medications include lithium carbonate and zolpidem.
