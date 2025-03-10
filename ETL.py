@@ -12,6 +12,7 @@ result = {}
 
 # List to store trials in JSONL format
 trial_list = []
+count = 0
 
 for study in data.get("studies", []): # [] returns null object if key not found.
 
@@ -86,49 +87,51 @@ for study in data.get("studies", []): # [] returns null object if key not found.
 
 
 
-
-
-    if nct_id:
-        result[nct_id] = {
-            "brief_title" : brief_title,
-            "official_title" : official_title,
-            "lillyAlias": lilly_alias,
-            "brief_summary": briefSummary,
-            "trial_status": overallStatus,
-            "phase": phase,
-            "diseases_list": diseases_list,
-            "drugs_list" : drug_list,
-            "enrollment": enrollment,
-            "inclusion_criteria" : inclusion_criteria,
-            "exclusion_criteria" : exclusion_criteria,
-            "keywords" : keywords,
-        }
-
-    #for creating corpus - in jsonl format
-    if nct_id:
-        trial_data = {
-            "_id": nct_id,
-            "title": brief_title,
-            "text": f"Summary: {briefSummary}\n\nInclusion criteria: {inclusion_criteria}\n\nExclusion criteria: {exclusion_criteria}",
-            "metadata": {
-                "brief_title": brief_title,
-                "phase": phase,
-                "drugs_list": drug_list,
-                "diseases_list": diseases_list,
-                "enrollment": enrollment,
-                "inclusion_criteria": inclusion_criteria,
-                "exclusion_criteria": exclusion_criteria,
+    
+    if overallStatus == "RECRUITING":
+        if nct_id and lilly_alias:
+            count += 1
+            result[nct_id] = {
+                "brief_title" : brief_title,
+                "official_title" : official_title,
+                "lillyAlias": lilly_alias,
                 "brief_summary": briefSummary,
-                "keywords": keywords,
+                "trial_status": overallStatus,
+                "phase": phase,
+                "diseases_list": diseases_list,
+                "drugs_list" : drug_list,
+                "enrollment": enrollment,
+                "inclusion_criteria" : inclusion_criteria,
+                "exclusion_criteria" : exclusion_criteria,
+                "keywords" : keywords,
             }
-        }
-    trial_list.append(trial_data)
+
+        #for creating corpus - in jsonl format
+        if nct_id:
+            trial_data = {
+                "_id": nct_id,
+                "title": brief_title,
+                "text": f"Summary: {briefSummary}\n\nInclusion criteria: {inclusion_criteria}\n\nExclusion criteria: {exclusion_criteria}",
+                "metadata": {
+                    "brief_title": brief_title,
+                    "phase": phase,
+                    "drugs_list": drug_list,
+                    "diseases_list": diseases_list,
+                    "enrollment": enrollment,
+                    "inclusion_criteria": inclusion_criteria,
+                    "exclusion_criteria": exclusion_criteria,
+                    "brief_summary": briefSummary,
+                    "keywords": keywords,
+                }
+            }
+        trial_list.append(trial_data)
 
 
 
 with open(filtered_data, "w") as file:
     json.dump(result, file, indent=4)
 
+print(f"Total Lilly Trials actively recruiting are: {count}")
 print(f'Dataset has been successfully filtered out and is saved at: {filtered_data}')
 
 
