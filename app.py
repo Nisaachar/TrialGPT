@@ -2,8 +2,7 @@ import streamlit as st
 import json
 import subprocess
 import re
-
-
+import time
 
 
 def load_css(file_name):
@@ -42,7 +41,7 @@ st.write("<br><br><br>", unsafe_allow_html=True)
 
 st.title("TrialGPT Demo")
 
-json_file_path = 'input.json'
+json_file_path = 'storage/input.json'
 retrieved_trials = 'storage/retrieved_trials.json'
 detailed_results = 'storage/detailed_trials.json'
 new_note = st.text_area("Enter the patient info:")
@@ -50,6 +49,7 @@ new_note = st.text_area("Enter the patient info:")
 
 
 if st.button("Extract Trials"):
+    start_time = time.time()
     if new_note:
         try:
             update_patient_note(json_file_path, new_note)
@@ -63,7 +63,7 @@ if st.button("Extract Trials"):
                         check=True
                     )
                 # st.success("Trials fetched successfully!"
-                # st.text(result.stdout)
+                st.text(result.stdout)
 
                 match = re.search(r'\{.*\}', result.stdout, re.DOTALL)
                 if match:
@@ -164,6 +164,10 @@ if st.button("Extract Trials"):
 
         except Exception as e:
             st.error(f"An error occurred: {e}")
+    
+    end_time = time.time()
+    time_elapsed = end_time - start_time
+    st.text(f'The total run time = {time_elapsed : .2f}')
 
 
 
