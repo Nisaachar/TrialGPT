@@ -1,78 +1,5 @@
 [
     {
-        "trial_id": "NCT05508789",
-        "brief_title": "A Study of Donanemab (LY3002813) in Participants With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ 5)",
-        "official_title": "Global Study to Investigate Safety and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease",
-        "lillyAlias": [
-            "I5T-MC-AACO"
-        ],
-        "brief_summary": "The reason for this study is to assess the safety and efficacy of donanemab in participants with early Alzheimer's disease. The study duration including screening and follow-up is up to 93 weeks.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Alzheimer Disease",
-            "Dementia",
-            "Brain Diseases",
-            "Central Nervous System Diseases",
-            "Nervous System Diseases",
-            "Tauopathies",
-            "Neurodegenerative Diseases",
-            "Neurocognitive Disorders",
-            "Mental Disorders"
-        ],
-        "drugs_list": [
-            "Donanemab",
-            "Placebo"
-        ],
-        "enrollment": 1500,
-        "inclusion_criteria": "inclusion criteria: \n\n Gradual and progressive change in memory function reported by the participant or informant for \u22656 months\n A MMSE score of 20 to 28 (inclusive) at Day 601 or 1.\n Meet flortaucipir F18 scan (central read) criteria\n Meet florbetapir F18 scan (central read) criteria\n Have a study partner who will provide written informed consent to participate, is in frequent contact with the participant (defined as at least 10 hours per week), and will accompany the participant to the study or be available by telephone at designated times.\n A second study partner may serve as backup. The study partner(s) is/are required to accompany the participant for signing consent. The study partner must be present on all days the cognitive and functional scales are administered.\n If a participant has a second study partner, it is preferred that 1 study partner be primarily responsible for the CDR and the ADCS-ADL assessments.\n Days requiring the following assessments and scales must have a study partner available by telephone if not accompanying participant for the following assessments\n\n   AEs and concomitant medications\n   CDR, and\n   ADCS-ADL\n Stable concomitant symptomatic AD medications and other medications that may impact cognition for at least approximately 30 days prior to randomization.",
-        "exclusion_criteria": "exclusion criteria: \n\nHas significant neurological disease affect the central nervous system other than AD, that may affect cognition or ability to complete the study, including but not limited to, other dementias, serious infection of the brain, Parkinson's disease, multiple concussions, or epilepsy or recurrent seizures (except febrile childhood seizures).\nHas current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic (other than AD), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses in this study; or has a life expectancy of \\<24 months.\nHistory of cancer within the last 5 years, except of non-metastatic basal and/or squamous cell carcinoma of the skin, in situ cervical cancer, nonprogressive prostate cancer, or other cancers with low risk of recurrence or spread.\nContraindication to MRI or PET scans",
-        "keywords": [
-            "Alzheimer's",
-            "Dementia",
-            "Cognitive Impairment",
-            "Amyloid Plaque"
-        ]
-    },
-    {
-        "trial_id": "NCT06297590",
-        "brief_title": "A First-In-Human Study of LY3954068 in Participants With Early Symptomatic Alzheimer's Disease",
-        "official_title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3954068 in Patients With Early Symptomatic Alzheimer's Disease",
-        "lillyAlias": [
-            "J4T-MC-OLAA"
-        ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety of LY3954068 in participants with early symptomatic Alzheimer's Disease (AD). The study will also investigate how much LY3954068 gets into the bloodstream and will test the effects of LY3954068 on markers of AD.\n\nThe study will be comprised of two parts, A and B. Part B is optional, and participants from Part A may also have the opportunity to join an optional bridging period to a separate potential study where participants would receive LY3954068. Each enrolled participant in Part A will receive a single dose of LY3954068 or placebo (no active drug) given into the spinal fluid. If conducted, each participant in Part B would receive 2 doses of either LY3954068 or placebo administered into the spinal fluid.\n\nThe study will last up to approximately 45 weeks for Part A, and, if conducted, 73 weeks for Part B, including the screening period.\n\nIf the optional bridging period is conducted, participants in Part A could be enrolled in the separate potential study for up to approximately 96 weeks, including the screening period.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE1"
-        ],
-        "diseases_list": [
-            "Alzheimer Disease"
-        ],
-        "drugs_list": [
-            "LY3954068",
-            "Placebo",
-            "Flortaucipir F18"
-        ],
-        "enrollment": 32,
-        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) within the range 18 (17 for Japan participants) to 40 kilograms per square meter (kg/m\u00b2), inclusive, at screening.\n Have gradual and progressive change in memory function for greater than or equal to (\u2265) 6 months as reported by the participant or informant.\n Have a mini mental state examination (MMSE) score of 18 to 30 at screening.\n Have a clinical dementia rating (CDR) global score of 0.5 to 1.0, with a memory box score \u2265 0.5 at screening.\n Meet flortaucipir F18 positron emission tomography (PET) criteria, as defined in the TAUVID\u2122 FDA label (TAUVID\u2122 prescribing information, 2024), demonstrating evidence of tau pathology.\n Males who agree to follow contraceptive requirements, or women not of childbearing potential (WNOCBP).\n Participants must have up to 2 study partners who are with contact with the participant at least 10 hours per week and one of whom can attend study appointments.",
-        "exclusion_criteria": "exclusion criteria: \n\nHas current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterological, respiratory, endocrinologic, neurologic (other than Alzheimer's Disease), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses in this study; or has a life expectancy of less than (\\<)24 months.\nHave a sensitivity to flortaucipir F18.\nHave contraindication to magnetic resonance imaging (MRI), including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.\nHave a current exposure to an amyloid targeted therapy (ATT). Prior exposure to ATTs greater than 1 year from the last dose may be permitted at the discretion of the investigator and in consultation with the sponsor.\nHave previous exposure to any Investigational Medicinal Product administered intrathecal (IT) or previous exposure to any anti-tau therapy.\nHave a history of clinically significant back pain, back pathology and/or back injury (for example, degenerative disease, spinal deformity or spinal surgery) that may predispose to complications or technical difficulty with lumbar puncture.",
-        "keywords": [
-            "Dementia",
-            "Brain Diseases",
-            "Central Nervous System Diseases",
-            "Nervous System Diseases",
-            "Tauopathies",
-            "Tau",
-            "Neurodegenerative Diseases",
-            "Neurocognitive Disorders",
-            "Mental Disorders",
-            "Mild Cognitive Impairment"
-        ]
-    },
-    {
         "trial_id": "NCT06653153",
         "brief_title": "A Study of Remternetug (LY3372993) in Early Alzheimer's Disease (TRAILRUNNER-ALZ 3)",
         "official_title": "A Study of Remternetug Versus Placebo in Early Alzheimer's Disease Participants at Risk for Cognitive and Functional Decline",
@@ -95,31 +22,5 @@
         "inclusion_criteria": "inclusion criteria: \n\n Have a phosphorylated tau (P-tau) result consistent with the presence of amyloid pathology.\n Have a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.\n Have adequate literacy, vision, and hearing for neuropsychological testing at screening.\n Have a Mini Mental Status Exam (MMSE) score consistent with no to minimal cognitive impairment.\n Have a Functional Activities Questionnaire (FAQ) score consistent with no to minimal functional impairment.\n If currently receiving medications as symptomatic treatment for AD, dose has been stable for at least 30 days before screening.",
         "exclusion_criteria": "exclusion criteria: \n\nHave dementia or significant other neurological disease that can affect cognition.\nHave current serious or unstable illnesses that in the investigator's opinion, could interfere with the analyses of the study.\nHave a history of cancer that, in the investigator's opinion, has a high risk of recurrence.\nHave a history of clinically significant multiple or severe drug allergies, or hypersensitivity reactions.\nHave a clinically important laboratory test result or other abnormality as determined by investigator, prior to randomization, that could be detrimental to the participant or could compromise the study.\nHave any contraindications for magnetic resonance imaging (MRI).\nHave a centrally read MRI that does not meets study entry criteria.\n\nPrior or Current Therapies\n\nHave ever had prior treatment with a passive anti-amyloid immunotherapy.\nHave received active immunization against A\u03b2 in any other study.",
         "keywords": []
-    },
-    {
-        "trial_id": "NCT06220669",
-        "brief_title": "A Study of LY3541860 in Adult Participants With Relapsing Multiple Sclerosis",
-        "official_title": "An Adaptive Phase 2a/2b, Randomized, Double-Blind, Parallel-Group Study to Investigate the Safety and Efficacy of LY3541860 Compared to Placebo in Slowing the Occurrence of New T1 Gadolinium-Enhancing Lesions in Adult Participants With Relapsing Multiple Sclerosis",
-        "lillyAlias": [
-            "J3K-MC-KIAB"
-        ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of LY3541860 in adult participants with multiple sclerosis that gets worse and gets better. The study will last about 9 months with additional 6 months follow-up.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE2"
-        ],
-        "diseases_list": [
-            "Multiple Sclerosis"
-        ],
-        "drugs_list": [
-            "LY3541860",
-            "Placebo"
-        ],
-        "enrollment": 200,
-        "inclusion_criteria": "inclusion criteria: \n\n Participants must meet criteria for relapsing forms of multiple sclerosis, including relapsing-remitting multiple sclerosis based on the 2017 revision of the McDonald diagnostic criteria (Thompson et al. 2018) with a relapsing course (RMS) activity according to Klineova and Lublin 2018.\n Participants must have 1 of these:\n\n   at least 1 documented relapse within the previous year\n   at least 2 documented relapses within the previous 2 years, or\n   at least 1 active GdE brain lesion on an MRI scan in the past 180 days prior to screening.\n Have an Expanded Disability Status Scale (EDSS) score of less than or equal to (\u2264) 5.5 at screening and randomization.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave had a diagnosis of:\n\n  primary progressive multiple sclerosis (MS) according to the 2017 revision of McDonald diagnostic criteria (Thompson et al. 2018), or\n  nonactive secondary progressive MS ( Klineova and Lublin 2018).\nMeet criteria for neuromyelitis optica spectrum disorder (Wingerchuk and Lucchinetti 2022).\nHave a history of clinically significant central nervous system (CNS) disease.\nHave had a confirmed relapse with systemic corticosteroid administration \\<30 days prior to randomization.\nHave more than 20 active GdE brain lesions on screening MRI scan.\nHave received any of these medications or treatments.\nHave a current or recent acute, active infection.\nHave current serious or unstable illnesses.\nHave any other clinically important abnormality at screening or baseline.",
-        "keywords": [
-            "Relapsing remitting multiple sclerosis, Clinically isolated syndrome, Secondary progressive multiple sclerosis with disease activity."
-        ]
     }
 ]

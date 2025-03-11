@@ -99,9 +99,9 @@ def trialgpt_aggregation(patient, trial_results, trial_info, model):
 
 if __name__ == "__main__":
     # Model and data paths
-    model = "clin-inquiry-agent-gpt4"  # Replace with the actual model name
-    matching_results_path = "storage/matching_results.json"  # Path to matching results
-    trial_info_path = "storage/dataset.json"  # Path to trial information
+    model = "clin-inquiry-agent-gpt4"  
+    matching_results_path = "storage/matching_results.json"  
+    trial_info_path = "storage/dataset.json" 
 
     # Load data
     results = json.load(open(matching_results_path))

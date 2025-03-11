@@ -1,26 +1,8 @@
 {
-    "NCT05508789": {
-        "relevance_explanation": "The patient's symptoms of progressive memory loss, severe cognitive deficits, and memory dysfunction align with the target conditions of the clinical trial, which is focused on Alzheimer's disease. The patient's neuroimaging studies also show moderately advanced cerebral atrophy, which is a common symptom in Alzheimer's disease. Therefore, the patient is highly relevant to the clinical trial.",
-        "relevance_score_R": 90.0,
-        "eligibility_explanation": "The patient meets some of the inclusion criteria, such as having Alzheimer's disease and experiencing progressive memory loss. However, there is not enough information to determine if the patient meets all the inclusion criteria, such as the MMSE score and the duration of memory loss. The patient is not excluded by the exclusion criteria, as there is no evidence of other significant neurological diseases or other serious or unstable illnesses. Therefore, the patient is potentially eligible for the clinical trial, but more information is needed to confirm eligibility.",
-        "eligibility_score_E": 45.0
-    },
-    "NCT06297590": {
-        "relevance_explanation": "The patient's symptoms of progressive memory loss, cognitive deficits, and neurological abnormalities align with the target condition of the clinical trial, which is Alzheimer's Disease. The patient's age and gender also do not exclude him from the trial. However, the patient's BMI and life expectancy, which are relevant to the inclusion and exclusion criteria, are not mentioned in the patient note.",
-        "relevance_score_R": 80.0,
-        "eligibility_explanation": "The patient is included by the inclusion criteria as he has symptoms of Alzheimer's Disease, which is the target condition of the trial. The patient is not excluded by the exclusion criteria as there is no mention of any serious or unstable illnesses other than cognitive deficits and memory dysfunction, which could be related to Alzheimer's Disease. However, the patient's eligibility cannot be fully confirmed due to the lack of information on his BMI and life expectancy.",
-        "eligibility_score_E": 60.0
-    },
     "NCT06653153": {
-        "relevance_explanation": "The patient's condition of severe cognitive deficits and memory dysfunction aligns with the target condition of the clinical trial, which is Alzheimer's Disease. However, the patient note does not provide specific information about the patient's phosphorylated tau (P-tau) result, which is a key inclusion criterion for the trial. Additionally, the patient's condition could potentially be a form of dementia or another significant neurological disease that can affect cognition, which is an exclusion criterion for the trial.",
+        "relevance_explanation": "The patient's symptoms of progressive memory loss, cognitive deficits, and memory dysfunction align with the target condition of the clinical trial, which is Alzheimer's Disease. However, the patient note does not provide any information about the patient's phosphorylated tau (P-tau) result, which is a specific inclusion criterion for the trial. Furthermore, the patient's severe cognitive deficits could be interpreted as dementia, which is an exclusion criterion for the trial.",
         "relevance_score_R": 70.0,
-        "eligibility_explanation": "The patient is potentially excluded from the trial due to the presence of dementia or another significant neurological disease that can affect cognition. There is not enough information to determine if the patient meets the inclusion criteria, particularly the requirement for a P-tau result consistent with the presence of amyloid pathology. The patient note does not mention any history of cancer or prior treatment with a passive anti-amyloid immunotherapy, which are exclusion criteria for the trial.",
+        "eligibility_explanation": "The patient is excluded by one of the exclusion criteria, which states that patients with dementia or significant other neurological disease that can affect cognition cannot participate in the trial. There is not enough information to determine the patient's eligibility for the inclusion criteria, as the patient note does not mention the patient's P-tau result or any current medications for Alzheimer's Disease.",
         "eligibility_score_E": -70.0
-    },
-    "NCT06220669": {
-        "relevance_explanation": "The patient's symptoms and test results do not align with the target condition of the clinical trial, which is multiple sclerosis. The patient's symptoms and test results suggest a neurodegenerative condition, not multiple sclerosis. Therefore, the patient's condition is not relevant to the clinical trial.",
-        "relevance_score_R": 10.0,
-        "eligibility_explanation": "The patient does not meet any of the inclusion criteria for the clinical trial, as they do not have a diagnosis of multiple sclerosis or any of the specific symptoms or test results required. Therefore, the patient is not eligible for the clinical trial.",
-        "eligibility_score_E": -10.0
     }
 }

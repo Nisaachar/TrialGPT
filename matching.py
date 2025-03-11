@@ -25,7 +25,7 @@ if __name__ == "__main__":
     # if os.path.exists(output_path):
     #     output = json.load(open(output_path))
     # else:
-        
+
     output = {}
 
     # loading info from input file.
@@ -36,7 +36,7 @@ if __name__ == "__main__":
     sents = sent_tokenize(patient_note)
     sents.append("The patient will provide informed consent, and will comply with the trial protocol without any practical issues.")
     sents = [f"{idx}. {sent}" for idx, sent in enumerate(sents)]
-    patient_note = "\n".join(sents)
+    patient_note = "\n".join(sents) #a list of patient note which has been sentence tokenized and given a numerical ordering to each sentence.    
 
     # Iterate through trials in the dataset
     for trial in dataset:
@@ -52,11 +52,13 @@ if __name__ == "__main__":
             output[trial_id] = results
 
             # Save results incrementally
-            with open(output_path, "w") as f:
-                json.dump(output, f, indent=4)
+            
 
         except Exception as e:
             print(f"Error processing trial {trial_id}: {e}")
             continue
+    
+    with open(output_path, "w") as f:
+        json.dump(output, f, indent=4)
 
     print(f"Matching results saved to {output_path}.")
