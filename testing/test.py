@@ -1,12 +1,7 @@
-import json
 
 
+socres = [12,34,5,32,6,2,123,2123,21]
 
-corpus_file = "queries.jsonl"
-
-
-with open(corpus_file, "r") as f:
-    for line in f:
-        entry = json.loads(line)
-        print(entry["_id"])
-        # doc_titles.append(entry["title"])
+for i, s in enumerate(socres):
+    print(f"{i + 1}. {s}")
+    

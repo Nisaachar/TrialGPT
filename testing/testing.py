@@ -74,7 +74,6 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
     output = response['message']['content'] 
     output = output.strip("`").strip("json")
     print(output)
-
     try:
         result = json.loads(output)
         return result
@@ -185,6 +184,7 @@ if __name__ == "__main__":
     # Example patient record
 
     # Open the JSON file and load it into a Python dictionary
+    scores = []
     with open('queries.jsonl', 'r') as file:
     
         avg_score = 0
@@ -239,7 +239,7 @@ if __name__ == "__main__":
                 medcpt_document_ids,
                 bm25_wt=1,
                 medcpt_wt=1,
-                top_n=360
+                top_n=362
             )
 
             # print("\nTop documents from hybrid retrieval:")
@@ -257,12 +257,16 @@ if __name__ == "__main__":
             query_id = data['_id']
             print(query_id)
             recall = calculate_recall(test_file, query_id, retrieved_trial_ids) * 100
+            scores.append(recall)
             # print(f"\nRecall for query ID {query_id}: {recall:.4f}")
-            print(f"\n\nValidation Score for this Patient Note is: {recall:.2f}%")
+            print(f"\n\nValidation Score for this Patient Note is: {recall:.2f}%\n\n")
 
             avg_score += recall
 
-        print(f"\n\n********************\nThe avergae validation score is: {avg_score:.2f}%\n********************")
+        print("The final scores are: ")
+        for i, s in enumerate(scores):
+            print(f"{i + 1}. {s}")
+        print(f"\n\n********************\nThe avergae validation score is: {avg_score/len(scores):.2f}%\n********************")
 
 
 #extracting prepared dataset from keys.
