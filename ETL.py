@@ -88,42 +88,44 @@ for study in data.get("studies", []): # [] returns null object if key not found.
 
 
     
-    if overallStatus == "RECRUITING":
-        if nct_id and lilly_alias:
-            count += 1
-            result[nct_id] = {
-                "brief_title" : brief_title,
-                "official_title" : official_title,
-                "lillyAlias": lilly_alias,
-                "brief_summary": briefSummary,
-                "trial_status": overallStatus,
-                "phase": phase,
-                "diseases_list": diseases_list,
-                "drugs_list" : drug_list,
-                "enrollment": enrollment,
-                "inclusion_criteria" : inclusion_criteria,
-                "exclusion_criteria" : exclusion_criteria,
-                "keywords" : keywords,
-            }
+    if overallStatus == "RECRUITING" and nct_id and lilly_alias:
+ 
+        count += 1
+
+        result[nct_id] = {
+            "brief_title" : brief_title,
+            "official_title" : official_title,
+            "lillyAlias": lilly_alias,
+            "brief_summary": briefSummary,
+            "trial_status": overallStatus,
+            "phase": phase,
+            "diseases_list": diseases_list,
+            "drugs_list" : drug_list,
+            "enrollment": enrollment,
+            "inclusion_criteria" : inclusion_criteria,
+            "exclusion_criteria" : exclusion_criteria,
+            "keywords" : keywords,
+        }
 
         #for creating corpus - in jsonl format
-        if nct_id:
-            trial_data = {
-                "_id": nct_id,
-                "title": brief_title,
-                "text": f"Summary: {briefSummary}\n\nInclusion criteria: {inclusion_criteria}\n\nExclusion criteria: {exclusion_criteria}",
-                "metadata": {
-                    "brief_title": brief_title,
-                    "phase": phase,
-                    "drugs_list": drug_list,
-                    "diseases_list": diseases_list,
-                    "enrollment": enrollment,
-                    "inclusion_criteria": inclusion_criteria,
-                    "exclusion_criteria": exclusion_criteria,
-                    "brief_summary": briefSummary,
-                    "keywords": keywords,
-                }
+        trial_data = {
+            "_id": nct_id,
+            "title": brief_title,
+            "text": f"Summary: {briefSummary}\n\nInclusion criteria: {inclusion_criteria}\n\nExclusion criteria: {exclusion_criteria}",
+            "metadata": {
+                "brief_title": brief_title,
+                "phase": phase,
+                "drugs_list": drug_list,
+                "diseases_list": diseases_list,
+                "enrollment": enrollment,
+                "inclusion_criteria": inclusion_criteria,
+                "exclusion_criteria": exclusion_criteria,
+                "brief_summary": briefSummary,
+                "keywords": keywords,
             }
+        }
+
+         
         trial_list.append(trial_data)
 
 

@@ -4,13 +4,18 @@ import time
 import os
 from openai import AzureOpenAI
 from dotenv import load_dotenv
+from ollama import Client
 
 load_dotenv()
 
-client = AzureOpenAI(
-	api_version="2023-09-01-preview",
-	azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-	api_key=os.getenv("OPENAI_API_KEY"),
+# client = AzureOpenAI(
+# 	api_version="2023-09-01-preview",
+# 	azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
+# 	api_key=os.getenv("OPENAI_API_KEY"),
+# )
+
+client = Client(
+  host='http://localhost:11434'
 )
 
 def parse_criteria(criteria):
@@ -29,7 +34,6 @@ def parse_criteria(criteria):
 	
 		output += f"{idx}. {criterion}\n" 
 		idx += 1
-	
 	return output
 
 
@@ -97,13 +101,24 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 			{"role": "user", "content": user_prompt},
 		]
 
-		response = client.chat.completions.create(
-			model=model,
-			messages=messages,
-			temperature=0,
-		)
+		# response = client.chat.completions.create(
+		# 	model=model,
+		# 	messages=messages,
+		# 	temperature=0,
+		# )
 
-		message = response.choices[0].message.content.strip()
+		# message = response.choices[0].message.content.strip()
+		# message = message.strip("`").strip("json")
+		response = client.chat(
+        model='llama3.2',
+        messages=messages,
+        options= {
+            "num_ctx": 2048,
+            "temperature": 0
+        	}
+   		)
+
+		message = response['message']['content'] 
 		message = message.strip("`").strip("json")
 
 		try:
