@@ -3,7 +3,7 @@ import json
 
 # Base URL for the API
 BASE_URL = "https://clinicaltrials.gov/api/v2"
-OUTPUT_FILE = "trials_data.json"
+OUTPUT_FILE = "storage/trials_data.json"
 
 def fetch_trials():
     """Fetches all trial data using pageToken-based pagination."""

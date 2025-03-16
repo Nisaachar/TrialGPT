@@ -6,19 +6,22 @@ import os
 import json
 import numpy as np
 import torch
+from ollama import Client
 from nltk import word_tokenize
-
 
 
 load_dotenv()
 
 # Initialize the Azure OpenAI client
-client = AzureOpenAI(
-    api_version="2023-09-01-preview",
-    azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-    api_key=os.getenv("OPENAI_API_KEY"),
-)
+# client = AzureOpenAI(
+#     api_version="2023-09-01-preview",
+#     azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
+#     api_key=os.getenv("OPENAI_API_KEY"),
+# )
 
+client = Client(
+  host='http://localhost:11434'
+)
 
 def get_keyword_generation_messages(note, max_keywords):
     """
@@ -46,13 +49,24 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
     """
     messages = get_keyword_generation_messages(patient_note, max_keywords)
 
-    response = client.chat.completions.create(
-        model=model,
+    # response = client.chat.completions.create(
+    #     model=model,
+    #     messages=messages,
+    #     temperature=0,
+    # )
+
+    # output = response.choices[0].message.content
+
+    response = client.chat(
+        model='llama3.2',
         messages=messages,
-        temperature=0,
+        options= {
+            "num_ctx": 2048,
+            "temperature": 0
+        }
     )
 
-    output = response.choices[0].message.content
+    output = response['message']['content'] 
     output = output.strip("`").strip("json")
 
     try:
@@ -224,7 +238,7 @@ if __name__ == "__main__":
         medcpt_document_ids,
         bm25_wt=1,
         medcpt_wt=1,
-        top_n=1
+        top_n=10
     )
 
     # print("\nTop documents from hybrid retrieval:")

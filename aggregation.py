@@ -2,15 +2,21 @@ import json
 from openai import AzureOpenAI
 import os
 from dotenv import load_dotenv
+from ollama import Client
 
 load_dotenv()
 
-# Azure OpenAI client setup
-client = AzureOpenAI(
-    api_version="2023-09-01-preview",
-    azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-    api_key=os.getenv("OPENAI_API_KEY"),
+
+# client = AzureOpenAI(
+#     api_version="2023-09-01-preview",
+#     azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
+#     api_key=os.getenv("OPENAI_API_KEY"),
+# )
+
+client = Client(
+  host='http://localhost:11434'
 )
+
 
 # Hard-coded patient note
 with open('storage/input.json', 'r') as file:
@@ -58,23 +64,31 @@ def convert_pred_to_prompt(patient, pred, trial_info):
 
     pred = convert_criteria_pred_to_string(pred, trial_info)
 
-    prompt = (
-        "You are a helpful assistant for clinical trial recruitment. You will be given a patient note, "
-        "a clinical trial, and the patient eligibility predictions for each criterion.\n"
-        "Your task is to output two scores, a relevance score (R) and an eligibility score (E), "
-        "between the patient and the clinical trial.\n"
-        "First explain the consideration for determining patient-trial relevance. "
-        "Predict the relevance score R (0~100), which represents the overall relevance between the patient and the clinical trial. "
-        "R=0 denotes the patient is totally irrelevant to the clinical trial, and R=100 denotes the patient is exactly relevant to the clinical trial.\n"
-        "Then explain the consideration for determining patient-trial eligibility. "
-        "Predict the eligibility score E (-R~R), which represents the patient's eligibility to the clinical trial. "
-        "Note that -R <= E <= R (the absolute value of eligibility cannot be higher than the relevance), "
-        "where E=-R denotes that the patient is ineligible (not included by any inclusion criteria, or excluded by all exclusion criteria), "
-        "E=R denotes that the patient is eligible (included by all inclusion criteria, and not excluded by any exclusion criteria), "
-        "E=0 denotes the patient is neutral (i.e., no relevant information for all inclusion and exclusion criteria).\n"
-        "Please output a JSON dict formatted as Dict{\"relevance_explanation\": Str, \"relevance_score_R\": Float, "
-        "\"eligibility_explanation\": Str, \"eligibility_score_E\": Float}."
-    )
+    # prompt = (
+    #     "You are a helpful assistant for clinical trial recruitment. You will be given a patient note, "
+    #     "a clinical trial, and the patient eligibility predictions for each criterion.\n"
+    #     "Your task is to output two scores, a relevance score (R) and an eligibility score (E), "
+    #     "between the patient and the clinical trial.\n"
+    #     "First explain the consideration for determining patient-trial relevance. "
+    #     "Predict the relevance score R (0~100), which represents the overall relevance between the patient and the clinical trial. "
+    #     "R=0 denotes the patient is totally irrelevant to the clinical trial, and R=100 denotes the patient is exactly relevant to the clinical trial.\n"
+    #     "Then explain the consideration for determining patient-trial eligibility. "
+    #     "Predict the eligibility score E (-R~R), which represents the patient's eligibility to the clinical trial. "
+    #     "Don't provide me any extra information or note at the end. Note that -R <= E <= R (the absolute value of eligibility cannot be higher than the relevance), "
+    #     "where E=-R denotes that the patient is ineligible (not included by any inclusion criteria, or excluded by all exclusion criteria), "
+    #     "E=R denotes that the patient is eligible (included by all inclusion criteria, and not excluded by any exclusion criteria), "
+    #     "E=0 denotes the patient is neutral (i.e., no relevant information for all inclusion and exclusion criteria).\n"
+    #     "Please output a JSON dict formatted as Dict{\"relevance_explanation\": Str, \"relevance_score_R\": Float, "
+    #     "\"eligibility_explanation\": Str, \"eligibility_score_E\": Float}."
+    # )
+
+
+    prompt = "You are a helpful assistant for clinical trial recruitment. You will be given a patient note, a clinical trial, and the patient eligibility predictions for each criterion.\n"
+    prompt += "Your task is to output two scores, a relevance score (R) and an eligibility score (E), between the patient and the clinical trial.\n"
+    prompt += "First explain the consideration for patient-trial relevance, then the score between 0 to 100. Where 0 represents the patient is totally irrelevant and 100 represents exaclty relevant.\n"
+    prompt += "Then, explain the consideration for patient-trial eligibility. Predict the eligibility score E such that -R <= E <= R\n"
+    prompt += "Where, E=-R denotes that the patient is ineligible (not included by any inclusion criteria, or excluded by all exclusion criteria), E=R denotes that the patient is eligible and E=0 denotes the patient is neutral where no relevant information is availabel. None of the above two scores can be null.\n"
+    prompt += 'Do not provide any extra note, only output a JSON dict formatted as Dict{"relevance_explanation": Str, "relevance_score_R": Float, "eligibility_explanation": Str, "eligibility_score_E": Float}.'
 
     user_prompt = f"Here is the patient note:\n{patient}\n\nHere is the clinical trial description:\n{trial}\n\n"
     user_prompt += f"Here are the criterion-level eligibility predictions:\n{pred}\n\nPlain JSON output:"
@@ -88,13 +102,26 @@ def trialgpt_aggregation(patient, trial_results, trial_info, model):
         {"role": "user", "content": user_prompt},
     ]
 
-    response = client.chat.completions.create(
-        model=model,
+    # response = client.chat.completions.create(
+    #     model=model,
+    #     messages=messages,
+    #     temperature=0,
+    # )
+    # result = response.choices[0].message.content.strip()
+    # result = result.strip("`").strip("json")
+
+    response = client.chat(
+        model='llama3.2',
         messages=messages,
-        temperature=0,
+        options= {
+            "num_ctx": 2048,
+            "temperature": 0
+        }
     )
-    result = response.choices[0].message.content.strip()
+
+    result = response['message']['content']
     result = result.strip("`").strip("json")
+    print(result)
     return json.loads(result)
 
 if __name__ == "__main__":
@@ -114,6 +141,7 @@ if __name__ == "__main__":
             result = trialgpt_aggregation(PATIENT_NOTE, trial_results, trial_info, model)
             output[trial_id] = result
         except Exception as e:
+            continue
             print(f"Error processing trial {trial_id}: {e}")
             output[trial_id] = {"error": str(e)}
 

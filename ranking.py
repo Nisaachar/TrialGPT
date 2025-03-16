@@ -23,18 +23,21 @@ def get_matching_score(matching):
             not_inc += 1
         elif info[2] == "not enough information":
             no_info_inc += 1
+    try:
+        # Count exclusion criteria
+        for criteria, info in matching["exclusion"].items():
+            if len(info) != 3:
+                continue
 
-    # Count exclusion criteria
-    for criteria, info in matching["exclusion"].items():
-        if len(info) != 3:
-            continue
+            if info[2] == "excluded":
+                excluded += 1
+            elif info[2] == "not excluded":
+                not_exc += 1
+            elif info[2] == "not enough information":
+                no_info_exc += 1
+    except Exception as e:
+        print(e)
 
-        if info[2] == "excluded":
-            excluded += 1
-        elif info[2] == "not excluded":
-            not_exc += 1
-        elif info[2] == "not enough information":
-            no_info_exc += 1
 
     # Compute the matching score
     score = 0   
