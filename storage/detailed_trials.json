@@ -24,31 +24,59 @@
         "keywords": []
     },
     {
-        "trial_id": "NCT06148272",
-        "brief_title": "A Study of LY3971297 in Healthy Participants and Participants With Obesity and Hypertension",
-        "official_title": "A Single-ascending and Multiple-ascending Dose Study of LY3971297 in Healthy Participants and Participants With Obesity and Hypertension and Participants With Decreased Estimated Glomerular Filtration Rate",
+        "trial_id": "NCT06606106",
+        "brief_title": "A Study of LY3537031 in Overweight, Obese, and Healthy Participants",
+        "official_title": "A Multiple-Ascending Dose Study to Investigate the Safety, Pharmacokinetics, and Pharmacodynamics of LY3537031 in Overweight and Obese Participants and Healthy Volunteers",
         "lillyAlias": [
-            "J4O-MC-EZHA"
+            "J2S-MC-GZMD"
         ],
-        "brief_summary": "The purpose of this study is to measure side effects of LY3971297 injection administered under the skin in healthy participants and obese participants with high blood pressure (BP). Blood tests will be performed to check how much LY3971297 gets into the bloodstream and how long it takes the body to eliminate it. This is a 7-part study. The study duration will be approximately 60 days for Parts A and F, and approximately 90 days for Parts B, C, D, E, and G.",
+        "brief_summary": "This is a 3-part study that includes a Part A, Part B, and Part C. Part A will study the safety and tolerability of the study drug known as LY3537031 in participants who are overweight and obese. Part B and Part C will study the safety and tolerability of LY3537031 in healthy participants. Part C will contain only Japanese and Chinese healthy participants.\n\nBlood tests will be performed to check how much LY3537031 gets into the bloodstream and how long it takes the body to eliminate it. Body weight will be measured. The study will last approximately 20 weeks excluding a screening period.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE1"
         ],
         "diseases_list": [
             "Healthy",
-            "Obesity",
-            "Hypertension"
+            "Obesity"
         ],
         "drugs_list": [
-            "LY3971297",
-            "Placebo",
-            "LY3971297 IV"
+            "LY3537031",
+            "Placebo"
         ],
-        "enrollment": 225,
-        "inclusion_criteria": "inclusion criteria: \n\n For Parts A, B, C, E, and F: Overtly healthy males or females as determined by medical history and physical examination\n For Parts A, B, C, E, and F: Have a screening body mass index (BMI) in the range of 18.5 to 35 kilogram per square meter (kg/m\u00b2), inclusive, with no significant weight gain or loss in the past 3 months prior to screening\n For Part C, to qualify as Chinese for the purpose of this study, all the participants' biological grandparents must be of exclusive Chinese descent and born in China\n For Part D, participants with obesity and hypertension must have a stable dose of antihypertensive medications within the past 3 months prior to screening\n For Part D, obesity BMI in the range of 30 to 40 kg/m\u00b2, inclusive, with a waist circumference of at least 102 centimeter (cm) for men and at least 89 cm for women\n For Part E, to qualify as a participant of the first-generation Japanese origin, the participant, the participant's biological parents, and all of the participants' biological grandparents must be of exclusive Japanese descent and born in Japan\n Male participants must agree to adhere to contraception restrictions and female participants must be women not of childbearing potential\n For Part G, have a screening BMI in the range of 18.5 to 40 kg/m\u00b2, inclusive, with no significant weight gain or loss in the past 3 months prior to screening\n For Part G, participants have an estimated glomerular filtration rate (eGFR), using the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) creatinine equation 2021 of greater than or equal to 30 and less than 60 milliliter per minute per 1.73 square meter (mL/min/1.73 m\u00b2)\n For Part G, participants are allowed to have stable background treatment for hypertension, type 2 diabetes mellitus (on oral drug therapy and/or long-acting insulin), dyslipidemia (on statin therapy) and/or hypothyroidism as determined by the investigator\n For Part G, Participants should be on a stable dose of angiotensin converting enzyme inhibitor or angiotensin II receptor blocker",
-        "exclusion_criteria": "exclusion criteria: \n\nHave a history of or current cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, or neurological disorders\nHave known or ongoing psychiatric disorders that, in the opinion of the investigator, increases the risks associated with study participation\nHave blood pressure and/or pulse rate constituting a risk as determined by the investigator\nHave a systolic blood pressure (BP) of less than 100 millimeters of mercury (mmHg)\nDiagnosed with orthostatic hypotension defined as a decrease in systolic blood pressure of equal to or greater than 20 mmHg or a decrease in diastolic blood pressure of equal to or greater than 10 mmHg when compared with BP from the supine position\nFor US sites: have donated blood of more than 500 mL within the previous 3 months of screening or intend to donate blood during the course of the study\nFor Singapore sites: Have donated blood of more than 450 mL or more in the past 3 months or provided any blood donation within the past 1 month before screening\nConsume more than 10 cigarettes per day (or the equivalent) or are unable or unwilling to abstain from nicotine\nHave alcohol intake that exceeds recommended alcohol consumption limits per local regulation or are unwilling to stop alcohol consumption 24 hours prior to dosing until discharge\nFor Part D, has concurrent use or anticipated use of phosphodiesterase 5 inhibitor such as vardenafil, tadalafil, and sildenafil, soluble guanylyl cyclase activators (such as riociguat and vericiguat)\nFor Parts D and G, has concurrent or anticipated use of long-acting nitrates or nitric oxide (NO) donors\nFor Parts D and G, has concurrent or anticipated use of beta blockers\nFor Part D, has current use of more than 3 mechanism of actions for treatment of hypertension\nFor Part G, has previous or current diagnosis of primary glomerulopathy, vasculitic renal disease, prior dialysis or unstable rapidly progressing renal disease, autosomal dominant or autosomal recessive polycystic kidney disease, lupus nephritis, or anti-neutrophil cytoplasm antibody-associated vasculitis",
+        "enrollment": 230,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a BMI within the range of:\n\n   Part A: 27.0 to 45.0 kilogram per square meter (kg/m\u00b2)\n   Part B: 22.0 to 26.9 kg/m\u00b2\n Parts B and C: Weigh 60 kg (80 lbs) or more at screening\n Have no significant (not more than 5%) self-reported weight gain or loss in the past 3 months prior to screening\n Have a thyroid stimulating hormone (TSH) value within normal local laboratory ranges.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave undergone any form of bariatric surgery\nParticipants who are lactating\nHave taken medications that promote weight loss within 90 days before screening\nHave a serum calcitonin level (at screening) of greater than or equal to 35 nanograms per liter (ng/L) (35 picograms per milliliter (pg/mL))",
         "keywords": []
+    },
+    {
+        "trial_id": "NCT06643728",
+        "brief_title": "A Study to Investigate Weight Management With Bimagrumab (LY3985863) and Tirzepatide (LY3298176), Alone or in Combination, in Adults With Obesity or Overweight",
+        "official_title": "A Phase 2, Double-Blind, Randomized, Placebo-Controlled Study of Bimagrumab and Tirzepatide, Alone or in Combination, to Investigate the Efficacy and Safety in Adult Participants With Obesity or Overweight Without Type 2 Diabetes",
+        "lillyAlias": [
+            "J4Z-MC-GIDF"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of Bimagrumab and Tirzepatide, alone or in combination, in adults with obesity or overweight, with at least one obesity related comorbidity, without Type 2 Diabetes. The study will last about 54 weeks.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE2"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight"
+        ],
+        "drugs_list": [
+            "Bimagrumab",
+            "Tirzepatide",
+            "Placebo"
+        ],
+        "enrollment": 140,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a BMI of\n\n   \u226530 kilograms per square meter (kg/m2) or\n   \u226527 kg/m2 and \\<30 kg/m2, with at least one of the following weight-related comorbidities:\n\n     Hypertension\n     Dyslipidemia\n     Cardiovascular disease\n     Obstructive sleep apnea\n Have had a stable body weight for the 3 months prior to randomization (\\<5% body weight gain and/or loss)",
+        "exclusion_criteria": "exclusion criteria: \n\nHave a prior or planned surgical treatment for obesity\nHave at least one laboratory value suggestive of diabetes during screening\nUse of metformin, or any other glucose-lowering medications\nHave Type 1 Diabetes, latent autoimmune diabetes, been diagnosed with any form of diabetes mellitus except for a prior diagnosis of gestational diabetes mellitus, or history of ketoacidosis or hyperosmolar coma\nHave poorly controlled hypertension\nHave any of the following cardiovascular conditions within 3 months prior to screening:\n\n  acute myocardial infarction\n  cerebrovascular accident (stroke)\n  unstable angina, or\n  hospitalization due to congestive heart failure\nHave ongoing or a history of frequent intermittent or chronic tachyarrhythmia syndromes\nHave ongoing or a history of bradyarrhythmias other than sinus bradycardia\nHave a history of New York Heart Association (NYHA) Functional Classification III or IV congestive heart failure\nHave a history of symptomatic gallbladder disease within the past 2 years\nHave signs and symptoms of any liver disease\nHave a disease or condition known to cause gastrointestinal malabsorption or a known clinically significant gastric emptying abnormality\nHave a history of acute or chronic pancreatitis\nHave renal impairment, measured as estimated glomerular filtration rate \\<30 mL/minute/1.73 m2\nCurrently taking or have taken medications that may cause significant weight gain or promote weight loss within 3 months prior to screening",
+        "keywords": [
+            "Muscle",
+            "Lean",
+            "Fat"
+        ]
     },
     {
         "trial_id": "NCT06603571",
@@ -79,6 +107,58 @@
         ]
     },
     {
+        "trial_id": "NCT06439277",
+        "brief_title": "A Study of Tirzepatide in Adolescents With Obesity and Weight-Related Comorbidities (SURMOUNT-ADOLESCENTS-2)",
+        "official_title": "Efficacy and Safety of Tirzepatide Once Weekly Versus Placebo for the Treatment of Obesity and Weight-Related Comorbidities in Adolescents: A Randomized, Double-Blind, Placebo- Controlled Trial (SURMOUNT-ADOLESCENTS-2)",
+        "lillyAlias": [
+            "I8F-MC-GPIX"
+        ],
+        "brief_summary": "The goal of the study is to assess how tirzepatide impacts bodyweight and cardiovascular risk factors when used in conjunction with healthy nutrition and physical activity in adolescents with obesity and multiple weight related comorbidities. The study will last approximately 76 weeks and may include up to 23 visits.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Weight Gain"
+        ],
+        "drugs_list": [
+            "Tirzepatide",
+            "Placebo"
+        ],
+        "enrollment": 300,
+        "inclusion_criteria": "inclusion criteria: \n\n Have body mass index (BMI) equal to or above the 95th percentile for age and sex (on age and gender-specific growth chart for diagnosis of obesity) with at least 2 of the following predefined weight-related comorbidities: hypertension, prediabetes and hypertriglyceridemia.\n Have history of at least 1 self-reported unsuccessful dietary effort to lose weight.\n Are capable of giving signed informed consent by a legal representative or assent by a study participant (when applicable).",
+        "exclusion_criteria": "exclusion criteria: \n\nHave undergone or plan to undergo a weight reduction procedure during the study, such as, but not limited to\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state\nHave type 2 diabetes or have a HbA1c \\> 6.4% at screening\nHave a history of chronic or acute pancreatitis\nHave a family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06148272",
+        "brief_title": "A Study of LY3971297 in Healthy Participants and Participants With Obesity and Hypertension",
+        "official_title": "A Single-ascending and Multiple-ascending Dose Study of LY3971297 in Healthy Participants and Participants With Obesity and Hypertension and Participants With Decreased Estimated Glomerular Filtration Rate",
+        "lillyAlias": [
+            "J4O-MC-EZHA"
+        ],
+        "brief_summary": "The purpose of this study is to measure side effects of LY3971297 injection administered under the skin in healthy participants and obese participants with high blood pressure (BP). Blood tests will be performed to check how much LY3971297 gets into the bloodstream and how long it takes the body to eliminate it. This is a 7-part study. The study duration will be approximately 60 days for Parts A and F, and approximately 90 days for Parts B, C, D, E, and G.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE1"
+        ],
+        "diseases_list": [
+            "Healthy",
+            "Obesity",
+            "Hypertension"
+        ],
+        "drugs_list": [
+            "LY3971297",
+            "Placebo",
+            "LY3971297 IV"
+        ],
+        "enrollment": 225,
+        "inclusion_criteria": "inclusion criteria: \n\n For Parts A, B, C, E, and F: Overtly healthy males or females as determined by medical history and physical examination\n For Parts A, B, C, E, and F: Have a screening body mass index (BMI) in the range of 18.5 to 35 kilogram per square meter (kg/m\u00b2), inclusive, with no significant weight gain or loss in the past 3 months prior to screening\n For Part C, to qualify as Chinese for the purpose of this study, all the participants' biological grandparents must be of exclusive Chinese descent and born in China\n For Part D, participants with obesity and hypertension must have a stable dose of antihypertensive medications within the past 3 months prior to screening\n For Part D, obesity BMI in the range of 30 to 40 kg/m\u00b2, inclusive, with a waist circumference of at least 102 centimeter (cm) for men and at least 89 cm for women\n For Part E, to qualify as a participant of the first-generation Japanese origin, the participant, the participant's biological parents, and all of the participants' biological grandparents must be of exclusive Japanese descent and born in Japan\n Male participants must agree to adhere to contraception restrictions and female participants must be women not of childbearing potential\n For Part G, have a screening BMI in the range of 18.5 to 40 kg/m\u00b2, inclusive, with no significant weight gain or loss in the past 3 months prior to screening\n For Part G, participants have an estimated glomerular filtration rate (eGFR), using the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) creatinine equation 2021 of greater than or equal to 30 and less than 60 milliliter per minute per 1.73 square meter (mL/min/1.73 m\u00b2)\n For Part G, participants are allowed to have stable background treatment for hypertension, type 2 diabetes mellitus (on oral drug therapy and/or long-acting insulin), dyslipidemia (on statin therapy) and/or hypothyroidism as determined by the investigator\n For Part G, Participants should be on a stable dose of angiotensin converting enzyme inhibitor or angiotensin II receptor blocker",
+        "exclusion_criteria": "exclusion criteria: \n\nHave a history of or current cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, or neurological disorders\nHave known or ongoing psychiatric disorders that, in the opinion of the investigator, increases the risks associated with study participation\nHave blood pressure and/or pulse rate constituting a risk as determined by the investigator\nHave a systolic blood pressure (BP) of less than 100 millimeters of mercury (mmHg)\nDiagnosed with orthostatic hypotension defined as a decrease in systolic blood pressure of equal to or greater than 20 mmHg or a decrease in diastolic blood pressure of equal to or greater than 10 mmHg when compared with BP from the supine position\nFor US sites: have donated blood of more than 500 mL within the previous 3 months of screening or intend to donate blood during the course of the study\nFor Singapore sites: Have donated blood of more than 450 mL or more in the past 3 months or provided any blood donation within the past 1 month before screening\nConsume more than 10 cigarettes per day (or the equivalent) or are unable or unwilling to abstain from nicotine\nHave alcohol intake that exceeds recommended alcohol consumption limits per local regulation or are unwilling to stop alcohol consumption 24 hours prior to dosing until discharge\nFor Part D, has concurrent use or anticipated use of phosphodiesterase 5 inhibitor such as vardenafil, tadalafil, and sildenafil, soluble guanylyl cyclase activators (such as riociguat and vericiguat)\nFor Parts D and G, has concurrent or anticipated use of long-acting nitrates or nitric oxide (NO) donors\nFor Parts D and G, has concurrent or anticipated use of beta blockers\nFor Part D, has current use of more than 3 mechanism of actions for treatment of hypertension\nFor Part G, has previous or current diagnosis of primary glomerulopathy, vasculitic renal disease, prior dialysis or unstable rapidly progressing renal disease, autosomal dominant or autosomal recessive polycystic kidney disease, lupus nephritis, or anti-neutrophil cytoplasm antibody-associated vasculitis",
+        "keywords": []
+    },
+    {
         "trial_id": "NCT06649045",
         "brief_title": "A Master Protocol for Orforglipron in Participants With Obstructive Sleep Apnea and Obesity or Overweight",
         "official_title": "A Master Protocol to Investigate the Efficacy and Safety of Orforglipron Once Daily in Participants Who Have Obstructive Sleep Apnea and Obesity or Overweight: A Randomized, Double-Blind, Placebo-Controlled Trial",
@@ -103,56 +183,6 @@
         "enrollment": 600,
         "inclusion_criteria": "inclusion criteria: \n\nMaster GZRA inclusion criteria\n\n have AHI \u226515 on PSG as part of the trial at screening (V1).\n have body mass index (BMI) \u226527 kg/m\u00b2\n\nStudy 1 GZ01 inclusion criteria\n\n Participants who are unable or unwilling to use PAP therapy.\n Participants must not have used PAP for at least 4 weeks prior to screening.\n\nStudy 2 GZ02 inclusion criteria\n\n Participants who have been on PAP therapy for at least 3 consecutive months prior to study start and plan to continue PAP therapy during the study.",
         "exclusion_criteria": "exclusion criteria: \n\nMaster GZRA exclusion criteria\n\nHave Type 1 diabetes (T1D) or Type 2 diabetes (T2D), history of ketoacidosis, or hyperosmolar state/coma\nHave HbA1c \u22656.5% (\u2265 48 mmol/mol), as determined by the central laboratory at Visit 1.\nHad any previous or planned upper airway surgery for sleep apnea or major ear, nose or throat surgery\nHave diagnosis of Central or Mixed Sleep Apnea with % of mixed or central apneas/hypopneas \u226550%, or diagnosis of Cheyne Stokes Respiration\nDiagnosis of Obesity Hypoventilation Syndrome or daytime hypercapnia.\nActive device treatment of OSA other than PAP therapy\nRespiratory and neuromuscular diseases that could interfere with the results of the trial in the opinion of the investigator.\nHave a self-reported change in body weight \\>5 kg within 3 months prior to screening\nHave a prior or planned surgical treatment for obesity (excluding liposuction, abdominoplasty or cryolipolysis if performed more than 1 year prior to screening)\nHave a prior or planned endoscopic and/or present device-based therapy for obesity.\nHave obesity induced by other endocrinologic disorders or diagnosed monogenetic or syndromic forms of obesity.\n\nStudy 2 GZ02 exclusion criteria\n\nHave personal or job-related responsibilities, or in the opinion of the investigator have any situation that would make it unsafe to stop PAP therapy for 7 days prior to PSG testing during the study.\nAre unwilling to temporary discontinue PAP therapy for 7 days prior to PSG testing during the study.",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT06606106",
-        "brief_title": "A Study of LY3537031 in Overweight, Obese, and Healthy Participants",
-        "official_title": "A Multiple-Ascending Dose Study to Investigate the Safety, Pharmacokinetics, and Pharmacodynamics of LY3537031 in Overweight and Obese Participants and Healthy Volunteers",
-        "lillyAlias": [
-            "J2S-MC-GZMD"
-        ],
-        "brief_summary": "This is a 3-part study that includes a Part A, Part B, and Part C. Part A will study the safety and tolerability of the study drug known as LY3537031 in participants who are overweight and obese. Part B and Part C will study the safety and tolerability of LY3537031 in healthy participants. Part C will contain only Japanese and Chinese healthy participants.\n\nBlood tests will be performed to check how much LY3537031 gets into the bloodstream and how long it takes the body to eliminate it. Body weight will be measured. The study will last approximately 20 weeks excluding a screening period.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE1"
-        ],
-        "diseases_list": [
-            "Healthy",
-            "Obesity"
-        ],
-        "drugs_list": [
-            "LY3537031",
-            "Placebo"
-        ],
-        "enrollment": 230,
-        "inclusion_criteria": "inclusion criteria: \n\n Have a BMI within the range of:\n\n   Part A: 27.0 to 45.0 kilogram per square meter (kg/m\u00b2)\n   Part B: 22.0 to 26.9 kg/m\u00b2\n Parts B and C: Weigh 60 kg (80 lbs) or more at screening\n Have no significant (not more than 5%) self-reported weight gain or loss in the past 3 months prior to screening\n Have a thyroid stimulating hormone (TSH) value within normal local laboratory ranges.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave undergone any form of bariatric surgery\nParticipants who are lactating\nHave taken medications that promote weight loss within 90 days before screening\nHave a serum calcitonin level (at screening) of greater than or equal to 35 nanograms per liter (ng/L) (35 picograms per milliliter (pg/mL))",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT06672549",
-        "brief_title": "A Platform Trial for Pediatric Participants With Obesity or Overweight (LY900040)",
-        "official_title": "A Master Protocol for a Randomized, Controlled, Clinical Platform Trial to Investigate the Efficacy and Safety of Interventions for Chronic Weight Management in Pediatric Participants With Obesity or Overweight",
-        "lillyAlias": [
-            "J4M-MC-PWMP"
-        ],
-        "brief_summary": "The purpose of this pediatric, chronic weight management, Phase 3 Master Protocol (PWMP) is to create a framework to evaluate the safety and efficacy of pharmacologic agents for the treatment of obesity or overweight in pediatric participants.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Obesity",
-            "Overweight"
-        ],
-        "drugs_list": [
-            "Orforglipron",
-            "Placebo"
-        ],
-        "enrollment": 125,
-        "inclusion_criteria": "inclusion criteria: \n\n Have a history of at least 1 unsuccessful effort to lose sufficient body weight after participation in a structured lifestyle modification program (diet and exercise counseling for at least 3 months) prior to screening.\n Obesity as defined by BMI equal to or above the 95th percentile for age and sex (on age- and gender-specific growth chart \\[CDC-NCHS, 2022\\]); OR\n Applies to participant age between 12 and \\<18 years old. Overweight as defined by BMI equal to or above the 85th percentile but less than the 95th percentile for age and sex, on age- and sex-specific growth chart (CDC-NCHS, 2022), and at least 1 weight-related comorbidity,\n\n   hypertension\n   type 2 diabetes (T2D)\n   prediabetes\n   dyslipidemia\n   obstructive sleep apnea\n   metabolic dysfunction-associated steatohepatitis (MASH) or metabolic dysfunction-associated steatotic liver disease (MASLD)",
-        "exclusion_criteria": "exclusion criteria: \n\nHave undergone or plan to undergo weight reduction procedure during the study, such as, but not limited to:\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band\u00ae gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a diagnosis that is a secondary cause of obesity or have a history of abrupt onset of obesity suggesting a secondary cause, such as hypothalamic, monogenetic, syndromic, or endocrine causes.\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state.\nHave HbA1c \\>9.0% (75 mmol/mol) as measured by central laboratory at screening.\nHave a family or personal history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia Syndrome Type 2.",
         "keywords": []
     },
     {
@@ -181,65 +211,13 @@
         "keywords": []
     },
     {
-        "trial_id": "NCT06313528",
-        "brief_title": "A Study to Measure Calorie Consumption and Usage in Participants With Obesity Using LY3437943",
-        "official_title": "A Randomized, Double-Blind, Phase 1 Study to Investigate the Effect of LY3437943 Versus Placebo on Calorie Intake and Energy Expenditure in Participants With Obesity Under Calorie Restriction",
+        "trial_id": "NCT06672549",
+        "brief_title": "A Platform Trial for Pediatric Participants With Obesity or Overweight (LY900040)",
+        "official_title": "A Master Protocol for a Randomized, Controlled, Clinical Platform Trial to Investigate the Efficacy and Safety of Interventions for Chronic Weight Management in Pediatric Participants With Obesity or Overweight",
         "lillyAlias": [
-            "J1I-MC-GZBW"
+            "J4M-MC-PWMP"
         ],
-        "brief_summary": "The main purpose of the study is to look at the effect of the study drug compared to placebo on calorie intake, energy metabolism, and appetite. The study will last up to 6 months and may include up to 20 visits.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE1"
-        ],
-        "diseases_list": [
-            "Obesity"
-        ],
-        "drugs_list": [
-            "LY3437943",
-            "Placebo"
-        ],
-        "enrollment": 74,
-        "inclusion_criteria": "inclusion criteria: \n\n BMI greater than 30 kg/m2\n History of at least 1 self-reported unsuccessful dietary effort to reduce body weight",
-        "exclusion_criteria": "exclusion criteria: \n\nChange in body weight of greater than 5 kg (11 pounds) within 3 months prior to start of study\nAny of the following treatments for obesity within 1 year prior, or plan to undergo any of these during the study period: liposuction, cryolipolysis, or abdominoplasty\nPrior or planned bariatric or gastric sleeve surgery, endoscopic therapy, or device-based therapy for obesity\nType 1 or Type 2 Diabetes, history of ketoacidosis, or hyperosmolar state\nFamily or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome Type 2\nAcute or chronic hepatitis\nHad within 90 days prior: acute myocardial infarction, cerebrovascular accident (stroke), coronary artery revascularization, hospitalization for unstable angina, or hospitalization due to congestive heart failure\nHistory of active or unstable major depressive disorder or other severe psychiatric disorder within 2 years prior\nHistory of chronic or acute pancreatitis\nBlood transfusion or severe blood loss within the last 3 months or hemoglobinopathy, hemolytic anemia, sickle cell anemia\nClinically significant multiple or severe drug allergies\nStarted treatment with or changed dose within 12 months prior any medications that are associated with significant weight gain\nHistory of substance use disorder",
-        "keywords": [
-            "Food",
-            "Diet"
-        ]
-    },
-    {
-        "trial_id": "NCT06439277",
-        "brief_title": "A Study of Tirzepatide in Adolescents With Obesity and Weight-Related Comorbidities (SURMOUNT-ADOLESCENTS-2)",
-        "official_title": "Efficacy and Safety of Tirzepatide Once Weekly Versus Placebo for the Treatment of Obesity and Weight-Related Comorbidities in Adolescents: A Randomized, Double-Blind, Placebo- Controlled Trial (SURMOUNT-ADOLESCENTS-2)",
-        "lillyAlias": [
-            "I8F-MC-GPIX"
-        ],
-        "brief_summary": "The goal of the study is to assess how tirzepatide impacts bodyweight and cardiovascular risk factors when used in conjunction with healthy nutrition and physical activity in adolescents with obesity and multiple weight related comorbidities. The study will last approximately 76 weeks and may include up to 23 visits.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Obesity",
-            "Weight Gain"
-        ],
-        "drugs_list": [
-            "Tirzepatide",
-            "Placebo"
-        ],
-        "enrollment": 300,
-        "inclusion_criteria": "inclusion criteria: \n\n Have body mass index (BMI) equal to or above the 95th percentile for age and sex (on age and gender-specific growth chart for diagnosis of obesity) with at least 2 of the following predefined weight-related comorbidities: hypertension, prediabetes and hypertriglyceridemia.\n Have history of at least 1 self-reported unsuccessful dietary effort to lose weight.\n Are capable of giving signed informed consent by a legal representative or assent by a study participant (when applicable).",
-        "exclusion_criteria": "exclusion criteria: \n\nHave undergone or plan to undergo a weight reduction procedure during the study, such as, but not limited to\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state\nHave type 2 diabetes or have a HbA1c \\> 6.4% at screening\nHave a history of chronic or acute pancreatitis\nHave a family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT06075667",
-        "brief_title": "A Study of Tirzepatide (LY3298176) Once Weekly in Adolescent Participants Who Have Obesity or Overweight With Weight-Related Comorbidities",
-        "official_title": "Efficacy, Safety, and Pharmacokinetics of Tirzepatide Once Weekly Versus Placebo in Adolescent Participants Who Have Obesity, or Are Overweight With Weight-Related Comorbidities: A Randomized, Double-Blind Trial (SURMOUNT-ADOLESCENTS)",
-        "lillyAlias": [
-            "I8F-MC-GPHP"
-        ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of tirzepatide in adolescents that have obesity or overweight with at least one weight-related comorbidity. The study will last approximately 90 weeks and may include up to 25 visits.",
+        "brief_summary": "The purpose of this pediatric, chronic weight management, Phase 3 Master Protocol (PWMP) is to create a framework to evaluate the safety and efficacy of pharmacologic agents for the treatment of obesity or overweight in pediatric participants.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE3"
@@ -249,12 +227,38 @@
             "Overweight"
         ],
         "drugs_list": [
-            "Tirzepatide",
+            "Orforglipron",
             "Placebo"
         ],
-        "enrollment": 150,
-        "inclusion_criteria": "inclusion criteria: \n\n Have obesity, as defined by BMI equal to or above the 95th percentile for age and sex, on age- and sex-specific growth chart, OR\n Have overweight, as defined by BMI equal to or above the 85th percentile but less than the 95th percentile for age and sex, on age- and sex-specific growth chart, with at least 1 weight-related comorbidity.\n\n   dyslipidemia\n   pre-hypertension\n   hypertension\n   nonalcoholic fatty liver disease\n   obstructive sleep apnea\n   prediabetes\n   documented preexisting condition of Type 2 Diabetes\n\nParticipants with Type 2 Diabetes Mellitus (T2DM)\n\n Have been treated with either diet and exercise alone or stable treatment with metformin for at least 90 days prior to screening and have a HbA1c\\<9.0%",
-        "exclusion_criteria": "exclusion criteria: \n\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight more than 5 kilogram (kg) (11 lbs.) within 90 days before screening irrespective of medical records.\nHave Type 1 Diabetes\nHave taken within 90 days before screening or intend to start prescribed or over-the-counter medications, or alternative remedies including herbal or nutritional supplements, intended to promote body weight reduction.\nAre prepubertal (Tanner stage 1).\nHave a family or personal history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia (MEN) Syndrome Type 2\nHave a history of chronic or acute pancreatitis.\nHave undergone or plan to undergo weight reduction procedure during the study, such as, but not limited to\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band gastric banding, or\n  any other procedure intended to result in weight reduction.",
+        "enrollment": 125,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a history of at least 1 unsuccessful effort to lose sufficient body weight after participation in a structured lifestyle modification program (diet and exercise counseling for at least 3 months) prior to screening.\n Obesity as defined by BMI equal to or above the 95th percentile for age and sex (on age- and gender-specific growth chart \\[CDC-NCHS, 2022\\]); OR\n Applies to participant age between 12 and \\<18 years old. Overweight as defined by BMI equal to or above the 85th percentile but less than the 95th percentile for age and sex, on age- and sex-specific growth chart (CDC-NCHS, 2022), and at least 1 weight-related comorbidity,\n\n   hypertension\n   type 2 diabetes (T2D)\n   prediabetes\n   dyslipidemia\n   obstructive sleep apnea\n   metabolic dysfunction-associated steatohepatitis (MASH) or metabolic dysfunction-associated steatotic liver disease (MASLD)",
+        "exclusion_criteria": "exclusion criteria: \n\nHave undergone or plan to undergo weight reduction procedure during the study, such as, but not limited to:\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band\u00ae gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a diagnosis that is a secondary cause of obesity or have a history of abrupt onset of obesity suggesting a secondary cause, such as hypothalamic, monogenetic, syndromic, or endocrine causes.\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state.\nHave HbA1c \\>9.0% (75 mmol/mol) as measured by central laboratory at screening.\nHave a family or personal history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia Syndrome Type 2.",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06683508",
+        "brief_title": "A Study to Investigate Weight Management With LY3549492 Compared With Placebo in Adult Participants With Obesity or Overweight",
+        "official_title": "A Phase 2, Parallel-Group, Double-Blind Study to Investigate Weight Management With LY3549492 Once Daily Compared With Placebo in Adult Participants With Obesity or Overweight",
+        "lillyAlias": [
+            "W8M-MC-GN01",
+            "W8M-MC-CWMM"
+        ],
+        "brief_summary": "The main purpose of this study, performed under the master protocol W8M-MC-CWMM (NCT06143956), is to evaluate the effects of LY3549492 in adults with obesity or overweight. Participation in the study will last about one year.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE2"
+        ],
+        "diseases_list": [
+            "Obesity",
+            "Overweight"
+        ],
+        "drugs_list": [
+            "LY3549492",
+            "Placebo"
+        ],
+        "enrollment": 275,
+        "inclusion_criteria": "inclusion criteria: \n\nW8M-MC-GN01:\n\n Assigned male at birth\n Assigned female at birth, who are of non-childbearing potential\n\nW8M-MC-CWMM:\n\n Have a BMI \u226527 kilograms per square meter (kg/m\u00b2)\n Have had a stable body weight for the 3 months prior to randomization (\\<5% body weight gain and/or loss)",
+        "exclusion_criteria": "exclusion criteria: \n\nW8M-MC-GN01:\n\nHave Type 2 Diabetes Mellitus or Type 1 Diabetes Mellitus\nHave a history of acute or chronic pancreatitis\nHave renal impairment\nIndividuals who are of childbearing potential\n\nW8M-MC-CWMM:\n\nHave a prior or planned surgical treatment for obesity, except prior liposuction or abdominoplasty, if performed \\>1 year prior to screening.\nHave type 1 diabetes mellitus, latent autoimmune diabetes in adults, or history of ketoacidosis or hyperosmolar coma.\nHave poorly controlled hypertension.\nHave signs and symptoms of any liver disease other than nonalcoholic fatty liver disease.\nHave any of the following cardiovascular conditions within 3 months prior to screening:\n\n  acute myocardial infarction\n  cerebrovascular accident (stroke)\n  unstable angina, or\n  hospitalization due to congestive heart failure.\nHave a history of symptomatic gallbladder disease within the past 2 years\nHave a lifetime history of suicide attempts.",
         "keywords": []
     }
 ]

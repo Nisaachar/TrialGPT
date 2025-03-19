@@ -5,6 +5,7 @@ import os
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 from ollama import Client
+import re
 
 load_dotenv()
 
@@ -100,7 +101,7 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 			{"role": "system", "content": system_prompt},
 			{"role": "user", "content": user_prompt},
 		]
-
+		
 		# response = client.chat.completions.create(
 		# 	model=model,
 		# 	messages=messages,
@@ -110,20 +111,36 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 		# message = response.choices[0].message.content.strip()
 		# message = message.strip("`").strip("json")
 		response = client.chat(
-        model='llama3.2',
+        model=os.getenv("DEPLOYMENT_NAME"),
         messages=messages,
         options= {
-            "num_ctx": 2048,
-            "temperature": 0
+            "num_ctx": 4096,
+            "temperature": 0,
         	}
-   		)
+    	)
 
-		message = response['message']['content'] 
-		message = message.strip("`").strip("json")
+		# message = response['message']['content'] 
+		# message = message.strip("`").strip("json")
 
-		try:
-			results[inc_exc] = json.loads(message)
-		except:
-			results[inc_exc] = message
+
+		output = response['message']['content'] 
+		print(output)
+
+		match = re.search(r'\{.*\}', output, re.DOTALL)
+		data = ''
+		if match:
+			json_str = match.group(0)  # Extract matched JSON content
+			try:
+				results[inc_exc] = json.loads(json_str)  # Parse JSON
+				
+			except json.JSONDecodeError as e:
+				results[inc_exc] = json_str
+				print("Error parsing JSON:", e)
+				return None
+				
+		else:
+			print("No valid JSON found.")
+			return None
+		
 
 	return results

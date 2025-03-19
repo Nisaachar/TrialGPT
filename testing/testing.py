@@ -10,6 +10,7 @@ import torch
 from nltk import word_tokenize
 from rank_bm25 import BM25Okapi
 from ollama import Client
+import re
 
 
 
@@ -31,7 +32,7 @@ def get_keyword_generation_messages(note, max_keywords):
     Prepare the messages for keyword generation.
     """
     system = (
-        f'You are a helpful assistant and your task is to help search relevant clinical trials for a given patient description. '
+        f'You are a helpful assistant and your task is to help search relevant clinical trials for a given patient description. Do not explain your reasoning. Just output the result directly.'
         f'Please first summarize the main medical problems of the patient. Then generate up to {max_keywords} key conditions for searching relevant clinical trials for this patient. Do not output any extra note.'
         'The key condition list should be ranked by priority. Please output only a JSON dict formatted as Dict{{"summary": Str(summary), "conditions": List[Str(condition)]}}.'
     )
@@ -63,22 +64,31 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
     # output = output.strip("`").strip("json")
 
     response = client.chat(
-        model='llama3.2',
+        model='deepseek-r1',
         messages=messages,
         options= {
             "num_ctx": 2048,
-            "temperature": 0
+            "temperature": 0,
         }
     )
 
     output = response['message']['content'] 
-    output = output.strip("`").strip("json")
-    print(output)
-    try:
-        result = json.loads(output)
-        return result
-    except json.JSONDecodeError as e:
-        print("Error decoding JSON:", e)
+    output = re.sub(r"<think>.*?</think>\n?", "", output, flags=re.DOTALL)
+
+    match = re.search(r'\{.*\}', output, re.DOTALL)
+    data = ''
+    if match:
+        json_str = match.group(0)  # Extract matched JSON content
+        try:
+            data = json.loads(json_str)  # Parse JSON
+            print(data)
+            return data
+        except json.JSONDecodeError as e:
+            print("Error parsing JSON:", e)
+            return None
+            
+    else:
+        print("No valid JSON found.")
         return None
 
 

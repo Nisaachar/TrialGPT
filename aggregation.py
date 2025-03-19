@@ -3,6 +3,7 @@ from openai import AzureOpenAI
 import os
 from dotenv import load_dotenv
 from ollama import Client
+import re
 
 load_dotenv()
 
@@ -20,7 +21,7 @@ client = Client(
 
 # Hard-coded patient note
 with open('storage/input.json', 'r') as file:
-        data = json.load(file)
+    data = json.load(file)
 
 PATIENT_NOTE = data['patient_note']
 
@@ -54,6 +55,7 @@ def convert_criteria_pred_to_string(prediction, trial_info):
             if len(preds[1]) > 0:
                 output += f"\tEvident sentences: {preds[1]}\n"
             output += f"\tPatient eligibility: {preds[2]}\n"
+    print(output)
     return output
 
 def convert_pred_to_prompt(patient, pred, trial_info):
@@ -97,11 +99,12 @@ def convert_pred_to_prompt(patient, pred, trial_info):
 def trialgpt_aggregation(patient, trial_results, trial_info, model):
     """Generate aggregation scores using GPT."""
     system_prompt, user_prompt = convert_pred_to_prompt(patient, trial_results, trial_info)
+    print(f"{system_prompt} {user_prompt}")
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt},
     ]
-
+    
     # response = client.chat.completions.create(
     #     model=model,
     #     messages=messages,
@@ -111,18 +114,37 @@ def trialgpt_aggregation(patient, trial_results, trial_info, model):
     # result = result.strip("`").strip("json")
 
     response = client.chat(
-        model='llama3.2',
+        model=os.getenv("DEPLOYMENT_NAME"),
         messages=messages,
         options= {
-            "num_ctx": 2048,
-            "temperature": 0
+            "num_ctx": 4096,
+            "temperature": 0,
         }
     )
 
-    result = response['message']['content']
-    result = result.strip("`").strip("json")
-    print(result)
-    return json.loads(result)
+    # result = response['message']['content']
+    # result = result.strip("`").strip("json")
+    # print(result)
+
+    output = response['message']['content'] 
+    # output = re.sub(r"<think>.*?</think>\n?", "", output, flags=re.DOTALL)
+
+    match = re.search(r'\{.*\}', output, re.DOTALL)
+    data = ''
+
+    if match:
+        json_str = match.group(0)  # Extract matched JSON content
+        try:
+            data = json.loads(json_str)  # Parse JSON
+            return data
+        except json.JSONDecodeError as e:
+            print("Error parsing JSON:", e)
+            return None
+            
+    else:
+        print("No valid JSON found.")
+        return None
+
 
 if __name__ == "__main__":
     # Model and data paths
@@ -137,12 +159,14 @@ if __name__ == "__main__":
     output = {}
     for trial_id, trial_results in results.items():
         trial_info = trial2info[trial_id]
+       
         try:
             result = trialgpt_aggregation(PATIENT_NOTE, trial_results, trial_info, model)
             output[trial_id] = result
         except Exception as e:
-            continue
+            
             print(f"Error processing trial {trial_id}: {e}")
+            continue
             output[trial_id] = {"error": str(e)}
 
     # Save output
