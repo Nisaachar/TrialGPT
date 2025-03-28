@@ -10,21 +10,16 @@ import torch
 from nltk import word_tokenize
 from rank_bm25 import BM25Okapi
 from ollama import Client
+import boto3
 
 
 
 load_dotenv()
 
 
-# client = AzureOpenAI(
-#     api_version="2023-09-01-preview",
-#     azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-#     api_key=os.getenv("OPENAI_API_KEY"),
-# )
 
-client = Client(
-  host='http://localhost:11434'
-)
+client = boto3.client(service_name="bedrock-runtime")
+
 
 def get_keyword_generation_messages(note, max_keywords):
     """
@@ -38,10 +33,12 @@ def get_keyword_generation_messages(note, max_keywords):
 
     prompt = f"Here is the patient description: \n{note}\n\nJSON output:"
 
+    combined_prompt = f"{system}\n\n{prompt}"
+
     messages = [
-        {"role": "system", "content": system},
-        {"role": "user", "content": prompt}
+        {"role": "user", "content": [{"text": combined_prompt}]}
     ]
+
 
     return messages
 
@@ -62,17 +59,18 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
     # output = response.choices[0].message.content
     # output = output.strip("`").strip("json")
 
-    response = client.chat(
-        model='llama3.2',
-        messages=messages,
-        options= {
-            "num_ctx": 2048,
-            "temperature": 0
-        }
-    )
+    response = client.converse(
+            modelId="us.amazon.nova-micro-v1:0",
+            messages=messages,
+            # options= {
+            #     "num_ctx": 2048,
+            #     "temperature": 0
+            # }
+        )
 
-    output = response['message']['content'] 
+    output = response["output"]["message"]["content"][0]["text"] 
     output = output.strip("`").strip("json")
+    
     print(output)
     try:
         result = json.loads(output)

@@ -1,260 +1,273 @@
 [
     {
-        "trial_id": "NCT06557356",
-        "brief_title": "A Study of LY3532226 in Participants With Obesity",
-        "official_title": "A Dose-Escalation Phase 1, Investigator- and Participant-Blind, Placebo-Controlled Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Multiple Doses of LY3532226 in Participants With Obesity",
+        "trial_id": "NCT05508789",
+        "brief_title": "A Study of Donanemab (LY3002813) in Participants With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ 5)",
+        "official_title": "Global Study to Investigate Safety and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease",
         "lillyAlias": [
-            "J2V-MC-GZLD"
+            "I5T-MC-AACO"
         ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and tolerability of the study drug known as LY3532226 in participants with obesity. Blood tests will be performed to check how much LY3532226 gets into the bloodstream and how long it takes the body to eliminate it following weekly or monthly administration. Part A of the study will last approximately 16 weeks, excluding screening period. Part B of the study will last approximately 20 weeks, excluding the screening period.",
+        "brief_summary": "The reason for this study is to assess the safety and efficacy of donanemab in participants with early Alzheimer's disease. The study duration including screening and follow-up is up to 93 weeks.",
         "trial_status": "RECRUITING",
         "phase": [
-            "PHASE1"
+            "PHASE3"
         ],
         "diseases_list": [
-            "Obesity"
+            "Alzheimer Disease",
+            "Dementia",
+            "Brain Diseases",
+            "Central Nervous System Diseases",
+            "Nervous System Diseases",
+            "Tauopathies",
+            "Neurodegenerative Diseases",
+            "Neurocognitive Disorders",
+            "Mental Disorders"
         ],
         "drugs_list": [
-            "LY3532226",
+            "Donanemab",
             "Placebo"
         ],
-        "enrollment": 105,
-        "inclusion_criteria": "inclusion criteria: \n\n Have a body weight not exceeding 150 kilograms (kg) or 330 pounds (lb) and body mass index (BMI) within the range of 30 to 40 kilogram per square meter (kg/m\u00b2)\n Have had a stable body weight that is less than or equal to 5% change in body weight for 3 months prior to screening and enrollment",
-        "exclusion_criteria": "exclusion criteria: \n\nHave a lifetime history of a suicide attempt\nHave a history or presence of psychiatric disorders, including a history of major depressive disorder within the last 2 years\nHave a baseline Patient Health Questionnaire-9 (PHQ-9) score of 15 or greater, and/or a score of 2 or greater for either of the first 2 questions on the PHQ-9 questionnaire\nHave a known clinically significant gastric emptying abnormality, have undergone gastric bypass surgery or restrictive bariatric surgery\nHave taken approved or investigational medication for weight loss, within the previous 3 months or 5 half-lives of study screening, whichever is earlier\nIntend to use any weight-loss medications during study participation\nHave obesity induced by other endocrinologic disorders or diagnosed monogenetic or syndromic forms of obesity",
-        "keywords": []
+        "enrollment": 1500,
+        "inclusion_criteria": "inclusion criteria: \n\n Gradual and progressive change in memory function reported by the participant or informant for \u22656 months\n A MMSE score of 20 to 28 (inclusive) at Day 601 or 1.\n Meet flortaucipir F18 scan (central read) criteria\n Meet florbetapir F18 scan (central read) criteria\n Have a study partner who will provide written informed consent to participate, is in frequent contact with the participant (defined as at least 10 hours per week), and will accompany the participant to the study or be available by telephone at designated times.\n A second study partner may serve as backup. The study partner(s) is/are required to accompany the participant for signing consent. The study partner must be present on all days the cognitive and functional scales are administered.\n If a participant has a second study partner, it is preferred that 1 study partner be primarily responsible for the CDR and the ADCS-ADL assessments.\n Days requiring the following assessments and scales must have a study partner available by telephone if not accompanying participant for the following assessments\n\n   AEs and concomitant medications\n   CDR, and\n   ADCS-ADL\n Stable concomitant symptomatic AD medications and other medications that may impact cognition for at least approximately 30 days prior to randomization.",
+        "exclusion_criteria": "exclusion criteria: \n\nHas significant neurological disease affect the central nervous system other than AD, that may affect cognition or ability to complete the study, including but not limited to, other dementias, serious infection of the brain, Parkinson's disease, multiple concussions, or epilepsy or recurrent seizures (except febrile childhood seizures).\nHas current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic (other than AD), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses in this study; or has a life expectancy of \\<24 months.\nHistory of cancer within the last 5 years, except of non-metastatic basal and/or squamous cell carcinoma of the skin, in situ cervical cancer, nonprogressive prostate cancer, or other cancers with low risk of recurrence or spread.\nContraindication to MRI or PET scans",
+        "keywords": [
+            "Alzheimer's",
+            "Dementia",
+            "Cognitive Impairment",
+            "Amyloid Plaque"
+        ]
     },
     {
-        "trial_id": "NCT06148272",
-        "brief_title": "A Study of LY3971297 in Healthy Participants and Participants With Obesity and Hypertension",
-        "official_title": "A Single-ascending and Multiple-ascending Dose Study of LY3971297 in Healthy Participants and Participants With Obesity and Hypertension and Participants With Decreased Estimated Glomerular Filtration Rate",
+        "trial_id": "NCT06297590",
+        "brief_title": "A First-In-Human Study of LY3954068 in Participants With Early Symptomatic Alzheimer's Disease",
+        "official_title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3954068 in Patients With Early Symptomatic Alzheimer's Disease",
         "lillyAlias": [
-            "J4O-MC-EZHA"
+            "J4T-MC-OLAA"
         ],
-        "brief_summary": "The purpose of this study is to measure side effects of LY3971297 injection administered under the skin in healthy participants and obese participants with high blood pressure (BP). Blood tests will be performed to check how much LY3971297 gets into the bloodstream and how long it takes the body to eliminate it. This is a 7-part study. The study duration will be approximately 60 days for Parts A and F, and approximately 90 days for Parts B, C, D, E, and G.",
+        "brief_summary": "The main purpose of this study is to evaluate the safety of LY3954068 in participants with early symptomatic Alzheimer's Disease (AD). The study will also investigate how much LY3954068 gets into the bloodstream and will test the effects of LY3954068 on markers of AD.\n\nThe study will be comprised of two parts, A and B. Part B is optional, and participants from Part A may also have the opportunity to join an optional bridging period to a separate potential study where participants would receive LY3954068. Each enrolled participant in Part A will receive a single dose of LY3954068 or placebo (no active drug) given into the spinal fluid. If conducted, each participant in Part B would receive 2 doses of either LY3954068 or placebo administered into the spinal fluid.\n\nThe study will last up to approximately 45 weeks for Part A, and, if conducted, 73 weeks for Part B, including the screening period.\n\nIf the optional bridging period is conducted, participants in Part A could be enrolled in the separate potential study for up to approximately 96 weeks, including the screening period.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE1"
         ],
         "diseases_list": [
-            "Healthy",
-            "Obesity",
-            "Hypertension"
+            "Alzheimer Disease"
         ],
         "drugs_list": [
-            "LY3971297",
+            "LY3954068",
             "Placebo",
-            "LY3971297 IV"
+            "Flortaucipir F18"
         ],
-        "enrollment": 225,
-        "inclusion_criteria": "inclusion criteria: \n\n For Parts A, B, C, E, and F: Overtly healthy males or females as determined by medical history and physical examination\n For Parts A, B, C, E, and F: Have a screening body mass index (BMI) in the range of 18.5 to 35 kilogram per square meter (kg/m\u00b2), inclusive, with no significant weight gain or loss in the past 3 months prior to screening\n For Part C, to qualify as Chinese for the purpose of this study, all the participants' biological grandparents must be of exclusive Chinese descent and born in China\n For Part D, participants with obesity and hypertension must have a stable dose of antihypertensive medications within the past 3 months prior to screening\n For Part D, obesity BMI in the range of 30 to 40 kg/m\u00b2, inclusive, with a waist circumference of at least 102 centimeter (cm) for men and at least 89 cm for women\n For Part E, to qualify as a participant of the first-generation Japanese origin, the participant, the participant's biological parents, and all of the participants' biological grandparents must be of exclusive Japanese descent and born in Japan\n Male participants must agree to adhere to contraception restrictions and female participants must be women not of childbearing potential\n For Part G, have a screening BMI in the range of 18.5 to 40 kg/m\u00b2, inclusive, with no significant weight gain or loss in the past 3 months prior to screening\n For Part G, participants have an estimated glomerular filtration rate (eGFR), using the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) creatinine equation 2021 of greater than or equal to 30 and less than 60 milliliter per minute per 1.73 square meter (mL/min/1.73 m\u00b2)\n For Part G, participants are allowed to have stable background treatment for hypertension, type 2 diabetes mellitus (on oral drug therapy and/or long-acting insulin), dyslipidemia (on statin therapy) and/or hypothyroidism as determined by the investigator\n For Part G, Participants should be on a stable dose of angiotensin converting enzyme inhibitor or angiotensin II receptor blocker",
-        "exclusion_criteria": "exclusion criteria: \n\nHave a history of or current cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, or neurological disorders\nHave known or ongoing psychiatric disorders that, in the opinion of the investigator, increases the risks associated with study participation\nHave blood pressure and/or pulse rate constituting a risk as determined by the investigator\nHave a systolic blood pressure (BP) of less than 100 millimeters of mercury (mmHg)\nDiagnosed with orthostatic hypotension defined as a decrease in systolic blood pressure of equal to or greater than 20 mmHg or a decrease in diastolic blood pressure of equal to or greater than 10 mmHg when compared with BP from the supine position\nFor US sites: have donated blood of more than 500 mL within the previous 3 months of screening or intend to donate blood during the course of the study\nFor Singapore sites: Have donated blood of more than 450 mL or more in the past 3 months or provided any blood donation within the past 1 month before screening\nConsume more than 10 cigarettes per day (or the equivalent) or are unable or unwilling to abstain from nicotine\nHave alcohol intake that exceeds recommended alcohol consumption limits per local regulation or are unwilling to stop alcohol consumption 24 hours prior to dosing until discharge\nFor Part D, has concurrent use or anticipated use of phosphodiesterase 5 inhibitor such as vardenafil, tadalafil, and sildenafil, soluble guanylyl cyclase activators (such as riociguat and vericiguat)\nFor Parts D and G, has concurrent or anticipated use of long-acting nitrates or nitric oxide (NO) donors\nFor Parts D and G, has concurrent or anticipated use of beta blockers\nFor Part D, has current use of more than 3 mechanism of actions for treatment of hypertension\nFor Part G, has previous or current diagnosis of primary glomerulopathy, vasculitic renal disease, prior dialysis or unstable rapidly progressing renal disease, autosomal dominant or autosomal recessive polycystic kidney disease, lupus nephritis, or anti-neutrophil cytoplasm antibody-associated vasculitis",
+        "enrollment": 32,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) within the range 18 (17 for Japan participants) to 40 kilograms per square meter (kg/m\u00b2), inclusive, at screening.\n Have gradual and progressive change in memory function for greater than or equal to (\u2265) 6 months as reported by the participant or informant.\n Have a mini mental state examination (MMSE) score of 18 to 30 at screening.\n Have a clinical dementia rating (CDR) global score of 0.5 to 1.0, with a memory box score \u2265 0.5 at screening.\n Meet flortaucipir F18 positron emission tomography (PET) criteria, as defined in the TAUVID\u2122 FDA label (TAUVID\u2122 prescribing information, 2024), demonstrating evidence of tau pathology.\n Males who agree to follow contraceptive requirements, or women not of childbearing potential (WNOCBP).\n Participants must have up to 2 study partners who are with contact with the participant at least 10 hours per week and one of whom can attend study appointments.",
+        "exclusion_criteria": "exclusion criteria: \n\nHas current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterological, respiratory, endocrinologic, neurologic (other than Alzheimer's Disease), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses in this study; or has a life expectancy of less than (\\<)24 months.\nHave a sensitivity to flortaucipir F18.\nHave contraindication to magnetic resonance imaging (MRI), including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.\nHave a current exposure to an amyloid targeted therapy (ATT). Prior exposure to ATTs greater than 1 year from the last dose may be permitted at the discretion of the investigator and in consultation with the sponsor.\nHave previous exposure to any Investigational Medicinal Product administered intrathecal (IT) or previous exposure to any anti-tau therapy.\nHave a history of clinically significant back pain, back pathology and/or back injury (for example, degenerative disease, spinal deformity or spinal surgery) that may predispose to complications or technical difficulty with lumbar puncture.",
+        "keywords": [
+            "Dementia",
+            "Brain Diseases",
+            "Central Nervous System Diseases",
+            "Nervous System Diseases",
+            "Tauopathies",
+            "Tau",
+            "Neurodegenerative Diseases",
+            "Neurocognitive Disorders",
+            "Mental Disorders",
+            "Mild Cognitive Impairment"
+        ]
+    },
+    {
+        "trial_id": "NCT05026866",
+        "brief_title": "A Donanemab (LY3002813) Study in Participants With Preclinical Alzheimer's Disease (TRAILBLAZER-ALZ 3)",
+        "official_title": "A Study of Donanemab Versus Placebo in Participants at Risk for Cognitive and Functional Decline of Alzheimer's Disease",
+        "lillyAlias": [
+            "I5T-MC-AACM"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of donanemab in participants with preclinical Alzheimer's Disease (AD). Approximately 800 additional participants will be enrolled in a 12-month addendum to assess safety of a different titration regimen.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Alzheimer Disease"
+        ],
+        "drugs_list": [
+            "Donanemab",
+            "Placebo"
+        ],
+        "enrollment": 2196,
+        "inclusion_criteria": "inclusion criteria: \n\n A Telephone Interview for Cognitive Status - modified (TICS-M) score reflective of intact cognitive functioning.\n Has a phosphorylated tau (P-tau) result consistent with the presence of amyloid and early-tau pathology.\n Has a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.\n Have adequate literacy, vision, and hearing for neuropsychological testing at screening.\n Contraceptive use by men or women should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies\n Female participants include those who are infertile due to surgical sterilization (hysterectomy, bilateral oophorectomy, or tubal ligation), congenital anomaly such as Mullerian agenesis; or post menopausal (women 55 or older not on hormone therapy and had at least 12 months of spontaneous amenorrhea; or with a diagnosis of menopause prior to starting hormone replacement therapy.",
+        "exclusion_criteria": "exclusion criteria: \n\nMild cognitive impairment or dementia, or significant other neurodegenerative disease that can affect cognition.\nCurrent serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease that could interfere with the analysis of the study or a life expectancy of approximately \u22645 years.\nHistory of cancer with high risk of recurrence and preventing completion of the trial.\nHistory of clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions (including but not limited to erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, and/or exfoliative dermatitis).\nHave any clinically important abnormality at screening on magnetic resonance imaging (MRI) or clinical laboratory test results that could be detrimental to the participant or study integrity.\nHave any contraindications for MRI, including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.\nHave a centrally read MRI demonstrating presence of amyloid-related imaging abnormalities (ARIA-E), \\>4 cerebral microhemorrhages, more than 1 area of superficial siderosis, any macrohemorrhage or severe white matter disease at screening.\nHave had prior treatment with a passive anti-amyloid immunotherapy \\<5 half-lives prior to randomization.\nHave received active immunization against amyloid beta (A\u03b2) in any other study.\nHave received active immunization against A\u03b2 in any other study.\nCurrent or previous use of prescription medications used as treatment for mild cognitive impairment (MCI) or AD.\n\nAddendum 7 Exclusion Criteria for Clinicaltrials.gov:\n\nSame as the main study except contraindications for florbetapir F 18 PET are exclusionary.",
         "keywords": []
     },
     {
-        "trial_id": "NCT06603571",
-        "brief_title": "A Study to Investigate Weight Management With LY3841136 and Tirzepatide (LY3298176), Alone or in Combination, in Adult Participants With Obesity or Overweight With Type 2 Diabetes",
-        "official_title": "A Phase 2, Parallel-Group, Double-Blind, Placebo-Controlled Study to Investigate Weight Management With LY3841136 and Tirzepatide, Alone or in Combination, in Adult Participants With Obesity or Overweight With Type 2 Diabetes",
+        "trial_id": "NCT06653153",
+        "brief_title": "A Study of Remternetug (LY3372993) in Early Alzheimer's Disease (TRAILRUNNER-ALZ 3)",
+        "official_title": "A Study of Remternetug Versus Placebo in Early Alzheimer's Disease Participants at Risk for Cognitive and Functional Decline",
         "lillyAlias": [
-            "W8M-MC-LAA2"
+            "J1G-MC-LAKI"
         ],
-        "brief_summary": "The main purpose of this study, performed under the master protocol W8M-MC-CWMM (NCT06143956), is to investigate the safety and efficacy of LY3841136 for chronic weight management alone or in combination with Tirzepatide across a wide dose range in participants with Type 2 Diabetes. Participation in the study will last about 64 weeks.",
+        "brief_summary": "The purpose of this study is to measure the difference in time to developing or worsening memory, thinking, or functional problems due to Alzheimer's disease occurring in participants receiving study drug compared to placebo.\n\nParticipation could last up to 255 weeks including screening, a double-blind treatment period, and a double-blind observation period. In addition, eligible participants who receive placebo during the double-blind treatment period may choose to extend their study participation to receive open-label remternetug in an extension period.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Alzheimer's Disease"
+        ],
+        "drugs_list": [
+            "Remternetug",
+            "Placebo"
+        ],
+        "enrollment": 1200,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a phosphorylated tau (P-tau) result consistent with the presence of amyloid pathology.\n Have a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.\n Have adequate literacy, vision, and hearing for neuropsychological testing at screening.\n Have a Mini Mental Status Exam (MMSE) score consistent with no to minimal cognitive impairment.\n Have a Functional Activities Questionnaire (FAQ) score consistent with no to minimal functional impairment.\n If currently receiving medications as symptomatic treatment for AD, dose has been stable for at least 30 days before screening.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave dementia or significant other neurological disease that can affect cognition.\nHave current serious or unstable illnesses that in the investigator's opinion, could interfere with the analyses of the study.\nHave a history of cancer that, in the investigator's opinion, has a high risk of recurrence.\nHave a history of clinically significant multiple or severe drug allergies, or hypersensitivity reactions.\nHave a clinically important laboratory test result or other abnormality as determined by investigator, prior to randomization, that could be detrimental to the participant or could compromise the study.\nHave any contraindications for magnetic resonance imaging (MRI).\nHave a centrally read MRI that does not meets study entry criteria.\n\nPrior or Current Therapies\n\nHave ever had prior treatment with a passive anti-amyloid immunotherapy.\nHave received active immunization against A\u03b2 in any other study.",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06566170",
+        "brief_title": "A Real-World Comparative Study of Donanemab (LY3002813) Plus Usual Care Versus Usual Care Alone in US Participants With Early Symptomatic Alzheimer's Disease",
+        "official_title": "Long-Term Real-World Comparative Effectiveness of Donanemab Plus Usual Care Versus Usual Care Alone in US Patients With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-REAL US)",
+        "lillyAlias": [
+            "I5T-MC-AACS"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the long-term effectiveness of donanemab plus usual care versus usual care alone in participants with early symptomatic AD. The study will employ a prospective, observational cohort design with participant management resembling real-world practice to the greatest extent possible via prospective assessments and linkage to historical and prospective electronic health records. The study will last about 273 weeks and may include up to 28 visits.",
+        "trial_status": "RECRUITING",
+        "phase": {},
+        "diseases_list": [
+            "Alzheimer Disease"
+        ],
+        "drugs_list": [
+            "Donanemab",
+            "Usual Care"
+        ],
+        "enrollment": 3060,
+        "inclusion_criteria": "inclusion criteria: \n\nParticipants\n\n are under care for presumed mild cognitive impairment (MCI) or mild dementia stage of AD (Note: neither a biomarker-based diagnosis of AD nor a diagnosis in electronic health records \\[EHR\\] is required prior to screening)\n have a Telephone Interview for Cognitive Status (TICS) score of \u226521\n presence of amyloid beta (A\u03b2) pathology supported by biomarker results (e.g., P-tau, amyloid positron emission tomography (PET), and/or cerebrospinal fluid \\[CSF\\]). (Note: A historical biomarker may be used for eligibility if performed within 12 months of study entry)\n have a reliable study partner who is in frequent contact with the participant and will be available by telephone at designated times (every 6 months), and\n have EHR data available for linkage and are willing to allow access to EHR data for the duration of the study.",
+        "exclusion_criteria": "exclusion criteria: \n\nhave prior ischemic or hemorrhagic stroke(s) with an inability to independently perform any one or more basic activities of daily living (ADLs) (i.e., walking, transferring, eating, bathing, dressing, or toileting). (Note: mixed dementias with amyloid pathology are permitted)\nhave current or recent serious or unstable illness (other than AD) that, in the investigator's opinion, could interfere with the ability of the participant or study partner to complete the study (e.g., life expectancy of less than 36 months, requirement for long-term (\\>12 months) institutional-level care, serious psychiatric illness, etc.)\nare currently enrolled or intend to enroll in a clinical trial of another investigational product, and\nhave contraindications to donanemab, magnetic resonance imaging (MRI), or amyloid PET tracers. (Donanemab group only).",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06538116",
+        "brief_title": "A Study of Mevidalen (LY3154207) in Participants With Alzheimer's Disease",
+        "official_title": "A Randomized, Double-Blinded Study to Evaluate the Efficacy and Safety of Mevidalen in Patients With Alzheimer's Disease",
+        "lillyAlias": [
+            "I7S-MC-HBEO"
+        ],
+        "brief_summary": "The main purpose of this study is to look at how safe the study drug (mevidalen) is and whether it works to alleviate symptoms when given to people with mild to moderate Alzheimer Disease (AD) dementia. This is done by looking at participants: thinking and memory (cognition), everyday activities and sleep, AD symptoms, physical activity, irritability or anxiety. The study is expected to last approximately 26 weeks and may include up to 14 visits.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE2"
         ],
         "diseases_list": [
-            "Obesity",
-            "Overweight"
+            "Alzheimer Disease"
         ],
         "drugs_list": [
-            "LY3841136",
-            "Tirzepatide",
-            "Placebo"
-        ],
-        "enrollment": 350,
-        "inclusion_criteria": "inclusion criteria: \n\nW8M-MC-LAA2\n\n Have a Body Mass Index (BMI) of \u226527 kilograms per square meter (kg/m\u00b2)\n Have Type 2 Diabetes\n Have a HbA1c \u22657.0 % (53 millimoles/mole (mmol/mol)) to \u226410.5% (91 mmol/mol) and treated with diet and exercise alone or with a stable dose of metformin (and not more than the locally approved dose) with or without a sodium-glucose cotransporter 2 (SGLT2) inhibitor for at least 3 months prior to screening\n\nW8M-MC-CWMM:\n\n Have had a stable body weight for the 3 months prior to randomization (\\<5% body weight gain and/or loss)",
-        "exclusion_criteria": "exclusion criteria: \n\nW8M-MC-LAA2\n\nHave a history of severe hypoglycemia or hypoglycemia unawareness within the last 6 months prior to screening\nHave an on-going or history of bradyarrhythmia and/or sinus bradycardia\nHave an elevated resting pulse rate (mean \\>100 beats per minute (bpm)) or reduced resting pulse rate (mean \\<60 bpm) at screening\nHave any of the following cardiovascular conditions within 6 months prior to screening:\n\n  acute myocardial infarction\n  cerebrovascular accident (stroke)\n  unstable angina, or\n  hospitalization due to congestive heart failure\nHave renal impairment measured as estimated glomerular filtration rate (eGFR) \\<45 milliliters per minute (mL/min)/1.73 m2\nHave a history of acute or chronic pancreatitis\nHave fasting triglycerides \\>500 milligrams per deciliter (mg/dL) (5.7 mmol/L) at screening\nAll concomitant medications should be at a stable dose for at least 3 months prior to screening\n\nW8M-MC-CWMM\n\nHave a prior or planned surgical treatment for obesity, except prior liposuction or abdominoplasty, if performed \\>1 year prior to screening.\nHave type 1 diabetes mellitus, latent autoimmune diabetes in adults, or history of ketoacidosis or hyperosmolar coma.\nHave poorly controlled hypertension.\nHave a history of symptomatic gallbladder disease within the past 2 years\nHave signs and symptoms of any liver disease other than nonalcoholic fatty liver disease.\nHave a lifetime history of suicide attempts.",
-        "keywords": [
-            "Type 2 Diabetes"
-        ]
-    },
-    {
-        "trial_id": "NCT06649045",
-        "brief_title": "A Master Protocol for Orforglipron in Participants With Obstructive Sleep Apnea and Obesity or Overweight",
-        "official_title": "A Master Protocol to Investigate the Efficacy and Safety of Orforglipron Once Daily in Participants Who Have Obstructive Sleep Apnea and Obesity or Overweight: A Randomized, Double-Blind, Placebo-Controlled Trial",
-        "lillyAlias": [
-            "J5P-MC-GZRA",
-            "J5P-MC-GZ01",
-            "J5P-MC-GZ02"
-        ],
-        "brief_summary": "Study GZRA is a master protocol that will support 2 independent studies, GZ01 and GZ02. Participants will be assigned to the appropriate study prior to randomization. The purpose of the studies is to evaluate the efficacy and safety of orforglipron in participants who have moderate-to-severe OSA and obesity or overweight. Study GZ01 will include participants who are unable or are unwilling to use PAP therapy. Study GZ02 will include participants who are on PAP therapy for at least 3 months at time of screening and plan to continue PAP therapy during the study.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "OSA",
-            "Overweight or Obesity"
-        ],
-        "drugs_list": [
-            "Orforglipron",
-            "Placebo"
-        ],
-        "enrollment": 600,
-        "inclusion_criteria": "inclusion criteria: \n\nMaster GZRA inclusion criteria\n\n have AHI \u226515 on PSG as part of the trial at screening (V1).\n have body mass index (BMI) \u226527 kg/m\u00b2\n\nStudy 1 GZ01 inclusion criteria\n\n Participants who are unable or unwilling to use PAP therapy.\n Participants must not have used PAP for at least 4 weeks prior to screening.\n\nStudy 2 GZ02 inclusion criteria\n\n Participants who have been on PAP therapy for at least 3 consecutive months prior to study start and plan to continue PAP therapy during the study.",
-        "exclusion_criteria": "exclusion criteria: \n\nMaster GZRA exclusion criteria\n\nHave Type 1 diabetes (T1D) or Type 2 diabetes (T2D), history of ketoacidosis, or hyperosmolar state/coma\nHave HbA1c \u22656.5% (\u2265 48 mmol/mol), as determined by the central laboratory at Visit 1.\nHad any previous or planned upper airway surgery for sleep apnea or major ear, nose or throat surgery\nHave diagnosis of Central or Mixed Sleep Apnea with % of mixed or central apneas/hypopneas \u226550%, or diagnosis of Cheyne Stokes Respiration\nDiagnosis of Obesity Hypoventilation Syndrome or daytime hypercapnia.\nActive device treatment of OSA other than PAP therapy\nRespiratory and neuromuscular diseases that could interfere with the results of the trial in the opinion of the investigator.\nHave a self-reported change in body weight \\>5 kg within 3 months prior to screening\nHave a prior or planned surgical treatment for obesity (excluding liposuction, abdominoplasty or cryolipolysis if performed more than 1 year prior to screening)\nHave a prior or planned endoscopic and/or present device-based therapy for obesity.\nHave obesity induced by other endocrinologic disorders or diagnosed monogenetic or syndromic forms of obesity.\n\nStudy 2 GZ02 exclusion criteria\n\nHave personal or job-related responsibilities, or in the opinion of the investigator have any situation that would make it unsafe to stop PAP therapy for 7 days prior to PSG testing during the study.\nAre unwilling to temporary discontinue PAP therapy for 7 days prior to PSG testing during the study.",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT06606106",
-        "brief_title": "A Study of LY3537031 in Overweight, Obese, and Healthy Participants",
-        "official_title": "A Multiple-Ascending Dose Study to Investigate the Safety, Pharmacokinetics, and Pharmacodynamics of LY3537031 in Overweight and Obese Participants and Healthy Volunteers",
-        "lillyAlias": [
-            "J2S-MC-GZMD"
-        ],
-        "brief_summary": "This is a 3-part study that includes a Part A, Part B, and Part C. Part A will study the safety and tolerability of the study drug known as LY3537031 in participants who are overweight and obese. Part B and Part C will study the safety and tolerability of LY3537031 in healthy participants. Part C will contain only Japanese and Chinese healthy participants.\n\nBlood tests will be performed to check how much LY3537031 gets into the bloodstream and how long it takes the body to eliminate it. Body weight will be measured. The study will last approximately 20 weeks excluding a screening period.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE1"
-        ],
-        "diseases_list": [
-            "Healthy",
-            "Obesity"
-        ],
-        "drugs_list": [
-            "LY3537031",
-            "Placebo"
-        ],
-        "enrollment": 230,
-        "inclusion_criteria": "inclusion criteria: \n\n Have a BMI within the range of:\n\n   Part A: 27.0 to 45.0 kilogram per square meter (kg/m\u00b2)\n   Part B: 22.0 to 26.9 kg/m\u00b2\n Parts B and C: Weigh 60 kg (80 lbs) or more at screening\n Have no significant (not more than 5%) self-reported weight gain or loss in the past 3 months prior to screening\n Have a thyroid stimulating hormone (TSH) value within normal local laboratory ranges.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave undergone any form of bariatric surgery\nParticipants who are lactating\nHave taken medications that promote weight loss within 90 days before screening\nHave a serum calcitonin level (at screening) of greater than or equal to 35 nanograms per liter (ng/L) (35 picograms per milliliter (pg/mL))",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT06672549",
-        "brief_title": "A Platform Trial for Pediatric Participants With Obesity or Overweight (LY900040)",
-        "official_title": "A Master Protocol for a Randomized, Controlled, Clinical Platform Trial to Investigate the Efficacy and Safety of Interventions for Chronic Weight Management in Pediatric Participants With Obesity or Overweight",
-        "lillyAlias": [
-            "J4M-MC-PWMP"
-        ],
-        "brief_summary": "The purpose of this pediatric, chronic weight management, Phase 3 Master Protocol (PWMP) is to create a framework to evaluate the safety and efficacy of pharmacologic agents for the treatment of obesity or overweight in pediatric participants.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Obesity",
-            "Overweight"
-        ],
-        "drugs_list": [
-            "Orforglipron",
-            "Placebo"
-        ],
-        "enrollment": 125,
-        "inclusion_criteria": "inclusion criteria: \n\n Have a history of at least 1 unsuccessful effort to lose sufficient body weight after participation in a structured lifestyle modification program (diet and exercise counseling for at least 3 months) prior to screening.\n Obesity as defined by BMI equal to or above the 95th percentile for age and sex (on age- and gender-specific growth chart \\[CDC-NCHS, 2022\\]); OR\n Applies to participant age between 12 and \\<18 years old. Overweight as defined by BMI equal to or above the 85th percentile but less than the 95th percentile for age and sex, on age- and sex-specific growth chart (CDC-NCHS, 2022), and at least 1 weight-related comorbidity,\n\n   hypertension\n   type 2 diabetes (T2D)\n   prediabetes\n   dyslipidemia\n   obstructive sleep apnea\n   metabolic dysfunction-associated steatohepatitis (MASH) or metabolic dysfunction-associated steatotic liver disease (MASLD)",
-        "exclusion_criteria": "exclusion criteria: \n\nHave undergone or plan to undergo weight reduction procedure during the study, such as, but not limited to:\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band\u00ae gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a diagnosis that is a secondary cause of obesity or have a history of abrupt onset of obesity suggesting a secondary cause, such as hypothalamic, monogenetic, syndromic, or endocrine causes.\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state.\nHave HbA1c \\>9.0% (75 mmol/mol) as measured by central laboratory at screening.\nHave a family or personal history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia Syndrome Type 2.",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT06672939",
-        "brief_title": "A Study of Orforglipron (LY3502970) in Adolescent Participants With Obesity, or Overweight With Related Comorbidities",
-        "official_title": "Efficacy, Safety, and Pharmacokinetics of Orforglipron Once Daily Oral Versus Placebo in Adolescent Participants Who Have Obesity, or Overweight With Weight-Related Comorbidities: A Randomized, Double-Blind Trial (ADVANCE-ATTAIN-ADOLESCENTS)",
-        "lillyAlias": [
-            "J4M-MC-PW01"
-        ],
-        "brief_summary": "The main purpose of this study, performed under Master Protocol J4M-MC-PWMP, is to evaluate the efficacy, safety, and pharmacokinetics of orforglipron once daily oral versus Placebo in adolescent participants with obesity, or overweight with related comorbidities. Participation in the study will last about 18 months.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Obesity",
-            "Overweight"
-        ],
-        "drugs_list": [
-            "Orforglipron",
-            "Placebo"
-        ],
-        "enrollment": 125,
-        "inclusion_criteria": "inclusion criteria: \n\nJ4M-MC-PWMP\n\n Have a history of at least 1 unsuccessful effort to lose sufficient body weight after participation in a structured lifestyle modification program (diet and exercise counseling for at least 3 months) prior to screening.\n Obesity as defined by BMI equal to or above the 95th percentile for age and sex (on age- and gender-specific growth chart \\[CDC-NCHS, 2022\\]); OR\n Overweight as defined by BMI equal to or above the 85th percentile but less than the 95th percentile for age and sex, on age- and sex-specific growth chart (CDC-NCHS, 2022), and at least 1 weight-related comorbidity,\n\n   hypertension\n   type 2 diabetes (T2D)\n   prediabetes\n   dyslipidemia\n   obstructive sleep apnea\n   metabolic dysfunction-associated steatohepatitis (MASH) or metabolic dysfunction-associated steatotic liver disease (MASLD)",
-        "exclusion_criteria": "exclusion criteria: \n\nJ4M-MC-PW01\n\nPrepubertal (Tanner stage 1)\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kilograms (kg) (11 pounds) within 90 days before screening\n\nJ4M-MC-PWMP\n\nHave undergone or plan to undergo weight reduction procedure during the study, such as, but not limited to:\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band\u00ae gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a diagnosis that is a secondary cause of obesity or have a history of abrupt onset of obesity suggesting a secondary cause, such as hypothalamic, monogenetic, syndromic, or endocrine causes.\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state.\nHave HbA1c \\>9.0% (75 mmol/mol) as measured by central laboratory at screening.\nHave a family or personal history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia Syndrome Type 2.",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT06313528",
-        "brief_title": "A Study to Measure Calorie Consumption and Usage in Participants With Obesity Using LY3437943",
-        "official_title": "A Randomized, Double-Blind, Phase 1 Study to Investigate the Effect of LY3437943 Versus Placebo on Calorie Intake and Energy Expenditure in Participants With Obesity Under Calorie Restriction",
-        "lillyAlias": [
-            "J1I-MC-GZBW"
-        ],
-        "brief_summary": "The main purpose of the study is to look at the effect of the study drug compared to placebo on calorie intake, energy metabolism, and appetite. The study will last up to 6 months and may include up to 20 visits.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE1"
-        ],
-        "diseases_list": [
-            "Obesity"
-        ],
-        "drugs_list": [
-            "LY3437943",
-            "Placebo"
-        ],
-        "enrollment": 74,
-        "inclusion_criteria": "inclusion criteria: \n\n BMI greater than 30 kg/m2\n History of at least 1 self-reported unsuccessful dietary effort to reduce body weight",
-        "exclusion_criteria": "exclusion criteria: \n\nChange in body weight of greater than 5 kg (11 pounds) within 3 months prior to start of study\nAny of the following treatments for obesity within 1 year prior, or plan to undergo any of these during the study period: liposuction, cryolipolysis, or abdominoplasty\nPrior or planned bariatric or gastric sleeve surgery, endoscopic therapy, or device-based therapy for obesity\nType 1 or Type 2 Diabetes, history of ketoacidosis, or hyperosmolar state\nFamily or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome Type 2\nAcute or chronic hepatitis\nHad within 90 days prior: acute myocardial infarction, cerebrovascular accident (stroke), coronary artery revascularization, hospitalization for unstable angina, or hospitalization due to congestive heart failure\nHistory of active or unstable major depressive disorder or other severe psychiatric disorder within 2 years prior\nHistory of chronic or acute pancreatitis\nBlood transfusion or severe blood loss within the last 3 months or hemoglobinopathy, hemolytic anemia, sickle cell anemia\nClinically significant multiple or severe drug allergies\nStarted treatment with or changed dose within 12 months prior any medications that are associated with significant weight gain\nHistory of substance use disorder",
-        "keywords": [
-            "Food",
-            "Diet"
-        ]
-    },
-    {
-        "trial_id": "NCT06439277",
-        "brief_title": "A Study of Tirzepatide in Adolescents With Obesity and Weight-Related Comorbidities (SURMOUNT-ADOLESCENTS-2)",
-        "official_title": "Efficacy and Safety of Tirzepatide Once Weekly Versus Placebo for the Treatment of Obesity and Weight-Related Comorbidities in Adolescents: A Randomized, Double-Blind, Placebo- Controlled Trial (SURMOUNT-ADOLESCENTS-2)",
-        "lillyAlias": [
-            "I8F-MC-GPIX"
-        ],
-        "brief_summary": "The goal of the study is to assess how tirzepatide impacts bodyweight and cardiovascular risk factors when used in conjunction with healthy nutrition and physical activity in adolescents with obesity and multiple weight related comorbidities. The study will last approximately 76 weeks and may include up to 23 visits.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Obesity",
-            "Weight Gain"
-        ],
-        "drugs_list": [
-            "Tirzepatide",
+            "Mevidalen",
             "Placebo"
         ],
         "enrollment": 300,
-        "inclusion_criteria": "inclusion criteria: \n\n Have body mass index (BMI) equal to or above the 95th percentile for age and sex (on age and gender-specific growth chart for diagnosis of obesity) with at least 2 of the following predefined weight-related comorbidities: hypertension, prediabetes and hypertriglyceridemia.\n Have history of at least 1 self-reported unsuccessful dietary effort to lose weight.\n Are capable of giving signed informed consent by a legal representative or assent by a study participant (when applicable).",
-        "exclusion_criteria": "exclusion criteria: \n\nHave undergone or plan to undergo a weight reduction procedure during the study, such as, but not limited to\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band gastric banding, or\n  any other procedure intended to result in weight reduction.\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight greater than 5 kg (11 lbs) within 90 days before screening irrespective of medical records\nHave type 1 diabetes or history of ketoacidosis, or hyperosmolar state\nHave type 2 diabetes or have a HbA1c \\> 6.4% at screening\nHave a history of chronic or acute pancreatitis\nHave a family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2",
+        "inclusion_criteria": "inclusion criteria: \n\n Have gradual and progressive decline in memory function for greater than or equal to 6 months that is severe enough to interfere with activities of daily living.\n Have MMSE score of 13 to 24.\n Have eligibile plasma P-tau or historical evidence of AD pathology.\n Have a reliable study partner who will provide written informed consent to participate, is in frequent contact with the participant and will be available at designated times.\n Males with partners of childbearing potential must agree to abide with provided contraception guidance.",
+        "exclusion_criteria": "exclusion criteria: \n\nAre individuals of childbearing potential.\nHave significant central nervous system or psychiatric disease, other than AD, that in the investigator's opinion may affect cognition or the ability to complete the study (e.g: head trauma, stroke, seizure disorder etc.,).\nHave cardiovascular-related risk factors or history that include uncontrolled hypertension, heart failure, stroke; or liver-related abnormalities.\nUse of moderate or strong CYP3A4 inhibitors or inducers.\nHave participated within the last 30 days in a clinical trial involving an investigational product.\nParticipant is, in the judgment of the investigator, actively suicidal and therefore deemed to be at significant risk for suicide.",
         "keywords": []
     },
     {
-        "trial_id": "NCT06075667",
-        "brief_title": "A Study of Tirzepatide (LY3298176) Once Weekly in Adolescent Participants Who Have Obesity or Overweight With Weight-Related Comorbidities",
-        "official_title": "Efficacy, Safety, and Pharmacokinetics of Tirzepatide Once Weekly Versus Placebo in Adolescent Participants Who Have Obesity, or Are Overweight With Weight-Related Comorbidities: A Randomized, Double-Blind Trial (SURMOUNT-ADOLESCENTS)",
+        "trial_id": "NCT06220669",
+        "brief_title": "A Study of LY3541860 in Adult Participants With Relapsing Multiple Sclerosis",
+        "official_title": "An Adaptive Phase 2a/2b, Randomized, Double-Blind, Parallel-Group Study to Investigate the Safety and Efficacy of LY3541860 Compared to Placebo in Slowing the Occurrence of New T1 Gadolinium-Enhancing Lesions in Adult Participants With Relapsing Multiple Sclerosis",
         "lillyAlias": [
-            "I8F-MC-GPHP"
+            "J3K-MC-KIAB"
         ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of tirzepatide in adolescents that have obesity or overweight with at least one weight-related comorbidity. The study will last approximately 90 weeks and may include up to 25 visits.",
+        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of LY3541860 in adult participants with multiple sclerosis that gets worse and gets better. The study will last about 9 months with additional 6 months follow-up.",
         "trial_status": "RECRUITING",
         "phase": [
-            "PHASE3"
+            "PHASE2"
         ],
         "diseases_list": [
-            "Obesity",
-            "Overweight"
+            "Multiple Sclerosis"
         ],
         "drugs_list": [
-            "Tirzepatide",
+            "LY3541860",
             "Placebo"
         ],
-        "enrollment": 150,
-        "inclusion_criteria": "inclusion criteria: \n\n Have obesity, as defined by BMI equal to or above the 95th percentile for age and sex, on age- and sex-specific growth chart, OR\n Have overweight, as defined by BMI equal to or above the 85th percentile but less than the 95th percentile for age and sex, on age- and sex-specific growth chart, with at least 1 weight-related comorbidity.\n\n   dyslipidemia\n   pre-hypertension\n   hypertension\n   nonalcoholic fatty liver disease\n   obstructive sleep apnea\n   prediabetes\n   documented preexisting condition of Type 2 Diabetes\n\nParticipants with Type 2 Diabetes Mellitus (T2DM)\n\n Have been treated with either diet and exercise alone or stable treatment with metformin for at least 90 days prior to screening and have a HbA1c\\<9.0%",
-        "exclusion_criteria": "exclusion criteria: \n\nHave a self-reported, or by parent or legal guardian where applicable, decrease in body weight more than 5 kilogram (kg) (11 lbs.) within 90 days before screening irrespective of medical records.\nHave Type 1 Diabetes\nHave taken within 90 days before screening or intend to start prescribed or over-the-counter medications, or alternative remedies including herbal or nutritional supplements, intended to promote body weight reduction.\nAre prepubertal (Tanner stage 1).\nHave a family or personal history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia (MEN) Syndrome Type 2\nHave a history of chronic or acute pancreatitis.\nHave undergone or plan to undergo weight reduction procedure during the study, such as, but not limited to\n\n  gastric bypass\n  sleeve gastrectomy\n  restrictive bariatric surgery, such as Lap-Band gastric banding, or\n  any other procedure intended to result in weight reduction.",
+        "enrollment": 200,
+        "inclusion_criteria": "inclusion criteria: \n\n Participants must meet criteria for relapsing forms of multiple sclerosis, including relapsing-remitting multiple sclerosis based on the 2017 revision of the McDonald diagnostic criteria (Thompson et al. 2018) with a relapsing course (RMS) activity according to Klineova and Lublin 2018.\n Participants must have 1 of these:\n\n   at least 1 documented relapse within the previous year\n   at least 2 documented relapses within the previous 2 years, or\n   at least 1 active GdE brain lesion on an MRI scan in the past 180 days prior to screening.\n Have an Expanded Disability Status Scale (EDSS) score of less than or equal to (\u2264) 5.5 at screening and randomization.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave had a diagnosis of:\n\n  primary progressive multiple sclerosis (MS) according to the 2017 revision of McDonald diagnostic criteria (Thompson et al. 2018), or\n  nonactive secondary progressive MS ( Klineova and Lublin 2018).\nMeet criteria for neuromyelitis optica spectrum disorder (Wingerchuk and Lucchinetti 2022).\nHave a history of clinically significant central nervous system (CNS) disease.\nHave had a confirmed relapse with systemic corticosteroid administration \\<30 days prior to randomization.\nHave more than 20 active GdE brain lesions on screening MRI scan.\nHave received any of these medications or treatments.\nHave a current or recent acute, active infection.\nHave current serious or unstable illnesses.\nHave any other clinically important abnormality at screening or baseline.",
+        "keywords": [
+            "Relapsing remitting multiple sclerosis, Clinically isolated syndrome, Secondary progressive multiple sclerosis with disease activity."
+        ]
+    },
+    {
+        "trial_id": "NCT06809400",
+        "brief_title": "A Study of LY4006896 in Healthy Participants and Participants With Parkinson's Disease",
+        "official_title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY4006896 in Healthy Participants and Participants With Parkinson's Disease",
+        "lillyAlias": [
+            "J5V-MC-ORAA"
+        ],
+        "brief_summary": "The purpose of this study is to generate evidence of the safety, tolerability, and pharmacokinetics/pharmacodynamics of IV LY4006896 compared with placebo in healthy participants and participants with Parkinson's disease.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE1"
+        ],
+        "diseases_list": [
+            "Parkinson Disease"
+        ],
+        "drugs_list": [
+            "LY4006896",
+            "Placebo"
+        ],
+        "enrollment": 127,
+        "inclusion_criteria": "inclusion criteria: \n\nPart A Single Ascending Dose (SAD) and B Multiple Ascending Dose (MAD)\n\n Have a body mass index within the range of 18 to 34 kilogram/square meter (kg/m\u00b2) (inclusive).\n For Japanese participants: To qualify as a participant of first-generation Japanese origin, the participant, the participant's biological parents, and all of the participant's biological grandparents must be of exclusive Japanese descent and born in Japan.\n Have venous access sufficient to allow for blood sampling or administration of study intervention for IV administration, or both.\n\nPart A (SAD) Only\n\n Are overtly healthy\n For Chinese participants: To qualify as Chinese for this study, all 4 of the participant's biological grandparents must be exclusive Chinese descent and born in China.\n\nPart B (MAD) Only\n\n Diagnosis of Parkinson's disease per United Kingdom (UK) Parkinson's Disease Society Brain Bank Clinical Diagnostic Criteria.\n If presently untreated for Parkinson's disease, clinical status is not expected to require changes in symptomatic treatment within 52 weeks from baseline.\n If presently being treated for Parkinson's disease, receiving a stable dose of symptomatic dopaminergic therapy, including monoamine oxidase-B inhibitor, levodopa/carbidopa or dopamine agonist for at least 90 days prior to baseline and not expected to change within 52 weeks.\n Have a Montreal Cognitive Assessment (MoCA) score of greater than or equal to (\u2265) 26.",
+        "exclusion_criteria": "exclusion criteria: \n\nPart A (SAD) and B (MAD)\n\nHave significant neurological disease affecting the central nervous system (CNS) (other than Parkinson's disease in Part B cohorts) that may affect the participant's ability to complete the study.\nHave a history or presence of serious or unstable illnesses or conditions that, in the investigator's opinion, could interfere with the analyses in this study, or increase risk for study intervention administration, or result in a participant's life expectancy of less than 24 months.\nHave known allergies to LY4006896, related compounds, or any components of the formulation, or history of allergic reactions to any transferrin receptor antibodies.\nHave significant allergies to humanize monoclonal antibodies.\nHave clinically significant multiple or severe drug allergies (including, but not limited to, erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, or exfoliative dermatitis); or intolerance to topical corticosteroids, or severe posttreatment hypersensitivity reactions.\nHave history or presence of uncontrolled asthma, significant autoimmune disease, hereditary angioedema, or known history of common variable immune deficiency.\nEvidence of clinically significant anemia.\n\nPart A (SAD) Only\n\nHave an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or a preexisting history of hypertension.\n\nPart B (MAD) Only\n\nHave an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or have uncontrolled hypertension, defined as a systolic blood pressure \\>150 mm Hg or a diastolic blood pressure \\>95 mm Hg at Screening or Treatment Visits.",
         "keywords": []
+    },
+    {
+        "trial_id": "NCT06657768",
+        "brief_title": "A Study of LY4006895 in Healthy Participants With Early Symptomatic Alzheimer's Disease (AD)",
+        "official_title": "A Placebo-Controlled, Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, PK and PD of LY4006895 in Healthy Volunteers and Patients With Early Symptomatic AD",
+        "lillyAlias": [
+            "J5K-MC-OQAA"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the safety and tolerability of the study drug known as LY4006895. Part A will administer a single-ascending dose in healthy participants or Part B will administer multiple-ascending doses in participants with early symptomatic Alzheimer's Disease (AD).\n\nBlood tests will be performed to check how much LY4006895 gets into the bloodstream and how long it takes the body to eliminate it.\n\nThis is a 2-part study and will last approximately 29 weeks for Part A and 61 weeks for Part B, including a screening period for each part.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE1"
+        ],
+        "diseases_list": [
+            "Alzheimer Disease",
+            "Healthy"
+        ],
+        "drugs_list": [
+            "LY4006895",
+            "Placebo"
+        ],
+        "enrollment": 68,
+        "inclusion_criteria": "inclusion criteria: \n\n ",
+        "exclusion_criteria": "exclusion criteria: \n\n ",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06413706",
+        "brief_title": "A Study Comparing Abemaciclib Plus Temozolomide to Temozolomide Monotherapy in Children and Young Adults With High-grade Glioma Following Radiotherapy",
+        "official_title": "A Randomized, Open-Label, Phase 2 Study Evaluating Abemaciclib in Combination With Temozolomide Compared to Temozolomide Monotherapy in Children and Young Adults With Newly Diagnosed High-Grade Glioma Following Radiotherapy",
+        "lillyAlias": [
+            "I3Y-MC-JPEH"
+        ],
+        "brief_summary": "The purpose of this study is to measure the benefit of adding abemaciclib to the chemotherapy, temozolomide, for newly diagnosed high-grade glioma following radiotherapy.\n\nYour participation could last approximately 11 months and possibly longer depending upon how you and your tumor respond.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE2"
+        ],
+        "diseases_list": [
+            "Glioma"
+        ],
+        "drugs_list": [
+            "Abemaciclib",
+            "Temozolomide"
+        ],
+        "enrollment": 45,
+        "inclusion_criteria": "inclusion criteria: \n\n Biopsy proven high-grade glioma (HGG) as defined by 2016 World Health Organization (WHO) Classification Criteria, Grade 3-4 including:\n Anaplastic astrocytoma\n Anaplastic ganglioglioma\n Anaplastic oligodendroglioma.\n Anaplastic pleomorphic xanthoastrocytoma,\n Glioblastoma\n\nOR as defined by the 2021 WHO Classification Criteria as molecularly characterized:\n\n Non-pontine diffuse midline glioma, H3 K27-altered,\n Diffuse hemispheric glioma, H3 G34-mutant\n Diffuse pediatric HGG, H3/IDH-wildtype\n Infant-type hemispheric glioma\n High-grade astrocytoma with piloid features\n High-grade pleomorphic xanthoastrocytoma\n IDH-mutant diffuse glioma with homozygous cyclin- dependent kinase inhibitor 2A/B (CDKN2A/B) deletion,\n IDH-mutant and 1p/19q co-deleted oligodendroglioma\n IDH-mutant astrocytoma with homozygous CDKN2A/B deletion\n Contraceptive use should be consistent with local regulations for participants in clinical studies.\n Radiotherapy initiated within 6 weeks (+1 week) of diagnosis and administered over 6 weeks (\u00b11 week). Participants \\<3 years of age, considered not suitable for radiotherapy may be eligible.\n Minimum of 4 weeks between completion of radiation and Cycle 1 Day 1 (C1D1).\n Maximum of 8 weeks between completion of radiation and C1D1. Exceptional circumstances can be discussed with the medical monitor.\n Acute effects of prior therapies must be Grade \u22641 unless deemed clinically insignificant by the investigator.\n Adequate hematologic and organ function \u22647 days prior to C1D1\n Life expectancy of \u22658 weeks and deemed likely to complete at least 1 cycle of treatment.\n A performance score of \u226560 using:\n\n  1. Lansky scale for participants \\<16 years\n  2. Karnofsky scale for participants \u226516 years\n Able to swallow and/or have a gastric/nasogastric tube.\n Any current systemic steroid use dose must be stable or decreasing at least 7 days prior to C1D1.\n Able and willing to adhere to study procedures, including frequent blood draws and MRI.\n At least 28 days since any major surgery, laparoscopic procedure, or a significant traumatic injury.\n Has a body surface area (BSA) of \u22650.2 m2.",
+        "exclusion_criteria": "exclusion criteria: \n\nParticipants are excluded if any of the following apply:\n\nDiffuse Intrinsic Pontine Glioma (DIPG) or diffuse midline glioma located in the pons.\nRecurrent or refractory HGG including any recurrence/progression during/after radiotherapy.\nSecondary HGG, defined as a previously treated low-grade glioma that now meets high- grade criteria, or that resulted from a previously treated malignancy.\nHave known pathogenic somatic mutations appropriate for an anaplastic lymphoma kinase (ALK), B-rapidly accelerated fibrosarcoma (BRAF), or neurotrophic tyrosine receptor kinase (NTRK ) inhibitor, in regions where these therapies are available and deemed appropriate by the investigator.\nPrior HGG treatment (including bevacizumab), except for surgery and radiotherapy (with or without concomitant temozolomide).\nCurrent enrollment in another trial deemed incompatible with this study.\nTreatment with an investigational product within the last 30 days or 5 half-lives (whichever is longer).\nPrior malignancy within the previous 3 years that, per the investigator and the medical monitor, may affect interpretation of study results.\nA preexisting medical condition(s) that, per the investigator, would preclude study participation.\nAny serious, active, systemic infection requiring IV antibiotic, antifungal, or antiviral therapy, including acute hepatitis B or C, or Human Immunodeficiency Virus at C1D1.\nIntolerability or hypersensitivity such as urticaria, anaphylaxis, toxic necrolysis, and/or Stevens-Johnson syndrome to temozolomide, and/or abemaciclib, their excipients, or dacarbazine.\nReceived a live virus vaccine within 28 days of C1D1.\nPregnant, breastfeeding, or intend to become pregnant during the study.",
+        "keywords": [
+            "Brain tumor",
+            "Central nervous system (CNS) tumor",
+            "Spinal cord tumor",
+            "Cyclin-dependent kinase (CDK) 4/6 inhibitor"
+        ]
     }
 ]

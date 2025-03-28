@@ -5,6 +5,7 @@ import sys
 from TrialGPT import trialgpt_matching
 from openai import AzureOpenAI
 from dotenv import load_dotenv
+import boto3
 
 load_dotenv()
 

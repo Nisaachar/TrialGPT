@@ -5,6 +5,7 @@ import os
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 from ollama import Client
+import boto3
 
 load_dotenv()
 
@@ -14,9 +15,7 @@ load_dotenv()
 # 	api_key=os.getenv("OPENAI_API_KEY"),
 # )
 
-client = Client(
-  host='http://localhost:11434'
-)
+client = boto3.client(service_name="bedrock-runtime")
 
 def parse_criteria(criteria):
 	output = ""
