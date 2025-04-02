@@ -13,12 +13,6 @@ import boto3
 
 load_dotenv()
 
-# Initialize the Azure OpenAI client
-# client = AzureOpenAI(
-#     api_version="2023-09-01-preview",
-#     azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-#     api_key=os.getenv("OPENAI_API_KEY"),
-# )
 
 client = boto3.client(service_name="bedrock-runtime")
 
@@ -29,15 +23,16 @@ def get_keyword_generation_messages(note, max_keywords):
     system = (
         f'You are a helpful assistant and your task is to help search relevant clinical trials for a given patient description. '
         f'Please first summarize the main medical problems of the patient. Then generate up to {max_keywords} key conditions for searching relevant clinical trials for this patient. '
-        'The key condition list should be ranked by priority. Please output only a JSON dict formatted as Dict{{"summary": Str(summary), "conditions": List[Str(condition)]}}.'
+        'The key condition list should be ranked by priority. Output only a JSON dict formatted as Dict{{"summary": Str(summary), "conditions": List[Str(condition)]}} and nothing else.'
     )
 
     prompt = f"Here is the patient description: \n{note}\n\nJSON output:"
 
-    combined_prompt = f"{system}\n\n{prompt}"
+    # combined_prompt = f"{system}\n\n{prompt}"
 
     messages = [
-        {"role": "user", "content": [{"text": combined_prompt}]}
+        {"role": "user", "content": [{"text": prompt}]},
+        {"role": "assistant", "content": [{"text": system}]}
     ]
 
     return messages
@@ -60,12 +55,11 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
     response = client.converse(
         modelId="us.amazon.nova-micro-v1:0",
         messages=messages,
-        # options= {
-        #     "num_ctx": 2048,
-        #     "temperature": 0
-        # }
+        inferenceConfig={
+        "temperature": 0.0
+        }
     )
-    
+
     output = response["output"]["message"]["content"][0]["text"] 
     output = output.strip("`").strip("json")
 

@@ -37,6 +37,30 @@
         ]
     },
     {
+        "trial_id": "NCT05026866",
+        "brief_title": "A Donanemab (LY3002813) Study in Participants With Preclinical Alzheimer's Disease (TRAILBLAZER-ALZ 3)",
+        "official_title": "A Study of Donanemab Versus Placebo in Participants at Risk for Cognitive and Functional Decline of Alzheimer's Disease",
+        "lillyAlias": [
+            "I5T-MC-AACM"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of donanemab in participants with preclinical Alzheimer's Disease (AD). Approximately 800 additional participants will be enrolled in a 12-month addendum to assess safety of a different titration regimen.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Alzheimer Disease"
+        ],
+        "drugs_list": [
+            "Donanemab",
+            "Placebo"
+        ],
+        "enrollment": 2196,
+        "inclusion_criteria": "inclusion criteria: \n\n A Telephone Interview for Cognitive Status - modified (TICS-M) score reflective of intact cognitive functioning.\n Has a phosphorylated tau (P-tau) result consistent with the presence of amyloid and early-tau pathology.\n Has a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.\n Have adequate literacy, vision, and hearing for neuropsychological testing at screening.\n Contraceptive use by men or women should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies\n Female participants include those who are infertile due to surgical sterilization (hysterectomy, bilateral oophorectomy, or tubal ligation), congenital anomaly such as Mullerian agenesis; or post menopausal (women 55 or older not on hormone therapy and had at least 12 months of spontaneous amenorrhea; or with a diagnosis of menopause prior to starting hormone replacement therapy.",
+        "exclusion_criteria": "exclusion criteria: \n\nMild cognitive impairment or dementia, or significant other neurodegenerative disease that can affect cognition.\nCurrent serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease that could interfere with the analysis of the study or a life expectancy of approximately \u22645 years.\nHistory of cancer with high risk of recurrence and preventing completion of the trial.\nHistory of clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions (including but not limited to erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, and/or exfoliative dermatitis).\nHave any clinically important abnormality at screening on magnetic resonance imaging (MRI) or clinical laboratory test results that could be detrimental to the participant or study integrity.\nHave any contraindications for MRI, including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.\nHave a centrally read MRI demonstrating presence of amyloid-related imaging abnormalities (ARIA-E), \\>4 cerebral microhemorrhages, more than 1 area of superficial siderosis, any macrohemorrhage or severe white matter disease at screening.\nHave had prior treatment with a passive anti-amyloid immunotherapy \\<5 half-lives prior to randomization.\nHave received active immunization against amyloid beta (A\u03b2) in any other study.\nHave received active immunization against A\u03b2 in any other study.\nCurrent or previous use of prescription medications used as treatment for mild cognitive impairment (MCI) or AD.\n\nAddendum 7 Exclusion Criteria for Clinicaltrials.gov:\n\nSame as the main study except contraindications for florbetapir F 18 PET are exclusionary.",
+        "keywords": []
+    },
+    {
         "trial_id": "NCT06297590",
         "brief_title": "A First-In-Human Study of LY3954068 in Participants With Early Symptomatic Alzheimer's Disease",
         "official_title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3954068 in Patients With Early Symptomatic Alzheimer's Disease",
@@ -71,30 +95,6 @@
             "Mental Disorders",
             "Mild Cognitive Impairment"
         ]
-    },
-    {
-        "trial_id": "NCT05026866",
-        "brief_title": "A Donanemab (LY3002813) Study in Participants With Preclinical Alzheimer's Disease (TRAILBLAZER-ALZ 3)",
-        "official_title": "A Study of Donanemab Versus Placebo in Participants at Risk for Cognitive and Functional Decline of Alzheimer's Disease",
-        "lillyAlias": [
-            "I5T-MC-AACM"
-        ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of donanemab in participants with preclinical Alzheimer's Disease (AD). Approximately 800 additional participants will be enrolled in a 12-month addendum to assess safety of a different titration regimen.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Alzheimer Disease"
-        ],
-        "drugs_list": [
-            "Donanemab",
-            "Placebo"
-        ],
-        "enrollment": 2196,
-        "inclusion_criteria": "inclusion criteria: \n\n A Telephone Interview for Cognitive Status - modified (TICS-M) score reflective of intact cognitive functioning.\n Has a phosphorylated tau (P-tau) result consistent with the presence of amyloid and early-tau pathology.\n Has a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.\n Have adequate literacy, vision, and hearing for neuropsychological testing at screening.\n Contraceptive use by men or women should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies\n Female participants include those who are infertile due to surgical sterilization (hysterectomy, bilateral oophorectomy, or tubal ligation), congenital anomaly such as Mullerian agenesis; or post menopausal (women 55 or older not on hormone therapy and had at least 12 months of spontaneous amenorrhea; or with a diagnosis of menopause prior to starting hormone replacement therapy.",
-        "exclusion_criteria": "exclusion criteria: \n\nMild cognitive impairment or dementia, or significant other neurodegenerative disease that can affect cognition.\nCurrent serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease that could interfere with the analysis of the study or a life expectancy of approximately \u22645 years.\nHistory of cancer with high risk of recurrence and preventing completion of the trial.\nHistory of clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions (including but not limited to erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, and/or exfoliative dermatitis).\nHave any clinically important abnormality at screening on magnetic resonance imaging (MRI) or clinical laboratory test results that could be detrimental to the participant or study integrity.\nHave any contraindications for MRI, including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.\nHave a centrally read MRI demonstrating presence of amyloid-related imaging abnormalities (ARIA-E), \\>4 cerebral microhemorrhages, more than 1 area of superficial siderosis, any macrohemorrhage or severe white matter disease at screening.\nHave had prior treatment with a passive anti-amyloid immunotherapy \\<5 half-lives prior to randomization.\nHave received active immunization against amyloid beta (A\u03b2) in any other study.\nHave received active immunization against A\u03b2 in any other study.\nCurrent or previous use of prescription medications used as treatment for mild cognitive impairment (MCI) or AD.\n\nAddendum 7 Exclusion Criteria for Clinicaltrials.gov:\n\nSame as the main study except contraindications for florbetapir F 18 PET are exclusionary.",
-        "keywords": []
     },
     {
         "trial_id": "NCT06653153",
@@ -143,30 +143,6 @@
         "keywords": []
     },
     {
-        "trial_id": "NCT06538116",
-        "brief_title": "A Study of Mevidalen (LY3154207) in Participants With Alzheimer's Disease",
-        "official_title": "A Randomized, Double-Blinded Study to Evaluate the Efficacy and Safety of Mevidalen in Patients With Alzheimer's Disease",
-        "lillyAlias": [
-            "I7S-MC-HBEO"
-        ],
-        "brief_summary": "The main purpose of this study is to look at how safe the study drug (mevidalen) is and whether it works to alleviate symptoms when given to people with mild to moderate Alzheimer Disease (AD) dementia. This is done by looking at participants: thinking and memory (cognition), everyday activities and sleep, AD symptoms, physical activity, irritability or anxiety. The study is expected to last approximately 26 weeks and may include up to 14 visits.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE2"
-        ],
-        "diseases_list": [
-            "Alzheimer Disease"
-        ],
-        "drugs_list": [
-            "Mevidalen",
-            "Placebo"
-        ],
-        "enrollment": 300,
-        "inclusion_criteria": "inclusion criteria: \n\n Have gradual and progressive decline in memory function for greater than or equal to 6 months that is severe enough to interfere with activities of daily living.\n Have MMSE score of 13 to 24.\n Have eligibile plasma P-tau or historical evidence of AD pathology.\n Have a reliable study partner who will provide written informed consent to participate, is in frequent contact with the participant and will be available at designated times.\n Males with partners of childbearing potential must agree to abide with provided contraception guidance.",
-        "exclusion_criteria": "exclusion criteria: \n\nAre individuals of childbearing potential.\nHave significant central nervous system or psychiatric disease, other than AD, that in the investigator's opinion may affect cognition or the ability to complete the study (e.g: head trauma, stroke, seizure disorder etc.,).\nHave cardiovascular-related risk factors or history that include uncontrolled hypertension, heart failure, stroke; or liver-related abnormalities.\nUse of moderate or strong CYP3A4 inhibitors or inducers.\nHave participated within the last 30 days in a clinical trial involving an investigational product.\nParticipant is, in the judgment of the investigator, actively suicidal and therefore deemed to be at significant risk for suicide.",
-        "keywords": []
-    },
-    {
         "trial_id": "NCT06220669",
         "brief_title": "A Study of LY3541860 in Adult Participants With Relapsing Multiple Sclerosis",
         "official_title": "An Adaptive Phase 2a/2b, Randomized, Double-Blind, Parallel-Group Study to Investigate the Safety and Efficacy of LY3541860 Compared to Placebo in Slowing the Occurrence of New T1 Gadolinium-Enhancing Lesions in Adult Participants With Relapsing Multiple Sclerosis",
@@ -193,27 +169,27 @@
         ]
     },
     {
-        "trial_id": "NCT06809400",
-        "brief_title": "A Study of LY4006896 in Healthy Participants and Participants With Parkinson's Disease",
-        "official_title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY4006896 in Healthy Participants and Participants With Parkinson's Disease",
+        "trial_id": "NCT06538116",
+        "brief_title": "A Study of Mevidalen (LY3154207) in Participants With Alzheimer's Disease",
+        "official_title": "A Randomized, Double-Blinded Study to Evaluate the Efficacy and Safety of Mevidalen in Patients With Alzheimer's Disease",
         "lillyAlias": [
-            "J5V-MC-ORAA"
+            "I7S-MC-HBEO"
         ],
-        "brief_summary": "The purpose of this study is to generate evidence of the safety, tolerability, and pharmacokinetics/pharmacodynamics of IV LY4006896 compared with placebo in healthy participants and participants with Parkinson's disease.",
+        "brief_summary": "The main purpose of this study is to look at how safe the study drug (mevidalen) is and whether it works to alleviate symptoms when given to people with mild to moderate Alzheimer Disease (AD) dementia. This is done by looking at participants: thinking and memory (cognition), everyday activities and sleep, AD symptoms, physical activity, irritability or anxiety. The study is expected to last approximately 26 weeks and may include up to 14 visits.",
         "trial_status": "RECRUITING",
         "phase": [
-            "PHASE1"
+            "PHASE2"
         ],
         "diseases_list": [
-            "Parkinson Disease"
+            "Alzheimer Disease"
         ],
         "drugs_list": [
-            "LY4006896",
+            "Mevidalen",
             "Placebo"
         ],
-        "enrollment": 127,
-        "inclusion_criteria": "inclusion criteria: \n\nPart A Single Ascending Dose (SAD) and B Multiple Ascending Dose (MAD)\n\n Have a body mass index within the range of 18 to 34 kilogram/square meter (kg/m\u00b2) (inclusive).\n For Japanese participants: To qualify as a participant of first-generation Japanese origin, the participant, the participant's biological parents, and all of the participant's biological grandparents must be of exclusive Japanese descent and born in Japan.\n Have venous access sufficient to allow for blood sampling or administration of study intervention for IV administration, or both.\n\nPart A (SAD) Only\n\n Are overtly healthy\n For Chinese participants: To qualify as Chinese for this study, all 4 of the participant's biological grandparents must be exclusive Chinese descent and born in China.\n\nPart B (MAD) Only\n\n Diagnosis of Parkinson's disease per United Kingdom (UK) Parkinson's Disease Society Brain Bank Clinical Diagnostic Criteria.\n If presently untreated for Parkinson's disease, clinical status is not expected to require changes in symptomatic treatment within 52 weeks from baseline.\n If presently being treated for Parkinson's disease, receiving a stable dose of symptomatic dopaminergic therapy, including monoamine oxidase-B inhibitor, levodopa/carbidopa or dopamine agonist for at least 90 days prior to baseline and not expected to change within 52 weeks.\n Have a Montreal Cognitive Assessment (MoCA) score of greater than or equal to (\u2265) 26.",
-        "exclusion_criteria": "exclusion criteria: \n\nPart A (SAD) and B (MAD)\n\nHave significant neurological disease affecting the central nervous system (CNS) (other than Parkinson's disease in Part B cohorts) that may affect the participant's ability to complete the study.\nHave a history or presence of serious or unstable illnesses or conditions that, in the investigator's opinion, could interfere with the analyses in this study, or increase risk for study intervention administration, or result in a participant's life expectancy of less than 24 months.\nHave known allergies to LY4006896, related compounds, or any components of the formulation, or history of allergic reactions to any transferrin receptor antibodies.\nHave significant allergies to humanize monoclonal antibodies.\nHave clinically significant multiple or severe drug allergies (including, but not limited to, erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, or exfoliative dermatitis); or intolerance to topical corticosteroids, or severe posttreatment hypersensitivity reactions.\nHave history or presence of uncontrolled asthma, significant autoimmune disease, hereditary angioedema, or known history of common variable immune deficiency.\nEvidence of clinically significant anemia.\n\nPart A (SAD) Only\n\nHave an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or a preexisting history of hypertension.\n\nPart B (MAD) Only\n\nHave an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or have uncontrolled hypertension, defined as a systolic blood pressure \\>150 mm Hg or a diastolic blood pressure \\>95 mm Hg at Screening or Treatment Visits.",
+        "enrollment": 300,
+        "inclusion_criteria": "inclusion criteria: \n\n Have gradual and progressive decline in memory function for greater than or equal to 6 months that is severe enough to interfere with activities of daily living.\n Have MMSE score of 13 to 24.\n Have eligibile plasma P-tau or historical evidence of AD pathology.\n Have a reliable study partner who will provide written informed consent to participate, is in frequent contact with the participant and will be available at designated times.\n Males with partners of childbearing potential must agree to abide with provided contraception guidance.",
+        "exclusion_criteria": "exclusion criteria: \n\nAre individuals of childbearing potential.\nHave significant central nervous system or psychiatric disease, other than AD, that in the investigator's opinion may affect cognition or the ability to complete the study (e.g: head trauma, stroke, seizure disorder etc.,).\nHave cardiovascular-related risk factors or history that include uncontrolled hypertension, heart failure, stroke; or liver-related abnormalities.\nUse of moderate or strong CYP3A4 inhibitors or inducers.\nHave participated within the last 30 days in a clinical trial involving an investigational product.\nParticipant is, in the judgment of the investigator, actively suicidal and therefore deemed to be at significant risk for suicide.",
         "keywords": []
     },
     {
@@ -239,6 +215,30 @@
         "enrollment": 68,
         "inclusion_criteria": "inclusion criteria: \n\n ",
         "exclusion_criteria": "exclusion criteria: \n\n ",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06809400",
+        "brief_title": "A Study of LY4006896 in Healthy Participants and Participants With Parkinson's Disease",
+        "official_title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY4006896 in Healthy Participants and Participants With Parkinson's Disease",
+        "lillyAlias": [
+            "J5V-MC-ORAA"
+        ],
+        "brief_summary": "The purpose of this study is to generate evidence of the safety, tolerability, and pharmacokinetics/pharmacodynamics of IV LY4006896 compared with placebo in healthy participants and participants with Parkinson's disease.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE1"
+        ],
+        "diseases_list": [
+            "Parkinson Disease"
+        ],
+        "drugs_list": [
+            "LY4006896",
+            "Placebo"
+        ],
+        "enrollment": 127,
+        "inclusion_criteria": "inclusion criteria: \n\nPart A Single Ascending Dose (SAD) and B Multiple Ascending Dose (MAD)\n\n Have a body mass index within the range of 18 to 34 kilogram/square meter (kg/m\u00b2) (inclusive).\n For Japanese participants: To qualify as a participant of first-generation Japanese origin, the participant, the participant's biological parents, and all of the participant's biological grandparents must be of exclusive Japanese descent and born in Japan.\n Have venous access sufficient to allow for blood sampling or administration of study intervention for IV administration, or both.\n\nPart A (SAD) Only\n\n Are overtly healthy\n For Chinese participants: To qualify as Chinese for this study, all 4 of the participant's biological grandparents must be exclusive Chinese descent and born in China.\n\nPart B (MAD) Only\n\n Diagnosis of Parkinson's disease per United Kingdom (UK) Parkinson's Disease Society Brain Bank Clinical Diagnostic Criteria.\n If presently untreated for Parkinson's disease, clinical status is not expected to require changes in symptomatic treatment within 52 weeks from baseline.\n If presently being treated for Parkinson's disease, receiving a stable dose of symptomatic dopaminergic therapy, including monoamine oxidase-B inhibitor, levodopa/carbidopa or dopamine agonist for at least 90 days prior to baseline and not expected to change within 52 weeks.\n Have a Montreal Cognitive Assessment (MoCA) score of greater than or equal to (\u2265) 26.",
+        "exclusion_criteria": "exclusion criteria: \n\nPart A (SAD) and B (MAD)\n\nHave significant neurological disease affecting the central nervous system (CNS) (other than Parkinson's disease in Part B cohorts) that may affect the participant's ability to complete the study.\nHave a history or presence of serious or unstable illnesses or conditions that, in the investigator's opinion, could interfere with the analyses in this study, or increase risk for study intervention administration, or result in a participant's life expectancy of less than 24 months.\nHave known allergies to LY4006896, related compounds, or any components of the formulation, or history of allergic reactions to any transferrin receptor antibodies.\nHave significant allergies to humanize monoclonal antibodies.\nHave clinically significant multiple or severe drug allergies (including, but not limited to, erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, or exfoliative dermatitis); or intolerance to topical corticosteroids, or severe posttreatment hypersensitivity reactions.\nHave history or presence of uncontrolled asthma, significant autoimmune disease, hereditary angioedema, or known history of common variable immune deficiency.\nEvidence of clinically significant anemia.\n\nPart A (SAD) Only\n\nHave an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or a preexisting history of hypertension.\n\nPart B (MAD) Only\n\nHave an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or have uncontrolled hypertension, defined as a systolic blood pressure \\>150 mm Hg or a diastolic blood pressure \\>95 mm Hg at Screening or Treatment Visits.",
         "keywords": []
     },
     {

@@ -3,6 +3,7 @@ from openai import AzureOpenAI
 import os
 from dotenv import load_dotenv
 from ollama import Client
+import boto3
 
 load_dotenv()
 
@@ -13,9 +14,7 @@ load_dotenv()
 #     api_key=os.getenv("OPENAI_API_KEY"),
 # )
 
-client = Client(
-  host='http://localhost:11434'
-)
+client = boto3.client(service_name="bedrock-runtime")
 
 
 # Hard-coded patient note
@@ -64,24 +63,6 @@ def convert_pred_to_prompt(patient, pred, trial_info):
 
     pred = convert_criteria_pred_to_string(pred, trial_info)
 
-    # prompt = (
-    #     "You are a helpful assistant for clinical trial recruitment. You will be given a patient note, "
-    #     "a clinical trial, and the patient eligibility predictions for each criterion.\n"
-    #     "Your task is to output two scores, a relevance score (R) and an eligibility score (E), "
-    #     "between the patient and the clinical trial.\n"
-    #     "First explain the consideration for determining patient-trial relevance. "
-    #     "Predict the relevance score R (0~100), which represents the overall relevance between the patient and the clinical trial. "
-    #     "R=0 denotes the patient is totally irrelevant to the clinical trial, and R=100 denotes the patient is exactly relevant to the clinical trial.\n"
-    #     "Then explain the consideration for determining patient-trial eligibility. "
-    #     "Predict the eligibility score E (-R~R), which represents the patient's eligibility to the clinical trial. "
-    #     "Don't provide me any extra information or note at the end. Note that -R <= E <= R (the absolute value of eligibility cannot be higher than the relevance), "
-    #     "where E=-R denotes that the patient is ineligible (not included by any inclusion criteria, or excluded by all exclusion criteria), "
-    #     "E=R denotes that the patient is eligible (included by all inclusion criteria, and not excluded by any exclusion criteria), "
-    #     "E=0 denotes the patient is neutral (i.e., no relevant information for all inclusion and exclusion criteria).\n"
-    #     "Please output a JSON dict formatted as Dict{\"relevance_explanation\": Str, \"relevance_score_R\": Float, "
-    #     "\"eligibility_explanation\": Str, \"eligibility_score_E\": Float}."
-    # )
-
 
     prompt = "You are a helpful assistant for clinical trial recruitment. You will be given a patient note, a clinical trial, and the patient eligibility predictions for each criterion.\n"
     prompt += "Your task is to output two scores, a relevance score (R) and an eligibility score (E), between the patient and the clinical trial.\n"
@@ -97,32 +78,28 @@ def convert_pred_to_prompt(patient, pred, trial_info):
 def trialgpt_aggregation(patient, trial_results, trial_info, model):
     """Generate aggregation scores using GPT."""
     system_prompt, user_prompt = convert_pred_to_prompt(patient, trial_results, trial_info)
+    combined_prompt = system_prompt + user_prompt
+
+
     messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_prompt},
-    ]
+		{"role": "user", "content": [{"text": combined_prompt}]}
+	]
 
-    # response = client.chat.completions.create(
-    #     model=model,
-    #     messages=messages,
-    #     temperature=0,
-    # )
-    # result = response.choices[0].message.content.strip()
-    # result = result.strip("`").strip("json")
 
-    response = client.chat(
-        model='llama3.2',
+    response = client.converse(
+        modelId="us.amazon.nova-micro-v1:0",
         messages=messages,
-        options= {
-            "num_ctx": 2048,
-            "temperature": 0
+        inferenceConfig={
+        	"temperature": 0.0
         }
     )
 
-    result = response['message']['content']
-    result = result.strip("`").strip("json")
-    print(result)
-    return json.loads(result)
+
+    message = response["output"]["message"]["content"][0]["text"] 
+    message = message.strip("`").strip("json")
+
+    print(message)
+    return json.loads(message)
 
 if __name__ == "__main__":
     # Model and data paths

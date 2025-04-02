@@ -9,11 +9,7 @@ import boto3
 
 load_dotenv()
 
-client = AzureOpenAI(
-	api_version="2023-09-01-preview",
-	azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-	api_key=os.getenv("OPENAI_API_KEY"),
-)
+client = boto3.client(service_name="bedrock-runtime")
 
 
 if __name__ == "__main__":

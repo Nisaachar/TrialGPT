@@ -9,11 +9,6 @@ import boto3
 
 load_dotenv()
 
-# client = AzureOpenAI(
-# 	api_version="2023-09-01-preview",
-# 	azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-# 	api_key=os.getenv("OPENAI_API_KEY"),
-# )
 
 client = boto3.client(service_name="bedrock-runtime")
 
@@ -80,10 +75,37 @@ def get_matching_prompt(
 		prompt += 'the label must be chosen from {"not applicable", "not enough information", "excluded", "not excluded"}. "not applicable" should only be used for criteria that are not applicable to the patient. "not enough information" should be used where the patient note does not contain sufficient information for making the classification. Try to use as less "not enough information" as possible because if the note does not mention a medically important fact, you can assume that the fact is not true for the patient. "excluded" denotes that the patient meets the exclusion criterion and should be excluded in the trial, while "not excluded" means the reverse.\n'
 	
 	prompt += "You should output only a JSON dict exactly formatted as: dict{str(criterion_number): list[str(element_1_brief_reasoning), list[int(element_2_sentence_id)], str(element_3_eligibility_label)]}."
+
+	sample_output = '''
+		"NCT02359643": {
+        "inclusion": {
+            "0": [
+                "The patient is a 2-year-old boy who has been diagnosed with Kawasaki Disease, which matches the first inclusion criterion.",
+                [
+                    0
+                ],
+                "included"
+            ],
+            "1": [
+                "The patient has had a fever for 5 days, which meets the criterion. However, the note does not specify the number of symptoms the patient has, so there is not enough information to determine if the patient meets this criterion.",
+                [
+                    0
+                ],
+                "not enough information"
+            ],
+            "2": [
+                "The patient has a strawberry tongue, which is a sign of diffuse mucosal inflammation. Therefore, the patient meets this criterion.",
+                [
+                    1
+                ],
+                "included"
+            ]
+	'''
+	# prompt += f"This is a sample output: {sample_output}"
 	
 	user_prompt = f"Here is the patient note, each sentence is led by a sentence_id:\n{patient}\n\n" 
 	user_prompt += f"Here is the clinical trial:\n{print_trial(trial_info, inc_exc)}\n\n"
-	user_prompt += f"Plain JSON output:"
+	user_prompt += f"Only output a Plain JSON output and nothing else:"
 
 	return prompt, user_prompt
 
@@ -94,30 +116,20 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	# doing inclusions and exclusions in separate prompts
 	for inc_exc in ["inclusion", "exclusion"]:
 		system_prompt, user_prompt = get_matching_prompt(trial, inc_exc, patient)
-	
+		combined_prompt = system_prompt + user_prompt
 		messages = [
-			{"role": "system", "content": system_prompt},
-			{"role": "user", "content": user_prompt},
+			{"role": "user", "content": [{"text": combined_prompt}]}
 		]
 
-		# response = client.chat.completions.create(
-		# 	model=model,
-		# 	messages=messages,
-		# 	temperature=0,
-		# )
-
-		# message = response.choices[0].message.content.strip()
-		# message = message.strip("`").strip("json")
-		response = client.chat(
-        model='llama3.2',
+		response = client.converse(
+        modelId="us.amazon.nova-micro-v1:0",
         messages=messages,
-        options= {
-            "num_ctx": 2048,
-            "temperature": 0
-        	}
-   		)
+        inferenceConfig={
+        	"temperature": 0.0
+        }
+    )
 
-		message = response['message']['content'] 
+		message = response["output"]["message"]["content"][0]["text"] 
 		message = message.strip("`").strip("json")
 
 		try:

@@ -62,10 +62,9 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
     response = client.converse(
             modelId="us.amazon.nova-micro-v1:0",
             messages=messages,
-            # options= {
-            #     "num_ctx": 2048,
-            #     "temperature": 0
-            # }
+            inferenceConfig={
+                "temperature": 0.0
+            }
         )
 
     output = response["output"]["message"]["content"][0]["text"] 

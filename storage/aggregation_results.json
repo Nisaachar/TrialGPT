@@ -1,26 +1,62 @@
 {
-    "NCT06557356": {
-        "relevance_explanation": "The patient meets one inclusion criterion (BMI within the range of 30 to 40 kg/m\u00b2) but does not meet another inclusion criterion (stable body weight for 3 months prior to screening and enrollment), so her relevance score is partially relevant. She also meets none of the exclusion criteria, making her eligibility score partially eligible.",
+    "NCT05508789": {
+        "relevance_explanation": "The patient note mentions 'progressive memory loss' which indicates a gradual and progressive change in memory function. However, the duration of this symptom is not explicitly mentioned. It is possible that the symptom duration is less than 6 months, but the note does not provide enough information to confirm this. The patient's diagnosis is consistent with early Alzheimer's disease (AD), which is the target disease of the trial.",
+        "relevance_score_R": 70.0,
+        "eligibility_explanation": "There is not enough information to determine if the patient meets the MMSE score requirement or the duration of memory loss is at least 6 months. Additionally, there is no information about the patient's medications or other conditions that could impact eligibility.",
+        "eligibility_score_E": -70.0
+    },
+    "NCT05026866": {
+        "relevance_explanation": "The patient's progressive memory loss, severe cognitive deficits, and neurodegenerative changes indicate a condition that aligns with the target condition of Alzheimer's Disease in the clinical trial. However, the patient's condition also fits the exclusion criteria for having significant neurodegenerative disease affecting cognition.",
+        "relevance_score_R": 70.0,
+        "eligibility_explanation": "The patient's severe cognitive deficits and memory dysfunction, along with the description of neurodegenerative changes, indicate a condition that fits the exclusion criteria for mild cognitive impairment or dementia or significant other neurodegenerative disease. Additionally, the patient's age and moderately advanced cerebral atrophy suggest a reduced life expectancy, which also fits an exclusion criterion.",
+        "eligibility_score_E": -70.0
+    },
+    "NCT06297590": {
+        "relevance_explanation": "The patient's symptoms and diagnostic findings are highly indicative of early symptomatic Alzheimer's Disease, which is the target condition for this clinical trial. The patient's progressive memory loss, cognitive deficits, and the presence of generalized periodic sharp waves on EEG align well with the characteristics of early Alzheimer's Disease. However, there is no explicit mention of the patient's MMSE score, CDR global score, or flortaucipir F18 PET criteria, which are key indicators for trial relevance.",
+        "relevance_score_R": 85.0,
+        "eligibility_explanation": "The patient's detailed clinical presentation aligns well with the inclusion criteria for early symptomatic Alzheimer's Disease. However, there is insufficient information regarding the patient's BMI, MMSE score, CDR global score, and flortaucipir F18 PET criteria. Additionally, there is no information on the patient's history of exposure to amyloid-targeted therapies or investigational medicinal products administered intrathecally. Therefore, the patient's eligibility cannot be fully determined.",
+        "eligibility_score_E": 85.0
+    },
+    "NCT06653153": {
+        "relevance_explanation": "The patient's symptoms and findings suggest a possible neurodegenerative condition, potentially related to Alzheimer's Disease. However, there is no mention of phosphorylated tau (P-tau) results, which are crucial for confirming amyloid pathology as required by the trial. The patient's symptoms could indicate relevance, but the lack of specific diagnostic confirmation lowers the relevance score.",
+        "relevance_score_R": 50.0,
+        "eligibility_explanation": "The patient's note lacks sufficient information to determine eligibility. There is no mention of phosphorylated tau (P-tau) results, MMSE score, or FAQ score, which are critical for inclusion. Additionally, there is no information on the patient's history of prior treatments with anti-amyloid immunotherapy or active immunization against A\u03b2. The note does not confirm or deny the presence of dementia or other significant neurological diseases, which are exclusion criteria.",
+        "eligibility_score_E": -50.0
+    },
+    "NCT06566170": {
+        "relevance_explanation": "The patient's symptoms of progressive memory loss, cognitive deficits, and the diagnosis of cerebral atrophy with diffuse vacuolar changes of the gray matter align with the target condition of early symptomatic Alzheimer's Disease in the clinical trial. The patient's age also fits within the expected age range for participants in the study.",
+        "relevance_score_R": 90.0,
+        "eligibility_explanation": "The patient meets several inclusion criteria such as having progressive memory loss and cognitive deficits, which fit the description of mild cognitive impairment (MCI) or mild dementia stage of AD. However, there is no direct evidence of amyloid beta pathology or a reliable study partner, which are required for full eligibility. The patient does not meet any exclusion criteria relevant to this case.",
+        "eligibility_score_E": 70.0
+    },
+    "NCT06220669": {
+        "relevance_explanation": "The patient's symptoms and diagnosis do not align with the target condition of the clinical trial, which is focused on relapsing forms of multiple sclerosis (MS). The patient's note describes progressive memory loss, jerking movements, cognitive deficits, and cerebral atrophy, but does not mention any diagnosis or evidence of multiple sclerosis.",
+        "relevance_score_R": 0.0,
+        "eligibility_explanation": "The patient does not meet the inclusion criteria for the trial as there is no mention of a diagnosis of multiple sclerosis, documented relapses, or active GdE brain lesions. Additionally, there is no information to suggest the patient meets any of the exclusion criteria relevant to this trial.",
+        "eligibility_score_E": -0.0
+    },
+    "NCT06538116": {
+        "relevance_explanation": "The patient has progressive memory loss and cognitive deficits, which are relevant to Alzheimer's Disease. However, the note does not specify the duration of the decline, its interference with daily activities, MMSE score, plasma P-tau levels, or historical evidence of AD pathology.",
         "relevance_score_R": 60.0,
-        "eligibility_explanation": "The patient's BMI falls within the range specified in criterion 0, but her weight exceeds the maximum limit. Therefore, she does not meet criterion 0 and is not included. She also meets none of the exclusion criteria, so her eligibility score is partially eligible.",
-        "eligibility_score_E": -40.0
+        "eligibility_explanation": "The patient's reproductive status is not mentioned, and there is insufficient information about the duration of memory decline, MMSE score, plasma P-tau levels, or historical evidence of AD pathology to determine eligibility.",
+        "eligibility_score_E": 0.0
     },
-    "NCT06603571": {
-        "relevance_explanation": "The patient's BMI of 30 and desire to reduce her obesity make her relevant for this clinical trial, as it focuses on weight management.",
-        "relevance_score_R": 80.0,
-        "eligibility_explanation": "Although the patient meets some inclusion criteria (e.g., having Type 2 Diabetes), she does not meet others (e.g., having a stable body weight). Her sedentary lifestyle and lack of information about her medical history make it difficult to determine her eligibility.",
-        "eligibility_score": 40.0
+    "NCT06657768": {
+        "relevance_explanation": "The patient's symptoms and diagnosis suggest a neurodegenerative condition, but the clinical trial is specifically targeting early symptomatic Alzheimer's Disease in healthy participants. The patient's condition does not match the target condition of the trial, which is early symptomatic Alzheimer's Disease in individuals who are not otherwise healthy.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient does not meet the eligibility criteria for the clinical trial because he is not a healthy participant and does not fit the specific inclusion criteria for early symptomatic Alzheimer's Disease as required by the trial. His condition and symptoms are indicative of a different neurodegenerative process.",
+        "eligibility_score_E": -10.0
     },
-    "NCT06672549": {
-        "relevance_explanation": "The patient note does not contain direct evidence of a history of at least 1 unsuccessful effort to lose sufficient body weight after participation in a structured lifestyle modification program, but the patient is classified as overweight and meets the BMI criteria for obesity.",
-        "relevance_score_R": 40.0,
-        "eligibility_explanation": "The patient's overweight status makes her eligible for the trial based on inclusion criterion 1, which includes patients with type 2 diabetes, prediabetes, dyslipidemia, obstructive sleep apnea, and metabolic dysfunction-associated steatotic liver disease (MASLD).",
-        "eligibility_score_E": 60.0
+    "NCT06809400": {
+        "relevance_explanation": "The patient's symptoms and diagnosis of Parkinson's disease align with the inclusion criteria for participants with Parkinson's disease in the study. However, there are no explicit mentions of the patient's BMI or MoCA score, which are also criteria for eligibility.",
+        "relevance_score_R": 70.0,
+        "eligibility_explanation": "The patient is excluded due to significant neurological disease affecting the CNS, which is not Parkinson's disease, and other exclusion criteria that are not met with sufficient information. The patient does not meet the criteria for Part A (SAD) or Part B (MAD) due to their disease status.",
+        "eligibility_score_E": -70.0
     },
-    "NCT06075667": {
-        "relevance_explanation": "The patient meets the BMI criteria as she has a BMI of 30, which is above the 95th percentile for age and sex, making her relevant to the clinical trial.",
-        "relevance_score_R": 80.0,
-        "eligibility_explanation": "The patient's relevance score is high due to meeting the inclusion criterion for obesity. However, she does not meet any of the exclusion criteria, but also lacks direct evidence for other conditions, which may affect her eligibility. Therefore, we predict a neutral eligibility score.",
-        "eligibility_score_E": 40.0
+    "NCT06413706": {
+        "relevance_explanation": "The patient is a 62-year-old man with progressive memory loss and jerking movements, fitting a diagnosis of a neurodegenerative condition. The clinical trial targets children and young adults with high-grade glioma, which is a type of brain tumor. The patient's condition and age do not align with the trial's target population or specific criteria.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient is a 62-year-old man, which does not fit the age criteria of children and young adults for this trial. Additionally, the patient's condition does not match the specific diagnosis required for eligibility in the trial. Therefore, the patient is ineligible.",
+        "eligibility_score_E": -10.0
     }
 }
