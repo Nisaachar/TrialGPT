@@ -7,10 +7,10 @@
         "exclusion_criteria_match": [
             "0"
         ],
-        "relevance_explanation": "The patient's note indicates progressive memory loss and cognitive deficits, which are relevant to the study's focus on early Alzheimer's disease. The patient also has severe cognitive deficits and memory dysfunction, which aligns with the MMSE score requirement. However, there is no mention of the required MMSE score range or specific imaging scan criteria.",
-        "relevance_score_R": 70,
-        "eligibility_explanation": "The patient's history of progressive memory loss and severe cognitive deficits suggests eligibility for the study. However, the note does not provide specific details about the MMSE score or the required imaging scans, which are critical inclusion criteria. The mention of jerking movements and EEG findings suggest other neurological issues that could disqualify the patient based on the exclusion criteria.",
-        "eligibility_score_E": -70
+        "relevance_explanation": "The patient's note mentions progressive memory loss and severe cognitive deficits, which are relevant to the study's focus on early Alzheimer's disease. The patient also has a study partner who will comply with the trial protocol, which meets the inclusion criteria.",
+        "relevance_score_R": 80,
+        "eligibility_explanation": "While the patient shows symptoms relevant to the study, the mention of jerking movements of the lower extremities and generalized periodic sharp waves on EEG suggest possible neurological conditions other than Alzheimer's disease, which could disqualify the patient based on the exclusion criteria.",
+        "eligibility_score_E": -80
     },
     "NCT05026866": {
         "inclusion_criteria_match": [
@@ -31,7 +31,7 @@
         ],
         "relevance_explanation": "The patient's note indicates severe cognitive deficits and memory dysfunction, which are indicative of a more advanced stage of cognitive impairment. The neuroimaging and biopsy findings suggest a diagnosis more consistent with advanced neurodegenerative disease rather than preclinical Alzheimer's Disease. The patient also shows jerking movements of the lower extremities, which could indicate other neurological conditions.",
         "relevance_score_R": 10,
-        "eligibility_explanation": "The patient's severe cognitive deficits and advanced neurodegenerative symptoms disqualify them from the trial, which is designed for participants with preclinical Alzheimer's Disease. Additionally, the patient's advanced disease stage and other neurological symptoms are not consistent with the inclusion criteria for this trial.",
+        "eligibility_explanation": "The patient's severe cognitive deficits and advanced neurodegenerative symptoms disqualify them from the trial, which is designed for participants with preclinical Alzheimer's Disease. Additionally, the patient's advanced disease stage and other neurological symptoms are not aligned with the inclusion criteria for preclinical Alzheimer's.",
         "eligibility_score_E": -10
     },
     "NCT06297590": {
@@ -44,9 +44,9 @@
         "exclusion_criteria_match": [
             "0"
         ],
-        "relevance_explanation": "The patient's note indicates progressive memory loss and cognitive deficits, which are consistent with early symptomatic Alzheimer's Disease. The patient also shows compliance with the trial protocol, which is a positive aspect for participation.",
+        "relevance_explanation": "The patient's note indicates progressive memory loss, cognitive deficits, and memory dysfunction, which are key symptoms of early symptomatic Alzheimer's Disease. The patient also shows compliance with the trial protocol, which is important for the study.",
         "relevance_score_R": 85,
-        "eligibility_explanation": "While the patient shows symptoms consistent with early symptomatic Alzheimer's Disease and demonstrates compliance, the note does not provide specific information about the patient's BMI, MMSE score, CDR global score, or flortaucipir F18 PET criteria. Additionally, the patient has severe cognitive deficits and memory dysfunction, which could indicate serious or unstable illnesses that might interfere with the study.",
+        "eligibility_explanation": "The patient meets several inclusion criteria such as having gradual and progressive memory change, cognitive deficits, appropriate MMSE score, and clinical dementia rating. However, the note does not provide information on BMI, flortaucipir F18 PET criteria, or contraceptive requirements. The patient has a serious illness (neurologic examination confirms severe cognitive deficits), which is an exclusion criterion.",
         "eligibility_score_E": 50
     },
     "NCT06653153": {
@@ -58,21 +58,10 @@
             "1",
             "0"
         ],
-        "relevance_explanation": "The patient's note indicates severe cognitive deficits and memory dysfunction, which are relevant to the study of early Alzheimer's disease. The patient also shows compliance with the trial protocol, which is important for the study.",
-        "relevance_score_R": 70,
-        "eligibility_explanation": "The patient has severe cognitive deficits, which likely excludes them from the inclusion criteria that require no to minimal cognitive impairment. Additionally, the mention of severe cognitive deficits and memory dysfunction aligns with the exclusion criteria for dementia or significant neurological disease.",
-        "eligibility_score_E": -70
-    },
-    "NCT06566170": {
-        "inclusion_criteria_match": [
-            "2",
-            "4"
-        ],
-        "exclusion_criteria_match": [],
-        "relevance_explanation": "The patient's note indicates progressive memory loss and severe cognitive deficits, which are relevant to the study of early symptomatic Alzheimer's Disease. The patient also has a reliable study partner and consents to the trial protocol.",
-        "relevance_score_R": 80,
-        "eligibility_explanation": "The patient does not meet the exclusion criteria and meets several inclusion criteria, such as having a reliable study partner and willingness to comply with the trial protocol. However, the patient's severe cognitive deficits and advanced cerebral atrophy suggest a more advanced stage of the disease, which may not fit the 'early symptomatic' criteria.",
-        "eligibility_score_E": 60
+        "relevance_explanation": "The patient has progressive memory loss and severe cognitive deficits, which are indicative of Alzheimer's Disease. The patient also has a reliable study partner and has adequate literacy, vision, and hearing for neuropsychological testing. However, the patient has severe cognitive deficits which may interfere with the study.",
+        "relevance_score_R": 50,
+        "eligibility_explanation": "The patient's severe cognitive deficits and dementia-like symptoms disqualify them from the trial based on the exclusion criteria. However, they meet some inclusion criteria related to having a reliable study partner and adequate literacy, vision, and hearing.",
+        "eligibility_score_E": -50
     },
     "NCT06538116": {
         "inclusion_criteria_match": [
@@ -88,6 +77,17 @@
         "relevance_score_R": 85,
         "eligibility_explanation": "The patient meets several inclusion criteria but is excluded due to being of childbearing potential. The progressive memory loss and cognitive deficits are consistent with mild to moderate Alzheimer's Disease, but the exclusion criterion related to childbearing potential disqualifies the patient.",
         "eligibility_score_E": 42
+    },
+    "NCT06566170": {
+        "inclusion_criteria_match": [
+            "2",
+            "4"
+        ],
+        "exclusion_criteria_match": [],
+        "relevance_explanation": "The patient's note indicates progressive memory loss and severe cognitive deficits, which are relevant to the study of early symptomatic Alzheimer's Disease. The patient also has a reliable study partner and consents to the trial protocol.",
+        "relevance_score_R": 80,
+        "eligibility_explanation": "The patient does not meet the exclusion criteria and meets several inclusion criteria, such as having a reliable study partner and willingness to comply with the trial protocol. However, the patient's severe cognitive deficits and advanced cerebral atrophy suggest a more advanced stage of the disease, which may not fit the 'early symptomatic' criteria.",
+        "eligibility_score_E": 60
     },
     "NCT06809400": {
         "inclusion_criteria_match": [

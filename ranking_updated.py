@@ -1,7 +1,6 @@
 import json
 
 
-
 def get_matching_score(matching):
 
     total_inc = len(matching["inclusion_criteria_match"])
@@ -17,13 +16,6 @@ def get_matching_score(matching):
     return net_criteria_score + score
 
 
-
-
-
-
-
-
-
 if __name__ == "__main__":
 
     matching_results_path = "storage/matching_results.json"
@@ -35,6 +27,8 @@ if __name__ == "__main__":
 
 
     trial2score = {}
+    relevance_explanation = {}
+
 
     for trial_id, results in matching_results.items():
 
@@ -42,25 +36,29 @@ if __name__ == "__main__":
 
         trial2score[trial_id] = trial_score
 
+        relevance_explanation[trial_id] = results["relevance_explanation"]
+
+
 
     
     sorted_trial2score = sorted(trial2score.items(), key=lambda x: -x[1])
         
 
-
+    
 
     with open('storage/dataset.json', 'r') as file:
         data = json.load(file)
 
-    print("Clinical trial ranking:")
-    for trial, score in sorted_trial2score:
-        print(f"{trial}: {score:.4f}")
+    # print("Clinical trial ranking:")
+    # for trial, score in sorted_trial2score:
+    #     print(f"{trial}: {score:.4f}")
 
     print("\nTop 5 Suggested Clinical Trials are: \n")
     for trial, score in sorted_trial2score[:5]:
         title = trial_info[trial]["brief_title"] if trial in trial_info else "Title not found"
         lilly_alias = data[trial].get('lillyAlias', [])
-        print(f"Lilly ID: {lilly_alias}, \nTitle: {title}, \nScore: {score:.4f}\n\n\n")
+        explanation = relevance_explanation[trial]
+        print(f"Lilly ID: {lilly_alias}, \nTitle: {title}, \nConfidence Score: {score:.2f} \nRelevance Explanation: {explanation}\n\n\n")
 
 
     print("===")

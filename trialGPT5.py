@@ -70,7 +70,7 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 
 	prompt = get_matching_prompt(inc_exc, trial_info, patient)
 
-	print(prompt)
+	# print(prompt)
 
 	messages = [
 		{"role": "user", "content": [{"text": prompt}]}
