@@ -4,8 +4,7 @@ import time
 scripts_to_run = [
     "retrieval.py",
     "matching.py",
-    "aggregation.py",
-    "ranking.py",
+    "ranking_updated.py",
 ]
 
 record = []

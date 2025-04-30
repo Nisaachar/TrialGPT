@@ -63,23 +63,36 @@ if st.button("Extract Trials"):
                         check=True
                     )
                 # st.success("Trials fetched successfully!"
-                st.text(result.stdout)
+                # st.text(result.stdout)
 
-                match = re.search(r'\{.*\}', result.stdout, re.DOTALL)
-                if match:
-                    json_str = match.group(0)
-                    try:
-                        output_data = json.loads(json_str)
-                        
-                        summary = output_data.get("summary", "No summary found")
-                        st.markdown(f"The patient summary is: **{summary}**")
+                output_data = ""
 
-                        keywords = output_data.get("conditions", "No keyword found")
-                        st.markdown(f"The keywrods generated for this patient are: {keywords}")
-                    except json.JSONDecodeError:
-                        st.error("Failed to parse retrieval output as JSON")
-                else:
-                    st.error("Could not find JSON data in output")
+                try:
+                    output_data = json.loads(result.stdout)
+                except:
+                    match = re.search(r'\{.*\}', result.stdout, re.DOTALL)
+                    if match:
+                        json_str = match.group(0)
+                        try:
+                            output_data = json.loads(json_str)
+                            
+                            # summary = output_data.get("summary", "No summary found")
+                            # st.markdown(f"The patient summary is: **{summary}**")
+
+                            # keywords = output_data.get("conditions", "No keyword found")
+                            # st.markdown(f"The keywrods generated for this patient are: {keywords}")
+                        except json.JSONDecodeError:
+                            st.error("Failed to parse retrieval output as JSON")
+                    else:
+                        st.error("Could not find JSON data in output")
+
+                if output_data:
+                    summary = output_data.get("summary", "No summary found")
+                    st.markdown(f"The patient summary is: **{summary}**")
+
+                    keywords = output_data.get("conditions", "No keyword found")
+                    st.markdown(f"The keywrods generated for this patient are: **{keywords}**")
+
 
 
                 # summary = result["summary"]
@@ -111,7 +124,7 @@ if st.button("Extract Trials"):
             #Running Matching Stage
             st.divider()
             st.header("Stage 2: Matching")
-            with st.spinner(text="Preparing trials for next stage..."):
+            with st.spinner(text="Performing analysis on inclusion and exclusion criterias..."):
                 result = subprocess.run(
                         ["python", "matching.py"],
                         capture_output=True,
@@ -130,33 +143,35 @@ if st.button("Extract Trials"):
             st.divider()
             st.header("Stage 3: Ranking")
 
-            with st.spinner(text="Scoring each trial based upon Inlcusion and Exclusion criterias..."):
-                try:
-                    result = subprocess.run(
-                        ["python", "aggregation.py"],
-                        capture_output=True,
-                        text=True,
-                        check=True
-                    )
+            # with st.spinner(text="Scoring each trial based upon Inlcusion and Exclusion criterias..."):
+            #     try:
+            #         result = subprocess.run(
+            #             ["python", "aggregation.py"],
+            #             capture_output=True,
+            #             text=True,
+            #             check=True
+            #         )
                     
-                    st.text('Calculated Relevane Score and Eligibility Score for each trial')
-                    scored_trials = load_json('storage/aggregation_results.json')
+            #         st.text('Calculated Relevane Score and Eligibility Score for each trial')
+            #         scored_trials = load_json('storage/aggregation_results.json')
 
-                    st.json(scored_trials)            
+            #         st.json(scored_trials)            
                 
-                except FileNotFoundError:
-                    st.error("Error with LLM output!")
+            #     except FileNotFoundError:
+            #         st.error("Error with LLM output!")
             
-            st.divider()
+            # st.divider()
             try:
                 result = subprocess.run(
-                    ["python", "ranking.py"],
+                    ["python", "ranking_streamlit.py"],
                     capture_output=True,
                     text=True,
                     check=True
                 )
                 st.subheader("Ranked Trials:")
                 st.text(result.stdout)
+
+                # st.markdown(f"{result.stdout}")
 
             except Exception as e:
                 st.error(f"An error occurred: {e}")
@@ -167,7 +182,7 @@ if st.button("Extract Trials"):
     
     end_time = time.time()
     time_elapsed = end_time - start_time
-    st.text(f'The total run time = {time_elapsed : .2f}')
+    st.markdown(f"**The total run time = {time_elapsed : .2f} seconds.**")
 
 
 

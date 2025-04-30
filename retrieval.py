@@ -23,7 +23,7 @@ def get_keyword_generation_messages(note, max_keywords):
     system = (
         f'You are a helpful assistant and your task is to help search relevant clinical trials for a given patient description. '
         f'Please first summarize the main medical problems of the patient. Then generate up to {max_keywords} key conditions for searching relevant clinical trials for this patient. '
-        'The key condition list should be ranked by priority. Output only a JSON dict formatted as Dict{{"summary": Str(summary), "conditions": List[Str(condition)]}} and nothing else.'
+        'The key condition list should be ranked by priority. Output only a JSON dict formatted as Dict{{"summary": Str(summary), "conditions": List[Str(condition)]}}. Don\'t output anything else.'
     )
 
     prompt = f"Here is the patient description: \n{note}\n\nJSON output:"
@@ -62,6 +62,8 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
 
     output = response["output"]["message"]["content"][0]["text"] 
     output = output.strip("`").strip("json")
+
+    # print(output)
 
     try:
         result = json.loads(output)

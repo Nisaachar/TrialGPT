@@ -28,6 +28,7 @@ def parse_criteria(criteria):
 	
 		output += f"{idx}. {criterion}\n" 
 		idx += 1
+	print(output)
 	return output
 
 
@@ -46,7 +47,7 @@ def print_trial(
 		trial += "Inclusion criteria:\n %s\n" % parse_criteria(trial_info['inclusion_criteria'])
 	elif inc_exc == "exclusion":
 		trial += "Exclusion criteria:\n %s\n" % parse_criteria(trial_info['exclusion_criteria']) 
-
+	
 	return trial
 
 
@@ -105,7 +106,7 @@ def get_matching_prompt(
 	
 	user_prompt = f"Here is the patient note, each sentence is led by a sentence_id:\n{patient}\n\n" 
 	user_prompt += f"Here is the clinical trial:\n{print_trial(trial_info, inc_exc)}\n\n"
-	user_prompt += f"Only output a Plain JSON output and nothing else:"
+	user_prompt += f"Only output a Plain JSON output and nothing else:\n\n\n"
 
 	return prompt, user_prompt
 
@@ -114,27 +115,43 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	results = {}
 
 	# doing inclusions and exclusions in separate prompts
+
+	combined_prompt = ''
+
 	for inc_exc in ["inclusion", "exclusion"]:
 		system_prompt, user_prompt = get_matching_prompt(trial, inc_exc, patient)
-		combined_prompt = system_prompt + user_prompt
-		messages = [
-			{"role": "user", "content": [{"text": combined_prompt}]}
-		]
 
-		response = client.converse(
-			modelId="us.amazon.nova-micro-v1:0",
-			messages=messages,
-			inferenceConfig={
-				"temperature": 0.0
-			}
-		)
+		combined_prompt += system_prompt + user_prompt
 
-		message = response["output"]["message"]["content"][0]["text"] 
-		message = message.strip("`").strip("json")
+	# print(combined_prompt)
 
-		try:
-			results[inc_exc] = json.loads(message)
-		except:
-			results[inc_exc] = message
+	
 
-	return results
+
+
+	messages = [
+		{"role": "user", "content": [{"text": combined_prompt}]}
+	]
+
+	response = client.converse(
+		modelId="us.amazon.nova-micro-v1:0",
+		messages=messages,
+		inferenceConfig={
+			"temperature": 0.0
+		}
+	)
+
+	output = response["output"]["message"]["content"][0]["text"] 
+
+
+
+	# message = message.strip("`").strip("json")
+
+	# # try:
+	# # 	results[inc_exc] = json.loads(message)
+	# # except:
+	# # 	results[inc_exc] = message
+
+	# print(message)
+
+	# return results
