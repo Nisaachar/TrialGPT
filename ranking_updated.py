@@ -16,7 +16,9 @@ def get_matching_score(matching):
     return net_criteria_score + score
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
+
+def ranking_module():
 
     matching_results_path = "storage/matching_results.json"
     trial_info_path = "storage/dataset.json"
@@ -62,6 +64,8 @@ if __name__ == "__main__":
 
 
     print("===")
+
+    return None
 
 
 

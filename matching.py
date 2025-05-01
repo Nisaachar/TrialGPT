@@ -6,13 +6,18 @@ from trialGPT5 import trialgpt_matching
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 import boto3
+import time
 
 load_dotenv()
 
 client = boto3.client(service_name="bedrock-runtime")
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
+
+def matching_module():
+
+    start_time = time.time()
     # Model and file paths
     model = 'clin-inquiry-agent-gpt4'
     dataset = json.load(open("storage/detailed_trials.json"))
@@ -58,4 +63,10 @@ if __name__ == "__main__":
     with open(output_path, "w") as f:
         json.dump(output, f, indent=4)
 
+    elapsed_time = time.time() - start_time
+
+    print(f"Total time elaspsed for matching: {elapsed_time:.2f} seconds.")
+
     print(f"Matching results saved to {output_path}.")
+
+    return None

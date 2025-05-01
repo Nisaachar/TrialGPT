@@ -194,7 +194,9 @@ def calculate_recall(test_file, query_id, retrieved_doc_ids):
     recall = score/total_score
     return recall
 
-if __name__ == "__main__":
+
+def hybridRetriever():
+
     # Example patient record
 
     start_time = time.time()
@@ -276,29 +278,30 @@ if __name__ == "__main__":
 #extracting prepared dataset from keys.
 
 
-# File names
-retrieved_trials_file = "storage/retrieved_trials.json"
-trial_info_file = "storage/dataset.json"
-detailed_trials_file = "storage/detailed_trials.json"
+    # File names
+    retrieved_trials_file = "storage/retrieved_trials.json"
+    trial_info_file = "storage/dataset.json"
+    detailed_trials_file = "storage/detailed_trials.json"
 
-# Step 1: Load relevant trial IDs from retrieved_trials.json
-with open(retrieved_trials_file, "r") as f:
-    retrieved_trials = json.load(f)
+    # Step 1: Load relevant trial IDs from retrieved_trials.json
+    with open(retrieved_trials_file, "r") as f:
+        retrieved_trials = json.load(f)
 
-relevant_trial_ids = retrieved_trials["retrieved_trials"]  # Assuming a list of IDs
+    relevant_trial_ids = retrieved_trials["retrieved_trials"]  # Assuming a list of IDs
 
-# Step 2: Load the trial metadata from trial_info.json
-with open(trial_info_file, "r") as f:
-    trial_info = json.load(f)
+    # Step 2: Load the trial metadata from trial_info.json
+    with open(trial_info_file, "r") as f:
+        trial_info = json.load(f)
 
-# Step 3: Fetch metadata for relevant trials
-detailed_trials = [
-    {"trial_id": trial_id, **trial_info[trial_id]}
-    for trial_id in relevant_trial_ids
-    if trial_id in trial_info
-]
+    # Step 3: Fetch metadata for relevant trials
+    detailed_trials = [
+        {"trial_id": trial_id, **trial_info[trial_id]}
+        for trial_id in relevant_trial_ids
+        if trial_id in trial_info
+    ]
 
-# Step 4: Save the detailed metadata to a new file
-with open(detailed_trials_file, "w") as f:
-    json.dump(detailed_trials, f, indent=4)
+    # Step 4: Save the detailed metadata to a new file
+    with open(detailed_trials_file, "w") as f:
+        json.dump(detailed_trials, f, indent=4)
 
+    return None

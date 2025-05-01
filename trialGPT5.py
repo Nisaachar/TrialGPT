@@ -90,7 +90,7 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 		results = json.loads(output)
 	except:
 		print("LLM didn't output in json format!")
-		results = output
+		
 
 	return results
 
