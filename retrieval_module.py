@@ -185,9 +185,9 @@ def calculate_recall(test_file, query_id, retrieved_doc_ids):
 
 
 
-if __name__ == "__main__":
+def hybrid_retriever():
     # Example patient record
-
+    output = ""
     # Open the JSON file and load it into a Python dictionary
     with open('storage/input.json', 'r') as file:
         data = json.load(file)
@@ -199,10 +199,12 @@ if __name__ == "__main__":
     result = generate_summary_and_keywords(patient_note, max_keywords=max_keywords)
 
     if result:
-        print("\nPatient Summary and Keywords:\n")
-        print(json.dumps(result, indent=4))
+        # print("\nPatient Summary and Keywords:\n")
+        # print(json.dumps(result, indent=4))
+        output += "\nPatient Summary and Keywords:\n"
+        output += f"{json.dumps(result, indent=4)}"
     else:
-        print("Failed to generate summary and keywords.")
+        output += "Failed to generate summary and keywords."
 
     # Example usage of BM25 index creation
     corpus_file = "storage/corpus.jsonl"  # Path to the corpus file
@@ -249,31 +251,32 @@ if __name__ == "__main__":
 
 
 
-#extracting prepared dataset from keys.
+    #extracting prepared dataset from keys.
 
-# File names
-retrieved_trials_file = "storage/retrieved_trials.json"
-trial_info_file = "storage/dataset.json"
-detailed_trials_file = "storage/detailed_trials.json"
+    # File names
+    retrieved_trials_file = "storage/retrieved_trials.json"
+    trial_info_file = "storage/dataset.json"
+    detailed_trials_file = "storage/detailed_trials.json"
 
-# Step 1: Load relevant trial IDs from retrieved_trials.json
-with open(retrieved_trials_file, "r") as f:
-    retrieved_trials = json.load(f)
+    # Step 1: Load relevant trial IDs from retrieved_trials.json
+    with open(retrieved_trials_file, "r") as f:
+        retrieved_trials = json.load(f)
 
-relevant_trial_ids = retrieved_trials["retrieved_trials"]  # Assuming a list of IDs
+    relevant_trial_ids = retrieved_trials["retrieved_trials"]  # Assuming a list of IDs
 
-# Step 2: Load the trial metadata from trial_info.json
-with open(trial_info_file, "r") as f:
-    trial_info = json.load(f)
+    # Step 2: Load the trial metadata from trial_info.json
+    with open(trial_info_file, "r") as f:
+        trial_info = json.load(f)
 
-# Step 3: Fetch metadata for relevant trials
-detailed_trials = [
-    {"trial_id": trial_id, **trial_info[trial_id]}
-    for trial_id in relevant_trial_ids
-    if trial_id in trial_info
-]
+    # Step 3: Fetch metadata for relevant trials
+    detailed_trials = [
+        {"trial_id": trial_id, **trial_info[trial_id]}
+        for trial_id in relevant_trial_ids
+        if trial_id in trial_info
+    ]
 
-# Step 4: Save the detailed metadata to a new file
-with open(detailed_trials_file, "w") as f:
-    json.dump(detailed_trials, f, indent=4)
+    # Step 4: Save the detailed metadata to a new file
+    with open(detailed_trials_file, "w") as f:
+        json.dump(detailed_trials, f, indent=4)
 
+    return output

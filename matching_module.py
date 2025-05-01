@@ -13,7 +13,7 @@ load_dotenv()
 client = boto3.client(service_name="bedrock-runtime")
 
 
-if __name__ == "__main__":
+def matching():
 
     start_time = time.time()
     # Model and file paths
@@ -65,4 +65,4 @@ if __name__ == "__main__":
 
     print(f"Total time elaspsed for matching: {elapsed_time:.2f} seconds.")
 
-    print(f"Matching results saved to {output_path}.")
+    return(f"Matching results saved to {output_path}.")

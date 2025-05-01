@@ -4,6 +4,10 @@ import subprocess
 import re
 import time
 
+from retrieval_module import hybrid_retriever
+from matching_module import matching
+from ranking_module import ranking
+
 
 def load_css(file_name):
     with open(file_name) as f:
@@ -56,21 +60,23 @@ if st.button("Extract Trials"):
             st.divider()
             st.header("Stage 1: Retrieval")
             with st.spinner(text="Performing Lexical and Semantic search to retrieve relevant trials..."):
-                result = subprocess.run(
-                        ["python", "retrieval.py"],
-                        capture_output=True,
-                        text=True,
-                        check=True
-                    )
+                # result = subprocess.run(
+                #         ["python", "retrieval.py"],
+                #         capture_output=True,
+                #         text=True,
+                #         check=True
+                #     )
+                
+                result = hybrid_retriever()
                 # st.success("Trials fetched successfully!"
                 # st.text(result.stdout)
 
                 output_data = ""
 
                 try:
-                    output_data = json.loads(result.stdout)
+                    output_data = json.loads(result)
                 except:
-                    match = re.search(r'\{.*\}', result.stdout, re.DOTALL)
+                    match = re.search(r'\{.*\}', result, re.DOTALL)
                     if match:
                         json_str = match.group(0)
                         try:
@@ -125,12 +131,13 @@ if st.button("Extract Trials"):
             st.divider()
             st.header("Stage 2: Matching")
             with st.spinner(text="Performing analysis on inclusion and exclusion criterias..."):
-                result = subprocess.run(
-                        ["python", "matching.py"],
-                        capture_output=True,
-                        text=True,
-                        check=True
-                    )
+                # result = subprocess.run(
+                #         ["python", "matching.py"],
+                #         capture_output=True,
+                #         text=True,
+                #         check=True
+                #     )
+                result = matching()
 
             matched_trials = load_json('storage/matching_results.json')
             st.markdown('After performing **Inclusion and Exclusion matching** on each clinical trial:')
@@ -162,14 +169,17 @@ if st.button("Extract Trials"):
             
             # st.divider()
             try:
-                result = subprocess.run(
-                    ["python", "ranking_streamlit.py"],
-                    capture_output=True,
-                    text=True,
-                    check=True
-                )
+                # result = subprocess.run(
+                #     ["python", "ranking_streamlit.py"],
+                #     capture_output=True,
+                #     text=True,
+                #     check=True
+                # )
+
                 st.subheader("Ranked Trials:")
-                st.text(result.stdout)
+
+                result = ranking()
+                st.text(result)
 
                 # st.markdown(f"{result.stdout}")
 
