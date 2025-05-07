@@ -37,30 +37,6 @@
         ]
     },
     {
-        "trial_id": "NCT05026866",
-        "brief_title": "A Donanemab (LY3002813) Study in Participants With Preclinical Alzheimer's Disease (TRAILBLAZER-ALZ 3)",
-        "official_title": "A Study of Donanemab Versus Placebo in Participants at Risk for Cognitive and Functional Decline of Alzheimer's Disease",
-        "lillyAlias": [
-            "I5T-MC-AACM"
-        ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of donanemab in participants with preclinical Alzheimer's Disease (AD). Approximately 800 additional participants will be enrolled in a 12-month addendum to assess safety of a different titration regimen.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Alzheimer Disease"
-        ],
-        "drugs_list": [
-            "Donanemab",
-            "Placebo"
-        ],
-        "enrollment": 2196,
-        "inclusion_criteria": "inclusion criteria: \n\n A Telephone Interview for Cognitive Status - modified (TICS-M) score reflective of intact cognitive functioning.\n Has a phosphorylated tau (P-tau) result consistent with the presence of amyloid and early-tau pathology.\n Has a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.\n Have adequate literacy, vision, and hearing for neuropsychological testing at screening.\n Contraceptive use by men or women should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies\n Female participants include those who are infertile due to surgical sterilization (hysterectomy, bilateral oophorectomy, or tubal ligation), congenital anomaly such as Mullerian agenesis; or post menopausal (women 55 or older not on hormone therapy and had at least 12 months of spontaneous amenorrhea; or with a diagnosis of menopause prior to starting hormone replacement therapy.",
-        "exclusion_criteria": "exclusion criteria: \n\nMild cognitive impairment or dementia, or significant other neurodegenerative disease that can affect cognition.\nCurrent serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease that could interfere with the analysis of the study or a life expectancy of approximately \u22645 years.\nHistory of cancer with high risk of recurrence and preventing completion of the trial.\nHistory of clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions (including but not limited to erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, and/or exfoliative dermatitis).\nHave any clinically important abnormality at screening on magnetic resonance imaging (MRI) or clinical laboratory test results that could be detrimental to the participant or study integrity.\nHave any contraindications for MRI, including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.\nHave a centrally read MRI demonstrating presence of amyloid-related imaging abnormalities (ARIA-E), \\>4 cerebral microhemorrhages, more than 1 area of superficial siderosis, any macrohemorrhage or severe white matter disease at screening.\nHave had prior treatment with a passive anti-amyloid immunotherapy \\<5 half-lives prior to randomization.\nHave received active immunization against amyloid beta (A\u03b2) in any other study.\nHave received active immunization against A\u03b2 in any other study.\nCurrent or previous use of prescription medications used as treatment for mild cognitive impairment (MCI) or AD.\n\nAddendum 7 Exclusion Criteria for Clinicaltrials.gov:\n\nSame as the main study except contraindications for florbetapir F 18 PET are exclusionary.",
-        "keywords": []
-    },
-    {
         "trial_id": "NCT06297590",
         "brief_title": "A First-In-Human Study of LY3954068 in Participants With Early Symptomatic Alzheimer's Disease",
         "official_title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3954068 in Patients With Early Symptomatic Alzheimer's Disease",
@@ -95,6 +71,30 @@
             "Mental Disorders",
             "Mild Cognitive Impairment"
         ]
+    },
+    {
+        "trial_id": "NCT05026866",
+        "brief_title": "A Donanemab (LY3002813) Study in Participants With Preclinical Alzheimer's Disease (TRAILBLAZER-ALZ 3)",
+        "official_title": "A Study of Donanemab Versus Placebo in Participants at Risk for Cognitive and Functional Decline of Alzheimer's Disease",
+        "lillyAlias": [
+            "I5T-MC-AACM"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of donanemab in participants with preclinical Alzheimer's Disease (AD). Approximately 800 additional participants will be enrolled in a 12-month addendum to assess safety of a different titration regimen.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Alzheimer Disease"
+        ],
+        "drugs_list": [
+            "Donanemab",
+            "Placebo"
+        ],
+        "enrollment": 2196,
+        "inclusion_criteria": "inclusion criteria: \n\n A Telephone Interview for Cognitive Status - modified (TICS-M) score reflective of intact cognitive functioning.\n Has a phosphorylated tau (P-tau) result consistent with the presence of amyloid and early-tau pathology.\n Has a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.\n Have adequate literacy, vision, and hearing for neuropsychological testing at screening.\n Contraceptive use by men or women should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies\n Female participants include those who are infertile due to surgical sterilization (hysterectomy, bilateral oophorectomy, or tubal ligation), congenital anomaly such as Mullerian agenesis; or post menopausal (women 55 or older not on hormone therapy and had at least 12 months of spontaneous amenorrhea; or with a diagnosis of menopause prior to starting hormone replacement therapy.",
+        "exclusion_criteria": "exclusion criteria: \n\nMild cognitive impairment or dementia, or significant other neurodegenerative disease that can affect cognition.\nCurrent serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease that could interfere with the analysis of the study or a life expectancy of approximately \u22645 years.\nHistory of cancer with high risk of recurrence and preventing completion of the trial.\nHistory of clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions (including but not limited to erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, and/or exfoliative dermatitis).\nHave any clinically important abnormality at screening on magnetic resonance imaging (MRI) or clinical laboratory test results that could be detrimental to the participant or study integrity.\nHave any contraindications for MRI, including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.\nHave a centrally read MRI demonstrating presence of amyloid-related imaging abnormalities (ARIA-E), \\>4 cerebral microhemorrhages, more than 1 area of superficial siderosis, any macrohemorrhage or severe white matter disease at screening.\nHave had prior treatment with a passive anti-amyloid immunotherapy \\<5 half-lives prior to randomization.\nHave received active immunization against amyloid beta (A\u03b2) in any other study.\nHave received active immunization against A\u03b2 in any other study.\nCurrent or previous use of prescription medications used as treatment for mild cognitive impairment (MCI) or AD.\n\nAddendum 7 Exclusion Criteria for Clinicaltrials.gov:\n\nSame as the main study except contraindications for florbetapir F 18 PET are exclusionary.",
+        "keywords": []
     },
     {
         "trial_id": "NCT06653153",

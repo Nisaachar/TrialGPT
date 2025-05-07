@@ -54,8 +54,8 @@ def ranking():
     # for trial, score in sorted_trial2score:
     #     print(f"{trial}: {score:.4f}")
 
-    print("\nTop 5 Suggested Clinical Trials are: \n")
-    for trial, score in sorted_trial2score[:5]:
+    # print("\nTop 5 Suggested Clinical Trials are: \n")
+    for trial, score in sorted_trial2score:
         title = trial_info[trial]["brief_title"] if trial in trial_info else "Title not found"
         lilly_alias = data[trial].get('lillyAlias', [])
         explanation = relevance_explanation[trial]
@@ -64,7 +64,7 @@ def ranking():
         output += f"Lilly ID: {lilly_alias}, \nTitle: {title}, \nConfidence Score: {score:.2f} \nRelevance Explanation: {explanation}\n\n\n"
 
 
-    print("===")
+    # print("===")
 
     return output
 

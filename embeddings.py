@@ -32,7 +32,7 @@ def create_bm25_index(corpus_file, cache_file):
     """
     # Check if cache exists
     if os.path.exists(cache_file):
-        print(f"Loading BM25 index from cache: {cache_file}")
+        # print(f"Loading BM25 index from cache: {cache_file}")
         with open(cache_file, "r") as f:
             cache_data = json.load(f)
         tokenized_corpus = cache_data["tokenized_corpus"]
@@ -89,7 +89,7 @@ def create_medcpt_index(corpus_file, embed_cache, id_cache):
     """
     # Check if cache exists
     if os.path.exists(embed_cache) and os.path.exists(id_cache):
-        print(f"Loading MedCPT index from cache: {embed_cache} and {id_cache}")
+        # print(f"Loading MedCPT index from cache: {embed_cache} and {id_cache}")
         embeds = np.load(embed_cache)
         doc_ids = json.load(open(id_cache))
     else:

@@ -63,6 +63,6 @@ def matching():
 
     elapsed_time = time.time() - start_time
 
-    print(f"Total time elaspsed for matching: {elapsed_time:.2f} seconds.")
+    # print(f"Total time elaspsed for matching: {elapsed_time:.2f} seconds.")
 
     return(f"Matching results saved to {output_path}.")
