@@ -3,18 +3,23 @@ import json
 
 def get_matching_score(matching):
 
-    total_inc = len(matching["inclusion_criteria_match"])
-    total_exc = len(matching["exclusion_criteria_match"])
+    try:
 
-    net_criteria_score = total_inc - total_exc
+        total_inc = len(matching["inclusion_criteria_match"])
+        total_exc = len(matching["exclusion_criteria_match"])
 
-    relevance_score = matching["relevance_score_R"]
-    eligibility_score = matching["eligibility_score_E"]
+        net_criteria_score = total_inc - total_exc
 
-    score = (relevance_score + eligibility_score) / 100
+        relevance_score = matching["relevance_score_R"]
+        eligibility_score = matching["eligibility_score_E"]
 
-    return net_criteria_score + score
+        score = (relevance_score + eligibility_score) / 100
 
+        return net_criteria_score + score
+
+    except Exception as e:
+        # print("Error:", e)
+        return None
 
 def ranking():
     output = ""
@@ -35,9 +40,11 @@ def ranking():
 
         trial_score = get_matching_score(results)
 
-        trial2score[trial_id] = trial_score
+        if trial_score:
 
-        relevance_explanation[trial_id] = results["relevance_explanation"]
+            trial2score[trial_id] = trial_score
+
+            relevance_explanation[trial_id] = results["relevance_explanation"]
 
 
 

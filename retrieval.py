@@ -9,6 +9,7 @@ import torch
 from ollama import Client
 from nltk import word_tokenize
 import boto3
+import re
 
 
 load_dotenv()
@@ -66,11 +67,23 @@ def generate_summary_and_keywords(patient_note, max_keywords=32, model="clin-inq
     # print(output)
 
     try:
-        result = json.loads(output)
-        return result
-    except json.JSONDecodeError as e:
-        print("Error decoding JSON:", e)
-        return None
+        result = json.loads(output)   
+    except:
+        match = re.search(r'\{.*\}', output, re.DOTALL)
+        if match:
+            json_str = match.group(0)
+            try:
+                result = json.loads(json_str)
+                
+            except json.JSONDecodeError as e:
+                print("Error decoding JSON:", e)
+                return None
+        else:
+            print("Could not find JSON data in output")
+
+
+    # print(result)
+    return result
 
 
 def hybrid_retrieval_and_fusion(queries, bm25, bm25_doc_ids, bm25_doc_titles, medcpt_index, medcpt_doc_ids, bm25_wt=1, medcpt_wt=1, top_n=100, k=20):

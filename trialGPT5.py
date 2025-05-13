@@ -85,12 +85,14 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	)
 
 	output = response["output"]["message"]["content"][0]["text"] 
-
+	# print(output)
 	try:
 		results = json.loads(output)
-	except:
+	except Exception as e:
+		
+		# print("Error:", e)
 		print("LLM didn't output in json format!")
-		results = output
+		# results = output
 
 	return results
 
