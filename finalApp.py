@@ -164,6 +164,8 @@ if st.button("Extract Trials"):
             
                 with open('storage/dataset.json', 'r') as file:
                     data = json.load(file)
+      
+                index = 1
 
                 for trial, score in sorted_trial2score:
                     title = trial_info[trial]["brief_title"] if trial in trial_info else "Title not found"
@@ -178,12 +180,13 @@ if st.button("Extract Trials"):
                     explanation = relevance_explanation[trial]
 
                     st.text("\n\n\n\n\n")
-                    st.markdown(f"**Lilly ID: {lilly_alias}**, ")
+                    st.markdown(f"{index}. **Lilly ID: {lilly_alias}**, ")
                     st.text(f"\nTitle: {title},")
                     st.markdown(f"\nConfidence Score: **{score:.2f}**,")
                     st.text(f"\nRelevance Explanation: {explanation}")
 
                     st.divider()
+                    index += 1
 
                 # result = ranking()
                 # st.text(result)
